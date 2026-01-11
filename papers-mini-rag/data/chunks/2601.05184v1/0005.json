@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "quality and diversity degrade over iterations Alemohammad et al. ( 2023 ); Shumailov et al. ( 2024 ); Briesch et al. ( 2023 ); Cai et al. ( 2025 ) . Theoretically, collapse is inevitable when relying solely on synthetic data Seddik et al. ( 2024 ) , while incorporating fresh real data can stabilize training Bertrand et al. ( 2023 ) . Subsequent analyses provide performance degradation bounds and modified scaling laws Dohmatob et al. ( 2024a , b ) . Several studies highlight that LLMs are particularly vulnerable in such recursive settings Seddik et al. ( 2024 ); Briesch et al. ( 2023 ); Guo et al. ( 2023 ) , and that data curation implicitly acts as preference optimization in self-training loops Ferbach et al. ( 2024 ) . Performative Prediction. Performative prediction studies learning systems whose deployment alters the data distribution itself Perdomo et al. ( 2020 ); Chen et al. ( 2023 ) . Prior work analyzes stability, convergence, and optimality under these feedback dynamics Hardt and Mendler-Dünner ( 2023 ); Piliouras and Yu ( 2023 ); Jin et al. ( 2024 ) , providing a theoretical lens for self-consuming training loops. Bias in Self-consuming Systems. Recent studies show that biases can emerge and amplify in self-consuming training, particularly for LLMs trained on biased human text or synthetic data Wyllie et al. ( 2024 ); Wang et al. ( 2024c ); Chen et al. ( 2024 ) . Such models may internalize social or political"
+}

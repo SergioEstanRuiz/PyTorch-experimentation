@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "https://docs.vllm.ai/ Kwon et al. ( 2023 ) for LLM-inference. It is implemented as a Python library and can be used easily in spaCy pipelines as an entity-linking component 3 3 3 https://spacy.io/ . We evaluate LELA on various entity linking settings, using five different benchmark datasets. Our evaluation spans four complementary entity linking settings: (i) domain-transfer zero-shot, (ii) domain-specific with None -linking, (iii) acronym disambiguation without entity descriptions across specialized domains, and (iv) classical Wikipedia-based benchmarks with strong supervised baselines. Each considered benchmark emphasizes a distinct challenge, and together they demonstrate LELA’s robustness beyond any single scenario. We report results for LELA using the open-source Magistral-Small-2509 Mistral-AI et al. ( 2025 ) reasoning LLM. For all datasets and models, we use k = 10 k=10 and sample 10 outputs for self-consistency. We use the Qwen3-Reranker-4B model Zhang et al. ( 2025 ) for pointwise reranking. We run our experiments on two A100 40GB GPUs. As we are interested in true zero-shot entity linking, we do not perform any hyperparameter tuning and discuss other values of k k , self-consistency samples and rerankers in Section 4.5 and 4.6 . For dense retrieval, we use Qwen3-Embedding-4B Zhang et al. ( 2025 ) along with flat FAISS indexes Douze et al. ( 2025 ) . BM25 retrieval is implemented using the bm25s Python library 4 4 4 https://bm25s.github.io/ . In addition, we also report results for the mixture-of-experts (MoE) Shazeer et al. ( 2017 ) Qwen3-30B-A3B , and the small Qwen3-4B Yang et"
+}

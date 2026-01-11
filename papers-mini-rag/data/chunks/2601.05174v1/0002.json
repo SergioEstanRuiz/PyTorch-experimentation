@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0002",
+  "word_start": 400,
+  "word_end": 650,
+  "text": "those STGNNs suffer from quadratic complexity hidden in both spatial and temporal modules: GNNs and spatial/temporal attention incur O ​ ( N 2 ) O(N^{2}) and O ​ ( T 2 ) O(T^{2}) pairwise node/time-step interactions over N N nodes and sequence length T T , respectively. When N N and T T scale jointly, resource demands increase exponentially. To give a concrete example, we report the training cost vs. performance on a large-scale STG benchmark (Liu et al. , 2023b ) in Figure 1 , when confronted with 8,600 nodes and a 672-step prediction horizon (a practical setting in CA dataset), most representative STGNNs exhaust 48 GB of GPU memory, making them impractical to train and deploy in most GPU devices. To elevate the STGNNs for large-scale and long-horizon forecasting, a critical challenge is to achieve linear computational complexity while retaining the rich spatial and temporal semantics required for long-horizon forecasting. Recent studies have explored two complementary directions to reduce pairwise node/time-step interactions, though promising, they still face major limitations in both performance and efficiency. Spatially , existing efficient methods can be broadly categorized into structure-aware and structure-free approaches. Structure-aware methods leverage the explicit graph topology to reduce spatial interactions through techniques such as sparse aggregation (e.g., SGP (Cini et al. , 2023 ) ), neighbor sampling (e.g., SAGDFN (Jiang et al. , 2024 ) ), and graph partitioning (e.g., PatchSTG (Fang et al. , 2025 ) ). However, these approaches often discard long-range dependencies and heavily rely on"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05170v1",
+  "title": "Reverse-engineering NLI: A study of the meta-inferential properties of Natural Language Inference",
+  "abs_url": "https://arxiv.org/abs/2601.05170v1",
+  "html_url": "https://arxiv.org/html/2601.05170v1",
+  "chunk_id": "2601.05170v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": ", and the second 50 items where a ​ b ab were labeled C C but b ​ a ba were labeled N N – which is correct under the EI reading, but not under SC. The second group contains 25 items exhibiting “backwards anaphora” (“The man …” in premise and “A man …” in hypothesis). There are 7 items where both a ​ b ab and b ​ a ba can be construed as neutral. Three premises contain an explicit “not”, and one premise is in the imperative. By contrast, the first group contain no mislabelled items, only 8 examples of backwards anaphora, and none of the other artifacts. This suggests that artifacts in the data may contribute to the relatively high number of items being labeled N N for this meta-inference. There are five other meta-inferences where the model scores less than 96. The lowest score, 88.3, is for the meta-inference N ​ a ​ b ∧ E ​ b ​ c → ¬ C ​ c ​ a Nab\\land Ebc\\rightarrow\\lnot Cca . Interestingly, this pattern is not valid on the EI reading, but only under the MC (and vacuously so) and SC readings. The second lowest score, 91.3 is for the pattern N ​ a ​ b → ¬ C ​ b ​ a Nab\\rightarrow\\lnot Cba , which is also invalid under the EI reading. Since it is not possible to infer a non-trivial set of possible labels for these inferences under the EI reading, there is"
+}

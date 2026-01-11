@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0073",
+  "word_start": 14600,
+  "word_end": 14850,
+  "text": ", which we will apply later in our parameter estimation algorithms. A natural method to reduce the high-dimensional problem to d = 1 d=1 is to randomly project the data along different directions, and then recover the high-dimensional means by solving a linear system. However, a key obstacle in this idea is that the ordering of the means could change among different projections. To overcome this issue, our algorithm is based on the idea of [ kalai2010efficiently ] , where they project along directions that are close to each other. The benefit of projecting along close-by directions is that the ordering of the means can be preserved with high probability, so that one can identify the projected means among different directions. Meanwhile, the distances between the directions should not be too small, as we want the condition number of the linear system to be polynomially bounded to recover the means efficiently. Using the above idea, we prove the following algorithmic result. For any fixed T > 0 T>0 , let B T d ​ ( 0 ) B_{T}^{d}(0) be the d d -dimensional ball centered at 0 with radius T T . Consider any signal x ​ ( t ) = x ⋆ ​ ( t ) + g ​ ( t ) ∈ x(t)=x^{\\star}(t)+g(t)\\in\\m@thbbch@rC over t ∈ B T d ​ ( 0 ) t\\in B_{T}^{d}(0) , for arbitrary noise g ​ ( t ) g(t) and exactly k k -sparse x ⋆ ​ ( t ) = \\slimits@"
+}

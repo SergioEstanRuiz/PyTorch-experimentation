@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0050",
+  "word_start": 10000,
+  "word_end": 10250,
+  "text": "the continuous setting in one dimension. Later, [ jin2022superresolutionrobustsparsecontinuous ] generalized it to d d dimensions. For k k -sparse signal with γ \\gamma -separated frequencies, the sample duration needed in [ jin2022superresolutionrobustsparsecontinuous ] is T = O ​ ( log ⁡ ( k ) / γ ) T=O(\\log(k)/\\gamma) . On the negative side, [ moitra_super-resolution_2015 ] shows a lower bound of T = ( 1 / γ ) T=\\Omega(1/\\gamma) by determining the threshold at which noisy super-resolution is possible. Moreover, the works of [ chen2016fourier , song2023quartic ] study the problem of interpolating a noisy Fourier-sparse signal even when tone estimation is not possible. As we mentioned the main focus of the SFT problem is to achieve fast estimation using nearly linearly many queries; the work of [ huang2015super ] achieves an efficient algorithm in both k k and d d with samples that scale quadratically with k k and d d . We mention that for our purposes we could not use off-the-shelf this algorithm since in Theorem 2.5 we only assume bounded L ∞ L_{\\infty} at the queried points as we discussed in the last paragraph of Section 1.1 . Fourier-based methods have found applications to algorithmic statistics. [ diakonikolas2016efficient , diakonikolas2016properly , diakonikolas2016fourier ] have used discrete Fourier transforms for learning sums of integer-valued random variables. [ chakraborty2020learning ] give an algorithm for learning mixtures of spherical Gaussians in dimensions ω ​ ( 1 ) ≤ d ≤ O ​ ( log ⁡ k ) \\omega(1)\\leq"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0142",
+  "word_start": 28400,
+  "word_end": 28650,
+  "text": "O ​ ( log ⁡ ( 1 / δ ) ) R=O(\\log(1/\\delta)) independent copies of A A with input accuracy ε ′ = min ⁡ { ε / 3 , γ / 16 } , \\varepsilon^{\\prime}=\\min\\{\\varepsilon/3,\\gamma/16\\}, and greedily perform a clustering algorithm on the set of all k ​ R kR pairs of weights and points, denoted by M M . Let M w M_{w} and M μ M_{\\mu} denote the sets of the first (weight) and the second (points) element of the pairs in M M , respectively. The boosting algorithm is shown in Algorithm 2 . We will say that round ℓ \\ell is “good” if there is a permutation π \\pi such that max j ∈ [ k ] ⁡ \\| ​ μ j − μ ^ π ​ ( j ) ( ℓ ) ​ \\| 2 ≤ ε ′ \\max_{j\\in[k]}\\|\\mu_{j}-\\mathaccent 866{\\mu}_{\\pi(j)}^{(\\ell)}\\|_{2}\\leq\\varepsilon^{\\prime} and max j ∈ [ k ] ⁡ | w j − w ^ π ​ ( j ) | ≤ ε w \\max_{j\\in[k]}|w_{j}-\\mathaccent 866{w}_{\\pi(j)}|\\leq\\varepsilon_{w} , and we will call it “bad” otherwise. Then Pr ⁡ [ ℓ ​ is good ] ≥ 2 / 3 \\Pr[\\ell\\text{ is good}]\\geq 2/3 by the success probability of A A . Let S = \\slimits@ ℓ = 1 R ​ 𝟏 ​ [ ℓ ​ is good ] S=\\sumop\\slimits@_{\\ell=1}^{R}\\mathbf{1}[\\ell\\text{ is good}] . Since we are running independent copies of A A , by Hoeffding’s inequality, Pr ⁡ [ S ≤ 3 5 ​ R ] ≤ exp"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0033",
+  "word_start": 6600,
+  "word_end": 6850,
+  "text": "class of the Holonomic Network, we analyze the partition function of the hidden state dynamics in the continuum limit. We emphasize that the following derivation utilizes the Dirac operator as an effective field theory to describe the propagation of signal and error modes. We do not claim that neurons are physical fermions, but rather that the causal, unidirectional flow of inference falls into the same universality class as chiral symmetry breaking in ( 1 + 1 ) (1+1) dimensions. 1. The Continuum Dirac Operator. Consider a deep residual network with layer depth coordinate z z and sequence coordinate t ∈ [ 0 , L ] t\\in[0,L] . The discrete residual update rule h z + 1 , t = h z , t + f ​ ( W z ​ h z , t , U t ​ h z , t − 1 ) h_{z+1,t}=h_{z,t}+f(W_{z}h_{z,t},U_{t}h_{z,t-1}) follows the Euler discretization of a continuous dynamical system [ 45 ] . In the specific case of the Holonomic Network, the computational graph is unrolled over the sequence. Consequently, we treat the inference process as the evolution of a spinor field on a ( 1 + 1 ) (1+1) -dimensional manifold Σ \\Sigma parameterized by the depth z z and sequence position t t . In the limit of infinite sequence length ( L → ∞ L\\to\\infty ), we treat the signal propagation as a statistical field theory. Although the hidden state vector ψ ​ ( z , t ) \\psi(z,t) consists of"
+}

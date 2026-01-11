@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0045",
+  "word_start": 9000,
+  "word_end": 9250,
+  "text": "If t = T / 2 t=T/2 and y ≤ t = 𝐲 p y_{\\leq t}=\\mathbf{y}^{p} coincides with 𝐲 p \\mathbf{y}^{p} , we have Situation 2: If t ≥ 1 t\\geq 1 and y ≤ T / 2 ≠ y p y_{\\leq T/2}\\neq\\textbf{y}^{p} , by our construction, we have Situation 3: For t = 0 t=0 , we can have Combining these three conditions above, we successfully verify the Eq. ( 13 ). Since the learner only observes the expert value Q π ∗ ​ ( x , y ≤ t ) Q^{\\pi^{*}}(x,y_{\\leq t}) at the visited states ( x , y ≤ t ) (x,y_{\\leq t}) , and since these values are identical across all candidate MDPs { M p } p ∈ 𝒫 T / 2 \\{M_{p}\\}_{p\\in\\mathcal{P}_{T/2}} for all t ≤ T / 2 − 1 t\\leq T/2-1 , the learner receives exactly the same observation sequence o T / 2 o_{T/2} under every M p M_{p} . Consequently, the MDPs are indistinguishable to the learner during the first T / 2 − 1 T/2-1 steps. We consider token-level routing algorithms 𝒜 : 𝒪 → [ n ] \\mathcal{A}:\\mathcal{O}\\to[n] whose observation space at step t t is defined as That is, at each step t t , the learner’s observation o t ∈ 𝒪 t o_{t}\\in\\mathcal{O}_{t} includes the prompt, the generated prefix, the expert value along the realized trajectory, and the expert values of all possible next-token continuations. Formally, let 𝒜 : 𝒪 → [ n ] \\mathcal{A}:\\mathcal{O}\\to[n]"
+}

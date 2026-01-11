@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0017",
+  "word_start": 3400,
+  "word_end": 3650,
+  "text": "Given the impact of self-consistency highlighted in Section 4.5 , we further study its impact over different numbers of sampled answers (see Appendix E ). Notably, we observe that while performance increases with the number of samples, an accuracy plateau is reached quickly across models, suggesting that as little as three samples are optimal. LLMs have been shown to be subject to positional bias Liu et al. ( 2024a ) . In Appendix F , we shuffle the list of candidates given to the LLM. Larger models appear robust to this bias, while smaller models are more sensitive to it. Overall, the results justify our approach of sorting the candidates according to their reranker-assigned score in LELA. In Appendix G , we observe that selection accuracy decreases as the input context length increases, with a model-dependent rate of decline. We also notice traces of underthinking and overthinking behaviors in reasoning LLMs Su et al. ( 2025 ) . In addition, we report the average mention processing time across benchmarks. Our measurements indicate that while LELA is naturally more computationally intensive than shallow retrieval methods, it remains within a respectable runtime envelope for offline and batch processing. For example, on ZESHEL, we observe a processing time of 44 seconds per mention on average 7 7 7 With 10 samples for self-consistency. . The MoE Qwen3-30B-A3B offers the most compelling trade-off of speed vs. performance, achieving inference speeds faster than the smaller Qwen3-4B model (26 vs 31 seconds on ZESHEL) while significantly"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0034",
+  "word_start": 6800,
+  "word_end": 7050,
+  "text": "{\\bf P}^{\\ell}{\\bf H}_{t}^{\\ell-1} has rank at most a a , we obtain This bound characterizes the minimum information loss incurred by any rank- a a projection. AGA-Att is closely related to Nyström-style kernel approximation, where agent tokens act as inducing points (Williams and Seeger, 2000 ; Drineas et al. , 2005 ) . Let 𝐊 = 𝐇 t ℓ − 1 ​ ( 𝐇 t ℓ − 1 ) ⊤ {\\bf K}={\\bf H}_{t}^{\\ell-1}({\\bf H}_{t}^{\\ell-1})^{\\top} be the Gram matrix with eigenvalues λ 1 ≥ ⋯ ≥ λ N \\lambda_{1}\\geq\\cdots\\geq\\lambda_{N} . A Nyström approximation typically yields an expected error bounded by the optimal rank- a a residual plus a sampling term that decays with a a . Adapting this to our projection view gives: suggesting improved fidelity with more agent tokens. Table 5 reports reconstruction errors on the SD dataset under 96 ⇒ \\Rightarrow 48 forecasting while varying the number of agent tokens a ∈ { 16 , 32 , 64 , 128 } a\\in\\{16,32,64,128\\} . For the first layer, ϵ 1 \\epsilon^{1} decreases monotonically as a a increases, indicating that early-layer representations contain strong shared spatial modes that can be captured by more agents. To reflect the cumulative effect across layers, we compute the average reconstruction error ϵ avg \\epsilon_{\\mathrm{avg}} over all layers, which attains its minimum at a = 32 a=32 . Across the four settings, ϵ avg \\epsilon_{\\mathrm{avg}} exhibits strong positive correlation with forecasting errors: Pearson correlation coefficients are 0.929 ( p = 0.071 p{=}0.071 ) with MAE and"
+}

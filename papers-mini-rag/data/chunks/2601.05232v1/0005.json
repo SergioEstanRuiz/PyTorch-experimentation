@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05232v1",
+  "title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence",
+  "abs_url": "https://arxiv.org/abs/2601.05232v1",
+  "html_url": "https://arxiv.org/html/2601.05232v1",
+  "chunk_id": "2601.05232v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "training and evaluation. Three neural architectures were developed to perform binary classification of articles as high-peace or low-peace: CNN Model: Two convolutional layers (64 and 32 filters; kernel size = 3, ReLU activation) were followed by a flattening layer and two dense layers (128 and 64 units) with a 0.3 dropout rate for regularization and a sigmoid output. This configuration was designed to extract localized semantic patterns within the embeddings, capturing phrases or n-grams indicative of peaceful discourse. Feed-Forward Model: A fully connected network of four dense layers (512, 256, 128, and 64 units), each followed by 0.3 dropout, concluded with a sigmoid output layer. This deeper architecture enabled the model to learn global semantic relationships across articles, representing broader conceptual differences in peace-related language. Revised CNN Model: The revised design incorporated a max-pooling layer (pool size = 2) between convolutional layers, enabling dimensionality reduction and improved generalization. It retained the two fully connected layers (128 and 64 units) from the original CNN, followed by a sigmoid classifier. These architectures were selected to compare the performance of spatially sensitive versus fully connected learning strategies on high-dimensional text embeddings. The dataset was divided into 80% training and 20% testing subsets using a fixed random seed to ensure reproducibility. For the convolutional models, each input sample was represented as a sequence of 1,536 elements with a single feature channel, while the feed-forward network received the same 1,536-dimensional vectors in flattened form. All models were trained for 10 epochs with a batch size"
+}

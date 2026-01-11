@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0035",
+  "word_start": 7000,
+  "word_end": 7250,
+  "text": "use the trained classifier to determine the score. For generation quality, based on the Gibberish detector, if the Gibberish score is 1 or 0, the score will be -1, otherwise the score will be 1. For similarity, the threshold is 0.5. Then we sum all four scores, if the sum greater than 0, then we think it satisfy the standard. After that, we randomly select from these candidates. We make sure at least we will select one response per prompt. For each prompt, the method generates k responses and selects the response with the highest rewards. For each prompt, the method generates k k responses and selects n n response from the n ∗ k n*k candidates with the highest rewards. Algorithm 3 describes the Reward-based Sampling with Reweighting scheme, where X candidate , t − 1 d X_{\\text{candidate},t-1}^{d} denotes the set of prompts from the disadvantaged group generated during iteration t − 1 t-1 of the performative loop. Our current study intentionally focuses on supervised fine-tuning (SFT) to isolate and better understand the dynamics of bias variations under the proposed novel self-consuming performative loops. SFT remains a widely adopted method for improving LLM performance on specific downstream tasks Ouyang et al. ( 2022 ) , especially in practical deployment pipelines where collecting high-quality preference labels for RL is costly or infeasible. One of our contributions lies in analyzing bias variation within a novel framework of self-consuming performative retraining and an incremental fine-tuning loop for the first time, which models"
+}

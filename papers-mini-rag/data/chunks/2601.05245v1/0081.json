@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0081",
+  "word_start": 16200,
+  "word_end": 16450,
+  "text": "y t Z_{t}:=x^{t}-y^{t} is the random deviation of the label from its mean. We will control these separately. In this section, we show how to use multicalibration with respect to the Hadamard groups to control the bias term. The key observation is that Parseval’s identity (Proposition 2 ) lets us relate the average squared bias coefficient across Hadamard directions to the total bias energy. Since multicalibration controls the error in each Hadamard direction, on average the bias contribution must be small. In what follows, the only properties of the block Hadamard system { ψ a , j } \\{\\psi_{a,j}\\} that are used are its orthogonality on each block (H1) and the property ψ a , j ​ ( s ) ∈ { ± 1 } \\psi_{a,j}(s)\\in\\{\\pm 1\\} for all a , j , s a,j,s (H2). Let δ t := p t − x t \\delta_{t}:=p^{t}-x^{t} denote the bias of the prediction at round t t , i.e. its difference relative to the honest prediction 𝔼 ​ [ y t ] = x t \\mathbb{E}[y^{t}]=x^{t} . For each block J a J_{a} , define its counts n v , a := | { t ∈ J a : p t = v } | n_{v,a}:=|\\{t\\in J_{a}:p^{t}=v\\}| and Our goal in this section is to relate the blockwise bias energies E a E_{a} to calibration error via the Hadamard groups, so that any substantial bias (in aggregate) forces large multicalibration error. First, we relate the sum of the blockwise quantities N"
+}

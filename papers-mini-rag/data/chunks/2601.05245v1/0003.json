@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0003",
+  "word_start": 600,
+  "word_end": 850,
+  "text": ". A modern CS formulation of this idea is called multicalibration , introduced by Hébert-Johnson et al. ( 2018 ) . Multicalibration reweights the residuals of the predictions by “group functions”, which are simply mappings g : X × ℝ → [ 0 , 1 ] g:X\\times\\mathbb{R}\\rightarrow[0,1] from any pair ( x , v ) = (x,v)= (context, learner’s prediction) to a bounded weight g ​ ( x , v ) g(x,v) . When g ​ ( x , v ) g(x,v) is independent of v v , we will refer to such a group as prediction-independent . The group- and prediction-conditional cumulative empirical bias is defined as B T ​ ( v , g ) = ∑ t : p t = v g ​ ( x t , p t ) ​ ( p t − y t ) B_{T}(v,g)=\\sum_{t:p^{t}=v}g(x^{t},p^{t})(p^{t}-y^{t}) , and the group-conditional calibration error is then given by Err T ​ ( g ) = ∑ v ∈ { p 1 , … , p T } | B T ​ ( v , g ) | \\textrm{Err}_{T}(g)=\\sum_{v\\in\\{p^{1},\\ldots,p^{T}\\}}|B_{T}(v,g)| . The multicalibration error with respect to a collection of group functions G G is defined as Multicalibration and related guarantees have found many applications in recent years, from learning in a loss-function agnostic manner (Gopalan et al. , 2022a , 2023a ) to strengthening complexity theoretic constructions (Casacuberta et al. , 2024 ; Dwork and Tankala, 2025 ) to low complexity algorithms for distributed information aggregation (Collina"
+}

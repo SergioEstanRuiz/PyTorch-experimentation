@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0017",
+  "word_start": 3400,
+  "word_end": 3650,
+  "text": "too much time for the control system of an autonomous vehicle, the vehicle can crash. Let’s consider how quickly the agent can adjust to some unknown form of nonstationarity. Let’s define function J ∗ J^{*} as the optimal performance of a learning agent and J ∗ ∗ J^{**} as a suboptimal performance that started after the distribution shift. It is important to be confident that after some time steps, the performance will adjust, i.e.: where σ \\sigma is some threshold that defines an acceptable performance value. Let’s define the loss function L M z , t L_{M_{z},t} , for the episode M z M_{z} as the difference between optimal performance J i , t ∗ J^{*}_{i,t} and suboptimal performance J i , t ∗ ∗ J^{**}_{i,t} , L M i , t = J i , t ∗ − J i , t ∗ ∗ L_{M_{i},t}=J^{*}_{i,t}-J^{**}_{i,t} and rewrite ( 6 ) as follows: For safe adaptation, two conditions are important: the performance must get back to normal quickly, and besides, during the adjustment, safety constraints must be satisfied. For the first condition, we can find the time of adaptation, i.e time that it takes an agent to get to the normal performance, if we use 7 . We can define some adaptation function f a ​ d ​ a ​ p ​ ( π , t ) f_{adap}(\\pi,t) that finds the policy π \\pi that would return the minimal time of adjustment t m ​ i ​ n t_{min} ,"
+}

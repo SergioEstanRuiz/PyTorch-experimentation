@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05232v1",
+  "title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence",
+  "abs_url": "https://arxiv.org/abs/2601.05232v1",
+  "html_url": "https://arxiv.org/html/2601.05232v1",
+  "chunk_id": "2601.05232v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "broader domains, leading to inconsistent and unreliable scoring. Recognizing the limitations of the initial prompt, we engaged in an iterative engineering process to develop a version optimized for YouTube transcripts. The primary goals were to simplify the instructions leading to better generalizability, maintain the core 5-dimensional analysis. To establish a rigorous benchmark for evaluating our automated approaches, we collaborated with human experts specializing in peace research and conflict studies. Our team of peace researchers, including social psychologists, anthropologists, and conflict resolution specialists from Columbia University’s Morton Deutsch International Center for Cooperation and Conflict Resolution, independently evaluated a gold standard set of 52 YouTube videos. Each expert scored videos across all five dimensions using the same 1-5 scale employed by our computational models. Videos were selected to represent a diverse range of content types, including political commentary, news analysis, social issues discussion, and cultural critique. Inter-rater reliability analysis validated the robustness of this gold standard, yielding pairwise correlations exceeding r = 0.93 r=0.93 for three dimensions (News, Compassion, Order) and 100% agreement within a single-point margin. This high consensus confirms that our peace dimensions are observable and measurable constructs, distinct from random subjective noise. We aggregated human scores by averaging across all available raters for each video-dimension combination, with sample sizes ranging from N=32 to N=47 depending on missing data patterns. The resulting gold standard dataset provides mean scores, standard deviations, and distributional statistics that serve as ground truth for evaluating model performance. The AI models that we used are shown"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0041",
+  "word_start": 8200,
+  "word_end": 8450,
+  "text": ", while our algorithm of Theorem 1.1 achieves a polynomial dependence on k k . Hence, our Fourier-based tool is a method that provably bypasses the limitations of the method of moments. The proof is inspired by the pigeonhole argument of [ regev_learning_2017 ] and appears in Section 3.3 . Next, we discuss the technical overview of Theorem 1.2 which shows that moment-based methods are not useful for learning mixture models when the distribution satisfies the SFD condition. To do that, we show that there exist two mixtures of k k Laplace distributions whose parameters are very far but their first log ⁡ k \\log k moments are very close. To do that, we adapt the techniques of [ regev_learning_2017 ] . First, it is important to explain what we mean by moment-matching. Closeness in moments will be measured using the Frobenius norm, which is defined as \\| ​ T ​ \\| F = ( \\slimits@ i 1 , i 2 , … , i ℓ ​ T i 1 , i 2 , … , i ℓ 2 ) 1 / 2 \\left\\|T\\right\\|_{\\mathrm{F}}=\\left(\\sumop\\slimits@_{i_{1},i_{2},\\dots,i_{\\ell}}T_{i_{1},i_{2},\\dots,i_{\\ell}}^{2}\\right)^{1/2} for some order- ℓ \\ell tensor T T . Our result is as follows: There exist two uniform mixtures of Laplace distributions Y Y and Y ~ \\mathaccent 869{Y} in ( log ⁡ k ) \\Theta(\\log k) dimensions, consisting of Laplace components with means μ 1 , … , μ k \\mu_{1},\\dots,\\mu_{k} and μ ~ 1 , … , μ ~ k \\mathaccent 869{\\mu}_{1},\\dots,\\mathaccent 869{\\mu}_{k} ,"
+}

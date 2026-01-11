@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0047",
+  "word_start": 9400,
+  "word_end": 9650,
+  "text": "− 1 ) (k-1) -coloring for a warm start is very beneficial in local search methods, and we created powerful algorithms by applying this trick both to the GNN method and to a lightweight greedy algorithm. The latter outperformed PI-SAGE , the best method of [ 2 ] , on small-scale test instances. While the former did not outperform PI-SAGE on these test cases, it exhibited superior performance on large inputs. We hope that the modifications proposed here are useful for designing other GNN-based methods for combinatorial optimization problems, especially approximate k k -coloring. Finally, we found that our GNN-based algorithm recovers approximations to mathematical upper bounds on chromatic numbers relatively well, often producing a bound that is at most one more than the mathematical bound, though it also runs into issues with highly structured graphs such as poor local minima in highly symmetric graphs and oversmoothing in complete graphs. Though our algorithms perform well in many cases, a number of limitations remain that merit further study. While performing well on the coloring benchmark, our methods only recover upper bounds, rather than the true values, for the chromatic numbers of mathematically interesting families of graphs. For example, they are unable to find intuitive proper colorings such as 2 2 -colorings of 2 2 -colorable graphs, and though they are usually able to produce an upper bound of 5 5 on the chromatic number of a maximally planar graph, they usually fail to produce the optimal upper bound of 4 4"
+}

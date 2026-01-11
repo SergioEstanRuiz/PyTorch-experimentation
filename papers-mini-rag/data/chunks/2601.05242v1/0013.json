@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "priorities among objectives, such that r sum = w 1 ​ r 1 + ⋯ + w n ​ r n r_{\\text{sum}}=w_{1}r_{1}+\\dots+w_{n}r_{n} , thereby controlling the contribution of each reward to the final advantage used for policy updates, and for GDPO, such weightings are apply to the normalized advantages of each reward as: However, we found that adjusting reward weights does not always yield the intended behavior when the difficulty levels of the underlying objectives differ substantially. If one objective is much easier than the others, the model often focuses on maximizing the reward for that objective regardless of the assigned weights. As a result, to more effectively force the model to allocate more attention to rewards associated with more challenging objectives, the weight differences must be made sufficiently large to compensate for the disparity in difficulty. Nevertheless, even with such adjustments, the model may still prefer optimizing the easier reward rather than the objective the user intends to prioritize, a phenomenon that we empirically demonstrate in Sec. 4.2.1 . Therefore, some recent works [ 1 , 14 ] address such reward hacking by conditioning easier rewards on more difficult rewards. Specifically, Given two rewards r k r_{k} and r l r_{l} , conditioning r k r_{k} on r l r_{l} can be formulated as: With such reward function design, the model can only receive reward of r k r_{k} when the reward r l r_{l} satisfies a predefined score threshold t t , and as a consequence, the model"
+}

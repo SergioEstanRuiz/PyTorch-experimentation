@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0000",
+  "word_start": 0,
+  "word_end": 250,
+  "text": "Deploying Large Language Models (LLMs) for complex reasoning is often hindered by high computational costs and latency, while resource-efficient Small Language Models (SLMs) typically lack the necessary reasoning capacity. Existing collaborative approaches, such as cascading or routing, operate at a coarse granularity by offloading entire queries to LLMs, resulting in significant computational waste when the SLM is capable of handling the majority of reasoning steps. To address this, we propose RelayLLM , a novel framework for efficient reasoning via token-level collaborative decoding. Unlike routers, RelayLLM empowers the SLM to act as an active controller that dynamically invokes the LLM only for critical tokens via a special command, effectively \"relaying\" the generation process. We introduce a two-stage training framework, including warm-up and Group Relative Policy Optimization (GRPO) to teach the model to balance independence with strategic help-seeking. Empirical results across six benchmarks demonstrate that RelayLLM improves the average accuracy from 42.5% to 49.52%, effectively bridging the performance gap between the two models. Notably, this is achieved by invoking the LLM for only 1.07% of the total generated tokens, offering a 98.2% cost reduction compared to performance-matched random routers. Our code is available at https://github.com/Chengsong-Huang/RelayLLM . RelayLLM : Efficient Reasoning via Collaborative Decoding Chengsong Huang 1 Tong Zheng 2 Langlin Huang 1 Jinyuan Li 1 Haolin Liu 3 Jiaxin Huang 1 1 Washington University in St. Louis 2 University of Maryland 3 University of Virginia {chengsong, h.langlin, ljinyuan, jiaxinh}@wustl.edu tzheng24@umd.edu srs8rh@virginia.edu Large Language Models (LLMs) have demonstrated remarkable capabilities in complex reasoning"
+}

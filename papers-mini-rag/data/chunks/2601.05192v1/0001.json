@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": "as information extraction Martinez-Rodriguez et al. ( 2020 ) , knowledge-based question answering Welty et al. ( 2012 ) , and knowledge graph completion Ji and Grishman ( 2011 ) . Most of the work on entity linking focuses on linking to general knowledge graphs such as Wikidata Vrandečić ( 2012 ) , DBpedia Auer et al. ( 2007 ) or Yago Suchanek et al. ( 2007 ) . However, in real-world applications, the knowledge base is often proprietary or domain-specific, as in the legal or biomedical domain, or inside a company. Therefore, several entity linking methods use training. In classical entity linking (Figure 1 ), the models are trained on the same domain and same knowledge base as the one used during testing. In zero-shot entity linking Logeswaran et al. ( 2019 ) , the set of entities seen during training is different from the one seen during testing. However, even this setting, as defined in Logeswaran et al. ( 2019 ) , requires labeled entity linking training data for fine-tuning from related domains and document sources. Fine-tuning is not just computationally expensive, but also requires high-quality labeled data. Thus, to apply entity linking to a new domain (say, a company wants to disambiguate chemical products), one would first have to label hundreds of mentions. This task cannot be outsourced easily, as it requires navigating specialized knowledge bases and involves privacy restrictions. Hence, the quest that we tackle in this paper is true zero-shot entity linking , i.e., entity"
+}

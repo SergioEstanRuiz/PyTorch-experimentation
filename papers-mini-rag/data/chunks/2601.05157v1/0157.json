@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0157",
+  "word_start": 31400,
+  "word_end": 31650,
+  "text": ", we have for sufficiently small α > 0 \\alpha>0 , Let h ​ ( x ) = 2 x ​ β / 2 − 1 3 x h(x)=\\frac{2^{x\\beta/2}-1}{3^{x}} for x ≥ 0 x\\geq 0 . If β ≥ 2 ​ log 2 ⁡ 3 \\beta\\geq 2\\log_{2}3 , then h ​ ( x ) h(x) is increasing, and thus If β < 2 ​ log 2 ⁡ 3 \\beta<2\\log_{2}3 , then by calculating the derivative, h ​ ( x ) h(x) is increasing on x ∈ [ 0 , x ⋆ ] x\\in[0,x^{\\star}] and is decreasing on x ∈ [ x ⋆ , + ∞ ) x\\in[x^{\\star},+\\infty) , where x ⋆ = ln ⁡ ln ⁡ 3 − ln ⁡ ( ln ⁡ 3 − β 2 ​ ln ⁡ 2 ) β 2 ​ ln ⁡ 2 x^{\\star}=\\frac{\\ln\\ln 3-\\ln(\\ln 3-\\frac{\\beta}{2}\\ln 2)}{\\frac{\\beta}{2}\\ln 2} . Thus, for x ∈ [ 1 , j ⋆ ] x\\in[1,j^{\\star}] , and By a union bound over the 1 2 \\frac{1}{2} -net N N , we get Hence, to make Pr ⁡ [ M > ( 12 ​ C + 2 ) ​ t 0 ] ≤ δ \\Pr[M>(12C+2)t_{0}]\\leq\\delta , we only need n ≥ 1 α ​ ( d + log ⁡ ( 1 / δ ) ) O ​ ( max ⁡ { 1 / β , 1 } ) n\\geq\\frac{1}{\\alpha}\\left(d+\\log(1/\\delta)\\right)^{O(\\max\\{1/\\beta,1\\})} . Here ( α ) = ( 12 ​ C + 2 ) ​ t 0 = O ​ ( ln ⁡"
+}

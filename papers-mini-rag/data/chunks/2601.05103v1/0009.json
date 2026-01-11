@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "training, compromise evaluation reliability, and reduce the robustness of downstream applications. Recognizing these limitations, recent work has emphasized systematic identification and correction of label errors in widely used benchmarks. For example, studies of the COCO dataset [ 34 ] have revealed deficiencies in object mask annotations, prompting initiatives such as COCO-ReM [ 54 ] and Sama-COCO [ 67 ] , both of which introduced revised annotations that improved downstream model performance. Similarly, the CleanCoNLL [ 51 ] project conducted a comprehensive relabeling of the CoNLL-03 Named Entity Recognition dataset [ 61 ] , correcting 7% of entity labels and demonstrating measurable gains in benchmark reliability. In parallel, automated and semi-automated approaches have been developed to assist error detection and correction. Model-driven methods such as Confident Learning estimate the joint distribution of observed and true labels to identify likely misannotations [ 42 ] , while domain-specific tools like ObjectLab apply trained object detectors to flag anomalies in annotation quality [ 62 ] . Recently, LLMs have also been explored as annotation agents [ 56 , 23 ] , although careful quality control remains essential in such settings. In this work, we conduct a manual re-annotation of the ACL-ARC dataset [ 28 ] using our proposed two-dimensional framework. For comparison and internal validation, we also task a set of open-source LLMs with performing the same re-annotation under controlled prompting. To evaluate label quality and framework clarity, we compute agreement between human annotators and LLMs. These experiments allow us to assess the reliability"
+}

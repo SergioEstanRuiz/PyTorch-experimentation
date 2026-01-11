@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "and a classification decision, repeated three times, with the final type determined by majority vote. We then computed pairwise Cohen’s κ \\kappa scores [ 16 ] under two settings: (1) between model pairs (LLM-LLM IAA), and (2) between each model and the human consensus annotations described in Section 4.1.2 (Human-LLM IAA). The latter measures how well the framework enables LLMs to approximate expert human judgments. As a comparative baseline, we repeated the process with both the six-type ACL-ARC framework and the three-type SciCite framework [ 14 ] , instructing the same LLMs to annotate ACL-ARC contexts. For ACL-ARC framework, annotations were made on its original dataset. For SciCite, we mapped ACL-ARC types onto SciCite’s framework by aligning Uses with Method , ComparisonContrast with ResultComparison , and grouping Background , Extension , Motivation , and Future under Background . This LLM-based simulation serves as a practical proxy for human agreement and enables direct empirical comparison across frameworks. The resulting IAA scores provide a quantifiable measure of boundary clarity, interpretability, and annotation feasibility under the SOFT framework. To empirically evaluate whether our revised annotation framework offers clearer semantic boundaries than prior frameworks, we conducted a comparative classification experiment. This design is grounded in the hypothesis, motivated by prior work in framework comparison [ 26 , 49 ] , that if a framework defines types with more precise and less ambiguous boundaries, then machine learning models trained on such data should achieve higher classification performance. We employed two open-source, state-of-the-art CIC models with"
+}

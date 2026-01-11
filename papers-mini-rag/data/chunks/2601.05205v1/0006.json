@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05205v1",
+  "title": "EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI",
+  "abs_url": "https://arxiv.org/abs/2601.05205v1",
+  "html_url": "https://arxiv.org/html/2601.05205v1",
+  "chunk_id": "2601.05205v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "⊙ \\odot indicates element-wise multiplication [ 6 ] . The gating mechanisms regulate how past information is retained or replaced, allowing the GRU to function as a learned temporal filter over the spiking activity of the reservoir. This hybrid LSM-GRU configuration integrates the nonlinear, event-driven dynamics of the LSM with the adaptive memory of the GRU. During training, only the GRU and output layer parameters are updated, while the reservoir connections remain fixed. This approach preserves the computational efficiency of reservoir computing while enhancing its representational capacity for sequential and time-dependent tasks. RC offers strong computational efficiency, yet its performance depends heavily on hyperparameters such as spectral radius, leak rate, input scaling, and reservoir size. Small perturbations in these parameters can shift the reservoir dynamics between stable and chaotic regimes, making principled hyperparameter optimization essential [ 4 , 7 ] . Early work in RC relied mainly on extensive grid search and random sampling to identify suitable configurations [ 3 ] . Although effective in low-dimensional settings, these methods scale poorly as the search space grows. More advanced approaches including Bayesian Optimization [ 15 ] and Hyperband-based strategies [ 10 ] improved efficiency, but typically assumed smooth, continuous objective landscapes that do not reflect the nonlinear, discrete, and sometimes chaotic behavior of recurrent spiking reservoirs. More recently, Mendula et al. (2025) introduced an adaptive ε \\varepsilon -greedy hyperparameter search strategy tailored for reservoir computing. Their framework incorporates a memory assisted exploration mechanism that dynamically balances exploration and exploitation, preserves a"
+}

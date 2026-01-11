@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "2 ] , which ensures metadata quality through DOI registration but indexes only formally published datasets. General-purpose repositories such as Zenodo, Kaggle, and Mendeley Data accept contributions across disciplines, while domain-specific repositories such as Protein Data Bank (PDB), Gene Expression Omnibus (GEO), Inter-university Consortium for Political and Social Research (ICPSR), and British National Corpus (BNC) provide curated, high-quality resources within particular communities but remain siloed, limiting interdisciplinary discovery. These systems share fundamental limitations: heavy reliance on keyword matching against metadata, lack of semantic understanding of research contexts, and terminological mismatches across disciplines [ 7 , 8 ] . Few systems address connecting abstract research questions with datasets when metadata is sparse or inconsistent. Scientific papers capture contextual details about resource usage that metadata alone can not [ 9 ] . Prior work has leveraged this signal to build dataset mention extraction benchmarks: SciERC [ 5 ] focused on computer science papers, SciREX [ 6 ] extended extraction to the document level, and DMDD [ 10 ] provided large-scale multi-domain coverage. These efforts demonstrate the feasibility of mining dataset mentions at scale, but their primary goal is catalog construction or usage analysis rather than guiding researchers to datasets relevant to new questions [ 11 ] . Full-document extraction can also be computationally expensive, making real-time search and recommendation challenging [ 12 , 13 , 14 ] . These methods are also limited by their dependency on high-quality structured inputs and a lack of robust cross-disciplinary evaluation. We build on this line"
+}

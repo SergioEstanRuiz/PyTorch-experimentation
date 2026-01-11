@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0026",
+  "word_start": 5200,
+  "word_end": 5450,
+  "text": "Full-Color are much faster than Mod-GCN , we tested 1000 1000 Erdős-Rényi graphs for each n n and d d rather than 100 100 . We notice that Full-Color outperforms Discrete-Color in all cases by a striking amount. We also see that for both Discrete-Color and Full-Color , the average loss follows an almost perfectly linear trend for sufficiently large n n , just as we observed for Mod-GCN . Mod-GCN outperforms both Discrete-Color and Full-Color , indicating that there is merit in optimizing ℒ \\mathcal{L} over the continuous space rather than the discrete space. Because of the striking improvement that we observe when using Full-Color rather than Discrete-Color , we would like to apply the same trick to Mod-GCN . In order to do so, all we need to do is find a way to choose which coloring the optimizer uses as a starting point in Mod-GCN . This is slightly easier said than done, since the values of 𝑿 \\boldsymbol{X} do not directly correspond to color probabilities in a tractable way. Therefore, we use the following procedure. Given a coloring φ : { 1 , … , n } → { 1 , … , k } \\varphi:\\{1,\\dots,n\\}\\rightarrow\\{1,\\dots,k\\} , we first train the GCN to predict the coloring φ \\varphi by optimizing the loss function over 𝑿 \\boldsymbol{X} and 𝑾 \\boldsymbol{W} , where p i , φ ​ ( i ) ′ = 0.55 p^{\\prime}_{i,\\varphi(i)}=0.55 and p i ​ j ′ = 0.45 k − 1 p^{\\prime}_{ij}=\\frac{0.45}{k-1} for"
+}

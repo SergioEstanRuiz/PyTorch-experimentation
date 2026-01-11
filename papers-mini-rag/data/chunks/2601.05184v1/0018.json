@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0018",
+  "word_start": 3600,
+  "word_end": 3850,
+  "text": "As our primary goal is to analyze the SCPL, standard benchmarks are less sensitive to group-specific distributional shifts and therefore may not fully capture performative bias dynamics. In Figure 5 , the bias score increases more rapidly in dynamic setting, and the GQ declines faster under the incremental fine-tuning loop. Accumulation helps mitigate the amplification of preference bias and the degradation of generation quality. However, it does not reduce preference bias compared to the original bias or achieve performance comparable to the real-data setting; it merely slows the rate at which bias increases. Despite this partial mitigation, we do not observe that accumulation reduces bias toward the neutral line (0.5), as stated in Wang et al. ( 2024c ) . Therefore, while accumulation can serve as a mitigation strategy for both generation quality and preference bias, its effect on bias remains limited and we need more efforts on mitigation strategies. In this task, we explore LLMs’ preference toward non-creative attributes. We use the knowledge-awre dataset Dolly Conover et al. ( 2023 ) as the advantage group with 15,000 samples and creative writing dataset ShareGPT 2 2 2 Huggingface: Nitral-AI/Creative_Writing-ShareGPT as the disadvantage group with 6,650 samples. We adopt the Preference Dissection dataset Li et al. ( 2024b ) as test dataset. Evaluation Metric We compute the average preference probability for the non-creative attribute across all ten scenarios in the test dataset Li et al. ( 2024b ) as the preference bias. Since the raw preference scores consistently fall within the"
+}

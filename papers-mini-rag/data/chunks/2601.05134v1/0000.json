@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0000",
+  "word_start": 0,
+  "word_end": 250,
+  "text": "Certified unlearning based on differential privacy offers strong guarantees but remains largely impractical: the noisy fine-tuning approaches proposed so far achieve these guarantees but severely reduce model accuracy. We propose sequential noise scheduling, which distributes the noise budget across orthogonal subspaces of the parameter space, rather than injecting it all at once. This simple modification mitigates the destructive effect of noise while preserving the original certification guarantees. We extend the analysis of noisy fine-tuning to the subspace setting, proving that the same ( ε , δ ) (\\varepsilon,\\delta) privacy budget is retained. Empirical results on image classification benchmarks show that our approach substantially improves accuracy after unlearning while remaining robust to membership inference attacks. These results show that certified unlearning can achieve both rigorous guarantees and practical utility. Machine unlearning refers to the task of transforming a machine learning model so that the influence of a specified subset of training data is removed. The topic has gained attention (Nguyen et al. , 2024 ) due to legal requirements such as the GDPR (European Commission, 2016 ) and the “right to be forgotten” (Hoofnagle et al. , 2019 ) , as well as practical needs including removing sensitive information and mitigating poisoned or maliciously injected data. The most direct baseline is retraining from scratch on the retained data, but it is typically computationally infeasible. Existing methods are commonly grouped into exact, certified, and empirical approaches (Guo et al. , 2020 ; Neel et al. , 2021 ; Fan et al. ,"
+}

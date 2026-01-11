@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "triggered only when necessary, improving answer quality in complex scenarios while keeping the overall interaction cost controllable. We conduct experiments on the PersonaMem benchmark [ jiang2025know ] . This dataset is centered on user personas: each instance contains a user’s static demographic information as well as dynamic attributes that evolve over time. For interaction-history construction, each history consists of approximately 10 multi-turn conversations concatenated in chronological order, resulting in an overall context length of about 32k tokens and covering 15 categories of real-world tasks that require personalization. For evaluation, we use accuracy as the primary metric, reporting overall accuracy and further breaking it down into per-skill accuracies across seven query-skill categories. Under the discriminative setting, the model directly outputs the selected option. To evaluate the effectiveness of the proposed method, we compare against two standard interaction paradigms Only LLM and Full Context as well as four representative memory-management frameworks LangMem, Mem0 [ chhikara2025mem0 ] , A-Mem [ xu2025mem ] , and MemoryOS [ kang2025memory ] . For each baseline, we use the best-performing configurations reported in the original works (e.g., agentic retrieval). Detailed descriptions and experimental setups are provided in Appendix C.1 . In our approach, the construction of core training data leverages the DeepSeek-R1-0528. To encourage diverse generations, we set temperature to 0.7 and top-p to 0.9. For retrieval components, both our method and all baseline systems share the same settings: we use BGE-M3 as the retriever and BGE-Reranker-Large as the re-ranking model. We set the retrieval count to"
+}

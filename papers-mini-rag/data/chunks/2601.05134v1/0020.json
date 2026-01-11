@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0020",
+  "word_start": 4000,
+  "word_end": 4250,
+  "text": "​ I d ) \\zeta\\sim\\mathcal{N}(0,\\sigma^{2}I_{d}) directly to W W is equivalent to adding independent ζ i ∼ 𝒩 ​ ( 0 , σ 2 ​ I r i ) \\zeta_{i}\\sim\\mathcal{N}(0,\\sigma^{2}I_{r_{i}}) to each block B i B_{i} , in the sense that the resulting noisy weight distributions coincide. Each term A i ​ ζ i A_{i}\\zeta_{i} is Gaussian with covariance σ 2 ​ A i ​ A i ⊤ \\sigma^{2}A_{i}A_{i}^{\\top} . Since the noises are independent and the blocks A i A_{i} span ℝ d \\mathbb{R}^{d} orthogonally, the sum is Gaussian with covariance Σ = ∑ i σ 2 ​ A i ​ A i ⊤ = σ 2 ​ I d \\Sigma=\\sum_{i}\\sigma^{2}A_{i}A_{i}^{\\top}=\\sigma^{2}I_{d} , which reproduces isotropic i.i.d. noise on W W . ∎ In this section, we discuss several concrete strategies for constructing the matrices A 1 , … , A k A_{1},\\dots,A_{k} . We generate a random orthonormal basis [ A 1 , … , A k ] ∈ ℝ m × m [A_{1},\\dots,A_{k}]\\in\\mathbb{R}^{m\\times m} by sampling a Gaussian matrix and orthogonalizing it. Intuitively, this distributes both noise and potential degradation evenly across blocks: if unlearning harms one block, the others can compensate and help preserve accuracy. Since weight dimensionality can be very large, in practice we construct A 1 , … , A k A_{1},\\dots,A_{k} separately for each layer. For a layer with a weight matrix of size m × n m\\times n , we apply the same procedure locally, which requires an additional O ​ ( m"
+}

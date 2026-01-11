@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0002",
+  "word_start": 400,
+  "word_end": 650,
+  "text": "game of Sudoku, all of which can be abstracted to node coloring. On the other hand, much attention in structural graph theory has focused on node coloring. The famous Four Color Theorem [ 20 ] shows that any geographical map can be colored using only four colors so that no two bordering regions have the same color. More generally, the chromatic number of a graph is the minimal number of colors needed for a proper coloring , meaning a coloring with no monochromatic edges. For certain classes of graphs this number is known, but in general its computation is NP-hard [ 26 ] . This has led to a range of decades-open conjectures on the chromatic numbers of specific classes of graphs (e.g. the Hadwiger conjecture, a generalization of the Four Color Theorem [ 24 ] , and the Hadwiger-Nelson problem [ 23 , 25 ] ), and the investigation of coloring problems in higher dimensions or under additional constraints (e.g. list coloring [ 27 ] ). Due to the high complexity of node coloring, there is also widespread interest in finding good approximate solutions to coloring problems. In this work, we focus on approximate k k -coloring, that being the task of assigning colors to the vertices of a graph using at most k k colors such that the number of monochromatic edges is approximately minimized. This is equivalent to approximate Max- k k -Cut, which asks for a partition of a graph’s vertex set into k k classes"
+}

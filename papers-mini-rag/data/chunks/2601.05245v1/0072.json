@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0072",
+  "word_start": 14400,
+  "word_end": 14650,
+  "text": "inequality, the above sum is bounded by: where Err T ′ ​ ( w ℓ ) \\mathrm{Err}_{T^{\\prime}}(w_{\\ell}) denotes the calibration-error functional extended to signed weights w ℓ ∈ { ± 1 } w_{\\ell}\\in\\{\\pm 1\\} . Finally, since w 0 ≡ 1 w_{0}\\equiv 1 is covered by g all g_{\\mathrm{all}} and for each ℓ ≥ 1 \\ell\\geq 1 we have w ℓ = g ℓ Wal , + − g ℓ Wal , − w_{\\ell}=g^{\\mathrm{Wal},+}_{\\ell}-g^{\\mathrm{Wal},-}_{\\ell} , the difference-of-two reduction (Lemma 9 ) implies that Moreover, Lemma 10 gives the uniform bound for a universal constant C ℓ 1 C_{\\ell_{1}} . ∎ The “honest” prediction strategy of predicting 𝔼 ​ [ y t ] = x t \\mathbb{E}[y^{t}]=x^{t} at every round obtains high marginal calibration error because our instance has x t x^{t} take on many different values, and so the honest predictor accumulates noise-driven empirical bias in each of these many “prediction bins.” A natural question is whether a forecaster can do better by “consolidating” predictions—using fewer distinct prediction values to reduce the number of bins. The key insight of this section is that such consolidation is incompatible with the ℓ 1 \\ell_{1} -truthfulness constraint established above. A forecaster that stays close to honest predictions (in ℓ 1 \\ell_{1} ) cannot concentrate its predictions on a small number of values; it must spread them out roughly as the honest forecaster would. Formally, we show that an algorithm with small ℓ 1 \\ell_{1} deviation from honesty must have N := ∑ v"
+}

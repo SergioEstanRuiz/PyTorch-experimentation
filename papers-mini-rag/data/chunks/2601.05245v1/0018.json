@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0018",
+  "word_start": 3600,
+  "word_end": 3850,
+  "text": "r t ≥ η r^{t}\\geq\\eta ) to the calibration bias of g 1 g_{1} is since 𝔼 ​ [ y t ∣ x t , p t ] = x t \\mathbb{E}[y^{t}\\mid x^{t},p^{t}]=x^{t} . Whenever p t ≥ x t + η p^{t}\\geq x^{t}+\\eta , we have r t ≥ η r^{t}\\geq\\eta , so we get expected positive bias ≥ η \\geq\\eta on those rounds; a symmetric argument holds for g 2 g_{2} . Summing over v v , this implies So, if B T B_{T} is large, we are already done: either g 1 g_{1} or g 2 g_{2} must have large calibration error. Few big deviations force many “honest” rounds per context. The complementary case is when the algorithm mostly stays close to honest: If 𝔼 ​ [ B T ] \\mathbb{E}[B_{T}] is not large, then 𝔼 ​ [ H T ] \\mathbb{E}[H_{T}] is large. Contexts cycle on a regular grid, and so each grid point x x appears about T / m T/m times. We refine the partition by context to avoid cancellations: For each grid point x x , let H x H_{x} be the honest rounds with that context, and n x := | H x | n_{x}:=|H_{x}| . Similarly define B x B_{x} and b x b_{x} for big deviations at context x x , with T x = n x + b x T_{x}=n_{x}+b_{x} the total number of times x x appears. If B T B_{T} is small, the structure of the instance"
+}

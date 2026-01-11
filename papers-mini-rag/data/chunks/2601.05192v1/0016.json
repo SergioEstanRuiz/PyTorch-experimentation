@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0016",
+  "word_start": 3200,
+  "word_end": 3450,
+  "text": "recall (see Appendix D ). The No Self-Consistency variant, too, systematically results in a drop in performance (more details in Appendix E ). Disabling reasoning results in the next biggest drop in performance across the three models. This shows that simply considering the candidates together is not sufficient and that context-based reasoning is needed. Finally, the No description variant provides the selection LLM with less precise entities, and it also performs worse in all configurations. Together these results show that all components of LELA contribute to its performance. Examples of candidate selection outputs for different variants are given in Appendix J . The value of k k results in a trade-off between recall and selection accuracy (Appendix D ): lower values allow for a high selection accuracy, but may result in the correct entity not being among the candidates, while higher values reduce the selection accuracy but improve the candidate recall. The impact of k k on these two components depends on the reranker and selection LLM in use. Overall, k = 10 {k=10} is a safe choice, with lower values leading to a substantial degradation in recall (see Appendix I for a detailed visualization of recall retention across stages). Given the impact of self-consistency highlighted in Section 4.5 , we further study its impact over different numbers of sampled answers (see Appendix E ). Notably, we observe that while performance increases with the number of samples, an accuracy plateau is reached quickly across models, suggesting that as little as"
+}

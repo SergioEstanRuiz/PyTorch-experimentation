@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0012",
+  "word_start": 2400,
+  "word_end": 2650,
+  "text": "of the b b -th bootstrap model, θ orig ( b ) \\theta_{\\text{orig}}^{(b)} is the test performance of the same model on the original dataset, and B B is the number of bootstrap replicates. The final optimism-corrected performance is obtained by subtracting the average optimism from the apparent performance (i.e., the training performance on the full dataset): where θ app \\theta_{\\text{app}} denotes the apparent performance. The .632 method accounts for the overlap between the bootstrap samples and the original data and computes θ orig \\theta_{\\text{orig}} only on out-of-bag (OOB) samples (not included into the bootstrap, therefore not seen during training). The performance estimate is computed as where θ out = 1 B ​ ∑ b = 1 B θ OOB \\theta_{\\text{out}}=\\frac{1}{B}\\sum_{b=1}^{B}\\theta_{\\text{OOB}} . The weight 0.632 0.632 corresponds to the approximate proportion of samples included in a bootstrap [ 10 ] . The .632+ method improves the .632 rule by modifying the weights in order to take into account the amount of overfitting: R R is the overfitting ratio computed as where γ \\gamma corresponds to the predictive performance on the original dataset when the outcome is randomly permuted. When there is no overfitting (i.e., the apparent score is the same as the out-of-bag score), R R equals to 0, w w equals to 0.632, and the .632+ rule replicates the .632 rule. In the presence of overfitting (apparent score is greater than the out-of-bag score), R ∈ ( 0 , 1 ] R\\in(0,1] and w ∈ ( 0.632 , 1"
+}

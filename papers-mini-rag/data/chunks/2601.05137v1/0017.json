@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0017",
+  "word_start": 3400,
+  "word_end": 3650,
+  "text": "the general purpose, the performance of each modification was tested on Erdős-Rényi graphs. An Erdős-Rényi graph G ​ ( n , p ) G(n,p) is a random graph with exactly n n vertices such that each of the ( n 2 ) \\binom{n}{2} potential edges is included with probability p p independently. The expected number of edges is therefore ( n 2 ) ​ p \\binom{n}{2}p . Taking p = d / ( n − 1 ) p=d/(n-1) , we get that the expected degree of each vertex is d d and the expected number of edges is n ​ d / 2 nd/2 . Letting k d k_{d} be the smallest positive integer k k such that 2 ​ k ​ log ⁡ ( k ) > d 2k\\log(k)>d , the paper [ 4 ] proves that when p = d / n p=d/n , we have ℙ ​ ( χ ​ ( G ​ ( n , p ) ) ∈ { k d , k d + 1 } ) → 1 \\mathbb{P}(\\chi(G(n,p))\\in\\{k_{d},k_{d}+1\\})\\rightarrow 1 as n → ∞ n\\rightarrow\\infty . It follows that the same result holds when p = d / ( n − 1 ) p=d/(n-1) ; this is intuitive, but see Proposition 1 in Appendix C for a proof in case one is desired. In our tests, we always use p = d / ( n − 1 ) p=d/(n-1) , and we allow k d + 1 k_{d}+1 colors to be used so"
+}

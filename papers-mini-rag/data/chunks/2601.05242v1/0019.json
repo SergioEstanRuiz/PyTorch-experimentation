@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "that optimizes two implicitly competing rewards: accuracy and adherence to a length constraint. The goal is to improve model performance on challenging mathematical problems while keeping the generated output within a predefined response length to encourage efficient problem solving. We train DeepSeek-R1-1.5B, DeepSeek-R1-7B [ 8 ] , and Qwen3-4B-Instruct [ 21 ] using GRPO and GDPO on the DeepScaleR-Preview dataset [ 22 ] for 500 steps, which contains 40k competition-level math problems. Training is performed using verl [ 19 ] , and we follow the original DeepSeek-R1 prompt format [ 8 ] . Following the DLER setup [ 14 ] , we incorporate dynamic sampling, higher clipping thresholds, and the token-mean loss from DAPO [ 9 ] , and use 16 rollouts, a batch size of 512, and a maximum response length of 8000 tokens. The full set of hyperparameters is provided in Appendix E . Length reward: The length reward ℛ length ∈ { 0 , 1 } \\mathcal{R}_{\\text{length}}\\in\\{0,1\\} checks whether the model’s output remains within the target length l l , which is set to 4000 tokens for all remaining experiments: Correctness reward: The correctness reward ℛ correct ∈ { 0 , 1 } \\mathcal{R}_{\\text{correct}}\\in\\{0,1\\} indicates whether the final answer extracted from the model’s response matches the ground truth. We compare the GRPO and GDPO-trained model on AIME-24 [ 23 ] , AMC (AMC 2022 and AMC 2023) [ 24 ] , MATH [ 25 ] , Minerva [ 26 ] and Olympiad Bench [ 27 ] ."
+}

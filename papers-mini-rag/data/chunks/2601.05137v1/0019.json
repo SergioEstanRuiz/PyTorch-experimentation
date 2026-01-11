@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "modifications. For the initial embedding 𝑿 \\boldsymbol{X} , we use orthogonal row vectors since this leads to an improvement for all three d d values that is statistically significant for d = 10 d=10 and d = 16 d=16 , and it is the best improvement for d = 16 d=16 and d = 20 d=20 , only being outperformed by the identity for d = 10 d=10 by an insignificant amount. For the loss function, we use the degree-power loss function with p = 3 p=3 since this leads to a statistically significant improvement for all three d d values, and it is the best improvement for d = 10 d=10 and d = 20 d=20 , only being outperformed by p = 1 p=1 for d = 16 d=16 by an insignificant amount. Next, we would like to verify that the modifications we have suggested are stable. That is, we would like to check that after making these modifications, no other modification leads to further improvements. To that end, we repeat the previous experiment, but now with the “default” algorithm using the modifications we have suggested. The results are below. Each modification is now outperformed by another choice for all three d d values. However, not one of these differences is significant. Therefore, we maintain the new default, though we acknowledge that the results are inconclusive as to whether these are the exact optimal choices. Thankfully, the average loss incurred by the new default compared to the old"
+}

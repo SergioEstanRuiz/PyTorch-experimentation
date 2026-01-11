@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "for training and 284 for testing. To evaluate cross-domain generalizability, we also re-annotated a subset (264 examples) of the ACT2 test set [ 40 ] . ACT2 spans 19 top-level scientific domains from Microsoft Academic Graph (MAG), with dominant fields including Psychology (21.99%), Medicine (13.48%), Biology (10.91%), and Computer Science (10.27%). These examples serve as our out-of-distribution test data, enabling strict evaluation of generalization performance. The division of training and test sets ensures that citation instances from the same source document do not appear in both sets, preventing data leakage and preserving evaluation integrity. The re-annotation process was conducted by a team of graduate students in computational linguistics. To ensure reliability and account for interpretive ambiguity, each citation instance was independently labeled by at least three annotators using our revised two-dimensional framework. Disagreements were flagged and subsequently resolved through structured group discussion, in which annotators reviewed framework definitions and deliberated to reach a consensus type for each case. This multi-pass strategy helped enforce type consistency and refine interpretation standards across annotators. Types of statistics for the re-annotated ACL-ARC are reported in Figure 1 . A core indicator of annotation framework quality is Inter-Annotator Agreement (IAA), reflecting how clearly and consistently its types are defined [ 5 , 9 ] . However, IAA was not reported in the original ACL-ARC release [ 28 ] , leaving the interpretability of its framework unquantified. In this study, we also do not report human IAA due to the dynamic annotation process: some annotators departed"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0124",
+  "word_start": 24800,
+  "word_end": 25050,
+  "text": "and thus satisfies ( 1 α poly ( d , log ⁡ ( 1 / δ ) , O ( log ⁡ ( 1 / α ) ) ) (\\frac{1}{\\alpha}\\mathrm{poly}(d,\\log(1/\\delta),O(\\log(1/\\alpha))) -resilience, and 𝒩 ​ ( μ 𝒿 ′ , ℐ ) \\euscr{N}(\\mu_{j}^{\\prime},I) is ( 2 ​ t , O ​ ( t ) ) (2t,O(\\sqrt{t})) -certifiably bounded for any t ∈ > 0 t\\in{}_{>0} (see, e.g., [ hopkins2018mixture , kothari2018robust ] ) and sub-exponential, so that one can apply Theorem 3.8 (taking t = O ​ ( 1 / β ) t=O(1/\\beta) ) to estimate the SFD means μ j \\mu_{j} up to ε \\varepsilon and the FFD means μ j ′ \\mu_{j}^{\\prime} up to 1 / poly ​ ( k ′ ) 1/\\mathrm{poly}(k^{\\prime}) . This warm start enables us to apply the local convergence algorithm by [ regev_learning_2017 ] to improve the estimations of the FFD means to ε \\varepsilon accuracy. We will discuss in Appendix C how to adapt their algorithm for our settings with the presence of Laplace components. In this section, we show that moment-based methods are not useful for parameter estimation for mixture models under the SFD condition. To illustrate our moment-matching result, we study mixtures of Laplace distributions. This lower bound is information-theoretic and builds on the pigeonhole argument of [ regev_learning_2017 ] . If we apply their argument directly, then we can show the existence of two mixtures of Laplaces with moments that are close in the symmetric injective tensor norm, defined as"
+}

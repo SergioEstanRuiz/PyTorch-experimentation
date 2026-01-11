@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0040",
+  "word_start": 8000,
+  "word_end": 8250,
+  "text": "that a > 0 a>0 and c < 0 c<0 , hence we are interested in the largest root of the quadratic. The (positive) solution for σ 2 \\sigma^{2} can then be written as The proof proceeds analogously to that of the original theorem (Koloskova et al. , 2025 ) . We adapt Lemma A7 from the original proof, using adapted definitions of ∞ \\infty -Wasserstein distance and shifted Rényi divergence. Let q ≥ 1 q\\geq 1 , z , ρ , s ≥ 0 z,\\rho,s\\geq 0 , ψ : ℝ d → ℝ d \\psi:\\mathbb{R}^{d}\\to\\mathbb{R}^{d} , and X , Y X,Y be arbitrary random variables. If ψ \\psi satisfies, for all 𝐱 , 𝐱 ′ ∈ ℝ d \\mathbf{x},\\mathbf{x}^{\\prime}\\in\\mathbb{R}^{d} (for a single component i i , while for the others nothing changes), To adapt the original proof, it suffices to observe that for the decomposed Wasserstein distance the following inequality holds: from W d ​ ( μ , ν ) ⪯ z = ( 0 , … , z i , … , 0 ) W_{d}(\\mu,\\nu)\\preceq z=(0,\\ldots,z_{i},\\ldots,0) when we modify the i i -th component. This inequality indeed holds due to the assumption on ψ \\psi : for every pair ( x , x ′ ) (x,x^{\\prime}) , the condition ensures the bound componentwise. ∎ Using the lemma above and decomposed Shift Reduction Lemma ( 1 ), we can proceed block by block. By zeroing out the coordinates sequentially, we bound the increment in Rényi divergence contributed by block"
+}

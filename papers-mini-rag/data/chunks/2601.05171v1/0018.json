@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0018",
+  "word_start": 3600,
+  "word_end": 3850,
+  "text": "agentic recall and fusion is critical for achieving the best performance, while the routing mechanism can closely match the full-mode performance while substantially reducing additional retrieval overhead. These gains suggest that directly injecting structured memory already covers a large portion of stable attribute-related requirements, whereas routing and agentic recall further strengthen fine-grained characterization of complex intents and evidence completion. As shown in Table 2 , we further validate the effectiveness of training the memory-operation model. We construct two datasets, PersonaMem 15K and HaluMem 13K. For RL, we use HaluMem 13K for SFT warm-up, and additionally employ 0.5K PersonaMem for process-reward training. For the pure SFT setting, we train on PersonaMem 15K. The results show that training can substantially improve the usability of the memory encoded in PersonaTree as well as downstream reasoning quality. More importantly, whereas ALL Dialogue requires approximately 32K context, the trained PersonaTree introduces only about 2.2K–2.6K tokens of memory context on average, yet can match or exceed the ALL Dialogue baseline on Longcat-Flash-Chat and DeepSeek-R1-0528. We compare two strategies for generating PersonaTree operations: direct generation (the model directly outputs a tree-operation sequence conditioned on the dialogue) and extract-then-transform (first extracting personalized information from the dialogue and then mapping it into tree operations). As shown in Table 3 , direct generation achieves consistent advantages in all combinations, with improvements ranging from approximately + 0.34 +0.34 to + 3.06 +3.06 . The two-stage strategy accumulates errors in the intermediate representation, often losing fine-grained semantic and temporal cues needed for"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0034",
+  "word_start": 6800,
+  "word_end": 7050,
+  "text": "of complementary logits at inference time, it does not examine how different stages of the FusionRoute training procedure contribute to this behavior. In this section, we further probe the training pipeline of FusionRoute by ablating the preference-optimization stage, with the goal of understanding the effectiveness of the proposed CDPO over SFT. To this end, we compare three variants: a base model, FusionRoute after the SFT phase, and the full FusionRoute framework with CDPO training. We evaluate these variants using GPT-4o win rate on a held-out general dataset, which captures overall response quality beyond task-specific correctness. The result are shown in Fig. 5 . We observe that while SFT already provides a reasonable initialization, applying CDPO training leads to a substantial improvement in win rate. In particular, the full FusionRoute model significantly outperforms its SFT-only counterpart, indicating that the complementary component learned during CDPO effectively corrects expert failures and enhances the overall response quality. These findings suggest that the performance gains of FusionRoute depend critically on the preference-optimization stage in the training procedure, which substantially improves general response quality. Recent advances in LLMs have shown that sufficiently large, general-purpose LLMs can achieve strong performance across a wide range of tasks, including mathematics, coding, and instruction following (Hurst et al., 2024 ; Team et al., 2025 ; Yang et al., 2025 ; Zeng et al., 2025 ) . However, such models are often prohibitively expensive to train and deploy, motivating interest in more efficient alternatives. At the same time, smaller and domain-specialized"
+}

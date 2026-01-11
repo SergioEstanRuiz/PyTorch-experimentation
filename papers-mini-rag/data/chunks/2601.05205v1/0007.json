@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05205v1",
+  "title": "EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI",
+  "abs_url": "https://arxiv.org/abs/2601.05205v1",
+  "html_url": "https://arxiv.org/html/2601.05205v1",
+  "chunk_id": "2601.05205v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "that do not reflect the nonlinear, discrete, and sometimes chaotic behavior of recurrent spiking reservoirs. More recently, Mendula et al. (2025) introduced an adaptive ε \\varepsilon -greedy hyperparameter search strategy tailored for reservoir computing. Their framework incorporates a memory assisted exploration mechanism that dynamically balances exploration and exploitation, preserves a buffer of high performing configurations, and penalizes overly large reservoirs to reduce computational and energy costs [ 12 ] . However, the method was designed and evaluated exclusively on non-spiking ESN. Other studies explore intrinsic plasticity to regulate neuronal excitability [ 14 ] and apply reinforcement learning or meta-learning for online adjustment [ 16 ] . Although these techniques improve robustness and adaptability, they generally do not include explicit energy objectives in the optimization process. Recent studies have also examined the integration of spiking reservoirs with recurrent readouts to improve temporal abstraction and robustness [ 7 , 4 ] , but most approaches still rely on offline, static hyperparameter tuning and provide only indirect estimates of energy usage. Overall, prior research has not addressed the need for adaptive, energy-aware optimization frameworks that jointly balance accuracy and power consumption during operation. In contrast, our proposed approach introduces adaptive mechanisms that enable continuous tuning in response to changing system dynamics as described in Section III To optimize the hyperparameter search for LSM, we propose a hybrid Energy-Aware Reinforcement Learning (EARL) Framework that integrates Bayesian optimization with reinforcement learning. Bayesian optimization is used to model the objective landscape using a surrogate function, allowing"
+}

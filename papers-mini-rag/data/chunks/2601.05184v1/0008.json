@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "real and synthetic data, depending on the data cycle design (Section 3.3 ). We propose a dynamic self-consuming training loop for LLMs (SCPL) where the predictive performance of the previous generation model influences the distribution of generated data, thereby affecting the next generation model. Performative here refers to dynamic, feedback-driven changes in the input distribution. Under performativity, the next generation model ℳ t \\mathcal{M}_{t} is fine-tuned on data generated from the previous model ℳ t − 1 \\mathcal{M}_{t-1} , leading to a performative fine-tuning loss defined as: where D t ​ ( θ t − 1 , ℍ t − 1 ) D_{t}(\\theta_{t-1},\\mathbb{H}_{t-1}) is the dataset induced by ℳ t − 1 \\mathcal{M}_{t-1} under real-world human performative feedback ℍ t − 1 \\mathbb{H}_{t-1} on a held-out dataset D test D_{\\text{test}} or a training dataset D train D_{\\text{train}} , depending on the specific real world application and evaluation objective. Here, we consider a two-group situation consisting of an advantaged group D a D^{a} and a disadvantaged group D d D^{d} , such that D = D a ∪ D d D=D^{a}\\cup D^{d} . We assume an unbiased held out set D test D_{\\text{test}} that contains an equal number of samples from both groups to evaluate the performance. If a model performs better on D a D^{a} , users from this group are more likely to continue interacting and generating data, while users from D d D_{d} may disengage, reducing their future representation and exacerbating fairness issues. Our framework models a controlled"
+}

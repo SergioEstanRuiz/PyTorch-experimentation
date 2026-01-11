@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0003",
+  "word_start": 600,
+  "word_end": 850,
+  "text": "Noise Injection (also referred to as block-wise noisy fine-tuning ): the model parameters are partitioned into k k orthogonal subspaces, and only one block is updated per step. This sequential schedule distributes the required Gaussian noise across blocks and iterations, thereby reducing per-step distortion compared to injecting noise into all parameters simultaneously. Theory. We extend the certification analysis of noisy fine-tuning to our block-wise schedule and show that it preserves the same ( ε , δ ) (\\varepsilon,\\delta) budget. Moreover, conditioning on proximity to the retrained model, we show that the initial model clipping step is unnecessary and that the constants in the privacy guarantee can be improved, without weakening privacy. Practice. In experiments on MNIST and CIFAR-10 with standard architectures, our method consistently reduces the post-unlearning accuracy drop compared to baselines, both for random and class-wise deletions, while maintaining robustness against membership inference attacks. Insight. Certified unlearning methods that ignore training dynamics and enforce worst-case indistinguishability must either severely degrade utility or incur costs comparable to retraining from scratch, explaining the limitations of existing DP-based approaches. In summary, our approach preserves formal certified unlearning guarantees while substantially mitigating the utility loss that has so far limited differentially private methods in practice. In this section, we establish notation and recall the standard definitions used throughout the remainder of the paper. A (possibly randomized) learning algorithm 𝒜 \\mathcal{A} maps a dataset 𝒟 \\mathcal{D} to model parameters 𝐱 ^ ∈ ℝ d \\hat{\\mathbf{x}}\\in\\mathbb{R}^{d} , i.e., 𝐱 ^ = 𝒜 ​ ( 𝒟"
+}

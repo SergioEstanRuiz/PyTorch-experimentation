@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0054",
+  "word_start": 10800,
+  "word_end": 11050,
+  "text": "to the default. However, there is no improvement for d = 10 d=10 , the improvement for d = 20 d=20 is far from significant, and the improvement for d = 16 d=16 is just barely significant. Our choice to maintain dropout 0 here departs from [ 2 ] , which used a nonzero dropout rate for each test graph. Regarding self-loops, the default significantly outperforms using self-loops for all three d d values. The hypothesis testing framework may seem inappropriate here since the consequences of a Type I error are essentially the same as those of a Type II error; either way, we have simply made the wrong algorithm design choice. However, we would like to prioritize simplicity in our method, meaning we would not like to add any extra steps unless we are confident that they lead to an improvement. Therefore, we err on the side of avoiding Type I errors. Nonetheless, since hypothesis testing is not extremely crucial here, we use the term “statistically significant” loosely to mean that the two corresponding confidence intervals do not overlap after scaling each by a factor of 1 / 2 1/\\sqrt{2} , which corresponds roughly but not exactly to a hypothesis test at level 0.05 0.05 assuming roughly equal standard errors. When testing the modifications of Mod-GCN for stability, the results for each modification in the present section are as follows. Here the encodings outperform the default for two d d values, and the modified dropout rate of 0.1 0.1"
+}

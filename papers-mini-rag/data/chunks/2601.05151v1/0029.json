@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0029",
+  "word_start": 5800,
+  "word_end": 6050,
+  "text": "costs of false positives and false negatives. roofs can serve as a practical tool for researchers working in settings where reproducibility is crucial. By enabling comprehensive benchmarking, roofs and similar tools have the potential to improve the robustness and reproducibility of biomarker discovery and increase the translational value of clinical predictive models. This work benefited from a government grant handled by the French National Research Agency (ANR) as part of the France 2030 investment plan, under the reference ANR-17-RHUS-0007. This work was supported by a partnership of Aix-Marseille Université (AMU), Assistance Publique Hôpitaux de Marseille (APHM), Centre National de La Recherche Scientifique (CNRS), Institut National de la Santé et de la Recherche Médicale (INSERM), Centre Léon Bérard (CLB), Institut Paoli Calmettes (IPC), Gustave Roussy (GR), AstraZeneca (AZ), Veracyte (VERA), Innate Pharma (IPH) & ImCheck Therapeutics (ICT), and initiated by Marseille Immunopole. The authors gratefully acknowledge the support of the APHM, which sponsored the PIONeeR clinical studies. Its role was to control the appropriateness of ethical and legal considerations for all centers and to perform the monitoring of the consents signed and the clinical data recorded and coded as part of the study. The authors are grateful to all the patients and their families, as well as all the investigators, for their participation in the study. This work was also supported by a grant from the French government, managed by the National Research Agency (ANR), under the France 2030 program within the DIGPHAT project, reference ANR-22-PESN-0017. a All classifiers use scikit-learn"
+}

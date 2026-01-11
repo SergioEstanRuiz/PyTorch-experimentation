@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0125",
+  "word_start": 25000,
+  "word_end": 25250,
+  "text": "mixtures of Laplace distributions. This lower bound is information-theoretic and builds on the pigeonhole argument of [ regev_learning_2017 ] . If we apply their argument directly, then we can show the existence of two mixtures of Laplaces with moments that are close in the symmetric injective tensor norm, defined as for order- ℓ \\ell tensor T ∈ d ℓ T\\in{}^{d^{\\ell}} . However, we can actually show a stronger result by adapting their proof, that the moments could be close in the Frobenius norm, defined as the entrywise ℓ 2 \\ell_{2} norm of the tensor, for order- ℓ \\ell tensor T ∈ d ℓ T\\in{}^{d^{\\ell}} . For d = ( log ⁡ k ) d=\\Theta(\\log k) and R = ( log ⁡ k ) R=\\Theta(\\log k) , there exist two uniform mixtures of Laplaces Y Y and Y ~ \\mathaccent 869{Y} such that \\| ​ ⁡ Y ⊗ r − ⁡ Y ~ ⊗ r ​ \\| F ≤ k − ( log ⁡ log ⁡ k ) \\|\\operatornamewithlimits{\\m@thbbch@rE}Y^{\\otimes r}-\\operatornamewithlimits{\\m@thbbch@rE}\\mathaccent 869{Y}^{\\otimes r}\\|_{\\mathrm{F}}\\leq k^{-\\Omega(\\log\\log k)} for all r = 1 , 2 , … , R r=1,2,\\dots,R , while their parameter distance is at least ( log ⁡ k ) \\Omega(\\sqrt{\\log k}) . We proceed with the proof. Let us compute the moments of a single Laplace first. Suppose X ∼ Lap ⁡ ( μ , I d ) X\\sim\\operatorname{\\mathrm{Lap}}(\\mu,I_{d}) , then where Sym ⁡ T \\operatorname{\\mathrm{Sym}}T is the symmetrization of tensor T T , i.e., Sym ⁡ T = 1 r"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0150",
+  "word_start": 30000,
+  "word_end": 30250,
+  "text": "ε w |\\mathaccent 866{w}_{j}-w_{\\pi(j)}|\\leq\\varepsilon_{w} . In line 12 , we remove { ( w ^ , μ ^ ) : \\| ​ μ ^ j − μ ^ ​ \\| 2 ≤ 6 ​ ε ′ } \\{(\\mathaccent 866{w},\\mathaccent 866{\\mu}):\\|\\mathaccent 866{\\mu}_{j}-\\mathaccent 866{\\mu}\\|_{2}\\leq 6\\varepsilon^{\\prime}\\} from M M , while every x ∈ B 3 ​ ε ′ d ​ ( μ π ​ ( j ) ) x\\in B^{d}_{3\\varepsilon^{\\prime}}(\\mu_{\\pi(j)}) will satisfy \\| ​ μ ^ j − x ​ \\| 2 ≤ \\| ​ μ ^ j − μ π ​ ( j ) ​ \\| 2 + \\| ​ μ π ​ ( j ) − x ​ \\| 2 ≤ 6 ​ ε ′ \\|\\mathaccent 866{\\mu}_{j}-x\\|_{2}\\leq\\|\\mathaccent 866{\\mu}_{j}-\\mu_{\\pi(j)}\\|_{2}+\\|\\mu_{\\pi(j)}-x\\|_{2}\\leq 6\\varepsilon^{\\prime} . Meanwhile, we will not remove any points in B ε ′ d ​ ( μ j ′′ ) B^{d}_{\\varepsilon^{\\prime}}(\\mu_{j^{\\prime\\prime}}) for j ′′ ​ π ​ ( j ) j^{\\prime\\prime}\\neq\\pi(j) , because otherwise if x ∈ B ε ′ d ​ ( μ j ′′ ) x\\in B^{d}_{\\varepsilon^{\\prime}}(\\mu_{j^{\\prime\\prime}}) is removed, then When j ≥ 2 j\\geq 2 , assume the four statements hold for all the previous iterations, the statements are proved as follows. From part 4 of the induction hypothesis and the proof of Lemma A.1 , for j ′ ∈ [ k ] \\ { π ​ ( j ′′ ) } j ′′ ∈ [ j − 1 ] j^{\\prime}\\in[k]\\backslash\\{\\pi(j^{\\prime\\prime})\\}_{j^{\\prime\\prime}\\in[j-1]} , | M μ ∩ B ε ′ d ​ ( μ j ′ ) | ≥ 3"
+}

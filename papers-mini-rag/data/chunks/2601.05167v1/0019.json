@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "0.6B or 1.7B) consistently outperforms the “None” baseline. This suggests that the trained model has become accustomed to the presence of external assistance, adapting its generation dynamics to effectively leverage such interventions rather than relying solely on its intrinsic capabilities. Furthermore, excluding the distribution shift at 8B, which is we used in training, there is a positive correlation between teacher size and student performance, confirming that the student effectively leverages the stronger reasoning signals provided by more capable experts. Model collaboration (Feng et al. , 2025a ) ranges from weight-level merging (Wortsman et al. , 2022 ; Huang et al. , 2023 ) and logits-level ensembling (Liu et al. , 2024 ; Li et al. , 2023 ) to text-level interaction. Recent research has focused on navigating the efficiency trade-off between large and small models, which can be broadly categorized into two directions. The first direction involves speculative reasoning. Bachmann et al. ( 2025 ) and Pan et al. ( 2025 ) employ judge mechanisms or verifiers to validate small model outputs, effectively acting as dynamic routers. Similarly, large model guidance is leveraged to enhance small model reasoning specifically at inference time (Yang et al. , 2025b ; Zhang et al. , 2025 ) . The second direction focuses on collaborative decoding (Shen et al. , 2024 ) with interleaved generation via an additional controller. Shen et al. ( 2024 ); Sun et al. ( 2024b ) proposed learning a joint policy for multiple models. Strategic intervention is further investigated"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "For images containing small numbers of objects ( 2 2 - 4 4 objects), models typically resist misleading prompts and report the true count, demonstrated by the orange curves being mostly higher than the blue curves. However, models still produce PIH in approximately 20 20 – 40 40 % of cases, which primarily occur when the discrepancy is small ( N + 1 N+1 ). Beyond four objects, this behavior changes. Models increasingly conform to the prompt regardless of the discrepancy size, with prompt-matching responses approaching 80 80 – 90 90 % even when the prompt substantially overestimates the true count. Accordingly, ground truth responses drop to near zero. In these cases, the discrepancy distance ceases to play a critical role, as shown by the convergence of the blue prompt-aligned lines. This effect persists for extreme offsets (with k ∈ { 10 , 20 , 50 } k\\in\\{10,20,50\\} ), with models readily describing, for example, fifty-nine cats in an image containing only nine (more details in Appendix ˜ B ). We hypothesize that models are more confident when counting fewer objects and therefore more resistant to misaligned prompts, with failures concentrated at minimal discrepancies ( k = 1 k=1 ). We test this by collecting the probabilities for the true count N N and neighboring counts N + k N+k under the baseline prompt ( P B P_{B} ). Figure 3 shows results for Qwen-VL, with similar trends for Janus-Pro and LlaVA-OneVision shown in Appendix ˜ C . We filter"
+}

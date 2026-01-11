@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "the most general methods developed for learning mixture models only apply when the cluster distributions have sufficiently light tails and there is an efficiently verifiable certificate [ kothari_outlier-robust_2017 ] of this property. We know this is true for all sub-Gaussian distributions thanks to recent advances [ diakonikolas2024sos , kothari_better_2017 ] . But this is a rather strong condition on tails. In particular, no distribution family with even mildly heavy tails ( e.g., sub-exponential distributions!) is known to satisfy it so far (as pointed out in [ diakonikolas2024sos ] ). In this work, we develop a new method for estimating the parameters of a mixture model based on the Fourier transform of the mixture. Our methods go beyond the method of moments (indeed, our results apply to mixture models which provably cannot be learned via just low-degree moment information (see Theorem 1.2 )) and apply to various distributions with heavy tails (indeed, as we discuss in Remark 1 , even with infinite variance). Surprisingly, in sharp contrast to the case of (sub)-Gaussian distributions, our methods, whenever applicable, runs in polynomial (in both the dimension d d and the number of clusters k k ) samples and time to learn the spherical mixture without any minimum separation requirement . Our methods apply to a broad class of distributions — we now take a short detour to introduce this family before describing our results. Slow Fourier Decay. Our methods apply whenever the component distributions D D satisfy a certain Fourier decay property. Recall"
+}

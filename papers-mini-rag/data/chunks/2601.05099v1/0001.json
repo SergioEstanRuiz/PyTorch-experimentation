@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": "datasets, and results on GitHub https://github.com/Fireblossom/citation-context-dataset-discovery . Researchers across disciplines increasingly rely on publicly available datasets to drive knowledge discovery, ensure reproducibility, and facilitate subsequent data integration and reuse [ 1 ] . The number of open datasets continues to grow rapidly. DataCite [ 2 ] alone indexes over 30 million registered research objects, while Google Dataset Search [ 3 ] covers millions more. Yet discovering suitable datasets for a given research problem remains difficult. Existing dataset search engines are largely metadata-driven. Google Dataset Search matches queries against schema.org markup, while DataCite retrieves results from structured metadata fields. These systems work well when researchers know exact dataset names or precise terminology, But they struggle when metadata is incomplete, inconsistent, or too generic to capture nuanced applicability. Prior studies confirm that inconsistent metadata standards across repositories lead to fragmented discovery and unpredictable search outcomes [ 4 ] . In practice, researchers rarely begin with precise dataset names. Instead, they formulate research questions, often drawn from survey topics, prior studies, or emerging interdisciplinary problems, and seek datasets that can operationalize those questions. For such tasks, metadata keyword matching is insufficient. What is missing is contextual information: why a dataset was chosen, how it was used, and what research questions it helped answer. We address this gap with a literature-driven dataset discovery framework. Our key insight is that scientific papers already contain rich contextual information about dataset usage. Citation contexts describe not only which dataset was used, but also how it supported the"
+}

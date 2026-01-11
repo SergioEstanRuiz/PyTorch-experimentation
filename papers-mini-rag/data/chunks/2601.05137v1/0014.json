@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0014",
+  "word_start": 2800,
+  "word_end": 3050,
+  "text": "edge i ​ j ∈ E ​ ( G ) ij\\in E(G) , d ^ j \\hat{d}_{j} is the degree of vertex j ∈ V ​ ( G ) j\\in V(G) accounting for edge weights and including self-loops, 𝑾 t \\boldsymbol{W}_{t} is a learnable weights matrix, and σ t \\sigma_{t} is an activation function, ReLU by default. For our purposes, we set all edge weights to 1 1 and remove self-loops so that the update rule is given by where now d j d_{j} is simply the degree of vertex j ∈ V ​ ( G ) j\\in V(G) in the usual sense. We use ReLU activation on all but the final layer, and we use no activation on the final layer. Other GNN architectures tested in this study are introduced in Appendix A . In this section, we describe the modifications to PI-GCN that we incorporate in our GNN model to boost performance. We focus for now on modifying PI-GCN rather than PI-SAGE despite the fact that PI-SAGE was reported to outperform PI-GCN in [ 2 ] . The reason for this is that when testing PI-SAGE , we found that the optimizer’s learning rate values given in [ 2 ] were large enough that the algorithm failed to converge, resulting in a more extensive search of the parameter space that eventually found a better solution than PI-GCN . When we tuned down the learning rate to make the algorithm converge, PI-SAGE performed no better than PI-GCN . We"
+}

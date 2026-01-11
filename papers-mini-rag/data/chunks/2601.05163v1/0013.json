@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05163v1",
+  "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+  "abs_url": "https://arxiv.org/abs/2601.05163v1",
+  "html_url": "https://arxiv.org/html/2601.05163v1",
+  "chunk_id": "2601.05163v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "performance? RQ4 : How does the proposed DocDancer in qualitative evaluations? We fine-tune Qwen3-30B-A3B-Thinking-2507 and Qwen3-4B-Thinking-2507 on our dataset, resulting in DocDancer. Our detailed implementation is provided in Appendix B , trained with only 5,000 agent trajectories. Benchmarks. We evaluate the proposed DocAgent on two multimodal long-context document question answering benchmarks: MMLongBenchDoc Ma et al. ( 2024 ) and DocBench Zou et al. ( 2025 ) . MMLongBenchDoc comprises 135 documents with an average length of 47.5 pages, featuring rich layouts and multimodal components across seven diverse domains. The dataset includes 1,091 questions derived from multiple sources, such as text, tables, charts, and images, with 33% involving cross-page reasoning. DocBench consists of 229 real-world documents and 1,082 questions, covering five domains and four major question types. Metrics. For MMLongBench-doc, we follow the official evaluation protocol. Answers are extracted using GPT-4.1 and evaluated with rule-based scoring to compute F1 ( F 1 F_{1} ) and Accuracy ( acc ). To mitigate extraction errors and improve robustness to diverse response formats, we additionally employ an LLM-as-Judge ( LasJ ) setting, where gpt-4o assigns binary scores using carefully designed prompts. For DocBench, we likewise adhere to the official evaluation procedure, using the provided instructions to guide GPT-4.1 for assessment. Baselines. We compare our approach with the following three categories of baselines: (1) VLM-based methods: Following the setting of MMLongBench-Doc, PDF pages are scanned at 144 DPI and used as input to the VLM. (2) OCR-based methods: Text is extracted from documents using an"
+}

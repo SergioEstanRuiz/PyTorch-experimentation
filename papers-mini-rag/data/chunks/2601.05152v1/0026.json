@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0026",
+  "word_start": 5200,
+  "word_end": 5450,
+  "text": "minimal performance and hard safety constraints satisfaction in case the distribution shift(DS) does not affect all the data. However, if DS changes the whole data, the proposed algorithm can not be applied. Even a slow but gradual change can affect all the data over time. The open question is whether the new data provide a chance for better performance if the performance and the constraints were adjusted to the DS. Can the adjusted algorithm work better if it stays in the familiar data distribution? Reactive safety adaptation approaches propose conservative online adaptation of the policy performance while satisfying safety constraints. Technically speaking, every online on-policy RL algorithm can adjust to the new data as soon as it updates the model. Those methods make a forecast of the policy improvement, make the sampling, evaluate the loss, and update the value function. Despite making the prediction of local policy improvements, based on the current state and action, such adaptation is passive and assumes slow change of the environment, and has a lag in performance. These algorithms do not estimate the upcoming changes in the context and the dynamics of the context changes. One of the biggest drawbacks of on-policy algorithms is that they are generally less sample-efficient than off-policy algorithms. They work well if data is available. However, during online learning, the data is scarce. Chandak et al. Chandak et al. ( 2020a ) proposed one of the first model-free online safe policy improvement RL algorithms, based on sequential time series analysis."
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0094",
+  "word_start": 18800,
+  "word_end": 19050,
+  "text": "j = μ ~ j \\mathaccent 866{\\mu}_{j}=\\mathaccent 869{\\mu}_{j} , so that and \\| ​ μ j − μ ^ π ​ ( j ) ​ \\| 2 ≤ ε \\|\\mu_{j}-\\mathaccent 866{\\mu}_{\\pi(j)}\\|_{2}\\leq\\varepsilon , for all j ∈ [ k ] j\\in[k] . Before presenting our result for this section, we provide some required background. First, we will say that a distribution D D satisfies the resilience property (adapted from [ steinhardt_resilience_2017 ] ) with parameters n n and if given any set T T of n n i.i.d. samples, it holds that with high probability for any subset set S ⊆ T S\\subseteq T of size α ​ n \\alpha n , the empirical mean over T T is ( α ) \\Delta(\\alpha) -close to the true mean of D D . Hence, resilience is a measure of stability for the mean of D D and is implied e.g., by distributions with good concentration properties. Let D D be a distribution over d with mean μ \\mu . We say D D satisfies ( n , ) (n,\\Delta) -resilience for n : × → n:\\m@thbbch@rR\\times\\m@thbbch@rR\\to\\m@thbbch@rR and : → \\Delta:\\m@thbbch@rR\\to\\m@thbbch@rR , if for any δ ∈ ( 0 , 1 ) \\delta\\in(0,1) and sufficiently small α ∈ ( 0 , 1 ) \\alpha\\in(0,1) the following holds: for n = n ​ ( δ , α ) n=n(\\delta,\\alpha) i.i.d. samples x 1 , … , x n x_{1},\\dots,x_{n} from D D , with probability at least 1 − δ 1-\\delta , To illustrate"
+}

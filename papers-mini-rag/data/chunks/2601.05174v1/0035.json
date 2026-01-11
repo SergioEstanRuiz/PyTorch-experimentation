@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0035",
+  "word_start": 7000,
+  "word_end": 7250,
+  "text": "we compute the average reconstruction error ϵ avg \\epsilon_{\\mathrm{avg}} over all layers, which attains its minimum at a = 32 a=32 . Across the four settings, ϵ avg \\epsilon_{\\mathrm{avg}} exhibits strong positive correlation with forecasting errors: Pearson correlation coefficients are 0.929 ( p = 0.071 p{=}0.071 ) with MAE and 0.955 ( p = 0.045 p{=}0.045 ) with RMSE, implying that higher fidelity (lower ϵ avg \\epsilon_{\\mathrm{avg}} ) is associated with better predictive accuracy. Overall, reconstruction errors remain below 0.75, indicating that the approximation is sufficiently faithful for downstream forecasting while enabling scalable computation. To evaluate short-horizon forecasting performance, we report results under the 96=¿12 setting on SD, GBA, GLA, and CA in Table 6 . FaST achieves the best performance across all datasets. In particular, it improves MAPE by 5.47% to 11.2% relative to the strongest baseline, while the relative gains on the other metrics are generally smaller than those observed in long-horizon forecasting. FaST naturally extends, replacing traffic flows with variables such as electricity demand, precipitation, or temperature. Similar to traffic data, power demand datasets often exhibit high spatial redundancy (e.g., power stations across a region) and temporal heterogeneity (e.g., daily load cycles, seasonal trends). FaST can be applied to power demand forecasting, where the model captures both the spatial correlations between power stations and the temporal dynamics of energy consumption. To assess generalization beyond the LargeST benchmarks, we additionally evaluate FaST on the Electricity (power demand) dataset, which contains 321 variables sampled at 1-hour intervals over 2012–2014."
+}

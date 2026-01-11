@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05163v1",
+  "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+  "abs_url": "https://arxiv.org/abs/2601.05163v1",
+  "html_url": "https://arxiv.org/html/2601.05163v1",
+  "chunk_id": "2601.05163v1:0024",
+  "word_start": 4800,
+  "word_end": 4954,
+  "text": "knowledge entities for cross-modal retrieval, using GPT-4o-mini as the backbone. Prompt-based Agentic Baselines. We include state-of-the-art agent frameworks designed for document understanding: Doc-React Wu et al. ( 2025c ) employs an iterative decision-making process to balance information gain and uncertainty reduction ( GPT-4o ). MDocAgent Han et al. ( 2025 ) utilizes a multi-agent system with five specialized roles for context retrieval ( GPT-4o ). MACT Yu et al. ( 2025 ) introduces a multi-agent collaboration framework featuring adaptive test-time scaling ( MiMo-VL-7B Team et al. ( 2025a ) ). SimpleDoc Jain et al. ( 2025 ) retrieves pages via ColQwen2.5 , followed by LLM-based evidence selection ( Claude-4-Sonnet , Gemini-2.5-Pro ). DocLens Zhu et al. ( 2025 ) operates as a tool-augmented multi-agent framework for focused reading ( Claude-4-Sonnet , Gemini-2.5-Pro ). DocAgent Sun et al. ( 2025a ) leverages a tree-structured document outline combined with retrieval tools ( GPT-4o , Claude-3.5-Sonnet )."
+}

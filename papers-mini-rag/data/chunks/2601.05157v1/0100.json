@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0100",
+  "word_start": 20000,
+  "word_end": 20250,
+  "text": "are working in the list-decodable setting, where the goal is to recover a list of means that contains a good estimation of the true one. The next theorem essentially implies an efficient procedure that gets as input a (potentially heavily) corrupted sample from a certifiably bounded and sub-exponential distribution and outputs a list of sets (each of which contains some of the given points) with the guarantee that one of their empirical means will be close to the true one. More formally, Let x 1 , … , x n ∈ d x_{1},\\dots,x_{n}\\in{}^{d} be such that there exists a subset I ⊆ [ n ] I\\subseteq[n] of size α ​ n \\alpha n that { x i } i ∈ I \\{x_{i}\\}_{i\\in I} are i.i.d. samples from a ( 2 ​ t , B ) (2t,B) -certifiably bounded and sub-exponential distribution with mean μ ∈ d \\mu\\in{}^{d} . Then, if n ​ ( 2 ​ d ​ log ⁡ ( d ​ t / δ ) ) t / α n\\gtrsim(2d\\log(dt/\\delta))^{t}/\\alpha , there is an algorithm that runs in n O ​ ( t ) n^{O(t)} time and outputs a list of sets S 1 , … , S m ⊆ [ n ] S_{1},\\dots,S_{m}\\subseteq[n] , such that with probability 1 − δ 1-\\delta , m ≤ 4 α m\\leq\\frac{4}{\\alpha} and the following holds (let μ ~ j = 1 | S j | ​ \\slimits@ i ∈ S j ​ x i \\mathaccent 869{\\mu}_{j}=\\frac{1}{|S_{j}|}\\sumop\\slimits@_{i\\in S_{j}}x_{i} ): | S j"
+}

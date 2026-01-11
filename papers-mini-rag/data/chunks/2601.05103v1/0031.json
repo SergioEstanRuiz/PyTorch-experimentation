@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0031",
+  "word_start": 6200,
+  "word_end": 6331,
+  "text": "can detect prototypical cases but struggle with broader coverage. Notably, SignalGap (Qwen: precision 0.81, recall 0.68) and Method (SciBERT: precision 0.64, recall 0.76) achieve better balance. These contrasts affirm that our SOFT framework not only yields more distinguishable and learnable labels but also makes model errors more interpretable, enabling both zero-shot application and targeted fine-tuning. We adopted the original hyperparameter settings from CitePrompt [ 32 ] and CitationIntentOpenLLM [ 29 ] . All experiments were conducted on a single H100 GPU, including both fine-tuning and inference. For LLM inference, we used the vLLM library [ 31 ] . Fine-tuning required approximately 5 GPU-hours, and inference consumed an additional 4 GPU-hours in total. Color Legend: ≤ \\leq 20% drop , 21–40% drop , >40% drop in cross-domain Macro F 1 F_{1} ."
+}

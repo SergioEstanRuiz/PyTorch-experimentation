@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0002",
+  "word_start": 400,
+  "word_end": 650,
+  "text": "at a coarse granularity by offloading the entire generation task to the large model once a query seems difficult. This “all-or-nothing” strategy leads to significant computational waste, as the small model often possesses the competence to handle the majority of the reasoning steps, requiring expert intervention only at specific critical positions (Lin et al. , 2024 ; Ruan et al. , 2025 ) . To address these problems, we propose RelayLLM , a novel framework for efficient reasoning via token-level collaborative decoding (Shen et al. , 2024 ) without an additional controller. Unlike static routers, RelayLLM empowers the small model to act as both a problem solver and an active controller that dynamically requests assistance only when necessary. Inspired by tool-use agents (Wölflein et al. , 2025 ; Zheng et al. , 2025a ) , we introduce an interleaved generation process where the small model generates a special command token ( <call> ) to pause its own generation and invoke the large model for a specified number of tokens. The small model then receives the expert’s guidance and resumes reasoning, effectively “relaying” the output process between models. We propose a two-stage framework to equip the small model with this strategic delegation capability to train the RelayLLM . We first employ a supervised warm-up phase to teach the model the syntactic structure of calling commands. This is followed by a reinforcement learning stage using Group Relative Policy Optimization (GRPO) (Shao et al. , 2024 ) training, where we design a context-aware"
+}

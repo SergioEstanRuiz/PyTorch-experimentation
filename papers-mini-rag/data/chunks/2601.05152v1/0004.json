@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "as active, passive, and mixed NS Chandak ( 2022 ) . Most of them are primarily focused on the adaptation and high performance of the learning agent, rather than on satisfying safety constraints. Some of them respect constraint satisfaction but don’t pay much attention to performance or to speed of NS-adaption. We aim to bring knowledge of learning safety and adaptation together to shed light on COSRL that can facilitate future research. In this paper, we review and evaluate current state-of-the-art approaches to the safety of continual online RL under non-stationarity. We discuss existing adaptation mechanisms, optimization methods, and types of safety constraints. We provide a taxonomy of existing safe online learning methods based on the adaptation mechanism. We also provide a taxonomy and detailed review of the state-of-the-art safety constraints formulation and discuss possible directions of constraints formulation for continual online safe RL methods. Safe reinforcement learning is a general and flexible concept that covers optimization and safety and exists in many different settings, including online and offline learning, model-based, model-free, stationary, or nonstationary, to name just a few. Several previous papers covered different aspects of safe RL. The comprehensive survey of Garcia and Fernandez Garcıa and Fernández ( 2015 ) covers safety approaches and provides a taxonomy of safe RL algorithms. Shangding et al. Gu et al. ( 2022 ) covered five fundamental problems of safe RL and problems related to the practical application of reinforcement learning. Embedding soft constraints in policy optimization was covered by Altman ("
+}

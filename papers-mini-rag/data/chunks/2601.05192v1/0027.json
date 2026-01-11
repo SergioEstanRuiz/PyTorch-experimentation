@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0027",
+  "word_start": 5400,
+  "word_end": 5650,
+  "text": "to the reranker-based approaches, while Random sorting yields the lowest accuracy across all models. Furthermore, we also report the results on ESCO to study the impact in the case of None prediction, considering three different positions for the UNK candidate, among the candidates according to the reranker-assigned scores: None first: The None option is in first position (the standard LELA approach) None last: The None option is in last position Random: The None option is in a random position The results are reported in Table 8(b) . Across all models, changing the position of the None candidate produces only marginal differences in overall accuracy, indicating no statistically significant effect. We observe a consistent trend in which placing None first slightly improves UNK accuracy at the cost of marginally reduced non- UNK . Overall, model performance appears robust to the ordering of the None candidate. First of all, Figure 8 reports the selection accuracy as a function of the number of input tokens on ZESHEL. It shows how the selection accuracy decreases for all three models as the input context length increases. The drop in performance is the least pronounced for the dense Magistral-Small-2509 and Qwen3-4B models. The MoE Qwen3-30B-A3B model experiences a significantly steeper drop in performance as the context length increases, eventually achieving worse performance than Qwen3-4B on the longer inputs, despite both models having the same native context window. Figure 7(a) reports the selection accuracy as a function of the number of output tokens on ZESHEL. The three"
+}

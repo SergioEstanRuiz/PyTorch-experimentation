@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "the most drastic behavioral changes in models under a deployment scenario where the original training data is inaccessible, such as due to expired data licenses or user data deletion requests Wang et al. ( 2025 ) . Note that synthetic training data can be obtained by using fresh real prompts collected from users. Expanding Data Cycle (Accumulation): This cycle reflects a practical setting in which the existing dataset can be reused during training to improve performance (Briesch et al. , 2023 ) . We accumulate both the original real data D 0 D_{0} and the generated synthetic data across generations to form the training dataset. Specifically, the accumulated dataset at generation t t is 𝒟 t = D 0 ∪ D 1 ∪ … ∪ D t \\mathcal{D}_{t}=D_{0}\\cup D_{1}\\cup\\ldots\\cup D_{t} . Prior work has shown that such accumulation can slow down model collapse Kazdan et al. ( 2024 ) and help mitigate bias Wang et al. ( 2024c ) . Dynamics: Dynamics refer to the changing proportion between the advantaged and disadvantaged groups, which also indicate the performative impact. We primarily study a controlled linear dynamic setting , where the group ratio is explicitly manipulated in experiments. Starting from an initial disadvantaged group ratio in D 0 D_{0} , the proportion decreases linearly over generations to simulate the effect of human feedback ℍ \\mathbb{H} under controlled conditions. We also evaluate a fixed-ratio setting as a baseline, where the disadvantaged ratio remains constant while using fresh real prompts. The scenario in"
+}

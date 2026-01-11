@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0000",
+  "word_start": 0,
+  "word_end": 250,
+  "text": "Node coloring is the task of assigning colors to the nodes of a graph such that no two adjacent nodes have the same color, while using as few colors as possible. Node coloring is the most widely studied instance of graph coloring and of central importance in structural graph theory; major results include the Four Color Theorem and work on the Hadwiger-Nelson Problem. As an abstraction of classical combinatorial optimization tasks, such as scheduling and resource allocation, it is also rich in practical applications. Here, we focus on a relaxed version of node coloring, approximate k k -coloring , which is the task of assigning at most k k colors to the nodes of a graph such that the number of edges whose endpoints have the same color is approximately minimized. While classical approaches leverage mathematical programming or SAT solvers, recent studies have explored the use of machine learning. We follow this route and explore the use of neural algorithmic reasoning for node coloring, specifically the use of graph neural networks (GNNs). We first present an optimized differentiable algorithm that improves a prior approach by Schuetz et al. [ 2 ] with orthogonal node feature initialization and a loss function that penalizes conflicting edges more heavily when their endpoints have higher degree; the latter inspired by the classical result that a graph is k k -colorable if and only if its k k -core is k k -colorable. Next, we introduce a lightweight greedy local search algorithm and show that"
+}

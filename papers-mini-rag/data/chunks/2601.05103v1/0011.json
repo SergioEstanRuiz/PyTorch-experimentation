@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "separate the cited content type, such as method, data, or finding, from citation intent or function, such as use, and instead combined both dimensions into a single label. For example, in CiTO, types like “uses method in”, “uses data from”, and “uses conclusions from” explicitly bind the act of using with the specific object being used, resulting in a conflation of content type and citation intent. This design leads to an explosion in the number of types while still missing important boundary cases, which increases the cognitive burden for annotators and makes modeling more challenging due to both type proliferation and unclassifiable instances. SciCite, in contrast, presents a related limitation differently: its type Background information is broadly defined and absorbs all citation acts that do not fit into the method or result types. As a result, many citations with specific functional intent are ultimately subsumed under the background type, which obscures their actual scholarly role. Additionally, inconsistent perspective across types introduces further confusion for annotators. For example, in the ACL-ARC framework, types such as Background , Motivation , and Future use the cited work as the subject of the action, while types such as Uses , Extension , and Comparison or Contrast use the citing work as the acting subject. This shift in perspective causes cognitive inconsistency and makes the annotation process more confusing. Moreover, the underlying citation intent is not always clearly specified. For example, a citation marked as Comparison or Contrast might align findings, methods, or conceptual framing,"
+}

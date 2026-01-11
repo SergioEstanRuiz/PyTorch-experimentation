@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "loss of spatial semantics. Temporally , two main strategies have emerged: sparse/linear attention mechanisms and temporal pattern compression methods . The former, adopted in models like Airformer (Liang et al. , 2023 ) , SAGDFN (Jiang et al. , 2024 ) , and BigST (Han et al. , 2024b ) , aims to alleviate the quadratic cost of temporal attention by approximating it with lower-complexity variants. The latter strategy, employed in methods such as CycleNet (Lin et al. , 2024 ) and STID (Shao et al. , 2022 ) , compresses long historical sequences into a compact low-dimensional embedding per node, effectively removing explicit pairwise interactions across time steps. For example, STID directly compresses the T T -step history into a dense embedding via a simple linear projection, while CycleNet encodes periodicity by learning a fixed-length recurrent cycle template, both avoiding explicit token-wise temporal interactions. However, due to sharing a single compression module across both spatial units and temporal segments, these methods effectively impose a one-size-fits-all scheme, often homogenizing temporal representations and ignoring heterogeneous temporal patterns across nodes and time periods, risking the loss of temporal diversity and fine-grained dynamics and thus compromising expressiveness and generalization, especially for long-range forecasting tasks. To address the above limitations, we propose FaST , a Fa st long-horizon forecasting framework for large-scale S patial- T emporal graphs. FaST is a heterogeneity-aware parallelized Mixture-of-Experts (MoE) networks. Firstly, an MoE-based temporal compression input module projects historical sequences into a low-dimensional dense embedding, improving computational efficiency and"
+}

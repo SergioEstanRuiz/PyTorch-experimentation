@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "noise injection to reduce the destructive effect of isotropic noise, and then motivate using a proximity parameter Δ ​ ( ρ ) \\Delta(\\rho) in place of worst-case model clipping. A central challenge in certified unlearning based on noisy fine-tuning is the severe degradation of model accuracy observed during the unlearning phase . Empirically, test accuracy often drops sharply once unlearning begins and cannot be fully recovered by subsequent fine-tuning. The reason is that the injected noise is large enough to dominate the gradient signal across all parameters. We now formalize this limitation with a lower bound on the per-step noise level. The bound is expressed in terms of ( q , ε rényi ) (q,\\varepsilon^{\\text{r\\'{e}nyi}}) -Rényi Differential Privacy (RDP) (Mironov, 2017 ) , where ε rényi \\varepsilon^{\\text{r\\'{e}nyi}} denotes the privacy loss at order q > 1 q>1 . As standard, an RDP guarantee can be converted into an ( ε , δ ) (\\varepsilon,\\delta) -guarantee (Definition 1 ) via Let γ > 0 \\gamma>0 be the learning rate and λ ≥ 0 \\lambda\\geq 0 the weight decay parameter, with γ ​ λ < 1 \\gamma\\lambda<1 . Consider Noisy Fine-Tuning with gradient clipping radii C 0 , C 1 > 0 C_{0},C_{1}>0 and Gaussian perturbations, certified via Rényi DP. Then any noise scale σ \\sigma that enables ( ε , δ ) (\\varepsilon,\\delta) -unlearning must satisfy This inequality holds for any number of unlearning steps T T . The full dependence of the minimal step count T ​ ( σ 2"
+}

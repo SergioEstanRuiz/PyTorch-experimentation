@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05170v1",
+  "title": "Reverse-engineering NLI: A study of the meta-inferential properties of Natural Language Inference",
+  "abs_url": "https://arxiv.org/abs/2601.05170v1",
+  "html_url": "https://arxiv.org/html/2601.05170v1",
+  "chunk_id": "2601.05170v1:0033",
+  "word_start": 6600,
+  "word_end": 6773,
+  "text": "trained with a batch size of 64 using the Adam optimizer (Kingma et al. , 2015 ) with a learning rate of 0.001, β 1 = \\beta_{1}= 0.9 and β 2 = \\beta_{2}= 0.999, ϵ \\epsilon =1e-08, and zero weight decay (default PyTorch settings). The models were given simple linear classification head for the NLI task, which took the sequence [CLS] token as input. Only the final two layers of the BERt base were trained while the first 10 layers were kept frozen. The RoBERTa+SE models were trained with a batch size of 32. Following Sun et al. ( 2020 ) , we used the AdamW, optimizer (Loshchilov and Hutter, 2019 ) with a learning rate of 2e-5, β 1 \\beta_{1} =0.9, β 2 \\beta_{2} =0.98, ϵ \\epsilon =10e-8, and weight decay of 0.01 (except for on bias and layer norm parameters which received no weight decay). All models were trained for 10 epochs and the checkpoint of the best validation epoch (based on the vanilla SNLI dev set) was used for testing."
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0037",
+  "word_start": 7400,
+  "word_end": 7483,
+  "text": "sample-efficient training regimes. In conclusion, I have introduced a principled and powerful new method for learning from continuous-time data using stochastic latent dynamics. By building on the foundations of SDEs, adjoint calculus, and variational inference, I offer a comprehensive framework that is mathematically grounded, practically efficient, and broadly applicable. The functional forms expressed here show the potential of the research direction, and my theoretical contributions lay the groundwork for future advances in probabilistic machine learning - particularly for work in applications and validation."
+}

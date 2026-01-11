@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0026",
+  "word_start": 5200,
+  "word_end": 5450,
+  "text": "count N N , we first present the model with a baseline prompt , P B = P_{B}= “How many [objects] are there in the image?”, and retain only samples for which the model correctly predicts N N . We then introduce misaligned prompts asking the model to “Describe the N + k N+k [objects] in the image,”, where k ∈ { 1 , 2 , … , 5 } k\\in\\{1,2,\\ldots,5\\} . Here, the offset k k serves as a discrepancy distance , measuring the magnitude of misalignment between the prompt and the visual input. We allow the model to generate long-form responses up to 75 75 tokens and use a rule-based algorithm to determine accuracy by extracting the first non-negated numerical reference in the response (e.g., excluding constructions such as “there are not eight waterlilies”). A PIH occurs when the model proceeds to describe N + k N+k objects without correcting the count, despite contradictory visual evidence. We first evaluate the baseline accuracy of LlaVA-OneVision, Qwen-VL and Janus-Pro on CountBench Paiss et al. ( 2023 ) . Table 6 breaks performance down by the number of objects. All models perform reliably at very small counts (2–4 objects), but accuracy declines as counts increase. Notably, there are sharp dips at 5 objects (e.g., LLaVA-1.6: 87.27% to 65.91%, QwenVL: 90.91% to 75.00%) and again at 7 objects (Janus-Pro: 87.72% to 55.56%, LLaVA-OneVision: 89.47% to 48.15%). These discontinuities suggest the presence of training biases that systematically disadvantage certain numbers, a phenomenon supported"
+}

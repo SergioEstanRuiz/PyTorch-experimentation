@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0115",
+  "word_start": 23000,
+  "word_end": 23250,
+  "text": "context x ¯ \\bar{x} on every round (and otherwise running it unchanged) produces a context-blind algorithm with the same marginal guarantee. Thus, any black-box reduction that claims to work for every marginal calibration algorithm must in particular work for some context-blind marginal oracle. In what follows we fix such a context-blind oracle A A and treat it purely as a black box satisfying a marginal calibration guarantee. We define the family of reductions that our barrier result applies to below. Informally, it corresponds to algorithms that can run m m copies of some marginal calibration algorithm A A , update each algorithm in arbitrary ways, potentially differently for each copy of A A , and then use prediction distributions that are somewhere in the convex hull of the predictive distributions proposed by each copy of A A , where the weights of the convex mixture can depend both on context and history. This is e.g. the form that reductions from multigroup regret to marginal (external) regret via sleeping experts constructions take [Blum and Lykouris, 2020 , Acharya et al. , 2024 ] . These reductions run one copy of the oracle for each group — i.e. setting m = Θ ​ ( | G | ) m=\\Theta(|G|) and update each oracle for marginal regret on the subsequence corresponding to the rounds at which the corresponding group is active. Our barrier will rule out any similar reduction obtaining sublinear multicalibration error. Fix an integer m ≥ 1 m\\geq 1 . A"
+}

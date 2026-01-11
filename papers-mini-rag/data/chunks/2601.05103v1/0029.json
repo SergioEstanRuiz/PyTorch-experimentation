@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0029",
+  "word_start": 5800,
+  "word_end": 6050,
+  "text": "SOFT frameworks, for both in-domain (ACL-ARC test set) and cross-domain (re-annotated ACT2 test set) scenarios. The performance is measured by accuracy and macro- F 1 F_{1} score. To gain a more granular understanding of model behavior and framework characteristics, we visualize the per-class F 1 F_{1} -scores for both in-domain and cross-domain settings using radar plots, as shown in Figure 3 . Each plot depicts the performance of a specific model across the classes of a given framework, with blue representing in-domain and red representing cross-domain F 1 F_{1} Scores. These visualizations allow for a direct comparison of how well individual classes are learned and how performance on these classes transfers across domains. Across ACL-ARC and SciCite, only a few types achieve consistently learnable performance. In ACL-ARC, Uses ( F 1 F_{1} = 0.60-0.72) and Future ( F 1 F_{1} = 0.70-0.80) are reliably detected across models, while types like Motivation ( F 1 F_{1} = 0.06-0.27) and extends ( F 1 F_{1} = 0.17-0.24) exhibit uniformly poor results, regardless of model type. In SciCite, background and method achieve moderate F 1 F_{1} (up to 0.83 and 0.69), but ResultComparison remains consistently weak ( F 1 ≤ 0.47 F_{1}\\leq 0.47 , recall < 0.5). These patterns suggest semantic overlap and label fuzziness in legacy frameworks, especially for tasks that require disambiguating subtle intent. The SOFT framework, in contrast, features multiple types that are both conceptually precise and computationally learnable. Zero-shot LLMs perform well on Use ( F 1 F_{1} ="
+}

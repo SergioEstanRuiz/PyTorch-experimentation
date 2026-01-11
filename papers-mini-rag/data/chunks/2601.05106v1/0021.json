@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "prefix, which we call the Generalization Coverage assumption. Together, these two types of prefixes are intended to characterize the kinds of text commonly encountered in the training data. However, under this weaker assumption, we show that although there may exist a way to select a candidate model that yields a near-optimal response, such selection rule cannot be recovered solely from observations of the value function Q π ∗ Q^{\\pi^{*}} . Denote { n 1 , n 2 , ⋯ , n t } \\{n_{1},n_{2},\\cdots,n_{t}\\} as a path of length t t , where n i ∈ [ n ] , 1 ≤ i ≤ t n_{i}\\in[n],1\\leq i\\leq t . Assume that all π ∗ \\pi^{*} and { π i } i ∈ [ m ] \\{\\pi_{i}\\}_{i\\in[m]} are deterministic policy, the response length is fixed as T T , and the transition function is also deterministic. Suppose the learner’s observation space 𝒪 t \\mathcal{O}_{t} contains at the visited states ( x , y ≤ t ) (x,y_{\\leq t}) during decoding. Suppose Δ > 0 \\Delta>0 is a error constant. Then, there is a MDP such that no token-level routing algorithm 𝒜 : 𝒪 ↦ [ n ] \\mathcal{A}:\\mathcal{O}\\mapsto[n] can achieve V π 𝒜 ≥ V π ∗ − T / 2 + 2 V^{\\pi_{\\mathcal{A}}}\\geq V^{\\pi^{*}}-T/2+2 for all possible rewards in this MDP, even if we have the following two good properties: Existence of a Near-Optimal Path. There exists a small ε ≤ Δ ∈ [ 0 , 1 ] \\varepsilon\\leq\\Delta\\in[0,1] and"
+}

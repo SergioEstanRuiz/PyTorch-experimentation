@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "y y under the model, where the negative log-likelihood is normalized by the token length of y y to avoid penalizing longer labels. As in Eqn. 4 , a point prediction is obtained by minimizing this score over y ∈ 𝒴 y\\in\\mathcal{Y} . While LLMs can condition on multiple in-context examples, in the one-shot setting each reference example induces its own predictor π i \\pi_{i} . Large pretrained models may yield strong point predictions when used as one-shot predictors. However, there is no principled way to assess the reliability of these predictions for a new input. In the next section, we introduce split conformal one-shot prediction, which equips each one-shot predictor π i \\pi_{i} with a data-dependent prediction set that enjoys finite-sample marginal coverage guarantees. Split conformal one-shot prediction. A natural approach to uncertainty quantification for one-shot predictors is split conformal prediction. Given labeled data split into a reference set 𝒟 ref \\mathcal{D}_{\\textrm{ref}} and a disjoint calibration set 𝒟 cal \\mathcal{D}_{\\mathrm{cal}} , each reference example ( X i , Y i ) ∈ 𝒟 ref (X_{i},Y_{i})\\in\\mathcal{D}_{\\textrm{ref}} induces a one-shot predictor π i \\pi_{i} , which can be equipped with a conformal prediction set using calibration data. For a fixed predictor π i \\pi_{i} , calibration scores are obtained by evaluating the nonconformity score s π i ​ ( X j , Y j ) s_{\\pi_{i}}(X_{j},Y_{j}) on calibration examples ( X j , Y j ) ∈ 𝒟 cal (X_{j},Y_{j})\\in\\mathcal{D}_{\\mathrm{cal}} , yielding the score set From this set, a split conformal"
+}

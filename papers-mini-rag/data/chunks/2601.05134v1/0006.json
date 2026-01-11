@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "(computed on 𝒟 r \\mathcal{D}_{r} ), γ > 0 \\gamma>0 is the learning rate, λ ≥ 0 \\lambda\\geq 0 is the weight decay parameter, 𝛏 t + 1 ∼ 𝒩 ​ ( 0 , σ 2 ​ I d ) \\bm{\\xi}_{t+1}\\sim\\mathcal{N}(0,\\sigma^{2}I_{d}) is Gaussian noise, and Π C 0 , Π C 1 \\Pi_{C_{0}},\\Pi_{C_{1}} are clipping operators with radii C 0 , C 1 > 0 C_{0},C_{1}>0 , defined as Π C ​ ( 𝐯 ) := 𝐯 ⋅ min ⁡ { C ‖ 𝐯 ‖ , 1 } . \\Pi_{C}(\\mathbf{v}):=\\mathbf{v}\\cdot\\min\\bigl\\{\\tfrac{C}{\\|\\mathbf{v}\\|},1\\bigr\\}. For comparison, we also introduce notation for retrained models. Let x ^ ′ = 𝒜 ​ ( 𝒟 r ) \\hat{\\textbf{x}}^{\\prime}=\\mathcal{A}(\\mathcal{D}_{r}) denote the model parameters obtained by training on the retained dataset 𝒟 r = 𝒟 ∖ 𝒟 f \\mathcal{D}_{r}=\\mathcal{D}\\setminus\\mathcal{D}_{f} with the same algorithm and a suitably fixed coupling of randomness (e.g., matched random seeds or noise schedules). Accordingly, let x t ′ \\textbf{x}^{\\prime}_{t} denote the iterates produced by applying the updates from Definition 2 to the model x ^ ′ \\hat{\\textbf{x}}^{\\prime} . In this section, we identify two reasons why accuracy may degrade under certified unlearning via noisy fine-tuning (NFT), and propose two corresponding remedies. We first motivate block-wise noise injection to reduce the destructive effect of isotropic noise, and then motivate using a proximity parameter Δ ​ ( ρ ) \\Delta(\\rho) in place of worst-case model clipping. A central challenge in certified unlearning based on noisy fine-tuning is the severe degradation of model accuracy observed during the unlearning"
+}

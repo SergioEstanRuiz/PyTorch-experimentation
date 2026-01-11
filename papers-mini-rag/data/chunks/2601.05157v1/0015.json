@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": ") \\gamma_{F}=k^{\\prime O(1/t)} , and the separation between SFD and FFD components is γ SF = k ′ ⁣ O ​ ( 1 / t ) \\gamma_{\\text{SF}}=k^{\\prime O(1/t)} for some t > 0 t>0 . Then there exists an algorithm that uses samples from ℳ \\mathcal{M} , runs in time n O ​ ( t ) n^{O(t)} , and computes { μ ^ i } i ∈ [ k ] , { μ ^ i ′ } i ∈ [ k ′ ] \\{\\mathaccent 866{\\mu}_{i}\\}_{i\\in[k]},\\{\\mathaccent 866{\\mu}_{i}^{\\prime}\\}_{i\\in[k^{\\prime}]} such that (SFD estimation) for all j ∈ [ k ] j\\in[k] , min i ⁡ \\| ​ μ ^ i − μ j ​ \\| ≤ ε , \\min_{i}\\|\\mathaccent 866{\\mu}_{i}-\\mu_{j}\\|\\leq\\varepsilon, and, (FFD estimation) for all j ∈ [ k ′ ] j\\in[k^{\\prime}] , min i ⁡ \\| ​ μ ^ i ′ − μ j ′ ​ \\| ≤ poly ​ ( 1 / k ′ ) \\min_{i}\\|\\mathaccent 866{\\mu}_{i}^{\\prime}-\\mu_{j}^{\\prime}\\|\\leq\\mathrm{poly}(1/k^{\\prime}) This result employs the structure of the SFD distributions to perform the Fourier-based algorithm, and then uses these estimations combined with the SoS framework to learn the FFD part. The additional assumptions in the SFD and FFD parts are requires to make use of the SoS toolbox: For the SFD components, we need a resilience property (see Definition 5 ), which is true, e.g., if the components are sub-Weibull (a property strictly weaker than sub-exponential tails). For the FFD components, we need the components to be certifiably bounded [ hopkins2018mixture , kothari_better_2017 , kothari2018robust"
+}

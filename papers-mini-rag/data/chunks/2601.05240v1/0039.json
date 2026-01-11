@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0039",
+  "word_start": 7800,
+  "word_end": 8050,
+  "text": "t ∈ [ 0 , L ] t\\in[0,L] . Specifically, the network weights define the discrete gauge connection 𝒜 t = 𝒜 ​ ( x t ) ∈ 𝔰 ​ 𝔬 ​ ( N ) \\mathcal{A}_{t}=\\mathcal{A}(x_{t})\\in\\mathfrak{so}(N) , and the hidden state update implements parallel transport: The cumulative effect of the sequence is the holonomy 𝐇 L = 𝒫 ​ ∏ t = 1 L 𝐔 t \\mathbf{H}_{L}=\\mathcal{P}\\prod_{t=1}^{L}\\mathbf{U}_{t} . This holonomy is the discrete analogue of the Wilson line in the effective TQFT, serving as the gauge-invariant observable that encodes the logical computation. 1. Isometry and Infinite Horizon. Since 𝐔 t ∈ S ​ O ​ ( N ) \\mathbf{U}_{t}\\in SO(N) , the deterministic evolution is strictly isometric ( ‖ h t ‖ 2 = ‖ h 0 ‖ 2 \\|h_{t}\\|_{2}=\\|h_{0}\\|_{2} ). This implies that the maximal Lyapunov exponent with respect to boundary perturbations is zero in the noiseless setting, establishing the infinite memory horizon condition: This demonstrates that the infinite logical memory horizon (Fig. 4 ) is a structural consequence of the gauge symmetry. Furthermore, because the logical operation is encoded in the group holonomy 𝐇 L \\mathbf{H}_{L} rather than the sequence length, the inference rule is scale-invariant, providing the theoretical basis for the length extrapolation observed in Fig. 2 . 2. Geodesic Stability and the Mass Gap. Beyond isometry, the gauge constraint enforces robustness via the geometry of the state manifold. Because the network learns to map discrete logical operations to specific rotations, the valid logical states form a"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05143v1",
+  "title": "A Lightweight and Explainable Vision-Language Framework for Crop Disease Visual Question Answering",
+  "abs_url": "https://arxiv.org/abs/2601.05143v1",
+  "html_url": "https://arxiv.org/html/2601.05143v1",
+  "chunk_id": "2601.05143v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "over patch embeddings, while patch-level features preserve fine-grained spatial information. These visual embeddings are projected to the T5 hidden dimension using a learnable multi-layer perceptron. The projected visual features are provided as encoder inputs to T5 [ t5 ] , while question tokens are supplied to the decoder during training. Cross-attention layers within the T5 [ t5 ] decoder enable effective fusion of linguistic and visual information. Answer generation is optimized using teacher forcing with a cross-entropy loss. Loss computation is restricted to textual output tokens, ensuring that only language generation is supervised. This design aligns with established practices in multimodal sequence-to-sequence learning and supports stable training with frozen visual encoders. All vision encoders are frozen during VQA training. Only the projection layers and text decoders are optimized. Beam search is applied during inference for answer generation. The training hyperparameters used for the VQA models are summarized in Table 3 . We evaluate the quality of the generated answers using a combination of lexical and semantic similarity metrics. These metrics assess both the correctness of key predicted entities and the overall similarity between generated and reference texts. Accuracy : Accuracy measures the proportion of test samples for which the key entities (e.g., disease or condition names) are correctly identified in the generated answers. Named entities are extracted from the generated text using text extraction techniques and compared with the corresponding ground-truth annotations. BLEU (Bilingual Evaluation Understudy) : BLEU [ bleu ] measures the precision of n n -gram overlap between"
+}

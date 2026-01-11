@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0090",
+  "word_start": 18000,
+  "word_end": 18250,
+  "text": "x\\mapsto|x| and 𝔼 ​ [ Z t ∣ ℱ t − 1 ] = 0 \\mathbb{E}[Z_{t}\\mid\\mathcal{F}_{t-1}]=0 , Taking expectations, summing over t t , and telescoping yields 𝔼 ​ [ ∑ v | B v | ] = 𝔼 ​ [ Φ L ] ≥ h ​ 𝔼 ​ [ L ε ] \\mathbb{E}\\Big[\\sum_{v}|B_{v}|\\Big]=\\mathbb{E}[\\Phi_{L}]\\geq h\\,\\mathbb{E}[L_{\\varepsilon}] . ∎ Fix a bucket v v with n v ≥ 1 n_{v}\\geq 1 . Enumerate its update times as 1 ≤ t v , 1 < ⋯ < t v , n v ≤ L 1\\leq t_{v,1}<\\cdots<t_{v,n_{v}}\\leq L , setting t v , 0 := 0 t_{v,0}:=0 for convenience. Define the local-time partial sums S 0 v := 0 S_{0}^{v}:=0 and S k v := ∑ i = 1 k Z t v , i S_{k}^{v}:=\\sum_{i=1}^{k}Z_{t_{v,i}} for k = 1 , … , n v k=1,\\ldots,n_{v} . Thus B v = S n v v B_{v}=S_{n_{v}}^{v} . Define the local “near-zero-before-update” indicators where the equality uses S k − 1 v ∈ h ​ ℤ S_{k-1}^{v}\\in h\\mathbb{Z} and the choice ε = h / 4 \\varepsilon=h/4 . Define the corresponding count R v R_{v} : Define renewal indices by κ 1 v := 1 \\kappa_{1}^{v}:=1 and, for j ≥ 1 j\\geq 1 , with the convention κ R v + 1 v := n v + 1 \\kappa_{R_{v}+1}^{v}:=n_{v}+1 . Define excursion lengths For every bucket v v , n v ≤ ∑ j = 1 R v ℓ j v . \\sqrt{n_{v}}\\ \\leq\\ \\sum_{j=1}^{R_{v}}\\sqrt{\\ell^{v}_{j}}."
+}

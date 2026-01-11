@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "conformal calibration is reviewed as a reference point. We assume access to a pool of n n labeled examples 𝒟 n = { ( X i , Y i ) } i = 1 n \\mathcal{D}_{n}=\\{(X_{i},Y_{i})\\}_{i=1}^{n} . Each example induces a one-shot predictor through a fixed prediction mechanism π \\pi , defined as Because the predictor π i \\pi_{i} depends on the specific reference example ( X i , Y i ) (X_{i},Y_{i}) , predictions for a single test input x x may vary substantially across the n n reference examples. To assess how well a candidate label y y conforms to a test input x x under a one-shot predictor π i \\pi_{i} , we associate each predictor with a nonconformity score where smaller values indicate more conforming predictions. This abstraction allows different one-shot prediction mechanisms to be treated uniformly within the conformal prediction framework. We next describe two concrete instantiations of one-shot prediction and their corresponding nonconformity scores that are used in our experiments. Example 1: Landmark Transfer by Patch Similarity. We consider a landmark localization task in which each reference image is divided into K K patches and labeled with Y i ∈ 𝒴 = { 1 , … , K } Y_{i}\\in\\mathcal{Y}=\\{1,\\ldots,K\\} indicating which patch contains the landmark of interest. One-shot landmark transfer leverages the embedding space of a pretrained vision model (e.g., DinoV3 (Siméoni et al. , 2025 ) ) to predict the location of the landmark in a new image x x based on"
+}

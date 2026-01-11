@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "P} over P P time steps by learning a mapping f 𝒢 f_{\\mathcal{G}} as follows: where 𝐘 ^ \\hat{{\\bf Y}} is the prediction of future traffic flows, and Θ \\Theta is the set of all trainable parameters of f 𝒢 f_{\\mathcal{G}} . The architecture of FaST, as shown in Figure 2 , consists of three components: ① Input Layer: The raw sequence 𝐗 t {\\bf X}_{t} is first mapped into dense representations via a Heterogeneity-aware MoE (HA-MoE) module, and then augmented with adaptive spatial and temporal embeddings. ② Network Backbone: FaST stacks L L residual blocks. In each block, a Adaptive Graph Agent Attention (AGA-Att) module first summarizes node features into a small set of agent tokens and redistributes the aggregated information back to all nodes; HA-MoE is then applied to perform heterogeneity-aware enhancement. ③ Prediction Layer: The outputs from all layers are concatenated and passed to an MLP head to produce the final forecasts. FaST uses a transformer-like stacked block to perform spatial-temporal feature extraction. Specifically, the proposed AGA-Att is used to replace traditional self-attention, and the proposed HA-MoE is then employed instead of the Feed-Forward Network (FFN) layer to perform efficient feature transformation. The backbone of FaST is a stack of L L residual blocks, shown as follows: where RMSNorm ​ ( ⋅ ) \\text{RMSNorm}(\\cdot) is a root mean square layer normalization operation (Zhang and Sennrich, 2019 ) . The input to the first layer ( ℓ = 1 \\ell=1 ) of the network is initialized with the"
+}

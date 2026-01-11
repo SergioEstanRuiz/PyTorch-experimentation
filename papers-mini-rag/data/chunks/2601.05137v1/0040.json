@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0040",
+  "word_start": 8000,
+  "word_end": 8250,
+  "text": "3 ​ n − 6 3n-6 . Every planar graph is contained in a maximally planar graph and can therefore be completed to a maximally planar graph. Since maximally planar graphs have average degree tending to 6 6 as n → ∞ n\\rightarrow\\infty , it follows that k d + 1 = 4 k_{d}+1=4 for these graphs, the same number of colors as in the Four Color Theorem, even though Erdős-Rényi graphs have very different structure from planar graphs. We ran Mod-GCN on 100 100 random maximally planar graphs of order 200 200 (see Appendix D for details on the generation process), and the results are recorded in Figure 9 . The algorithm sadly does not usually find a proper 4 4 -coloring, though it does almost always find a proper 5 5 -coloring. The algorithm performs worse on these graphs than it does on Erdős-Rényi graphs of the same order and average degree. One possible explanation for this is that the degree sequence in a maximally planar graph looks very different from that of an Erdős-Rényi graph of the same order and average degree. For example, Figure 8 is a histogram of the degree sequence in one of our maximally planar graphs. We see that there are many outliers with large degree. One might expect that it would be difficult to find a color for a vertex with 17 17 neighbors when only 4 4 colors are allowed, and that this might lead to extra monochromatic edges. To diagnose"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0043",
+  "word_start": 8600,
+  "word_end": 8850,
+  "text": "-regular graphs of order 200 200 . This is not too surprising, since the number of colors suggested by k d + 1 k_{d}+1 is much smaller than r r for all reasonably large r r . For r ∈ { 196 , … , 198 } r\\in\\{196,\\dots,198\\} , the algorithm did not always produce a proper r r -coloring. This aligns with our observation in Section 5.5 that the algorithm struggles with extremely dense graphs. Note that any 199 199 -regular graph of order 200 200 is K 200 K_{200} , in which case Brooks’s Theorem fails and the graph is not 199 199 -colorable. Also note that any 2 2 -regular graph is a disjoint union of cycles, in which case Brooks’s Theorem can also fail. Hence r = 199 r=199 and r = 2 r=2 are excluded from the experiment, though the results for the even cycle suggest that the algorithm would struggle to find a proper r r -coloring when r = 2 r=2 even if all cycles were even. The complete graph K n K_{n} on n n vertices has chromatic number n n . No improper n n -coloring of K n K_{n} or any graph of order n n is a local minimum, since any such coloring has an unused color. Therefore, the algorithm should easily find a proper n n -coloring of K n K_{n} . However, this is not the case. Message-passing GNNs with large depth or where the graph is"
+}

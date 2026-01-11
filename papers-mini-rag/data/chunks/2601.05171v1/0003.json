@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0003",
+  "word_start": 600,
+  "word_end": 850,
+  "text": "film \" Inside Out \", individual identity does not stem from a simplistic stacking of all experiences, but rather is constructed upon core memories that shape distinct \"Islands of Personality\". This aligns with theoretical findings in cognitive psychology, such as Self-Schema theory [ Markus1977SelfschemataAP , tikka2019tailoring ] , which emphasizes that humans maintain a stable self-concept by filtering and hierarchically organizing key memories. Inspired by these insights, we propose the Inside Out framework, which aims to grow an evolvable user core memory tree \"from the inside out\" through unbounded interactions. Firstly, to delineate the theoretical boundaries of the memory tree, we construct a hierarchical Schema based on the Biopsychosocial model, scientifically decomposing user characteristics into three core dimensions. This interdisciplinary Schema design establishes the initial structure of the user PersonaTree . Secondly, to endow the system with dynamic evolution, we propose an iterative tree-update mechanism and introduce a reinforcement learning (RL) strategy based on process rewards to train a lightweight model, MemListener . This model learns to compress a continuous stream of unstructured dialogue in real time into standardized tree-structured operations, encoding user core features within the branch and leaf nodes. Finally, addressing the trade-off between efficiency and effectiveness during the inference stage, this paper designs an adaptive response generation mechanism: In latency-sensitive scenarios, a fast mode is enabled to perform reasoning directly based on the PersonaTree. When facing long-tail detail requirements, the system switches to the agentic recall mode, utilizing the PersonaTree to guide deep retrieval. The primary contributions"
+}

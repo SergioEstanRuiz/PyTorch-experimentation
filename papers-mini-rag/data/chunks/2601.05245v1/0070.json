@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0070",
+  "word_start": 14000,
+  "word_end": 14250,
+  "text": ") = 0 \\sum_{u=0}^{m-1}\\psi^{\\mathrm{Wal}}_{\\ell}(u)=0 (which holds for ℓ ≠ 0 \\ell\\neq 0 ), we obtain: Therefore, by the Walsh prefix-sum bound, i.e., Lemma 8 , we have: Group indices by d := tz ​ ( ℓ ) ∈ { 0 , 1 , … , log 2 ⁡ m − 1 } d:=\\mathrm{tz}(\\ell)\\in\\{0,1,\\dots,\\log_{2}m-1\\} . There are exactly m / 2 d + 1 m/2^{d+1} values of ℓ ∈ { 1 , … , m − 1 } \\ell\\in\\{1,\\dots,m-1\\} with tz ​ ( ℓ ) = d \\mathrm{tz}(\\ell)=d . Hence, Combining with | α 0 ​ ( r ) | ≤ 1 |\\alpha_{0}(r)|\\leq 1 yields Now we use the global Walsh groups to enforce a form of ℓ 1 \\ell_{1} truthfulness. Define the total ℓ 1 \\ell_{1} deviation from honesty on the first T ′ T^{\\prime} rounds by: Then there exists a universal constant C ℓ 1 > 0 C_{\\ell_{1}}>0 such that, under the environment ( 13 ), every forecaster satisfies: Fix a forecaster. For each realized prediction value v ∈ 𝒱 T ′ v\\in\\mathcal{V}_{T^{\\prime}} , define the prediction-dependent sign weight on contexts For grid points x = x i x=x_{i} , we have s v ​ ( x i , t ) = + 1 s_{v}(x_{i},t)=+1 if x i ≤ v x_{i}\\leq v and s v ​ ( x i , t ) = − 1 s_{v}(x_{i},t)=-1 otherwise, and hence for all t ≤ T ′ t\\leq T^{\\prime} (with x t ∈ { x 1 , … , x m"
+}

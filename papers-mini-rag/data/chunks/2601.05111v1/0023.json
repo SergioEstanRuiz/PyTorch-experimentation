@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05111v1",
+  "title": "Agent-as-a-Judge",
+  "abs_url": "https://arxiv.org/abs/2601.05111v1",
+  "html_url": "https://arxiv.org/html/2601.05111v1",
+  "chunk_id": "2601.05111v1:0023",
+  "word_start": 4600,
+  "word_end": 4816,
+  "text": "landscape. As a pioneering survey exploring the evolution of Agent-as-a-Judge , this study faces the challenge that the field has not yet gained complete widespread recognition in academia. Although the transition from LLM-as-a-Judge to Agent-as-a-Judge has begun to take shape, there is still a lack of long-term consensus regarding the definition of evaluation agents. Nevertheless, establishing this foundational framework is essential to orienting future research. We are committed to iteratively refining this taxonomy as the paradigm matures and gains broader recognition. We acknowledge a potential gap between early methodologies and the increasingly rigorous definitions of agents. Many pioneering works in automated evaluation, though named as \"agent\", rely heavily on prompting engineering, such as fixed role-play, which may not align with the strict criteria for autonomy, dynamic planning, or tool-use held by the current community. Nevertheless, we deliberately include these prompt-based frameworks as they represent the initial shift from monolithic inference toward dynamic decomposition and self-evolving systems. Excluding them would obscure the transition thus compromising a complete understanding of the field’s evolution. This work does not involve the use or creation of datasets or scientific artifacts that would require specific ethical clearance, data privacy considerations, or licensing agreements. We believe this work adheres to the ethical guidelines of the conference and poses no immediate negative social impact."
+}

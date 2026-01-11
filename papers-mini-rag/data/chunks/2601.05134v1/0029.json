@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0029",
+  "word_start": 5800,
+  "word_end": 6050,
+  "text": "𝒰 ​ ( x ^ ) \\mathcal{U}(\\hat{\\textbf{x}}) . Applying the second inequality in equation 9 to O = ℝ d ∖ ℰ full O=\\mathbb{R}^{d}\\setminus\\mathcal{E}_{\\mathrm{full}} yields Therefore, the probability of obtaining bad performance (below the guarantee α \\alpha ) can be bounded by which is almost Pr ⁡ [ 𝒰 ​ ( 𝐱 ^ ) ∈ ℰ fail ] \\Pr\\!\\big[\\mathcal{U}(\\hat{\\mathbf{x}})\\in\\mathcal{E}_{\\mathrm{fail}}\\big] when ( ε , δ ) (\\varepsilon,\\delta) is tight. ∎ The argumentation of our thought experiment implicitly relies on the assumption that the number of steps required to retrain from scratch to the original performance guarantee ( α , p ) (\\alpha,p) is comparable to the number of steps required to reach the slightly weaker guarantee ( α , 1 − e ε ​ ( 1 − p ) − 2 ​ δ ) (\\alpha,\\,1-e^{\\varepsilon}(1-p)-2\\delta) . While this is a natural assumption when ( ε , δ ) (\\varepsilon,\\delta) are small and the certified guarantee is tight, it need not hold universally. In particular, for some models or training regimes, small degradations in success probability may correspond to substantially different retraining times. Our thought experiment should therefore be interpreted as highlighting a structural tension induced by worst-case, initialization-agnostic guarantees, rather than as a strict impossibility result under all settings. Note that the argument uses only that the unlearning procedure is training-agnostic and that the number of steps T T is fixed in advance, i.e., it does not depend on the model weights. We stated the argument in terms of step counts"
+}

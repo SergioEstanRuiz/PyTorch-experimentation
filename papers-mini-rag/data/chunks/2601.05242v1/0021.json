@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "which indicates that the two rewards are competing. During the initial phase of training, the model prioritizes satisfying the length constraint, often at the expense of the more challenging correctness objective. However, from the correctness reward trajectories, we observe that GDPO recovers the correctness reward more effectively than GRPO, achieving higher correctness scores at comparable training steps. We also see that GRPO training starts to destabilize after 400 steps with the correctness rewards score gradually decreasing while GDPO continue to improve the correctness score. Moreover, although both GDPO and GRPO maintain nearly perfect length scores throughout training, we also record the maximum response length within each training batch to assess how well the models satisfy the length constraint under more extreme cases. The results show that, despite achieving almost a full length reward, the maximum response length for GRPO begins to increase sharply after roughly 400 training steps, while the maximum response length for GDPO continues to decrease. Similar observation can be seen on the training curves on DeepSeek-R1-7B and Qwen3-4B-Instruct as shown in Fig 9 and Fig 10 in appendix where we can see that GDPO consistently provide better alignment to the length constraint. This contrast further illustrates the effectiveness of GDPO in multi-reward optimization compared with GRPO. In addition, the benchmark results in Table 3 show that the GDPO-trained models not only achieve substantial improvements in reasoning efficiency over the original models, with up to a 80% reduction in length-exceeding ratios on AIME, but also deliver higher accuracy"
+}

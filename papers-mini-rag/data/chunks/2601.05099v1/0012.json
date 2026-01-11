@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0012",
+  "word_start": 2400,
+  "word_end": 2650,
+  "text": "results in Table II . The gold standard for each task was manually extracted from the corresponding survey paper to serve as our ground truth for the automated evaluation. To validate cross-domain applicability, we further evaluate on research questions sourced directly from experts in diverse fields. Following FOS taxonomy [ 27 ] , we exclude computer science (our own domain) to avoid bias, and select research questions based on the remaining top-level categories: Engineering and Technology, Medical and Health Sciences, Agricultural Sciences, and Social Sciences and Humanities. Domain experts (Ph.D. holders, doctoral candidates, and advanced master’s students under doctoral supervision) were asked to propose a question of genuine research interest within their discipline. These queries anchor our expert evaluation protocol (Section IV-C ), ensuring that the assessment captures both the generality of our framework and its practical value in real-world, cross-disciplinary discovery. Google Dataset Search [ 3 ] is the most comprehensive web-scale dataset search engine, maintained by Google and indexing millions of datasets through schema.org markup. As the de facto standard for dataset discovery, it provides broad coverage across domains but relies heavily on the quality of metadata. DataCite Commons [ 2 ] is the authoritative registry for research data DOIs, maintained by a global consortium of institutions and libraries. With over 30 million registered objects, it represents the gold standard for formally published datasets, though coverage is biased toward curated resources. While baseline systems target metadata search, our model generalizes to dataset and application reasoning. Automated metrics cannot"
+}

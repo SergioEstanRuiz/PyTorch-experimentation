@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "using the minimax theorem. In the reversed order-of-play, the adversary first commits to a (possibly adaptive) strategy mapping histories to distributions over outcomes, and the learner has knowledge of this strategy before it must make predictions. One option for the learner in this reversed order of play is the “honest” strategy that at every round predicts p t = 𝔼 ​ [ y t ] p^{t}=\\mathbb{E}[y^{t}] which is feasible, given that in this order of play, the learner knows the adversary’s strategy. This is not a good strategy on its own, as the calibration error metric sums the magnitude of the empirical bias across all prediction values the learner uses, and it might be that 𝔼 ​ [ y t ] \\mathbb{E}[y^{t}] takes on a distinct value for each t t ; in this case there would be no cancellations and the learner’s calibration error would scale linearly with T T . But the learner could round their prediction p t ≈ 𝔼 ​ [ y t ] p^{t}\\approx\\mathbb{E}[y^{t}] to the nearest multiple of 1 / m 1/m , which would introduce bias at most 1 / m 1/m at each round and cumulatively at most T / m T/m across all T T rounds. Standard (anti)-concentration arguments establish that if there is a value v v that the learner predicts k k times, then the empirical sum of the labels on the rounds in which v v is predicted will differ from its expectation by roughly ≈ k \\approx\\sqrt{k}"
+}

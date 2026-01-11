@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "recovers approximately 60% of the performance gap between the base SLM (42.50%) and the expert model (54.12%), highlighting that sparse, strategic intervention at critical reasoning steps is sufficient to unlock a significant portion of the teacher model’s potential. In this section, we conduct a series of in-depth analyzes to better understand the behavior and effectiveness of RelayLLM framework. To verify the generalization capability of RelayLLM , we extended our evaluation to general reasoning domains that were unseen during training. Although our model was trained exclusively on the mathematical DAPO dataset, we tested it on three diverse benchmarks out of the math domain: Big-Bench Hard (BBEH) (Kazemi et al. , 2025 ) , MMLU-Pro (Wang et al. , 2024 ) , and SuperGPQA (Du et al. , 2025 ) . As shown in Table 2 , RelayLLM consistently outperforms baseline methods despite the domain shift. For instance, using Qwen3-1.7B, our method achieves 59.03% on MMLU-Pro, significantly surpassing the GRPO baseline (49.76%) and CITER (53.38%). These results demonstrate that our framework effectively help SLM have a generalized help-seeking behavior; even when facing unfamiliar inputs, the SLM successfully recognizes its knowledge gaps and invoke the LLM, leading to substantial performance gains in out-of-distribution tasks. To investigate the distinct contribution of each component in RelayLLM , we conducted an ablation study using the Qwen3-1.7B model in Table 3 . We show that removing the data filtering mechanism results in a tripled call ratio with decreased accuracy; this confirms that filtering out queries intractable for"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "k -coloring of the entire graph with no extra monochromatic edges. A more direct argument for why the new loss function would be beneficial is that it is easier to resolve a monochromatic edge when its endpoints have fewer neighbors, since a vertex having fewer neighbors means having fewer colors among its neighbors and thus more potential colors to switch to. An example is shown in Figure 1 . Another effective application of the new loss function is shown in Figure 6 . We would like to know how well our optimized GCN algorithm, which we call Mod-GCN , performs on average for Erdős-Rényi graphs of many different orders and sizes. Figure 2 , in orange, shows the result of running Mod-GCN on 100 100 different Erdős-Rényi graphs for all n ∈ { 10 , 20 , … , 200 } n\\in\\{10,20,\\dots,200\\} and d ∈ { 2 , 4 , … , 20 } d\\in\\{2,4,\\dots,20\\} , then recording the average loss and an approximate 95% confidence interval for the true mean. One striking result is that the average loss is almost perfectly linear in n n for most d d and sufficiently large n n . This justifies our decision to keep n = 200 n=200 fixed in the previous experiment, since it suggests that an improvement for any particular n n is an improvement for all n n . To better visualize the trend, linear regressions are plotted based on the data for n ∈ { 110 , 120"
+}

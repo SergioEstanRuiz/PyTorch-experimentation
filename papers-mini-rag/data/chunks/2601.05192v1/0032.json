@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0032",
+  "word_start": 6400,
+  "word_end": 6650,
+  "text": "passed to it (6593 out of 8894). Figures 11 , 12 , 13 , 14 , 15 , and 16 show examples of reasoning traces in the LLM candidate selection phase of LELA. Input sentence and mention: [Develop tools] for our internal teams ( sales support operations finance ) to help run the business more efficiently .\", LELA: <think> Okay, let’s tackle this problem step by step. The user has provided a sentence: \"[Develop tools] for our internal teams ( sales support operations finance ) to help run the business more efficiently.\" The task is to determine which of the given candidate entities best fits the mention \"[Develop tools]\". First, I need to understand the context. The sentence is about developing tools for internal teams in sales, support, operations, and finance to improve business efficiency. The key here is \"develop tools\" in the context of internal business operations. Looking at the list of candidates: 0. None of the listed candidates 1. develop promotional tools - This seems related to marketing materials, not internal tools. 2. produce customised tools - This could be relevant, but the description mentions artisanal crafting or restoration, which might not fit internal business tools. 3. database development tools- Focuses on databases, which is a specific area, but the original sentence is broader. 4. KDevelop - A specific software development tool, but the mention is general. 5. business process modelling - Involves modeling business processes, which could relate to efficiency. 6. create business process models - Similar"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0027",
+  "word_start": 5400,
+  "word_end": 5650,
+  "text": "slides (110 with and 160 without metastasis) and 129 test slides (49 with and 80 without metastasis). Here, we report results for the CAMELYON16 (small) setup in eva [ 27 ] , which randomly samples max. 1,000 patches per slide. The PANDA challenge [ 10 ] is concerned with the challenging task of tumor grading of whole slide images (WSIs) of prostate cancer biopsies, which suffers from significant inter-observer variability between pathologists. Prostate cancer grading follows the Gleason grading system (3, 4, or 5) based on architectural growth patterns of the tumor, which are then converted into an ISUP grade on a scale of 1–5 for usage as a prognostic marker. The dataset features 9,555 H&E-stained WSIs (subset with noisy labels removed) of prostate tissue biopsies from two medical centers scanned at 20 × \\times magnification. Specifically, the task is to classify each WSI into an ISUP grade of 0–5 (six classes), where 0 means that a biopsy does not contain any cancer. The dataset is split into 6,686 training slides, 1,430 validation slides, and 1,439 test slides in a class-stratified manner. Here, we report results for the PANDA (small) setup in eva [ 27 ] , which considers a fewer number of total slides (955 train, 477 validation, 477 test) and fewer randomly sampled patches per slide (200). The Breast Cancer Histopathological Image Classification (BreakHis) dataset was introduced for the task of classifying breast tumor tissue into benign and malignant histological subtypes [ 70 ] . The task involves"
+}

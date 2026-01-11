@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0084",
+  "word_start": 16800,
+  "word_end": 17050,
+  "text": "​ L + 1 + s = v p^{(a-1)L+1+s}=v , and 0 otherwise. Then D v ( a , j ) = ⟨ ψ a , j , A v ⟩ D_{v}^{(a,j)}=\\langle\\psi_{a,j},A_{v}\\rangle . By Proposition 2 (Parseval), we obtain ∑ j ⟨ ψ a , j , A v ⟩ 2 = L ​ ‖ A v ‖ 2 2 \\sum_{j}\\langle\\psi_{a,j},A_{v}\\rangle^{2}=L\\|A_{v}\\|_{2}^{2} . Summing this over v v yields the first claimed identity, since ∑ v ‖ A v ‖ 2 2 = ∑ t ∈ J a δ t 2 = E a \\sum_{v}\\|A_{v}\\|_{2}^{2}=\\sum_{t\\in J_{a}}\\delta_{t}^{2}=E_{a} . Next, fix j j . By Cauchy–Schwarz over the q a q_{a} nonzero buckets, ∑ v | D v ( a , j ) | ≤ q a ​ ∑ v ( D v ( a , j ) ) 2 \\sum_{v}|D_{v}^{(a,j)}|\\leq\\sqrt{q_{a}}\\sqrt{\\sum_{v}(D_{v}^{(a,j)})^{2}} . Averaging over j j and applying Jensen’s inequality to x ↦ x x\\mapsto\\sqrt{x} , we obtain Finally, q a ≤ N a q_{a}\\leq N_{a} , as each distinct prediction value used in the block contributes at least 1 1 to N a N_{a} . ∎ We have seen that the Hadamard groups control the bias terms; here we control the noise terms. The core difficulty is that the forecaster may perform adaptive noise bucketing : it observes past noise realizations Z 1 , … , Z t − 1 Z_{1},\\ldots,Z_{t-1} before choosing which “bucket” (prediction value) to place the next noise increment Z t Z_{t} in. In principle, this adaptivity could"
+}

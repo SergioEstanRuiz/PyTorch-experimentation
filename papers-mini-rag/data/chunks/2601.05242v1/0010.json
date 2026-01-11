@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0010",
+  "word_start": 2000,
+  "word_end": 2250,
+  "text": "introduced. Empirically, we also find that this normalization step improves training stability, as shown in Appendix A , where removing batch-wise normalization occasionally leads to convergence failures. By separating the normalization of each reward, GDPO alleviates the information-loss problem present in GRPO’s advantage estimation, as illustrated in Fig. 2 . Note that since the batch-wise normalization step in GDPO does not alter the number of distinct advantage groups, we omit it here for clarity. From the figure, we can see that when adopting GRPO, distinct reward combinations, such as ( 0 , 2 ) (0,2) and ( 0 , 1 ) (0,1) , lead to identical normalized advantages, masking the subtle distinctions between them. In contrast, GDPO retains these fine-grained differences by assigning distinct advantage values to each combination, for example, the reward combination of ( 𝟶 , 𝟷 ) \\mathtt{(0,1)} after GDPO normalization becomes ( − 0.7071 , 0.7071 ) \\mathit{(-0.7071,0.7071)} and ( 𝟶 , 𝟸 ) \\mathtt{(0,2)} becomes ( − 1.4142 , 1.4142 ) \\mathit{(-1.4142,1.4142)} , which more appropriately reflects that ( 𝟶 , 𝟸 ) \\mathtt{(0,2)} should yield a stronger learning signal than ( 𝟶 , 𝟷 ) \\mathtt{(0,1)} . Similarly, when extending the number of rollouts to three, GRPO would assign advantage values of ( 0 , 0 , 0 ) \\mathit{(0,0,0)} to ( 𝟷 , 𝟷 , 𝟷 ) \\mathtt{(1,1,1)} . However, ( 𝟷 , 𝟷 , 𝟷 ) \\mathtt{(1,1,1)} may arise from heterogeneous reward partitions such as r 1 = ( 𝟷 , 𝟷"
+}

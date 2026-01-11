@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0044",
+  "word_start": 8800,
+  "word_end": 9050,
+  "text": "0.01 0.05 Unlearning step size η \\eta 1 × 10 − 4 1\\times 10^{-4} 1 × 10 − 3 1\\times 10^{-3} Weight decay λ \\lambda (unlearning) 30 3 Total privacy budget ε \\varepsilon 5 10 Failure probability δ \\delta 10 − 5 10^{-5} 10 − 3 10^{-3} Optimal RDP order q opt q_{\\mathrm{opt}} 6.06 2.77 Sum over blocks of Rényi ε rényi \\varepsilon_{\\text{r\\'{e}nyi}} 2.725 6.101 number of steps T T (per block) 2 2 noise variance σ 2 \\sigma^{2} 0.0178 0.0499 Fine-tuning learning rate 1 × 10 − 3 1\\times 10^{-3} 1 × 10 − 3 1\\times 10^{-3} Fine-tuning weight decay 5 × 10 − 4 5\\times 10^{-4} 5 × 10 − 4 5\\times 10^{-4} Fine-tuning momentum 0.9 0.9 Random 10% deletion Classwise deletion k k C 1 / k C_{1}/\\sqrt{k} ε rényi / k \\varepsilon^{\\text{r\\'{e}nyi}}/k C 1 / k C_{1}/\\sqrt{k} ε rényi / k \\varepsilon^{\\text{r\\'{e}nyi}}/k 2 38.891 1.363 38.891 3.051 4 27.500 0.681 27.500 1.525 7 20.788 0.389 20.788 0.872 10 17.393 0.273 17.393 0.610 13 15.254 0.210 15.254 0.469 In Table 1 we report the MIA metric exactly as defined by Jia et al. ( 2023 ) in Appendix C.3. Following their protocol, an MIA model is first trained on (a) a balanced subset of the retained dataset and (b) a separate test dataset (disjoint from the forget set). The trained MIA predictor is then evaluated on the forget set D f D_{f} of the unlearned model θ u \\theta_{u} . Let TN \\mathrm{TN} be the number of"
+}

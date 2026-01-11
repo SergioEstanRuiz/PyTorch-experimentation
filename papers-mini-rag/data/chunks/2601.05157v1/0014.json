@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0014",
+  "word_start": 2800,
+  "word_end": 3050,
+  "text": "mixture models (that currently applies to the widest known cluster distributions). This allows to learn mixture models that have both SFD and FFD components as our next theorem shows. Consider a mixture model ℳ \\mathcal{M} in d d dimensions that consists of k + k ′ k+k^{\\prime} components of the following form: (SFD part) k k translations of a sub-Weibull and SFD distribution D D with parameters c 1 , c 2 = O ​ ( 1 ) c_{1},c_{2}=O(1) and with means μ 1 , … , μ k \\mu_{1},...,\\mu_{k} , and, (FFD part) k ′ k^{\\prime} distributions D 1 , … , D k ′ D_{1},...,D_{k^{\\prime}} which are all FFD with parameters 2 ​ c 1 , 2 ​ c 2 2c_{1},2c_{2} , certifiably bounded ( Definition 6 ), sub-exponential, and with means μ 1 ′ , … , μ k ′ ′ \\mu_{1}^{\\prime},...,\\mu_{k^{\\prime}}^{\\prime} . Furthermore, we assume that the minimum weight is at least ( 1 / ( k + k ′ ) ) \\Omega(1/(k+k^{\\prime})) , the separation between the SFD components is γ S > 0 \\gamma_{S}>0 , the separation between the FFD components is γ F = k ′ ⁣ O ​ ( 1 / t ) \\gamma_{F}=k^{\\prime O(1/t)} , and the separation between SFD and FFD components is γ SF = k ′ ⁣ O ​ ( 1 / t ) \\gamma_{\\text{SF}}=k^{\\prime O(1/t)} for some t > 0 t>0 . Then there exists an algorithm that uses samples from ℳ \\mathcal{M} , runs in time"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0014",
+  "word_start": 2800,
+  "word_end": 3050,
+  "text": "\\mathcal{D}_{n}^{-i} . Collecting these scores over all i = 1 , … , n i=1,\\ldots,n , we compute the empirical quantile which mirrors the finite-sample correction used in split conformal prediction. The resulting CAOS prediction set for a new input X n + 1 X_{n+1} is CAOS ’ coverage guarantees. The leave-one-out calibration procedure treats test points differently from calibration data and therefore breaks the classical exchangeability assumptions used in conformal prediction. To establish valid coverage guarantees, we make the following assumption. For any labeled example ( X i , Y i ) (X_{i},Y_{i}) in any dataset 𝒟 n \\mathcal{D}_{n} , the one-shot nonconformity score induced by using ( X i , Y i ) (X_{i},Y_{i}) as its own reference is minimal among all one-shot scores for that target, i.e., This assumption reflects the natural property that a labeled example is maximally informative about itself, which holds in common one-shot settings such as patch similarity. Assume that the labeled data 𝒟 n \\mathcal{D}_{n} and the test example ( X n + 1 , Y n + 1 ) (X_{n+1},Y_{n+1}) are exchangeable and that Assumption 4.1 holds. Then the CAOS prediction set defined in Eqn. 16 satisfies the finite-sample marginal coverage guarantee The proof is nontrivial because the CAOS nonconformity scores are not exchangeable. In Sec. 5 , we establish Thrm. 4.2 via a reduction to a theoretical full conformal variant of CAOS . This Section establishes Thrm. 4.2 . The proof proceeds via a reduction to a theoretical full conformal"
+}

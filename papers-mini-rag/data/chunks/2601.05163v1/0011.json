@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05163v1",
+  "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+  "abs_url": "https://arxiv.org/abs/2601.05163v1",
+  "html_url": "https://arxiv.org/html/2601.05163v1",
+  "chunk_id": "2601.05163v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "step can be viewed as a random walk over the knowledge graph implicitly embedded in the entire document. When the number of such walks is sufficiently large, this process can, in principle, reconstruct the underlying document-level knowledge graph in a reverse manner. This idea is conceptually aligned with prior work on QA generation based on knowledge graphs in web search agent Li et al. ( 2025b , a ) . We do not explicitly construct a document-level knowledge graph in advance, as such an approach would incur substantial engineering complexity and overhead. Instead, our method adopts a more lightweight design that is nevertheless capable of generating challenging DocQA pairs, achieving a better trade-off between efficiency and effectiveness. Synthesis Stage. Given the exploration trajectory ξ \\xi , the agent enters the synthesis stage to generate document-grounded QA pairs. A synthesis model M s M_{s} performs reasoning over the accumulated observations and generates a QA pair: This stage emphasizes (i) reasoning over multiple observations collected during exploration, (ii) grounding both questions and answers in the source document, and (iii) producing semantically coherent and well-formed outputs. The final output is a set of K K , document-grounded QA pairs: which can be used for training an agent. We employ a strong open-source model M t M_{t} to perform rejection sampling over these QA pairs, 𝒬 ​ 𝒜 \\mathcal{QA} , thereby obtaining high-quality training trajectories. Following the empirical findings of Chen et al. ( 2023 ) , twe mask loss contributions from observation tokens"
+}

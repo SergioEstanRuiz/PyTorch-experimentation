@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05143v1",
+  "title": "A Lightweight and Explainable Vision-Language Framework for Crop Disease Visual Question Answering",
+  "abs_url": "https://arxiv.org/abs/2601.05143v1",
+  "html_url": "https://arxiv.org/html/2601.05143v1",
+  "chunk_id": "2601.05143v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "provides a summary of existing works in the literature. Section 3 details the proposed approach. Section 4 describes the setup used for the experiments. Section 5 presents the results and comprehensive analysis of the results. Section 6 discusses the limitations of this study. Finally, Section 7 concludes the study and outlines directions for future work. This section reviews recent research on multimodal and vision–language approaches for agricultural intelligence. It focuses on how models, data and learning strategies evolve to support accurate disease diagnosis and decision-making in agriculture. Early visual question answering systems for agricultural disease diagnosis focused on multimodal feature fusion and attention mechanisms. These systems used moderate-size datasets. The fruit tree disease decision model [ lan2023visual ] used ResNet-152 for image features and BERT for question encoding. It applied bilinear pooling with modular co-attention. The model achieved 86.36% accuracy on a custom orchard dataset. Attention instability and keyword misalignment reduced reliability. The wheat rust diagnostic framework [ nanavaty2024integrating ] combined CNN classifiers with a fine-tuned BLIP vision–language model and federated learning. It achieved 97.69% classification accuracy and a BLEU score of 0.6235. The system focused on a single crop and was sensitive to image corruption. The ILCD framework [ zhao2024informed ] used Inception-v4, LSTM and MUTAN fusion with bias-balancing strategies. It reached 86.06% accuracy on the CDwPK-VQA dataset. The small dataset size and weak generalization limited scalability. Recent frameworks emphasized knowledge integration and dataset expansion. They aimed to improve reasoning depth and task diversity. The CDEK model [ zhao2025visual"
+}

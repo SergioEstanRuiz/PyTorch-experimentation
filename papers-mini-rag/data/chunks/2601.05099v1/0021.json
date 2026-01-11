@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "can populate a comprehensive scholarly knowledge graph that links data, methods, and tools, thereby enhancing the understanding of the field. Integrating such a graph with large language models will enable natural-language querying of complex research relationships, thereby evolving the framework from a specific discovery tool into a unified model of scholarly knowledge interconnection that supports a transparent and reproducible scientific ecosystem. This appendix details the end-to-end operational workflow of our literature-driven dataset discovery framework. The process is organized into three main phases. This initial phase constructs a focused, query-relevant corpus of scientific text for analysis. given a natural-language RQ, we first query the Semantic Scholar API to retrieve a set of top K relevant seed papers (usually 200 ≤ K ≤ 400 200\\leq K\\leq 400 ). These papers form the initial, high-relevance core of our analysis corpus. using our pre-indexed local snapshot of the S2AG corpus. We collect all citation contexts where the seed papers are either citing another work or are being cited by another work. This expansion broadens the pool of relevant texts beyond the initial keyword match. to execute this phase at scale, our pipeline operates on a local S2AG snapshot. The raw data is converted to the Parquet columnar format and indexed using an embedded DuckDBinstance configured on a high-memory server (128 GB RAM, 32-thread parallelism, 1TB SSD Storage). We pre-materialize textual contexts for each citation link, allowing for near-instantaneous retrieval. This architecture reduced our median query latency from tens of seconds with a pure API"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0027",
+  "word_start": 5400,
+  "word_end": 5650,
+  "text": ", we first train the GCN to predict the coloring φ \\varphi by optimizing the loss function over 𝑿 \\boldsymbol{X} and 𝑾 \\boldsymbol{W} , where p i , φ ​ ( i ) ′ = 0.55 p^{\\prime}_{i,\\varphi(i)}=0.55 and p i ​ j ′ = 0.45 k − 1 p^{\\prime}_{ij}=\\frac{0.45}{k-1} for all j ≠ φ ​ ( i ) j\\neq\\varphi(i) . Then, using the final values 𝑿 \\boldsymbol{X} and 𝑾 \\boldsymbol{W} as the starting point, we optimize the usual modified loss function. Using this procedure, we had Mod-GCN mimic the strategy of Full-Color by first having it use the unique 1 1 -coloring as the starting point to produce a 2 2 -coloring, then having it use that 2 2 -coloring as the starting point to produce a 3 3 -coloring, and so on. The decision to use p i , φ ​ ( i ) ′ = 0.55 p^{\\prime}_{i,\\varphi(i)}=0.55 rather than a different value came from testing a range of values. When we used p i , φ ​ ( i ) ′ ≈ 0.9 p^{\\prime}_{i,\\varphi(i)}\\approx 0.9 or larger, the algorithm only performed about as well as Full-Color ; perhaps using such a hard coloring as the starting point takes away the algorithm’s advantage of optimizing over soft colorings rather than hard colorings. On the other hand, of course, if p i , φ ​ ( i ) ′ p^{\\prime}_{i,\\varphi(i)} is too small, then the algorithm barely uses the information in each new coloring, meaning it barely uses the strategy"
+}

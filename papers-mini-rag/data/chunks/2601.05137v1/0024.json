@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0024",
+  "word_start": 4800,
+  "word_end": 5050,
+  "text": "(k-1) -colorings lead to substantial performance improvements. We then show how this idea can be incorporated into the GNN-based approach, further boosting its effectiveness. The strategy of integrating classical algorithmic ideas into machine learning methods, commonly referred to as algorithmic alignment [ 14 ] , has recently attracted significant attention in ML-based combinatorial optimization [ 15 , 16 , 17 ] . Our proposed recursive warm starts can be seen as an instance of this paradigm. Consider the following alternative to the GCN algorithm. In order to k k -color a graph, we start by producing a random k k -coloring. Then we perform whichever individual color switch leads to the greatest decrease in the number of monochromatic edges, with ties broken at random, first uniformly over the potential vertices, then uniformly over the potential colors. We repeat this until there is no more individual color switch that leads to a decrease in the number of monochromatic edges. This is essentially equivalent to the algorithm described in the introduction, but with the loss function ℒ \\mathcal{L} being optimized over the discrete space of hard colorings rather than over the continuous space of soft colorings. In particular, it is a local search algorithm. We call this algorithm Discrete-Color . We define a new algorithm called Full-Color that works exactly the same way as Discrete-Color , except instead of starting with a random k k -coloring, it recursively calls Full-Color to produce a ( k − 1 ) (k-1) -coloring, then uses"
+}

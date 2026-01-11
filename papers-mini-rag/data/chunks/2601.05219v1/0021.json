@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "as claimed. ∎ We can now use this Lemma to compare the calibration scores of CAOS and full CAOS . Fix a candidate label y ∈ 𝒴 y\\in\\mathcal{Y} and the augmented dataset 𝒟 n + 1 y = 𝒟 n ∪ { ( X n + 1 , y ) } \\mathcal{D}_{n+1}^{y}=\\mathcal{D}_{n}\\cup\\{(X_{n+1},y)\\} . Then for all i = 1 , … , n i=1,\\ldots,n , By the same argument in App. C.1 that uses Assum. 4.1 (self-score optimality) to establish the equivalence of test time scores ( Eqn. 20 ), we have Since 𝒟 n − i ∪ { X n + 1 , y } \\mathcal{D}_{n}^{-i}\\cup\\{X_{n+1},y\\} contains 𝒟 n − i \\mathcal{D}_{n}^{-i} , the claimed inequality follows from the monotonicity lemma (Lemma 5.2 ). ∎ Via a sequence of lemmas, we have established that the nonconformity scores of CAOS and full CAOS match on test inputs, while the CAOS scores dominate full CAOS on calibration inputs. As a result, full CAOS calibration leads to potentially smaller thresholds, which means that the resulting prediction sets are tighter than the CAOS prediction sets. We formalize this in the next corollary. Let C ^ full ​ ( X n + 1 ) \\hat{C}_{\\mathrm{full}}(X_{n+1}) be the full conformal CAOS set defined in Eqn. 22 , and let C ^ caos ​ ( X n + 1 ) \\hat{C}_{\\mathrm{caos}}(X_{n+1}) be the CAOS set defined in Eqn. 16 . Then for any test input X n + 1 X_{n+1} , Let y ∈ C ^"
+}

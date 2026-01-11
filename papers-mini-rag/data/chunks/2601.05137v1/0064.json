@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0064",
+  "word_start": 12800,
+  "word_end": 12875,
+  "text": "at most equal to the corresponding entry in the sorted degree sequence of the maximally planar graph. We repeated this until no more edges could be added. This greedy strategy is not always able to add all 594 edges, but when it does, the resulting graph has the same degree sequence as the maximally planar graph. Each of our replica graphs had at least 592 592 edges, and many of them had 594 594 ."
+}

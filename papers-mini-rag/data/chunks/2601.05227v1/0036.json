@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0036",
+  "word_start": 7200,
+  "word_end": 7450,
+  "text": "in the generative process and integrating them directly into the inference pipeline. Moreover, my framework paves the way for exciting extensions. One such direction is the incorporation of jump processes or Lévy noise to capture discontinuities in latent space, which are common in financial time series and neural spike trains ( [ 35 ] ). Another is the use of manifold-valued SDEs to model geometric constraints in data, building on the rich theory of stochastic flows on Riemannian manifolds ( [ 18 ] ). On the practical side, SLDI can be applied to domains where uncertainty is both structured and evolving. These include climate modeling, irregularly sampled health records, and high-frequency trading—all of which benefit from temporal smoothing, noise-aware prediction, and probabilistic forecasting. The ability to forecast distributions rather than point estimates is especially valuable in risk-sensitive decision-making contexts, such as control and planning under uncertainty. Future work will also explore tighter variational bounds and alternative divergence measures such as the Wasserstein distance, which may be more appropriate in settings where likelihood estimation is intractable ( [ 6 ] ). Similarly, leveraging stochastic control theory to design optimal variational drifts remains a promising research avenue, potentially enabling more accurate and sample-efficient training regimes. In conclusion, I have introduced a principled and powerful new method for learning from continuous-time data using stochastic latent dynamics. By building on the foundations of SDEs, adjoint calculus, and variational inference, I offer a comprehensive framework that is mathematically grounded, practically efficient, and broadly applicable. The"
+}

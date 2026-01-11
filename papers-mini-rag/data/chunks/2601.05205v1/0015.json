@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05205v1",
+  "title": "EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI",
+  "abs_url": "https://arxiv.org/abs/2601.05205v1",
+  "html_url": "https://arxiv.org/html/2601.05205v1",
+  "chunk_id": "2601.05205v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "All models run in PyTorch with fixed random seeds to ensure reproducibility. We conduct all experiments on an NVIDIA Tesla T4 GPU (16 GB VRAM) under identical runtime settings. For each trial, we record classification accuracy, energy consumption, and execution time. To evaluate optimization performance, EARL was compared with two widely used baselines;Optuna and Ray Tune. All methods were configured with the same search space, parameter bounds, and trial budget (50 trials, including 20 initialization trials). Optuna employed the NSGA-II multi-objective sampler, whereas Ray Tune utilized asynchronous parallel sampling. All algorithms were evaluated using identical training scripts, datasets, and experimental protocols to ensure a fair comparison. Results represent the mean of 100 repeated runs to reduce stochastic variation. The following sections present the performance trends observed across the three datasets. Table II presents a quantitative comparison of EARL, Optuna, and Ray Tune across all benchmark datasets. Figures 1 – 3 further illustrate trial-wise accuracy trajectories, energy consumption trends, and resulting Pareto fronts. EARL demonstrated superior classification accuracy across all three benchmark datasets, consistently outperforming both Optuna and Ray. On the FSDD , EARL reached 95.39% ± \\pm 0.44, exceeding Optuna (82.25% ± \\pm 2.75) and Ray (88.15% ± \\pm 2.18). It stabilized after only 44 trials (Fig. 1a ) and completed optimization in 10.6 minutes, nearly an order of magnitude faster than both baselines. On HAR , EARL again delivered the best accuracy at 96.99% ± \\pm 0.34, converging after 39 trials and finishing the search in 19.53 minutes (Fig."
+}

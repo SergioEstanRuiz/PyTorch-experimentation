@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0056",
+  "word_start": 11200,
+  "word_end": 11450,
+  "text": "r outputs { ( w ^ j , f ^ j ) } j ∈ [ k ] \\{(\\mathaccent 866{w}_{j},\\mathaccent 866{f}_{j})\\}_{j\\in[k]} with the property that there is a permutation π \\pi such that for any w j w_{j} with | w j | = ( 𝒩 ) |w_{j}|=\\Omega(\\mathcal{N}) , Then Pr r ⁡ [ r ∈ ℰ ] > 1 − δ . \\Pr_{r}\\left[r\\in\\mathcal{E}\\right]>1-\\delta\\,. The above statement is an adaptation of Theorem 1.1 of [ PS15-SFT ] . We need to adapt the steps of the analysis for our application to recovering the parameters of SFD mixtures. In our proof, we explain how the algorithm of [ PS15-SFT ] works and what we need to modify for our purposes. The main modification (which is implicit in the analysis of [ PS15-SFT ] ) is that the noise level 𝒩 2 \\mathcal{N}^{2} scales with the maximum of the noise function | g ​ ( t ) | 2 |g(t)|^{2} on the times { t 1 , . . , t N } \\{t_{1},..,t_{N}\\} picked by the learning algorithm, while in the analysis of [ PS15-SFT ] , the noise level scales with the integral \\ilimits@ 0 T ​ | g ​ ( t ) | 2 ​ d ​ t . \\intslop\\ilimits@_{0}^{T}|g(t)|^{2}\\mathrm{d}t. We need the former, because in our application we only have control of g g on the queried points. In each part of the analysis, we will explain how the original algorithm of [ PS15-SFT ] works and further"
+}

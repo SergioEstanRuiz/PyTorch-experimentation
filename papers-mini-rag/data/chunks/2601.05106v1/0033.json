@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0033",
+  "word_start": 6600,
+  "word_end": 6850,
+  "text": "We see that FusionRoute consistently outperforms FusionRoute w/o complementary logits across nearly all benchmarks and both model families. The performance gap is particularly pronounced on coding and instruction-following tasks, where even correctly selected experts can produce locally suboptimal or misaligned tokens that require correction. These results provide direct empirical evidence support for our theoretical analysis in § 4 . Even when the router is able to identify a suitable expert at each token, relying solely on fixed expert logits is insufficient to reliably recover a near-optimal policy. In contrast, allowing the router to contribute complementary logits effectively expands the expressive capacity of the decoding policy, enabling it to correct expert failures and achieve stronger, more robust performance across heterogeneous domains. Moreover, we find that the routing-only variant ( FusionRoute w/o complementary logits) already outperforms the state-of-the-arts controlled-decoding-based token-level collaboration method (Chakraborty et al., 2025 ) across most benchmarks. This improvement suggests that directly training the routing component on expert data is crucial for learning accurate and stable token-level routing behaviors. In contrast, controlled-decoding approaches that rely solely on external reward signals tend to exhibit higher instability, limiting their effectiveness in practice. While the ablation in § 6.1 demonstrates the importance of complementary logits at inference time, it does not examine how different stages of the FusionRoute training procedure contribute to this behavior. In this section, we further probe the training pipeline of FusionRoute by ablating the preference-optimization stage, with the goal of understanding the effectiveness of the proposed CDPO over"
+}

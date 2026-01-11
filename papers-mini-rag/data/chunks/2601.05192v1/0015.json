@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "better. On the more general domains, the smaller Qwen3-4B also performs well. We discuss these differences in more detail in Section 4.6 . Overall, our analysis shows that the performance of LELA is robust to the choice of the underlying LLM. The tables show also that omitting the selection LLM (“w/o LLM selection”) lowers the results drastically on domain-specific datasets, indicating that LELA’s joint consideration of candidates is vital. We study several other ablations on the ZESHEL benchmark: We pass all retrieved candidates to the LLM without reranking nor cutoff. We skip thinking token generation and prompt the selection LLM to directly output an answer. We pass empty entity descriptions to the selection LLM. Table 5 shows that removing the reranker results in a drop in performance (in addition to a longer runtime and increased cost given the longer contexts). While the drop in performance is significant for Qwen3-30B-A3B and Qwen3-4B , it is however negligible for Magistral-Small-2509 , which is due to the fact that this larger model is better at handling a large number of candidates, resulting in a slower drop in selection accuracy as k k increases, which can thus be offset by the increased candidate retrieval recall (see Appendix D ). The No Self-Consistency variant, too, systematically results in a drop in performance (more details in Appendix E ). Disabling reasoning results in the next biggest drop in performance across the three models. This shows that simply considering the candidates together is not sufficient and that"
+}

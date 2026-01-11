@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "to the number of time steps and nodes, and thus have good scalability. In addition, since the spatial agent tokens avoid pairwise spatial interactions between nodes, FaST can achieve good parallelism across multiple computing units. In this section, we evaluate FaST on benchmark datasets. We first introduce the datasets, metrics, and baselines, and then report the main results, ablations, hyperparameter sensitivity, and computational cost. We further provide case studies to show how the MoE design captures heterogeneity across nodes and time periods. We conduct experiments using the LargeST dataset (Liu et al. , 2023b ) , which contains four traffic subset: SD (San Diego), GBA (Greater Bay Area), GLA (Greater Los Angeles), and CA (California). Detailed statistics are provided in Table 1 . Each subset is split into 6:2:2 training, validation, and test sets in chronological order. Model performance is evaluated using widely adopted error metrics, including MAE, RMSE, and MAPE, where lower values indicate better predictive accuracy. In addition, we report the coefficient of determination ( R 2 R^{2} ) to quantify how well the predicted sequences explain the variance of the ground-truth series (higher is better). To ensure representativeness, timeliness, and competitiveness, we consider two groups of baselines: (i) temporal-centric methods that model time-series dynamics without explicit spatial structures, including DLinear (Zeng et al. , 2023 ) : decomposes a series into trend and residual components and models them with lightweight linear projections; NHITS (Challu et al. , 2023 ) : performs multi-rate processing with hierarchical interpolation for"
+}

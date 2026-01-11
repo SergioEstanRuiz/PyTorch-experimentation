@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "x | n_{x}:=|H_{x}| . Similarly define B x B_{x} and b x b_{x} for big deviations at context x x , with T x = n x + b x T_{x}=n_{x}+b_{x} the total number of times x x appears. If B T B_{T} is small, the structure of the instance forces many contexts x x to have a substantial number of honest rounds n x n_{x} ; this is where we will extract noise using a martingale argument. Honest rounds accumulate uncontrollable noise on g 3 g_{3} . On honest rounds for a fixed context x x , we decompose the calibration error for g 3 g_{3} into: Noise: N x := ∑ t ∈ H x ( x t − y t ) N_{x}:=\\sum_{t\\in H_{x}}(x^{t}-y^{t}) , a sum of centered Bernoulli deviations around x t x^{t} ; and Bias: R x := ∑ t ∈ H x ( p t − x t ) R_{x}:=\\sum_{t\\in H_{x}}(p^{t}-x^{t}) , which is small in magnitude because | p t − x t | < η |p^{t}-x^{t}|<\\eta on H x H_{x} . We show a structural lemma (Lemma 4 ) that the calibration error on g 3 g_{3} satisfies By construction, we know that the bias is small on honest rounds: ∑ x | R x | ≤ η ​ H T \\sum_{x}|R_{x}|\\leq\\eta H_{T} which will be negligible at our choice of η \\eta . The core probabilistic step is a martingale-transform lower bound applied context-wise: on the rounds where any fixed context"
+}

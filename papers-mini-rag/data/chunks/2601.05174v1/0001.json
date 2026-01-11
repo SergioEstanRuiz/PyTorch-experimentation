@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": ", 2023 ; Jin et al. , 2024 ) . Accurate long-horizon STG forecasting (e.g., days ahead) can shift urban management from reactive responses to proactive planning. For example, a seven-day electricity demand outlook allows renewable generation and storage to be scheduled ahead of peak loads. Such scenarios are typically coupled with two features: 1) a long forecasting horizon (e.g., 672 steps at 15-minute granularity covers one week) and 2) a large-scale graph (e.g., over thousands of nodes). Extensive efforts have been made in STG forecasting, where most works focus on short-term forecasting (i.e., 12-step) in graphs with fewer than hundreds of nodes. Representative models build a Spatial-Temporal Graph Neural Networks (STGNNs), such as DCRNN (Li et al. , 2018 ) and STGCN (Yu et al. , 2018 ) , coupling Graph Neural Networks (GNNs) with sequence models to capture both the spatial and temporal dependencies. Later improvements incorporate graph attention (Guo et al. , 2019 ; Zheng et al. , 2020 ; Guo et al. , 2022 ) , temporal transformers (Guo et al. , 2022 ; Liang et al. , 2023 ) , and neural graph ODEs (Fang et al. , 2021 ) to boost short-term accuracy. However, those STGNNs suffer from quadratic complexity hidden in both spatial and temporal modules: GNNs and spatial/temporal attention incur O ​ ( N 2 ) O(N^{2}) and O ​ ( T 2 ) O(T^{2}) pairwise node/time-step interactions over N N nodes and sequence length T T , respectively. When N N"
+}

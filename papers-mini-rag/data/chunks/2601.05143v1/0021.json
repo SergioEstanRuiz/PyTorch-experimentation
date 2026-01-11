@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05143v1",
+  "title": "A Lightweight and Explainable Vision-Language Framework for Crop Disease Visual Question Answering",
+  "abs_url": "https://arxiv.org/abs/2601.05143v1",
+  "html_url": "https://arxiv.org/html/2601.05143v1",
+  "chunk_id": "2601.05143v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "that differ from the original test questions. All qualitative results are generated using the Swin–T5 model. Figure 11 shows a healthy soybean leaf from the test set. The base question describes the visual content, and the model correctly identifies the leaf as healthy. For follow-up queries, the model consistently recognizes the crop type. It also correctly confirms the absence of disease. The responses remain semantically consistent across different question phrasings. Figure 12 illustrates an apple leaf affected by Leaf Rust. The base question contains an incorrect plant reference, which the model successfully corrects. Subsequent user queries further validate the prediction. The model accurately identifies both the plant type and the disease. The responses remain stable across descriptive and diagnostic questions. Overall, these examples demonstrate robustness to variations in question phrasing. The Swin–T5 model maintains correct visual grounding and semantic consistency. This behavior reflects effective vision–language alignment in interactive settings. An ablation study is conducted to examine the impact of key architectural and training components on model performance. Specifically, we analyze the effect of the training strategy by evaluating the role of vision encoder pretraining. To assess the importance of vision pretraining, we remove the separate vision encoder pretraining stage and directly train the full VQA model by unfreezing the vision encoder. All hyperparameters are kept identical to those reported in Table 3 to ensure a fair comparison. Table 8 reports plant and disease classification accuracy under this setting. Both Swin–BART and Swin–T5 exhibit a noticeable drop in accuracy compared to"
+}

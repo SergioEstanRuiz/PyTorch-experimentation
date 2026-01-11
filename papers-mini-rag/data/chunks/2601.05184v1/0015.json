@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "set to 1, this formulation reduces to the standard case of using a single, well-trained or a zero-shot reward model. Note that our mitigation strategy does not rely on access to ground-truth labels used in bias evaluation; instead, we use proxy metrics to estimate the degree of bias present in the model. We consider several different settings: (1) self-consuming training loop (Non-dynamic): We compare synthetic data ( syn ) with real data ( real ). In the real setting, all synthetic data is replaced with real data to examine how performance changes. (2) SCPL (Dynamic): We evaluate two variants: a controlled linear dynamic version ( syn-dynamic ) and a fixed-ratio version ( syn-dynamic-fr ). As a baseline, we also replace the synthetic data in the controlled linear dynamic setting with real data ( real-dynamic ). (3) Accumulation-enhanced performative loop : We further apply data accumulation to the proposed SCPL ( syn-dynamic-accu ). We also apply accumulation to real data under the same dynamic control ( real-dynamic-accu ). Our experiments involve Qwen2.5-1.5B, Qwen2.5-Math-1.5B, Llama2-7B, Qwen2.5-7B, Qwen2.5-Math-7B, and Llama3.1-8B. More experimental details and results, including self-consuming DPO and beyond self-consuming analyses, are provided in Appendix C , G , H . This task examines the political bias of LLMs within the US political spectrum by evaluating their performance on news continuation (Maslej et al. , 2023 ) . Following Wang et al. ( 2024c ) , we use 6458 news articles from the Webis-Bias-Flipper-18 dataset (Chen et al. , 2018 ) ,"
+}

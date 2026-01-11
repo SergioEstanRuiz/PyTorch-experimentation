@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0035",
+  "word_start": 7000,
+  "word_end": 7250,
+  "text": "score for target ( x , y ) (x,y) using predictor π i \\pi_{i} . 𝒜 𝒟 ​ ( x , y ) = { s π j ​ ( x , y ) : ( X j , Y j ) ∈ 𝒟 } \\mathcal{A}_{\\mathcal{D}}\\!\\left(x,y\\right)=\\{s_{\\pi_{j}}(x,y):(X_{j},Y_{j})\\in\\mathcal{D}\\} : pool of one-shot nonconformity scores for target ( x , y ) (x,y) based on one-shot predictors induced by examples in 𝒟 \\mathcal{D} . All score pools are interpreted as multisets. Σ min k ​ ( 𝒜 ) \\Sigma_{\\min}^{k}(\\mathcal{A}) : sum of the k k smallest elements of multiset 𝒜 \\mathcal{A} . Quantile ⁡ ( 𝒮 ; τ ) \\operatorname{Quantile}\\!\\left(\\mathcal{S}\\,;\\,\\tau\\right) : the ⌈ τ ​ ( | 𝒮 | + 1 ) ⌉ \\lceil\\tau(|\\mathcal{S}|+1)\\rceil -th order statistic of the multiset 𝒮 \\mathcal{S} , for τ ∈ ( 0 , 1 ) \\tau\\in(0,1) . This definition accounts for ties and ensures finite-sample validity. The aggregation and quantile operators depend only on the multiset of values and are permutation invariant. s π i ​ ( X n + 1 , y ) s_{\\pi_{i}}(X_{n+1},y) : split conformal one-shot nonconformity score induced by reference example i i . s caos ​ ( ( X n + 1 , y ) ; 𝒟 n ) = 1 k ​ Σ min k ​ ( 𝒜 𝒟 n ​ ( X n + 1 , y ) ) s_{\\mathrm{caos}}\\bigl((X_{n+1},y)\\,;\\,\\mathcal{D}_{n}\\bigr)=\\frac{1}{k}\\Sigma^{k}_{\\min}(\\mathcal{A}_{\\mathcal{D}_{n}}\\!\\left(X_{n+1},y\\right)) : CAOS test-time aggregated nonconformity score. s ~ caos ​ ( ( X n + 1 , y ) ;"
+}

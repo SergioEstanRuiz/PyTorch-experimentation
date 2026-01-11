@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0080",
+  "word_start": 16000,
+  "word_end": 16250,
+  "text": "​ ( d + 1 ) ) \\mathsf{SFT}_{1}(x^{r_{\\ell}},k,T,2B,\\gamma_{1},\\theta,\\frac{\\delta_{0}}{2(d+1)}) performs queries on x r ℓ ​ ( t ) x^{r_{\\ell}}(t) at t = t 1 r ℓ , t 2 r ℓ , … , t N 1 r ℓ t=t_{1}^{r_{\\ell}},t_{2}^{r_{\\ell}},\\dots,t_{N_{1}}^{r_{\\ell}} , and outputs { ( w ^ j r ℓ , μ ^ j r ℓ ) } j ∈ [ k ] \\{(\\mathaccent 866{w}_{j}^{r_{\\ell}},\\mathaccent 866{\\mu}_{j}^{r_{\\ell}})\\}_{j\\in[k]} in running time such that there is a permutation π ℓ \\pi_{\\ell} that for any j ∈ [ k ] j\\in[k] with | w j | = ( 𝒩 1 ) |w_{j}|=\\Omega(\\mathcal{N}_{1}) , with probability at least 1 − δ 0 2 ​ ( d + 1 ) 1-\\frac{\\delta_{0}}{2(d+1)} . Thus, by a union bound, for any j ∈ [ k ] j\\in[k] with | w j | = ( 𝒩 ) |w_{j}|=\\Omega(\\mathcal{N}) , we have | ⟨ r ℓ , μ j ⟩ − μ ^ π ℓ ​ ( j ) r ℓ | ≤ O ​ ( 𝒩 T ​ | w j | ) \\left|\\langle r_{\\ell},\\mu_{j}\\rangle-\\mathaccent 866{\\mu}_{\\pi_{\\ell}(j)}^{r_{\\ell}}\\right|\\leq O\\left(\\frac{\\mathcal{N}}{T|w_{j}|}\\right) and | w j − w ^ π ℓ ​ ( j ) r ℓ | ≤ O ​ ( 𝒩 ) \\left|w_{j}-\\mathaccent 866{w}_{\\pi_{\\ell}(j)}^{r_{\\ell}}\\right|\\leq O(\\mathcal{N}) for all ℓ ∈ [ d ] \\ell\\in[d] , with probability 1 − δ 0 / 2 1-\\delta_{0}/2 . Suppose this happens. Since the ordering of the means is preserved among all the projections, we can match the projected means in different directions after sorting. Therefore, by"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0026",
+  "word_start": 5200,
+  "word_end": 5450,
+  "text": "position. Among these, the oracle Answer first sorting achieves the highest accuracy, closely followed by the Reranker sorting. For Qwen3-30B-A3B , the performance gap between sorting strategies becomes more pronounced. Again, the Answer first sorting yields the highest accuracy, with the Reranker sorting ranking second. In contrast, Random sorting performs worst, trailing the oracle setting by 2.51 percentage points. This effect further increases for Qwen3-4B , which exhibits the largest performance spread across sorting strategies. For this smaller model, the Reranker sorting achieves the highest accuracy, followed by the Answer first sorting, while Random sorting again results in the lowest performance, 4.84 percentage points behind the best-performing approach. Overall, these results demonstrate that candidate position has a measurable impact on selection accuracy, with sensitivity increasing as model size decreases. We hypothesize that larger models are better able to compare candidates independently of their order, while smaller models rely more heavily on positional cues. The intermediate behavior of the 30B MoE Qwen3-30B-A3B model is consistent with this explanation. Importantly, the proposed Reranker sorting strategy consistently ranks first among the non-oracle methods and achieves the best performance for the smallest model, justifying its use in LELA. In contrast, BM25 sorting underperforms relative to the reranker-based approaches, while Random sorting yields the lowest accuracy across all models. Furthermore, we also report the results on ESCO to study the impact in the case of None prediction, considering three different positions for the UNK candidate, among the candidates according to the reranker-assigned scores: None first:"
+}

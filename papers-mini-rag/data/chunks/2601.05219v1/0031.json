@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0031",
+  "word_start": 6200,
+  "word_end": 6450,
+  "text": "identical backbones, prompts, and data splits, differing only in how prediction sets are calibrated and aggregated. One-shot Text Classification with LLMs. We evaluate CAOS on one-shot text classification tasks from the RAFT benchmark, following the setup described in Sec. 3 , Example 2, using a fixed prompt template (see Sec. D.3 ) and a frozen pretrained language model, specifically a 7B-parameter model from the Llama2 family. Each RAFT task provides 50 labeled examples. We construct a dataset 𝒟 n \\mathcal{D}_{n} of size 40 and a held-out test set 𝒟 test \\mathcal{D}_{\\textrm{test}} of size 10, which is used exclusively to evaluate empirical coverage and prediction set size. For split conformal baselines, which require disjoint reference and calibration data, 𝒟 n \\mathcal{D}_{n} is further partitioned into equally sized reference and calibration sets 𝒟 ref \\mathcal{D}_{\\text{ref}} and 𝒟 calib \\mathcal{D}_{\\text{calib}} . All methods use identical data splits, prompts, and backbone models, differing only in how prediction sets are constructed and calibrated. For each candidate label y y in the task-specific label space, we form a prompt by concatenating the reference example, the test input, and the candidate output. We compute the negative log-likelihood (NLL) of y y under the model, and use the length-normalized NLL as the nonconformity score to avoid penalizing longer labels. While we use Llama2-7B in our experiments, this procedure applies to any language model that provides access to token-level logits, including API-based models, provided the label space is known. Results. Figure 3 summarizes the performance of CAOS and SCOS"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0122",
+  "word_start": 24400,
+  "word_end": 24650,
+  "text": "\\| 2 \\gamma_{\\text{F}}=\\min_{j\\neq j^{\\prime}\\in[k^{\\prime}]}\\|\\mu_{j}^{\\prime}-\\mu_{j^{\\prime}}^{\\prime}\\|_{2} , γ SF = min j ∈ [ k ] , j ′ ∈ [ k ′ ] ⁡ \\| ​ μ j − μ j ′ ′ ​ \\| 2 \\gamma_{\\text{SF}}=\\min_{j\\in[k],j^{\\prime}\\in[k^{\\prime}]}\\|\\mu_{j}-\\mu_{j^{\\prime}}^{\\prime}\\|_{2} , w min = min ⁡ { min j ∈ [ k ] ⁡ w j , min j ∈ [ k ′ ] ⁡ w j ′ } w_{\\min}=\\min\\{\\min_{j\\in[k]}w_{j},\\min_{j\\in[k^{\\prime}]}w_{j}^{\\prime}\\} , and B = max j ∈ [ k ] ⁡ \\| ​ μ j ​ \\| 2 B=\\max_{j\\in[k]}\\|\\mu_{j}\\|_{2} . Then for any β > 0 \\beta>0 , there is a separation γ 0 = O ​ ( k ′ ⁣ β ) \\gamma_{0}=O(k^{\\prime\\beta}) , such that if γ F ≥ γ 0 \\gamma_{\\text{F}}\\geq\\gamma_{0} , γ SF ≥ γ 0 \\gamma_{\\text{SF}}\\geq\\gamma_{0} , and w min ≥ 1 / poly ​ ( k ′ ) w_{\\min}\\geq 1/\\mathrm{poly}(k^{\\prime}) , then there is an algorithm that given ε , δ ∈ ( 0 , 1 ) \\varepsilon,\\delta\\in(0,1) and n n i.i.d. samples from ℳ \\mathcal{M} , outputs two lists { μ ^ j } j ∈ [ k ] \\{\\mathaccent 866{\\mu}_{j}\\}_{j\\in[k]} and { μ ^ j ′ } j ∈ [ k ′ ] \\{\\mathaccent 866{\\mu}_{j}^{\\prime}\\}_{j\\in[k^{\\prime}]} such that there is a permutation π \\pi on [ k ] [k] and a permutation π ′ \\pi^{\\prime} on [ k ′ ] [k^{\\prime}] with with probability at least 1 − δ 1-\\delta , as long as and the running time is n O ​ ( 1 / β )"
+}

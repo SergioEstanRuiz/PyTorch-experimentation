@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0050",
+  "word_start": 10000,
+  "word_end": 10250,
+  "text": "\\boldsymbol{a}_{t} are learnable weights, and σ t \\sigma_{t} is an activation function, ReLU by default. If the graph is bipartite, then instead of the above, there are two weights matrices 𝑾 1 t , 𝑾 2 t \\boldsymbol{W}_{1}^{t},\\boldsymbol{W}_{2}^{t} , one for 𝒙 i t \\boldsymbol{x}_{i}^{t} and one for 𝒙 j t \\boldsymbol{x}_{j}^{t} when j ∈ 𝒩 ​ ( i ) j\\in\\mathcal{N}(i) . GraphSAGE is designed so that it may be trained on a subgraph of a larger graph and then generalize well to previously unseen nodes in the larger graph. In GraphSAGE, the update rule is given by where 𝑾 1 t , 𝑾 2 t \\boldsymbol{W}_{1}^{t},\\boldsymbol{W}_{2}^{t} are learnable weights and σ t \\sigma_{t} is an activation function, ReLU by default. When deciding on modifications to include in Mod-GCN , we also considered the following. Encodings: Graph learning tasks have been shown to benefit from incorporating geometric information about each node in the initial node embeddings 𝑿 \\boldsymbol{X} . Examples of such encodings include random walk transition probabilities [ 10 ] , eigenvectors of the Graph Laplacian [ 11 ] , discrete Ricci curvature [ 12 ] , and numerous other examples. Our experiments suggest that encodings do not lead to significant performance enhancements. Loss function: A related idea to the new loss function presented in Section 3.1 is to use the loss function where “ × \\times ” denotes element-wise multiplication. This scales up the loss contribution of each monochromatic edge by one plus the number of triangles that"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0117",
+  "word_start": 23400,
+  "word_end": 23650,
+  "text": "i i , whether and how to update the state of copy i i using information available up to this point. (Our lower bound will not depend on any particular update scheme; it uses only the context-blindness of the Q i t Q_{i}^{t} at the moment they are produced and the properness constraint on P t P^{t} .) Finally, the prediction p t ∼ P t p^{t}\\sim P^{t} is drawn. Fix integers T ≥ 1 T\\geq 1 and k ≥ 1 k\\geq 1 , and set N := 2 k N:=2^{k} . Let the context space be the k k -bit hypercube and identify each x = ( x 1 , … , x k ) ∈ X x=(x_{1},\\dots,x_{k})\\in X with the integer Define the partition of [ 0 , 1 ] [0,1] into N N intervals Define the mean map μ : X → ( 0 , 1 ) \\mu:X\\to(0,1) by Note that μ ​ ( x ) \\mu(x) is the midpoint of J val ​ ( x ) J_{\\mathrm{val}(x)} . Let 𝒟 T , N \\mathcal{D}_{T,N} be the oblivious distribution over ( x t , y t ) t = 1 T (x^{t},y^{t})_{t=1}^{T} defined by contexts x 1 , … , x T x^{1},\\dots,x^{T} that are i.i.d. uniform on X X and labels that are deterministicly y t := μ ​ ( x t ) y^{t}:=\\mu(x^{t}) for each t t . Thus ( x t , y t ) (x^{t},y^{t}) are independent of the forecaster, and y t"
+}

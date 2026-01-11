@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0042",
+  "word_start": 8400,
+  "word_end": 8650,
+  "text": "seed R R is independent of ( x t , y t ) t = 1 T (x^{t},y^{t})_{t=1}^{T} (as the lower bound instance is fixed and non-adaptive), so we can view ( x t , y t , R ) (x^{t},y^{t},R) as the environment’s sample space. Then is an average of the quantities 𝔼 𝒟 T , m ​ [ MCerr T ​ ( A R ) ] \\mathbb{E}_{\\mathcal{D}_{T,m}}[\\mathrm{MCerr}_{T}(A_{R})] over all outcomes R R . Therefore there exists at least one outcome R ′ R^{\\prime} such that Taking A ′ := A R ′ A^{\\prime}:=A_{R^{\\prime}} yields the claim. ∎ Thus it suffices to fix an arbitrary deterministic algorithm and analyze its error. Fix a deterministic prediction algorithm and 𝒟 T , m \\mathcal{D}_{T,m} . For each t t , p t p^{t} is a deterministic function of ( x 1 , y 1 , … , x t − 1 , y t − 1 , x t ) (x^{1},y^{1},\\dots,x^{t-1},y^{t-1},x^{t}) . Let B T B_{T} be the (random) number of big-deviation rounds: First we show that the multicalibration error of any algorithm grows linearly with the number of big deviations, witnessed by either g 1 g_{1} or g 2 g_{2} . For any deterministic prediction algorithm and any η > 0 \\eta>0 , under 𝒟 T , m \\mathcal{D}_{T,m} we have Write r t := p t − x t r^{t}:=p^{t}-x^{t} to denote the round t t deviation from “honest” prediction. Define the indicators to indicate whether round t t"
+}

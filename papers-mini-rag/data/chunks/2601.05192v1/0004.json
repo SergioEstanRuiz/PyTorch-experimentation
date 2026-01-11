@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "Cao et al. ( 2021a ) is a generative approach and mGENRE De Cao et al. ( 2022 ) is its multilingual extension. Although these methods can technically operate over different knowledge bases, they are not true zero-shot approaches, because they require supervised training on the target KB or closely aligned KBs to achieve good performance. LELA obviates this requirement, and we show in our experiments that it still performs competitively with these approaches. Several LLM-based approaches have also been proposed. The approaches in Vollmers et al. ; Xin et al. ( 2024 ) use LLMs for contextual augmentation. Li et al. ( 2025 ) categorizes mentions and routes them to either a low-computational entity linker or a reasoning-LLM. Wang et al. ( 2026 ); Shi et al. ( 2024 ); Liu et al. ( 2024b ) focus on the multimodal setting. GenDecider Zhou et al. ( 2024 ) uses an LLM fine-tuned on the reranking task on ZESHEL using LoRA Hu et al. ( 2021 ) . OneNet Liu et al. ( 2024c ) is a pipeline approach of LLM-based candidate filtering, entity linking, and hallucination tackling. EntGPT Ding et al. ( 2024 ) prompts the model to augment the mention before selecting the best candidate entity and Ye and Mitchell ( 2025 ) uses in-context learning Brown et al. ( 2020 ) for candidate selection. All of these LLM-based approaches leverage task- or domain-specific candidate retrieval, fine-tuning, or complex prompt engineering, which limits their applicability in true zero-shot"
+}

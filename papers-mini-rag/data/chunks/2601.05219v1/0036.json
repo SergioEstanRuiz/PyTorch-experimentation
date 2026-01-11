@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0036",
+  "word_start": 7200,
+  "word_end": 7450,
+  "text": ", y ) ; 𝒟 n ) = 1 k ​ Σ min k ​ ( 𝒜 𝒟 n ​ ( X n + 1 , y ) ) s_{\\mathrm{caos}}\\bigl((X_{n+1},y)\\,;\\,\\mathcal{D}_{n}\\bigr)=\\frac{1}{k}\\Sigma^{k}_{\\min}(\\mathcal{A}_{\\mathcal{D}_{n}}\\!\\left(X_{n+1},y\\right)) : CAOS test-time aggregated nonconformity score. s ~ caos ​ ( ( X n + 1 , y ) ; 𝒟 n + 1 y ) = 1 k ​ ( Σ min k + 1 ​ ( 𝒜 𝒟 n + 1 y ​ ( X i , Y i ) ) − s π i ​ ( X i , Y i ) ) \\tilde{s}_{\\mathrm{caos}}\\bigl((X_{n+1},y)\\,;\\,\\mathcal{D}_{n+1}^{y}\\bigr)=\\frac{1}{k}\\bigl(\\Sigma^{k+1}_{\\min}(\\mathcal{A}_{\\mathcal{D}_{n+1}^{y}}\\!\\left(X_{i},Y_{i}\\right))-s_{\\pi_{i}}(X_{i},Y_{i})\\bigr) : full CAOS test-time nonconformity score. s π i ​ ( X j , Y j ) s_{\\pi_{i}}(X_{j},Y_{j}) : split conformal calibration score for example j j based on one-shot predictor π i \\pi_{i} . s caos ​ ( ( X i , Y i ) ; 𝒟 n − i ) = s caos ​ ( ( X i , Y i ) ; 𝒟 n − i ) s_{\\mathrm{caos}}\\bigl((X_{i},Y_{i})\\,;\\,\\mathcal{D}_{n}^{-i}\\bigr)=s_{\\mathrm{caos}}\\bigl((X_{i},Y_{i})\\,;\\,\\mathcal{D}_{n}^{-i}\\bigr) : leave-one-out CAOS calibration score for example i i . s ~ caos ​ ( ( X i , Y i ) ; 𝒟 n + 1 y ) = s ~ caos ​ ( ( X i , Y i ) ; 𝒟 n + 1 y ) \\tilde{s}_{\\mathrm{caos}}\\bigl((X_{i},Y_{i})\\,;\\,\\mathcal{D}_{n+1}^{y}\\bigr)=\\tilde{s}_{\\mathrm{caos}}\\bigl((X_{i},Y_{i})\\,;\\,\\mathcal{D}_{n+1}^{y}\\bigr) : full CAOS calibration score for example i i . Relationships between nonconformity scores s ~ caos ​ ( ( X n + 1 , y ) ; 𝒟 n + 1"
+}

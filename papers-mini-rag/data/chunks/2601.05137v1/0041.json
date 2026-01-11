@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0041",
+  "word_start": 8200,
+  "word_end": 8450,
+  "text": "maximally planar graphs. We see that there are many outliers with large degree. One might expect that it would be difficult to find a color for a vertex with 17 17 neighbors when only 4 4 colors are allowed, and that this might lead to extra monochromatic edges. To diagnose whether this is the root of the issue, we generated 100 100 new random graphs of order 200 200 , not necessarily planar, with degree sequences almost identical to those of our maximally planar graphs (see Appendix D for details on the generation process). We then ran Mod-GCN on these “replica” graphs and recorded the results in Figure 9 . The algorithm’s performance on the replicas aligns with its performance on Erdős-Rényi graphs, suggesting that the root of the issue with planar graphs is not merely their degree sequence but rather their specific geometric structure. 4 4 -regular Graphs: The experiment with 3 3 -regular graphs was repeated for 4 4 -regular graphs. The results are recorded in Figure 9 . The algorithm performs perfectly, which aligns with its performance on Erdős-Rényi graphs of the same order and average degree. 5 5 -regular and 6 6 -regular Graphs: The experiment with regular graphs was repeated for 5 5 -regular graphs and 6 6 -regular graphs. This time, the number of colors suggested by k d + 1 k_{d}+1 is smaller than the bound on the chromatic number given by Brooks’s theorem, so we used k d + 1 = 4"
+}

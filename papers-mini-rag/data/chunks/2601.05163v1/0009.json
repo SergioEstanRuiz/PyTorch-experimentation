@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05163v1",
+  "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+  "abs_url": "https://arxiv.org/abs/2601.05163v1",
+  "html_url": "https://arxiv.org/html/2601.05163v1",
+  "chunk_id": "2601.05163v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "grounding corpus for question answering. We then synthesize QA pairs based on these documents, ensuring coverage of diverse reasoning patterns and document structures. Sources. To construct a robust and diverse dataset for document-based question answering, we select four representative datasets, LongDocURL Deng et al. ( 2025 ) , MMDocRAG Dong et al. ( 2025b ) , CUAD Hendrycks et al. ( 2021 ) and DUDE Van Landeghem et al. ( 2023 ) , that cover long-context understanding, multimodal retrieval, legal expertise, and complex layout analysis. These sources provide the foundational PDF documents used for our automated QA generation pipeline. The distribution of the collected PDF documents is illustrated in Figure 3 . Exploration-then-Synthesis Framework. We propose a two-stage framework for DocQA generation, consisting of an Exploration Stage and a Synthesis Stage as shown in Figure 2 . The overall objective is to transform a source document into a diverse and high-quality set of grounded QA pairs through iterative interaction and reasoning. Exploration Stage. Given a source document 𝒟 \\mathcal{D} , utilze an LLM M e M_{e} to iteratively interact with 𝒟 \\mathcal{D} and collect information relevant to potential QA pairs. Conditioned on the interaction history h t h_{t} and the document 𝒟 \\mathcal{D} , we employ model M s M_{s} jointly generates an intent-action pair ( i t , a t ) (i_{t},a_{t}) : where i t i_{t} denotes the exploration intent and u t ∈ 𝒜 u_{t}\\in\\mathcal{A} corresponds to invoking a document-grounded tool such as Search or Read ,"
+}

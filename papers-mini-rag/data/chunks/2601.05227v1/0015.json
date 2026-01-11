@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "as a stochastic process conditioned on the observed data, with ϕ \\phi denoting the parameters of a neural recognition model ( [ 23 ] ; [ 4 ] ). The variational approximation is constructed as follows. First, I define an encoder network q ϕ ​ ( z 0 | 𝐱 1 : T ) q_{\\phi}(z_{0}|\\mathbf{x}_{1:T}) , which encodes the entire sequence 𝐱 1 : T \\mathbf{x}_{1:T} into a distribution over the initial latent state z 0 z_{0} . This encoding may be implemented using a bidirectional recurrent neural network (e.g., GRU or Transformer) ( [ 43 ] ), whose outputs are used to predict the mean and variance of a Gaussian distribution in latent space. Then, given z 0 z_{0} , I define the full path { z t } t = 1 T \\{z_{t}\\}_{t=1}^{T} as a stochastic flow governed by a parameterized SDE: To evaluate the ELBO and compute gradients efficiently, I discretize the path using the Euler–Maruyama approximation, as previously shown in Eq. 3 . The stochasticity in this scheme is fully reparameterized, allowing us to express sampled trajectories as differentiable functions of z 0 z_{0} and standard Gaussian noise ϵ t \\epsilon_{t} ( [ 23 ] , [ 19 ] ). This is crucial for enabling gradient-based optimization with respect to both ϕ \\phi and θ \\theta , and ensures that my training algorithm can scale to large datasets and complex architectures. A key theoretical aspect of this construction is that the variational posterior q ϕ ​"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0038",
+  "word_start": 7600,
+  "word_end": 7850,
+  "text": "and 18 18 columns of triangles; this is isomorphic to a 20 × 10 20\\times 10 grid graph with diagonal chords in each square that alternate orientation with each row. The results are recorded in Figure 9 . Like with the even cycle and hexagonal lattice, the algorithm struggles to find the intuitive coloring. 3 3 -regular Graphs: If a graph G G has maximum degree Δ ​ ( G ) \\Delta(G) , then it is ( Δ ​ ( G ) + 1 ) (\\Delta(G)+1) -colorable, since every vertex can simply receive whichever color does not appear among its at most Δ ​ ( G ) \\Delta(G) neighbors. Brooks’s theorem [ 21 ] states that if G G is connected and neither a complete graph nor an odd cycle, then it is in fact Δ ​ ( G ) \\Delta(G) -colorable, improving the previous sentence’s bound by 1 1 . If G G is connected and not regular, then G G has degeneracy less than Δ ​ ( G ) \\Delta(G) , and therefore it is easy to find a proper Δ ​ ( G ) \\Delta(G) -coloring. However, if G G is regular, then it is not as easy to find such a coloring. It would be interesting to know if our algorithm can find r r -colorings of r r -regular graphs. We ran Mod-GCN on 100 100 random 3 3 -regular graphs of order 200 200 (generated using NetworkX’s random_regular_graph function, like all regular graphs in"
+}

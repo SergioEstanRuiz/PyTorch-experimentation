@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "ρ ) \\Delta(\\rho) (NFT). We then compare to several empirical unlearning methods using Membership Inference Attack (MIA) auditing. We evaluate on MNIST (LeCun et al. , 1998 ) with a fully connected network of 4.36M parameters (architecture in Appendix G.1 ) and on CIFAR-10 (Krizhevsky, 2009 ) with a standard ResNet-18 (He et al. , 2016 ) . We consider two deletion settings: random 10% and classwise deletion, with additional results (including ViT-Tiny) in Appendix G . For NFT-based methods, we fix ( ε , δ ) (\\varepsilon,\\delta) per plot with δ = 10 − 5 \\delta=10^{-5} and vary ε \\varepsilon across plots. For each setting, we compute the minimal feasible noise scale σ \\sigma (Theorem 1 ), derive the corresponding step budget T T , and run unlearning for T T steps (Block-wise NFT applies this sequentially across blocks), followed by standard fine-tuning. We cap the total number of unlearning+fine-tuning iterations at 1000 ( ≤ \\leq 1.5 epochs at batch size 64 on 90% of the data). In practice, methods typically reach their peak accuracy well before the end of fine-tuning. Unless stated otherwise, we use Random Blocks (Section 4.3 ); other block designs are deferred to the appendix. Results are averaged over 5 runs to ensure statistical reliability. Figure 3 shows results for the random 10% deletion task. Block-wise NFT is consistently more stable: the accuracy drop during the unlearning phase is smaller, and recovery under fine-tuning is stronger. For instance, at the tight budget ε = 0.5"
+}

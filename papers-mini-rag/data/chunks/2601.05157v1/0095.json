@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0095",
+  "word_start": 19000,
+  "word_end": 19250,
+  "text": "and sufficiently small α ∈ ( 0 , 1 ) \\alpha\\in(0,1) the following holds: for n = n ​ ( δ , α ) n=n(\\delta,\\alpha) i.i.d. samples x 1 , … , x n x_{1},\\dots,x_{n} from D D , with probability at least 1 − δ 1-\\delta , To illustrate the above definition, if the tail of the distribution D D is sub-Weibull, i.e., the tail is of order e − t β e^{-t^{\\beta}} for some β > 0 \\beta>0 , then D D satisfies resilience property with ( α ) = O ​ ( ln ⁡ ( 1 / α ) 1 / β ) \\Delta(\\alpha)=O(\\ln(1/\\alpha)^{1/\\beta}) . We will prove the following lemma in Appendix B . Let D D be a distribution over d with mean μ \\mu . Suppose for some constants C 0 , σ , β > 0 C_{0},\\sigma,\\beta>0 , for all v ∈ S d − 1 v\\in S^{d-1} and t > 0 t>0 , then D D satisfies ( 1 α ​ ( d + log ⁡ ( 1 / δ ) ) O ​ ( max ⁡ { 1 / β , 1 } ) , O ​ ( σ ​ ( ln ⁡ 1 α ) 1 / β ) ) \\left(\\frac{1}{\\alpha}(d+\\log(1/\\delta))^{O(\\max\\{1/\\beta,1\\})},O\\left(\\sigma(\\ln\\frac{1}{\\alpha})^{1/\\beta}\\right)\\right) -resilience. Since sub-Gaussian and sub-exponential distributions are special cases of sub-Weibull distributions, we get the following corollary immediately. Let D D be a distribution over d with mean μ \\mu . If D D is sub-Gaussian, that is, there"
+}

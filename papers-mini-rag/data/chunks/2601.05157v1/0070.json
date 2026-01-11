@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0070",
+  "word_start": 14000,
+  "word_end": 14250,
+  "text": "is a frequency f ^ ∈ L \\mathaccent 866{f}\\in L such that | f − f ^ | ​ μ ​ ( f ) T ​ | x ^ ⋆ ​ ( f ) | |f-\\mathaccent 866{f}|\\lesssim\\frac{\\mu(f)}{T|\\mathaccent 866{x}^{\\star}(f)|} . Then [ PS15-SFT , Lemma 3.8] relates the partial noise μ 2 ​ ( f ) \\mu^{2}(f) and the total noise 𝒩 \\mathcal{N} by summing all the μ 2 ​ ( f ) \\mu^{2}(f) for successfully recovered true frequency f f . This step is also valid in our modification, from our modified Lemma 2.3 . The above discussion summarizes our modifications to [ PS15-SFT , Lemma 3.6, Lemma 3.7, Lemma C.1, Lemma 3.8] . In short, the modified Lemma 3.8 is exactly the same as in [ PS15-SFT ] with the only change being the modified definition of the noise scale 𝒩 . \\mathcal{N}. It is implicit in [ PS15-SFT ] that the failure probability of the whole algorithm comes from the following bad events: There are two bad events for the hashing: collision and large offset (which are controlled by the random variables σ , b \\sigma,b ). There is a bad event in [ PS15-SFT , Lemma C.1] which corresponds to the voting in the regions (which is controlled by the random variable β \\beta ). There is a bad event related to the noise function g : g: The noise g ​ ( t j ) g(t_{j}) at some time t j t_{j} queried is not concentrated."
+}

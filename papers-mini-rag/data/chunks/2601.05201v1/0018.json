@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0018",
+  "word_start": 3600,
+  "word_end": 3850,
+  "text": "shift toward freer, less prompt-constrained descriptions that better reflect visual evidence. This parallel between counting and color tasks indicates that PIH is not limited to numerical reasoning, but reflects a broader tendency to copy information from the prompt, even when it is inconsistent with the image. One notable outcome of PIH head ablation is observed in LLaVA-OneVision, where performance improves even for non-conflicting prompt–image cases. As shown in Table ˜ 1 , baseline counting accuracy increases by 4.35 % 4.35\\% , despite the absence of misleading prompt information. Similarly, in the color task, PIH ablation yields a strong reduction in prompt-copying, with PIH reduced by 94 % 94\\% . These gains suggest that PIH ablation affects more than prompt-following, potentially altering how models balance textual and visual inputs. To investigate this effect, we analyze changes in attention mass from assistant tokens to image tokens. For each layer, we compute the fraction of attention allocated to image tokens, with the remainder allocated to text tokens (summing to 1 1 ). Figure ˜ 4 shows the layer with the largest shift in attention from text to image, after PIH ablation: layer 2 2 in LLaVA-OneVision, 22 22 in Qwen-VL, and 27 27 in Janus-Pro; see Appendix ˜ H for all layers. PIH head ablation increases image attention across all models, most strongly in LLaVA-OneVision ( Δ = 0.121 \\Delta=0.121 ) which shows an increase in an early model layer. This is significant, as previous work has shown the importance of visual information"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "within tolerable time frames on GLA/CA, and RPMixer encounters memory limitations on GLA (192-step) and CA (96-step). Consequently, we evaluate only scalable methods, DLinear, NHITS, CycleNet, BigST, STID, PatchSTG, and RPMixer (where feasible), on the larger datasets. The performance trends remain consistent across all datasets: prediction accuracy degrades as horizon length increases. Basically, STID, PatchSTG, and RPMixer outperform BigST on all horizons, confirming their merits in addressing scalability bottlenecks. Regarding FaST, it consistently outperforms all baselines across every metric, horizon, and dataset. On SD, it achieves average improvements of 4.73%, 2.36%, 8.35%, and 0.34% in MAE, RMSE, MAPE, and R 2 R^{2} , respectively (vs. best baselines). Significant MAE/MAPE improvements are also observed on GBA (e.g., 1.66% ∼ \\sim 13.40%), GLA (1.94% ∼ \\sim 8.85%), and CA (3.67% ∼ \\sim 10.06%). Despite comparable parameter counts to STID, FaST delivers superior performance in all scenarios. Critically, its memory complexity scales linearly with nodes, enabling seamless application to the largest dataset. In this section, we conducted ablation experiments by removing different components of the FaST model on the four datasets to validate the contribution of each component. For a systematic evaluation, we defined four variants of FaST: a) w/ LinearInput : MoE-enhanced input layer is replaced with a linear layer; b) w/o HA-MoE : The HA-MoE module is removed and replaced with GLU; c) w/o HA-Router : The heterogeneity-aware router module is removed, and the expert weight distribution is predicted using the hidden representation output by the previous layer; d) w/o AGA-Att"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0024",
+  "word_start": 4800,
+  "word_end": 4925,
+  "text": "is a resource paper, we inherit its DOI. As a final step, we use the canonical dataset name to programmatically query an external source (Google Gemini search capabilities) to find its official homepage or repository. the result of this entire pipeline is a clean, deduplicated, and ranked list of datasets relevant to the original research question. The final ranking is determined by the citation count: the number of unique papers within our retrieved corpus that were found to use a given dataset. This usage-based frequency serves as a proxy for the dataset’s prevalence and importance in the context of the research question. Each entry in the final list includes the canonical dataset name, its usage context, the citation count, and a verifiable URL or PID."
+}

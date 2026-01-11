@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0003",
+  "word_start": 600,
+  "word_end": 850,
+  "text": "prior knowledge of which types of questions each model is best suited for, determining how tasks should be allocated in advance becomes inherently challenging. Moreover, existing MAS (Liu et al., 2024 ; Liang et al., 2024 ; Ashiga et al., 2025 ; Huang et al., 2024 ; Chen et al., 2025 ) typically operate at a coarse response level, where each agent independently generates a full response and a final answer is selected, merged or subjected to debate post hoc. This approach is inefficient, as it requires multiple full-sequence generations, and can even degrade performance when more agents and discussions are involved due to the heavily increased context length (Zheng et al., 2025 ) . A third direction is model merging (Yang et al., 2024 ; He et al., 2025 ) , which combines multiple specialized models into a single set of parameters. Although training-free and architecturally simple, model merging is often sensitive to hyperparameters and suffers from parameter interference, where the merged weights degrade each model’s specialized capabilities, making it unable to adaptively emphasize different expert behaviors in changing scenarios. To overcome these limitations, recent work has explored token-level multi-agent collaboration, a more fine-grained and dynamic paradigm that allows multiple LLMs to jointly produce each token during generation Chakraborty et al. ( 2025 ) . However, the effectiveness of these works depends heavily on the quality of the underlying models, making them not robust when expert models perform poorly, or the selection strategy is not correct on certain tasks"
+}

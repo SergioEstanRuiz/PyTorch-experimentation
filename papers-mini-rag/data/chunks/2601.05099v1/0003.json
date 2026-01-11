@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0003",
+  "word_start": 600,
+  "word_end": 850,
+  "text": "graph analysis for scalable multi-domain dataset extraction. We establish a rigorous and scalable evaluation protocol covering all six top-level Fields of Science and Technology (FOS) 1 1 1 FOS: Natural Sciences, Engineering and Technology, Medical and Health Sciences, Agricultural Sciences, Social Sciences, and Humanities. . For Computer Science, we perform an automated recall-based evaluation using gold-standard datasets derived from survey papers. To ensure generality, we evaluate the remaining five FOS domains through expert assessments of relevance, utility, and novelty. We demonstrate that our approach substantially improves recall over leading dataset search engines, and that the additional datasets it surfaces are often judged by domain experts as high utility and, in many cases, novel for their research areas. This work addresses a practical need, enabling researchers to efficiently identify relevant datasets in unfamiliar domains. At the same time, it contributes to the broader vision of intelligent scientific knowledge organization. Our work addresses dataset discovery through systematic analysis of scientific literature. We review three relevant areas: existing dataset search systems, literature-based information extraction, and citation context analysis. Existing dataset discovery systems include general-purpose search engines such as Google Dataset Search [ 3 ] , which relies on schema.org markup, and DataCite [ 2 ] , which ensures metadata quality through DOI registration but indexes only formally published datasets. General-purpose repositories such as Zenodo, Kaggle, and Mendeley Data accept contributions across disciplines, while domain-specific repositories such as Protein Data Bank (PDB), Gene Expression Omnibus (GEO), Inter-university Consortium for Political and Social Research (ICPSR),"
+}

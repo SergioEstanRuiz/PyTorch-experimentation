@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0035",
+  "word_start": 7000,
+  "word_end": 7250,
+  "text": "We first recall the shifted Rényi divergence (Feldman et al. , 2018 ) : Let q > 0 q>0 , q ≠ 1 q\\neq 1 . The q q -Rényi divergence between two probability distributions μ \\mu and ν \\nu is defined as Let us consider the reasoning presented in (Koloskova et al. , 2025 ) . Their proof contains a minor indexing mismatch in the recursion expansion, which did not affect the final result for their asymptotics, but it will be important for us. We corrected the indices in the product p t p_{t} accordingly. Let us revisit the reasoning in (Koloskova et al. , 2025 ) . In their proof, the transition from equation (23) to equation (24) involves a minor computational error in solving the recursion. While this did not affect their asymptotic conclusions, it becomes relevant for our analysis. We correct this step by adjusting the indices in the product p t p_{t} accordingly. The corrected parts are highlighted in green . Let T , q ≥ 1 T,q\\geq 1 , γ 0 , … , γ T − 1 ≥ 0 \\gamma_{0},\\ldots,\\gamma_{T-1}\\geq 0 , σ 0 , … , σ T − 1 > 0 \\sigma_{0},\\ldots,\\sigma_{T-1}>0 , λ ≥ 0 \\lambda\\geq 0 and consider the two sequences { x t } 0 ≤ t ≤ T , { x t ′ } 0 ≤ t ≤ T \\{x_{t}\\}_{0\\leq t\\leq T},\\{x^{\\prime}_{t}\\}_{0\\leq t\\leq T} as defined above. Denote by D q D_{q} the Rényi divergence of order"
+}

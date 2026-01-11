@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0030",
+  "word_start": 6000,
+  "word_end": 6250,
+  "text": "highest average performance, consistently outperforming sequence-level collaboration, prior token-level collaboration (Collab), model merging methods, and directly fine-tuned models. These results demonstrate that FusionRoute effectively functions as a general-purpose model assembled from specialized experts, relieving users from the need to select domain-specific checkpoints while delivering strong and stable performance across heterogeneous tasks. The examples of routing behavior in several domain-specific tasks are provided in Appendix 11.2 . Importantly, FusionRoute does not sacrifice specialization. On benchmarks where a particular expert is expected to perform best—such as math experts on GSM8K (Cobbe et al., 2021 ) and MATH500 (Lightman et al., 2023 ) or coding experts on MBPP (Austin et al., 2021 ) and HumanEval (Chen et al., 2021 ) — FusionRoute remains competitive and often matches or exceeds the corresponding expert’s performance. This shows that FusionRoute is compatible with expert specialization, while being substantially more robust and generalized in mixed-domain usage. To further assess overall response quality beyond task-specific correctness, we evaluate FusionRoute on a held-out general dataset using pairwise comparisons. Specifically, we sample 500 prompts from the PerfectBlend (Xu et al., 2024 ) test set and generate responses with a maximum length of 300 tokens. Then, we use GPT-4o to evaluate the overall response quality compared to the response of the directly fine-tuned model (Fine-tuned Model in Table 1 ). For two responses, the pairwise comparison is selected from win , tie and loss , and the win rate is computed as the proportion of wins, with ties counted as half"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "complex settings, the assumption of fixed variance may be overly restrictive. A more flexible alternative is to allow the model to predict heteroscedastic noise by outputting both the mean and variance from the decoder, i.e., where both μ ψ \\mu_{\\psi} and σ ψ 2 \\sigma^{2}_{\\psi} are outputs of the decoder network. This enables the model to capture varying uncertainty in the emission process, which is particularly useful in domains like speech or sensor modeling, where signal-to-noise ratios are not constant over time ( [ 20 ] ). In classification settings, the likelihood p ψ ​ ( x t | z t ) p_{\\psi}(x_{t}|z_{t}) may be categorical, implemented via a softmax function over decoder logits. For count-based data (e.g., in NLP or biological applications), a Poisson or negative binomial distribution is more appropriate ( [ 27 ] ). The flexibility of the decoder to model different likelihood families is a major strength of probabilistic generative frameworks and allows them to be tailored to diverse application domains. From an information-theoretic standpoint, the decoder serves to project latent paths onto the data manifold, ideally minimizing reconstruction error while preserving uncertainty structure. The mutual information between x t x_{t} and z t z_{t} under the learned generative model can be used as a proxy for representation quality ( [ 1 ] ), and its maximization is implicitly encouraged through the ELBO. Moreover, recent advances suggest replacing the pointwise decoder with amortized conditional normalizing flows, which allow for more expressive conditional densities without assuming a"
+}

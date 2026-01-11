@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "Other frameworks were designed for domain-specific annotation and model training. The six-label framework ( Use , Criticizing , Comparison , Substantiating , Basis , and Neutral ) proposed by [ 1 ] emphasized purpose-driven types developed through the annotation of NLP publications. ACL-ARC [ 28 ] defined a six-type framework ( Background , Comparison or Contrast , Motivation , Uses , Extension , and Future ) oriented toward citation influence modeling. SciCite [ 14 ] condensed this six-type framework into a three-type framework ( Background , Method , and ResultComparison ), motivated by the observation that types such as Motivation , Extension , and Future often function as background context, to better support machine reading and research navigation in both computer science and biomedical domains. ACT and ACT2 [ 46 , 40 ] extended citation annotation to additional scientific fields using a six-type framework similar to ACL-ARC (replacing Comparison or Contrast with ComparesContrasts and extending it to capture not only differences but also similarities and disagreements between citations). In addition to intent, ACT and ACT2 also annotated influence using two binary labels ( Influential and Incidental ) with an added emphasis on author influence and comparability. Together, these frameworks have shaped the landscape of citation intent classification, offering valuable insights into scholarly discourse. However, many adopt single-layer label structures that implicitly combine the author’s action, the citation’s function, with its semantic argument, the type of content being cited. While effective for some tasks, this design can limit semantic clarity and"
+}

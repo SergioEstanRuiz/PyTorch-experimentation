@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0033",
+  "word_start": 6600,
+  "word_end": 6850,
+  "text": "benchmark comprises three datasets sourced from CAMELYON [ 6 , 5 ] , TCGA [ 48 ] , and Tolkach ESCA [ 72 ] , covering 28 biological classes from 34 medical centers. The Plismbench robustness benchmark was introduced by [ 22 ] as a framework to quantify the robustness of pathology foundation models to technical variations arising from different scanning devices and staining procedures. The benchmark measures robustness through cosine similarity and top-k retrieval accuracy metrics, evaluating the ability of foundation models to maintain consistent representations of matching tissue tiles across different technical conditions. The evaluation is performed on registered tile pairs from the PLISM dataset [ 58 ] , which consists of 46 human tissue types processed with 13 different H&E staining conditions and captured using 7 WSI scanners, resulting in 16,278 registered tissue tile pairs. Robustness is assessed across three conditions: cross-scanner robustness (fixed staining), cross-staining robustness (fixed scanner), and combined cross-scanner and cross-staining robustness. The Patho-Bench framework was introduced by [ 81 ] for comprehensive benchmarking of patch-level and slide-level foundation models for whole-slide images (WSIs) across diverse clinically relevant pathology tasks. The benchmark comprises 95 tasks, subcategorized into seven clinical prediction categories: morphological subtyping (11 tasks), tissue microenvironment (TME) characterization (16 tasks), tumor grading (9 tasks), molecular subtyping (6 tasks), mutation prediction (34 tasks), treatment response and assessment (7 tasks), and survival prediction (12 tasks). We evaluate on a subset of 53 tasks drawn from multiple datasets, including CPTAC datasets covering breast (BRCA), colorectal (COAD),"
+}

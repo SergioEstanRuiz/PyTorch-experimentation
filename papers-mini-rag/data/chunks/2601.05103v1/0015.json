@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "We distinguish three types: (1) PerformedWork : The citing work references what the cited work did (e.g., experimental process, pipeline design), without isolating specific outcomes or reusable resources. Example: “[cited work] developed an NLP pipeline.” (2) Discovery : The citing work references observations, findings, or theoretical conclusions made by the cited work. Example: “[cited work] observed that dropout improves stability.” (3) ProducedResource : The citing work references reusable outputs such as datasets, algorithms, models, tools, metrics, standardized settings, etc. Example: “We use the parser from [cited work].” These distinctions support fine-grained analysis of how different forms of scientific contribution are referenced, reused, or framed in scholarly discourse. characterizes the predicative function of the citation, representing the action performed by the citing author. Each label is defined as a predicate that takes the cited content as one of its core arguments. We frame each label from the perspective of the citing author as the agent of the citation action. (1) Contextualize : The cited work is mentioned to provide background, illustrate prior research, or describe related contributions. No design decision or reuse is involved. Example: “[cited work] introduced hierarchical attention for sentiment analysis.” (2) SignalGap : The citation highlights an unresolved problem or open question. The gap may be identified by the cited work or the citing work, and no commitment to solving it is required. Example: “[cited work] noted that tuning remains underexplored.” (3) HighlightLimitation : The citing work or cited work identifies a flaw, constraint, or drawback in the"
+}

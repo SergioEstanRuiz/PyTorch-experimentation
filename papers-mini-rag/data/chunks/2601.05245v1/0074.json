@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0074",
+  "word_start": 14800,
+  "word_end": 15050,
+  "text": ":= ∑ v ∈ 𝒱 T ′ n v N:=\\sum_{v\\in\\mathcal{V}_{T^{\\prime}}}\\sqrt{n_{v}} , and A := ∑ t ≤ T ′ | p t − x t | A:=\\sum_{t\\leq T^{\\prime}}|p^{t}-x^{t}| . Then for all T ′ ≥ 2 T^{\\prime}\\geq 2 we have We use a sorting/proxy argument for ℓ 1 \\ell_{1} loss. Let x ​ ( 1 ) ≤ ⋯ ≤ x ​ ( T ′ ) x(1)\\leq\\cdots\\leq x(T^{\\prime}) be a nondecreasing rearrangement of the multiset { x t } t ≤ T ′ \\{x^{t}\\}_{t\\leq T^{\\prime}} , and let p ​ ( 1 ) , … , p ​ ( T ′ ) p(1),\\dots,p(T^{\\prime}) be the corresponding permuted predictions. Then and let d := z i + 1 − z i = 1 2 ​ ( T ′ − 1 ) d:=z_{i+1}-z_{i}=\\frac{1}{2(T^{\\prime}-1)} . Let ( x t ) t ≤ T ′ (x^{t})_{t\\leq T^{\\prime}} be the round-robin sequence over the grid { x 1 , … , x m } \\{x_{1},\\dots,x_{m}\\} and let x ​ ( 1 ) ≤ ⋯ ≤ x ​ ( T ′ ) x(1)\\leq\\cdots\\leq x(T^{\\prime}) be a nondecreasing rearrangement of the multiset { x t } t ≤ T ′ \\{x^{t}\\}_{t\\leq T^{\\prime}} . Let ( z i ) i ≤ T ′ (z_{i})_{i\\leq T^{\\prime}} be defined above. Then More concretely, the empirical CDF of the multiset { x t } t ≤ T ′ \\{x^{t}\\}_{t\\leq T^{\\prime}} places mass only on the m m grid points x 1 , … , x m x_{1},\\dots,x_{m} , each of which appears"
+}

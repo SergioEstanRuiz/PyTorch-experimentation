@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0113",
+  "word_start": 22600,
+  "word_end": 22850,
+  "text": "that it will yield \\| ​ μ ~ j − μ j ′ ′ ​ \\| 2 ≤ O ​ ( B / w min 1 / t ) \\|\\mathaccent 869{\\mu}_{j}-\\mu_{j^{\\prime}}^{\\prime}\\|_{2}\\leq O(B/w_{\\min}^{1/t}) . Then, we can show that for each S j S_{j} , most of the points in it come from a single component D j ′ ′ D_{j^{\\prime}}^{\\prime} . Suppose for the sake of contradiction that (1) more than 1 4 ​ α ​ w min ​ w j ′′ ​ n \\frac{1}{4}\\alpha w_{\\min}w_{j^{\\prime\\prime}}n points are sampled from D j ′′ D_{j^{\\prime\\prime}} , or (2) more than 1 4 ​ α ​ w min ​ w j ′′ ′ ​ n \\frac{1}{4}\\alpha w_{\\min}w_{j^{\\prime\\prime}}^{\\prime}n points are sampled from D j ′′ ′ D_{j^{\\prime\\prime}}^{\\prime} , with α = c 0 ​ C sep − 2 ​ t \\alpha=c_{0}C_{\\text{sep}}^{-2t} . For the former case, by Theorem 3.6 , the mean of these points is within distance O ​ ( B / w min 1 / t + B / ( α ​ w min 2 ) 1 / 2 ​ t ) = O ​ ( C sep ​ B / w min 1 / t ) O(B/w_{\\min}^{1/t}+B/(\\alpha w_{\\min}^{2})^{1/2t})=O(C_{\\text{sep}}B/w_{\\min}^{1/t}) of μ ~ j \\mathaccent 869{\\mu}_{j} , and within distance ( α ​ w min / 5 ) \\Delta(\\alpha w_{\\min}/5) of μ j ′′ \\mu_{j^{\\prime\\prime}} . Therefore, we have \\| ​ μ ~ j − μ ^ π ​ ( j ′′ ) ​ \\| 2 ≤ O ​ ( C sep"
+}

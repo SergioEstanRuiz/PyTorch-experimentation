@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0037",
+  "word_start": 7400,
+  "word_end": 7650,
+  "text": "\\sigma and α \\alpha ) such that Define the martingale ( M t ) t = 0 L (M_{t})_{t=0}^{L} by M 0 = 0 M_{0}=0 and M t := ∑ s = 1 t I s ​ Z s , t = 1 , … , L . M_{t}:=\\sum_{s=1}^{t}I_{s}Z_{s},\\,t=1,\\dots,L. Since I s I_{s} is ℱ s − 1 \\mathcal{F}_{s-1} -measurable and ( 1 ) gives 𝔼 ​ [ Z s ∣ ℱ s − 1 ] = 0 \\mathbb{E}[Z_{s}\\mid\\mathcal{F}_{s-1}]=0 , we have so ( M t , ℱ t ) (M_{t},\\mathcal{F}_{t}) is a martingale. Its increments are D t = I t ​ Z t D_{t}=I_{t}Z_{t} , and its predictable quadratic variation is By ( 1 ), whenever I t = 1 I_{t}=1 we have 𝔼 ​ [ Z t 2 ∣ ℱ t − 1 ] ≥ σ 2 \\mathbb{E}[Z_{t}^{2}\\mid\\mathcal{F}_{t-1}]\\geq\\sigma^{2} , while if I t = 0 I_{t}=0 the corresponding term is zero. Therefore, pathwise Taking expectations yields the identity 𝔼 ​ [ M L 2 ] = 𝔼 ​ [ ⟨ M ⟩ L ] \\mathbb{E}[M_{L}^{2}]=\\mathbb{E}[\\langle M\\rangle_{L}] , since the cross terms in M L 2 = ( ∑ t = 1 L D t ) 2 M_{L}^{2}=(\\sum_{t=1}^{L}D_{t})^{2} vanish by 𝔼 ​ [ D t ∣ ℱ t − 1 ] = 0 \\mathbb{E}[D_{t}\\mid\\mathcal{F}_{t-1}]=0 . Thus using the assumption 𝔼 ​ [ n ] ≥ α ​ L \\mathbb{E}[n]\\geq\\alpha L , On the other hand, since | Z t | ≤ 1 |Z_{t}|\\leq 1 we have | D"
+}

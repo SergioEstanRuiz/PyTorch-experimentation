@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "the effectiveness of removing the standard deviation normalization term in Section 4.1.1 , and find that this modification does not lead to improved convergence or better downstream evaluation performance. To overcome these challenges, we propose Group reward-Decoupled normalization Policy Optimization (GDPO) , a method designed to better maintain distinctions among different reward combinations and more accurately capture their relative differences in the final advantages. In contrast to GRPO, which applies group-wise normalization directly to the aggregated reward sum, GDPO decouples this process by performing group-wise normalization of each reward separately before aggregation. Concretely, rather than summing all n n rewards first (as in Eq. 1 ) and then applying group-wise normalization to obtain A sum A_{\\text{sum}} (Eq. 2 ), GDPO computes the normalized advantage for each reward for the j th j^{\\text{th}} rollout of the i th i^{\\text{th}} question as: The overall advantage used for policy updates is then obtained by first summing the normalized advantages across all objectives: then applying batch-wise advantages normalization to the sum of the multi-reward advantages, which ensures that the numerical scale of the final advantage A ^ sum ( i , j ) \\hat{A}^{(i,j)}_{\\text{sum}} remains stable and does not grow as additional rewards are introduced. Empirically, we also find that this normalization step improves training stability, as shown in Appendix A , where removing batch-wise normalization occasionally leads to convergence failures. By separating the normalization of each reward, GDPO alleviates the information-loss problem present in GRPO’s advantage estimation, as illustrated in Fig. 2 ."
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0072",
+  "word_start": 14400,
+  "word_end": 14650,
+  "text": "g(t) . Therefore, the success probability of the modified algorithm where the last inequality is from the analysis of the original algorithm. In [ PS15-SFT , Section D] , the authors boost the success probability of their algorithm from a constant to 1 − 1 / poly ​ ( k ) 1-1/\\mathrm{poly}(k) , by repeating their subroutine 𝖮𝗇𝖾𝖲𝗍𝖺𝗀𝖾 \\mathsf{OneStage} O ​ ( log ⁡ k ) O(\\log k) times. However, the same proof holds if one repeats it O ​ ( log ⁡ ( k / δ ) ) O(\\log(k/\\delta)) times, and this will boost the success probability to 1 − δ 1-\\delta . Therefore, the modification will also succeed with probability 1 − δ 1-\\delta by paying a log ⁡ ( k / δ ) \\log(k/\\delta) factor in the sample and time complexity. ∎ A high-dimensional extension of the robust SFT algorithm has been explored in the work of [ jin2022superresolutionrobustsparsecontinuous ] . Unfortunately, their robust SFT algorithm has a running time that scales exponentially with the dimension. In this section, we show how to use the one-dimensional SFT algorithm of Theorem 2.1 in high dimensions and get an efficient robust SFT algorithm even for d > 1 d>1 , which we will apply later in our parameter estimation algorithms. A natural method to reduce the high-dimensional problem to d = 1 d=1 is to randomly project the data along different directions, and then recover the high-dimensional means by solving a linear system. However, a key obstacle in this"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0012",
+  "word_start": 2400,
+  "word_end": 2650,
+  "text": "initial disadvantaged group ratio in D 0 D_{0} , the proportion decreases linearly over generations to simulate the effect of human feedback ℍ \\mathbb{H} under controlled conditions. We also evaluate a fixed-ratio setting as a baseline, where the disadvantaged ratio remains constant while using fresh real prompts. The scenario in which previous prompts are repeatedly used to generate synthetic data, and the group ratio remains unchanged across generations, is referred to as Non-dynamic , which is the typical self-consuming training loop Wang et al. ( 2024c ); Briesch et al. ( 2023 ); Alemohammad et al. ( 2023 ) . We focus on measuring bias variation in SCPL through extensive experiments on three practical tasks: news continuation, creative preference dissection, and math problem solving. The first two evaluate preference bias, reflecting the model’s inclination toward the advantaged group Liu et al. ( 2023 ) . The third assesses disparate performance Liu et al. ( 2023 ) , where the model’s accuracy differs between groups (easy versus hard math questions). We observe that: (1) Synthetic data in SCPL tends to amplify preference bias while reducing disparate bias. (2) Performative dynamics accelerate preference bias amplification compared to non-dynamic self-consuming loops in both fine-tuning and retraining settings, though the effect depends on the task and training regime. (3) Accumulation can slow the increase of preference bias and mitigate the decline in generation quality. It can alleviate the reduction in disparate bias and help preserve math problem-solving ability. To reduce the observed preference bias"
+}

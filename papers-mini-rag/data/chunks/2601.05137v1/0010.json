@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0010",
+  "word_start": 2000,
+  "word_end": 2250,
+  "text": "this paper, is publicly available at https://github.com/Weber-GeoML/ColoringGNNs . Throughout the paper, we use the notation that a matrix 𝑴 ∈ ℝ n × d \\boldsymbol{M}\\in\\mathbb{R}^{n\\times d} has row vectors 𝒎 i \\boldsymbol{m}_{i} for i ∈ { 1 , … , n } i\\in\\{1,\\dots,n\\} and entries m i ​ j m_{ij} or m i , j m_{i,j} for i ∈ { 1 , … , n } , j ∈ { 1 , … , d } i\\in\\{1,\\dots,n\\},j\\in\\{1,\\dots,d\\} . Following the usual convention in graph theory, we use the term order to refer to the size of a graph’s vertex set and size to refer to the size of a graph’s edge set. We use the terms vertex and node interchangeably. A coloring of a graph G G is a map φ : V ​ ( G ) → { 1 , 2 , … } \\varphi:V(G)\\rightarrow\\{1,2,\\dots\\} . A coloring is a k k -coloring if its range is contained in { 1 , … , k } \\{1,\\dots,k\\} . A coloring φ \\varphi is proper if for all v i ​ v j ∈ E ​ ( G ) v_{i}v_{j}\\in E(G) , we have φ ​ ( v i ) ≠ φ ​ ( v j ) \\varphi(v_{i})\\neq\\varphi(v_{j}) . A graph G G is k k -colorable if it admits a proper k k -coloring. The chromatic number χ ​ ( G ) \\chi(G) of a graph G G is the smallest k ∈ { 1 , 2 , …"
+}

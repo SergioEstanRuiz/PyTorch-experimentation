@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0038",
+  "word_start": 7600,
+  "word_end": 7850,
+  "text": "vanish by 𝔼 ​ [ D t ∣ ℱ t − 1 ] = 0 \\mathbb{E}[D_{t}\\mid\\mathcal{F}_{t-1}]=0 . Thus using the assumption 𝔼 ​ [ n ] ≥ α ​ L \\mathbb{E}[n]\\geq\\alpha L , On the other hand, since | Z t | ≤ 1 |Z_{t}|\\leq 1 we have | D t | ≤ | I t | ​ | Z t | ≤ 1 |D_{t}|\\leq|I_{t}||Z_{t}|\\leq 1 almost surely. Also D t 2 ≤ I t D_{t}^{2}\\leq I_{t} , so ⟨ M ⟩ L ≤ ∑ t = 1 L I t = n ≤ L \\langle M\\rangle_{L}\\leq\\sum_{t=1}^{L}I_{t}=n\\leq L almost surely. Since | M L | ≤ sup 0 ≤ t ≤ L | M t | |M_{L}|\\leq\\sup_{0\\leq t\\leq L}|M_{t}| , we have We will now make use of the Burkholder–Rosenthal inequality. Let ( M t ) t = 0 T (M_{t})_{t=0}^{T} be a martingale with increments D t = M t − M t − 1 D_{t}=M_{t}-M_{t-1} and predictable quadratic variation ⟨ M ⟩ T = ∑ t = 1 T 𝔼 ​ [ D t 2 ∣ ℱ t − 1 ] \\langle M\\rangle_{T}=\\sum_{t=1}^{T}\\mathbb{E}[D_{t}^{2}\\mid\\mathcal{F}_{t-1}] . For any p ≥ 2 p\\geq 2 , there exists a constant C p C_{p} depending only on p p such that: Applying the Burkholder–Rosenthal inequality to the above with p = 4 p=4 gives, assuming L ≥ 1 L\\geq 1 , that To finish the proof, define the random variable X := M L 2 X:=M_{L}^{2} . From ( 2 ) we have"
+}

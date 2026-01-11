@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0049",
+  "word_start": 9800,
+  "word_end": 10050,
+  "text": "from an Alfred P. Sloan Fellowship in Mathematics and DARPA under agreement no. HR0011-25-3-0205. In addition to GCNs, we test three state of the art GNN architectures known as GIN [ 7 ] , GAT [ 8 ] , and GraphSAGE [ 6 ] . GINs are designed to be the most powerful GNN for distinguishing non-isomorphic graphs. In particular, they are at least as powerful as the Weisfeiler-Lehman test [ 28 , 7 ] . In a GIN, the update rule is given by where h 𝑾 t h_{\\boldsymbol{W}_{t}} is a multilayer perceptron with learnable weights 𝑾 t \\boldsymbol{W}_{t} , and ϵ t \\epsilon_{t} is a hyperparameter by default, though it may be made a learnable parameter. The initial value of ϵ t \\epsilon_{t} is 0 by default. GATs use a self-attention mechanism to compute coefficients α i ​ j t \\alpha_{ij}^{t} that determine how heavily vertex j j ’s current representation is weighted in determining vertex i i ’s next representation at time t t . In a GAT, the update rule is given by where α i ​ j \\alpha_{ij} is computed as where “ ∥ \\lVert ” denotes concatenation. Here 𝑾 t \\boldsymbol{W}_{t} and 𝒂 t \\boldsymbol{a}_{t} are learnable weights, and σ t \\sigma_{t} is an activation function, ReLU by default. If the graph is bipartite, then instead of the above, there are two weights matrices 𝑾 1 t , 𝑾 2 t \\boldsymbol{W}_{1}^{t},\\boldsymbol{W}_{2}^{t} , one for 𝒙 i t \\boldsymbol{x}_{i}^{t} and one for 𝒙 j"
+}

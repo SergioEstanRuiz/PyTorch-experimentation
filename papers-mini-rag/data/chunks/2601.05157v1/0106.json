@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0106",
+  "word_start": 21200,
+  "word_end": 21450,
+  "text": "μ k , μ 1 ′ , … , μ k ′ ′ ∈ d \\mu_{1},\\dots,\\mu_{k},\\mu_{1}^{\\prime},\\dots,\\mu_{k^{\\prime}}^{\\prime}\\in{}^{d} and weights w 1 , … , w k , w 1 ′ , … , w k ′ ′ w_{1},\\dots,w_{k},w_{1}^{\\prime},\\dots,w_{k^{\\prime}}^{\\prime} that \\slimits@ j ∈ [ k ] ​ w j + \\slimits@ j ∈ [ k ′ ] ​ w j ′ = 1 \\sumop\\slimits@_{j\\in[k]}w_{j}+\\sumop\\slimits@_{j\\in[k^{\\prime}]}w_{j}^{\\prime}=1 . Assume D 1 , … , D k D_{1},\\dots,D_{k} satisfy ( n r , ) (n_{\\text{r}},\\Delta) -resilience, and, D 1 ′ , … , D k ′ ′ D_{1}^{\\prime},...,D^{\\prime}_{k^{\\prime}} are ( 2 ​ t , B ) (2t,B) -certifiably-bounded and sub-exponential. Let γ F = min j ​ j ′ ∈ [ k ′ ] ⁡ \\| ​ μ j ′ − μ j ′ ′ ​ \\| 2 \\gamma_{\\text{F}}=\\min_{j\\neq j^{\\prime}\\in[k^{\\prime}]}\\|\\mu_{j}^{\\prime}-\\mu_{j^{\\prime}}^{\\prime}\\|_{2} be the minimum separation between the { D i ′ } \\{D_{i}^{\\prime}\\} components, γ SF = min j ∈ [ k ] , j ′ ∈ [ k ′ ] ⁡ \\| ​ μ j − μ j ′ ′ ​ \\| 2 \\gamma_{\\text{SF}}=\\min_{j\\in[k],j^{\\prime}\\in[k^{\\prime}]}\\|\\mu_{j}-\\mu_{j^{\\prime}}^{\\prime}\\|_{2} be the minimum separation between some element in { D i } \\{D_{i}\\} and some element in { D i ′ } \\{D_{i}^{\\prime}\\} , w min = min ⁡ { min j ∈ [ k ] ⁡ w j , min j ∈ [ k ′ ] ⁡ w j ′ } w_{\\min}=\\min\\{\\min_{j\\in[k]}w_{j},\\min_{j\\in[k^{\\prime}]}w_{j}^{\\prime}\\} , and c 0 , C 0 c_{0},C_{0} be some absolute constants. If for some C sep ≥ C"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "Systems. Recent studies show that biases can emerge and amplify in self-consuming training, particularly for LLMs trained on biased human text or synthetic data Wyllie et al. ( 2024 ); Wang et al. ( 2024c ); Chen et al. ( 2024 ) . Such models may internalize social or political biases present in their training corpora Haller et al. ( 2023 ); Rettenberger et al. ( 2025 ); Wang et al. ( 2024b ) . Mitigation strategies have been explored, but remain limited in recursive settings Wang et al. ( 2024c ) . Rejection Sampling. Rejection sampling filters synthetic outputs using heuristics or reward models to curate high-quality data for LLM fine-tuning Yuan et al. ( 2023 ); Toshniwal et al. ( 2024 ); Khaki et al. ( 2024 ); Tong et al. ( 2024 ); Li et al. ( 2025 ); Pang et al. ( 2025 ) . Such curation steers models toward high-reward regions Ferbach et al. ( 2024 ) , motivating our rewards-based reweighting approach for bias mitigation in SCPL. Formally, let ℳ t \\mathcal{M}_{t} with parameters θ t \\theta_{t} denote the LLM at generation t t , and let T T be the total number of generations. Let x x denote a prompt, y y its corresponding response, and z = ( x , y ) z=(x,y) the prompt-response pair, i.e., a single data sample. A dataset D = [ z 1 , z 2 , … , z n ] D=[z_{1},z_{2},\\ldots,z_{n}] then consists of n"
+}

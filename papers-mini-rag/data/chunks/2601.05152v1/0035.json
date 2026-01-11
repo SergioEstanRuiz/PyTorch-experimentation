@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0035",
+  "word_start": 7000,
+  "word_end": 7250,
+  "text": "apply existing optimization approaches Hazan and others ( 2016 ) . Besides, it is impossible to apply many of the existing online reinforcement learning algorithms that assume an unbiased estimator of the loss function Khodak et al. ( 2019 ) , as finding of optimal global policy for online CMDP is not realistic. Khatar et al. Khattar et al. ( 2024 ) proposed a meta-safe reinforcement learning framework (Meta-SRL) that addresses these fundamental problems. Meta-SRL extends the meta-learning concept to safe reinforcement learning and provides a low-regret online learning framework. The proposed algorithm has two layers - a meta-algorithm as an external layer and a within-task algorithm as an internal layer. The purpose of the within-task algorithm is to learn each particular task, and the purpose of the meta-algorithm is to tune up the work of the within-task algorithm. Within-task algorithm is responsible for the adaptations to each task, including adjustment of the learning rate and policy improvement, while the meta-learning part is responsible for making rate adjustment and policy improvement more quick and precise based on task similarities. The method uses CRPO Xu et al. Xu et al. ( 2021 ) for internal layer optimization. Safety constraints are presented as cumulative expectation constraints. That type of constraint setting is very similar to Wei et al. ( 2023 ); Ding and Lavaei ( 2023 ) variational budget constraints. The method makes Lipschitz assumptions about the value function and policies. Lu Wen et al. Liu et al. ( 2021a ) proposed"
+}

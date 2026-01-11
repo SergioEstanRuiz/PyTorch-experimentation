@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0018",
+  "word_start": 3600,
+  "word_end": 3850,
+  "text": "Section 5 , the SOFT framework yields higher human–LLM agreement, better classification performance, and improved generalizability across scientific domains. We next describe our annotation guidelines and procedures, including the re-annotation of ACL-ARC and a cross-domain sample from ACT2. The ACL-ARC dataset [ 28 ] is a standard CIC benchmark, yet its annotation framework exhibits the conceptual conflation and boundary issues discussed in Section 3.1 . To resolve these shortcomings, we re-annotate the entire dataset using our two-dimensional SOFT framework, thereby providing a refined and semantically coherent resource. For our experiments, we adopt the context-expanded version of ACL-ARC provided by [ 39 ] , which enhances the original dataset by adding broader citation contexts and structured metadata, such as the citing and cited paper titles and the section in which the citation appears. Before re-annotation, we manually cleaned the dataset to correct systemic text extraction errors, such as misaligned page breaks and disrupted reading orders, and incorrectly sequenced footnotes. Additionally, we recovered 533 missing section headings from the original paper PDFs to improve contextual understanding. The ACL-ARC dataset contains 1,931 citation instances. Following the original data split in [ 28 ] , we adopt the same partitioning: 1,647 instances are used for training and 284 for testing. To evaluate cross-domain generalizability, we also re-annotated a subset (264 examples) of the ACT2 test set [ 40 ] . ACT2 spans 19 top-level scientific domains from Microsoft Academic Graph (MAG), with dominant fields including Psychology (21.99%), Medicine (13.48%), Biology (10.91%), and Computer Science"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0051",
+  "word_start": 10200,
+  "word_end": 10450,
+  "text": "X_{0} of contexts with such that for every x ∈ D x\\in D we have On the other hand, ∑ x B ¯ x = 𝔼 ​ [ B T ] ≤ T 4 = 1 4 ​ ∑ x T x \\sum_{x}\\overline{B}_{x}=\\mathbb{E}[B_{T}]\\leq\\frac{T}{4}=\\frac{1}{4}\\sum_{x}T_{x} , so and therefore ( 8 ) holds for D = X 0 ∖ S D=X_{0}\\setminus S . For any x ∈ D x\\in D we have B ¯ x ≤ T x 2 \\overline{B}_{x}\\leq\\frac{T_{x}}{2} , and since n x = T x − b x n_{x}=T_{x}-b_{x} pathwise, We can now apply Proposition 1 to each dense context. There exists a constant c > 0 c>0 (independent of T T and m m ) such that the following holds. Assume 𝔼 ​ [ B T ] ≤ T 4 \\mathbb{E}[B_{T}]\\leq\\frac{T}{4} . Then Let D ⊆ X 0 D\\subseteq X_{0} be the set of dense contexts from Lemma 5 . For each x ∈ D x\\in D , the process { Z i ( x ) } \\{Z^{(x)}_{i}\\} , the indicators { I i ( x ) } \\{I^{(x)}_{i}\\} , and the horizon L = T x L=T_{x} satisfy the assumptions of Proposition 1 with σ 2 = 3 / 16 \\sigma^{2}=3/16 and α = 1 2 \\alpha=\\frac{1}{2} (so that 𝔼 ​ [ n x ] ≥ T x 2 \\mathbb{E}[n_{x}]\\geq\\frac{T_{x}}{2} ). Applying the proposition with L = T x L=T_{x} and this value of α \\alpha yields 𝔼 ​ | N x | ≥ c σ ,"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "multivariable Cox model for progression-free survival. This approach was chosen to mimic a realistic data structure. The evaluation of a given FS method by roofs is based on a bootstrap experiment (Figure 1 ). Let 𝒟 original = { ( x i , y i ) } i = 1 n \\mathcal{D}_{\\text{original}}=\\{(x^{i},y^{i})\\}_{i=1}^{n} denote the original dataset provided by the user. From this, B B bootstrap resamples are derived, each denoted 𝒟 b \\mathcal{D}_{b} , b ∈ [ 1 , B ] b\\in[1,B] . In the benchmark on PIONeeR, the number of resamples was set to 100. An identical pipeline, including data preprocessing (imputation using the median for continuous variables or mode for categorical variables and z-score normalization), FS and subsequent predictive modeling, is applied to both the full data and each bootstrap, and repeated across all user-specified combinations of FS methods and classifiers. roofs gathers 34 FS methods from all algorithmic families – filters, embedded methods, wrappers, and ensembles – including both classical statistical techniques and recent ML-based approaches. Most implementations were adapted from existing Python libraries, including scikit-learn [ 37 ] , scikit-feature [ 31 ] , Stabl [ 21 ] , and others. Of the 34 FS methods implemented in roofs , 23 representative approaches were included in the present benchmark. Among embedded methods, we evaluated LASSO [ 44 ] and its variants (modified Bolasso [ 1 ] with a frequency threshold of 0.5 followed by a second LASSO fit, adaptive LASSO [ 50 ] , exclusive LASSO"
+}

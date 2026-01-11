@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0024",
+  "word_start": 4800,
+  "word_end": 5050,
+  "text": "selected a representative subset of ACT2 as cross-domain test dataset and applied the same re-annotation protocol described in Section 4.1.2 using our two-dimensional framework. For a controlled comparison, we reused the same classification models (CitePrompt, CitationIntentOpenLLM, and zero-shot LLMs) and evaluation metrics (Accuracy and Macro F 1 F_{1} ) from Section 4.3 . This alignment allows us to directly assess whether our framework enhances cross-domain robustness and preserves semantic clarity under domain shift. We evaluate the SOFT framework along three axes: interpretability, in-domain learnability, and cross-domain generalizability. Results are compared against two existing citation frameworks, ACL-ARC and SciCite. We assess framework clarity using pairwise Cohen’s κ \\kappa across four pre-trained LLMs (LLM-LLM) and between LLM predictions and human consensus labels (Human-LLM). As expected, SciCite achieves the highest LLM-LLM agreement due to its coarse granularity. However, as shown in Table 1 , SOFT offers significantly higher Human-LLM agreement, especially for the Citation Intent dimension ( κ = 0.662 \\kappa=0.662 for Llama, 0.692 0.692 for Qwen). Despite being conceptually more complex, Cited Content Type also outperforms ACL-ARC and SciCite in Human-LLM agreement, indicating that both dimensions are interpretable and consistently applicable. We evaluate the classification performance of both fine-tuned and zero-shot models on the ACL-ARC test set using three annotation frameworks: ACL-ARC, SciCite, and SOFT. In the SOFT framework, Cited Content Type and Citation Intent are treated as two independent classification tasks. Table 2 and Figure 3 in Appendix 0.B report accuracy and macro F 1 F_{1} scores across all models. Despite"
+}

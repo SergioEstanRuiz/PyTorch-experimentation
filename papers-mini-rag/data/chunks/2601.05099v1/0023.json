@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "tasks run on a vLLM-powered inference serverwith four NVIDIA A100-80GB GPUs. Our prompt engineering strategy casts the LLM as an expert annotator, providing strict inclusion/exclusion rules (e.g., extract MIMIC-III , ignore BERT ) and mandating that all outputs are grounded in the provided text to prevent hallucination. A structured JSON schema (based on SOFT) is enforced for all outputs, and the model’s temperature is set to 0.0 for deterministic results. This phase cleans and consolidates the raw, filtered dataset mentions into a canonical list. we apply a deterministic, rule-based procedure to resolve different surface forms (e.g., ACE 2005 (zh) , ACE-2005 ) to a single canonical entity. This involves strong lexical normalization (lowercasing, punctuation removal, etc.) followed by grouping mentions that share the same normalized form. Within each group, a human-readable display name is chosen by frequency, and all original surface forms are retained as aliases. All provenance is preserved to ensure the process is auditable. we employ a three-tiered strategy to find a URL or PID for each dataset. First, we check if a URL was directly extracted from the citation context by the LLM. If not, we examine the metadata of the cited paper in S2AG; if it is a resource paper, we inherit its DOI. As a final step, we use the canonical dataset name to programmatically query an external source (Google Gemini search capabilities) to find its official homepage or repository. the result of this entire pipeline is a clean, deduplicated, and ranked list of datasets"
+}

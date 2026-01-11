@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "G are binary-valued, so that the Venn diagram corresponding to G G is well-defined for the purposes of this reduction. We note that our lower bounds hold even for binary groups, thus showing that binary groups are as hard as real-valued ones in the minimax sense. (i.e., groups that only depend on context). Then it is possible to obtain multicalibration at the rate of marginal calibration: one can just instantiate, in parallel, 2 | G | 2^{|G|} copies of a minimax-optimal marginal calibration algorithm for all regions in the Venn diagram partition corresponding to G G (i.e., for all possible group intersection patterns). However, this rate-preserving reduction breaks for group collections G G that are more complex than just described. First, if the groups in G G depend on the learner’s predictions, this invalidates the reduction mechanism: on any given round, the set of active groups (and thus the set of active copies of the marginal calibration algorithm) will not be determined until the learner makes the prediction. Second, if the size of G G is not constant but instead grows even logarithmically with T T , then combining all of the copies’ guarantees will incur overhead that will destroy the optimal marginal calibration rate. Therefore, we have two challenging regimes in which to pin down the complexity of online multicalibration and to establish whether it is still exactly as hard as marginal calibration or strictly harder: (1) Prediction-dependent group collections; and (2) prediction-independent group collections whose size grows with"
+}

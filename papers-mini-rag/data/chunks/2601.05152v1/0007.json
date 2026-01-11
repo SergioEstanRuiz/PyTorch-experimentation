@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "as we believe that both topics require separate research. In this section, we provide notations, definitions, and main ideas that can help better understand the general concept of COSRL. In this survey, capital letters are used for random variables, while lower-case letters are used for the values of random variables and for scalar functions. For consistency with prior literature, we largely follow the notation of (Sutton and Barto, 1998) Sutton et al. ( 1998 ) . Most of the existing reinforcement learning methods are based on the Markov decision process (MDP) that can be represented as a tuple ( S , A , R , P , Ψ ) (S,A,R,P,\\Psi) where S is the set of states, A is the set of actions, R : S × A × S → R is the reward function, P: S×A×S → [0, 1] is the transition probability function where P( s i + 1 s_{i+1} | s i s_{i} , a) is the probability of transitioning to state s i + 1 s_{i+1} given that the previous state was s i s_{i} and the agent took action a in s i s_{i} ; and Ψ \\Psi : S → [0, 1] is the starting state distribution Bellman ( 1957 ) . A stationary policy π ∈ Π \\pi\\in\\Pi maps from states to probability distributions over actions π \\pi : S → P(A), with π \\pi (a|s) denoting the probability of selecting action a in state s. Π \\Pi denotes the set of"
+}

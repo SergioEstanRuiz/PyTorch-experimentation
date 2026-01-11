@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0040",
+  "word_start": 8000,
+  "word_end": 8250,
+  "text": "r r moments in Frobenius norm implies a d r d^{r} sample complexity lower bound for any moment-based algorithm. The reason is as follows. The empirical r r -th order moment tensor T ^ \\mathaccent 866{T} will have ⁡ [ \\| ​ T ^ − ⁡ [ T ^ ] ⁡ \\| F 2 ] = ( d r ) \\operatornamewithlimits{\\m@thbbch@rE}[\\|\\mathaccent 866{T}-\\operatornamewithlimits{\\m@thbbch@rE}[\\mathaccent 866{T}]\\|_{\\mathrm{F}}^{2}]=\\Omega(d^{r}) , since the variance of every entry of T ^ \\mathaccent 866{T} is ( 1 ) \\Omega(1) . Thus, if we are estimating the moment tensor with n n samples, the expected error will be ( d r / n ) \\Omega(d^{r}/n) . Using Theorem 1.2 , considering moments of order at least log ⁡ k \\log k is needed. Thus, the sample complexity of any moment-based method (using the standard empirical estimators) would be n = ( d log ⁡ k ) = ( 2 log ⁡ k ​ log ⁡ log ⁡ k ) n=\\Omega(d^{\\log k})=\\Omega(2^{\\log k\\log\\log k}) , while our Fourier-based algorithm has poly ​ ( k ) \\mathrm{poly}(k) sample complexity. As a consequence, this implies that the sample complexity of moment-based methods scales at least super-polynomially with the number of components k k , while our algorithm of Theorem 1.1 achieves a polynomial dependence on k k . Hence, our Fourier-based tool is a method that provably bypasses the limitations of the method of moments. The proof is inspired by the pigeonhole argument of [ regev_learning_2017 ] and appears in Section 3.3 ."
+}

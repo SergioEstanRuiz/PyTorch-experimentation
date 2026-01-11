@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05170v1",
+  "title": "Reverse-engineering NLI: A study of the meta-inferential properties of Natural Language Inference",
+  "abs_url": "https://arxiv.org/abs/2601.05170v1",
+  "html_url": "https://arxiv.org/html/2601.05170v1",
+  "chunk_id": "2601.05170v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "\\vDash is some semantic notion of entailment. By contrast, Tian et al. ( 2021 ) , in their study of the capabilities of language models to reason in first-order logic, use a notion of “syntactical consequence” supposedly meaning derivability in first-order logic. They use the syntactic consequence relation ⊢ \\vdash to define four inference relations, where E E is defined as a ⊢ b ∧ a ⊬ ¬ b a\\vdash b\\land a\\nvdash\\lnot b , C C as a ⊬ b ∧ a ⊢ ¬ b a\\nvdash b\\land a\\vdash\\lnot b , N N as a ⊬ b ∧ a ⊬ ¬ b a\\nvdash b\\land a\\nvdash\\lnot b , plus a version of the principle of explosion that they call “Paradox”: a ⊢ b ∧ a ⊢ ¬ b a\\vdash b\\land a\\vdash\\lnot b . These definitions entail that the standard NLI relations can only hold for pairs in which the premise is non-contradictory. They also observe that the “Paradox” scenario is rare in texts as well as in NLI tasks. Minervini and Riedel ( 2018 ) postulate that certain meta-inferential relations can be deduced to hold between NLI sentence pairs when the order of the sentences are swapped. They postulate that E ​ a ​ b → ¬ C ​ b ​ a Eab\\rightarrow\\lnot Cba , where E E and C C are taken to be binary predicates of first-order logic that are axiomatized by rules of this form. The validity of this rule depends on how the relation E E is understood."
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0028",
+  "word_start": 5600,
+  "word_end": 5850,
+  "text": "descent. Instead, by enforcing non-Abelian gauge symmetries, we compel continuous neural networks to condense into a phase where they manipulate topological invariants—effectively realizing discrete logical inference while retaining the learnability of deep networks. This points toward a future class of large language model (LLM) architectures, where a topological backbone handles long-horizon causal reasoning, while standard metric layers manage the rich, localized semantics of natural language. Importantly, while the Holonomic Network is linear in the state vector h t h_{t} , it belongs to the more powerful class of bilinear or input-dependent recurrent networks ( h t = U ​ ( x t ) ​ h t − 1 h_{t}=U(x_{t})h_{t-1} ). Unlike standard additive RNNs where inputs act merely as forcing terms, here the input selects the operator itself. This multiplicative interaction allows the network to implement conditional branching (“If input is A, apply rotation U A U_{A} ”)—the fundamental primitive of logical control flow. Because these operators are non-commutative ( U A ​ U B ≠ U B ​ U A U_{A}U_{B}\\neq U_{B}U_{A} ), this branching naturally preserves causal order while maintaining the isometric stability of the linear recurrence. From a computational perspective, this topological protection translates directly to efficiency and reliability. By enforcing the gauge constraint, the Holonomic Network achieves robust generalization on algorithmic tasks where metric-based models fail to extrapolate, using orders of magnitude fewer parameters. Furthermore, because the memory state is a path-independent holonomy, the inference cost is constant O ​ ( 1 ) O(1) in memory,"
+}

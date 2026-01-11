@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "T . We note that upper bounds (Gupta et al. , 2022 ; Noarov et al. , 2025 ; Ghuge et al. , 2025 ; Hu et al. , 2025 ) depend only logarithmically on | G | |G| , so even families of size | G | = poly ​ ( T ) |G|=\\textrm{poly}(T) incur only logarithmic overhead. In Section 4 , we give an optimal Ω ~ ​ ( T 2 / 3 ) \\tilde{\\Omega}(T^{2/3}) lower bound for multicalibration even restricting to prediction independent binary groups, using a group family of size | G | = O ​ ( T ) |G|=O(T) . This once again matches existing upper bounds up to logarithmic factors (Noarov et al. , 2025 ; Ghuge et al. , 2025 ; Hu et al. , 2025 ) and separates multicalibration (with group families with cardinality depending polynomially on T T ) from marginal calibration (Dagan et al. , 2025 ) . This is the technically most challenging result of the paper. Finally, in Appendix B , we formalize a natural notion of a “proper” oracle reduction from multicalibration to marginal calibration which captures standard reduction techniques in learning theory like aggregation with no regret learning algorithms and sleeping experts. We provide an oracle lower bound for group families of size | G | = Θ ​ ( log ⁡ T ) |G|=\\Theta(\\log T) , showing that any ’proper’ black-box reduction to marginal calibration obtaining non-trivial multicalibration rates must use exponentially many oracles (in"
+}

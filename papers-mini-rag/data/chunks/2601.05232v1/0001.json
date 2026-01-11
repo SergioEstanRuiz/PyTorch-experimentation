@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05232v1",
+  "title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence",
+  "abs_url": "https://arxiv.org/abs/2601.05232v1",
+  "html_url": "https://arxiv.org/html/2601.05232v1",
+  "chunk_id": "2601.05232v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": "better understand the tone of their media creation and consumption and its effects on viewers. Moving beyond simple engagement metrics, we hope to encourage more respectful, nuanced, and informative communication. Keywords: peace; NLP; machine learning; AI; LLMs. The content and tone of the language that people use plays an essential role in starting or ending conflicts. “Hate Speech” leads to conflict and violence. Recently, our group and others have been seeking to identify the characteristics of “Peace Speech” that reinforce peaceful behavior [ 1 ] . Understanding the importance of the role of language leads to: 1) new ways to measure the levels of peace in countries, regions, or cities; 2) illuminate the social processes that underlie those language differences; and 3) suggest interventions that can promote peace. We show here how modern methods from machine learning and artificial intelligence (AI) can measure levels of peace and design interventions to increase it. Over the last 25 years our interdisciplinary team and collaborators have used multiple social science methods to study intractable conflicts and sustainable peace [ 2 ] . More recently we have used mathematical modeling and data science methods to study and measure peace including: transforming knowledge graphs (also known as causal loop diagrams and concept maps) into sets of ordinary differential equations analyzed as dynamical systems to identify attractors of peace and conflict [ 3 ] supervised learning using logistic regression, random forest, support vector machines, decision trees, and embeddings to find the words of highest feature importance"
+}

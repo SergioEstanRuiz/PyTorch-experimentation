@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0030",
+  "word_start": 6000,
+  "word_end": 6250,
+  "text": "three other approaches, while Qwen3-Reranker-4B achieves the highest recall@10 and Qwen3-Embedding-4B yield competitive results, despite the latter not being provided with the context. Furthermore, Figure 9 shows the ground truth rank distribution across the four approaches. Interestingly, Qwen3-Embedding-4B assigns the higher score to the ground truth in more than 60% of the cases, while Qwen3-4B-Reranker does so in less than 30% of cases, it catches up with the embedder’s recall at k = 6 k=6 . It should be noted that when using models which are highly susceptible to positional bias, such as Qwen3-4B (see Appendix F ), the accuracy@k metric is not sufficient to compare different rerankers, as it is invariant to the output candidate position. To better understand the contribution of each stage (Retrieval, Reranking, and Selection) to the final performance, we visualize the flow of the ground-truth entity through the LELA pipeline using Sankey diagrams (Figure 10 ). The diagrams clearly distinguish between retrieval-bound, reranking-bound, and reasoning-bound challenges across different benchmarks: On ZESHEL, the dominant error source is consistently the initial BM25 retrieval. Once the correct entity is retrieved, LELA is highly effective at retaining and selecting it. On GLADIS, the bottleneck shifts to the reranking stage, particularly in specialized domains where the density of similar long forms is high. On WikilinksNED Unseen Mentions (specifically with dense retrieval), the challenge lies primarily in the final selection, suggesting that the reasoning model struggles to disambiguate between the highly similar entities typical of Wikipedia. A key finding is the"
+}

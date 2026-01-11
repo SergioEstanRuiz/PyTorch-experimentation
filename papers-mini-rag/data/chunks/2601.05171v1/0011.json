@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "database (e.g., document stores such as MongoDB). Iterating over t = 1 , … , N t=1,\\dots,N yields a traceable evolution sequence { 𝒯 0 , … , 𝒯 N } \\{\\mathcal{T}_{0},\\dots,\\mathcal{T}_{N}\\} , with 𝒯 N \\mathcal{T}_{N} serving as the compressed long-term memory for retrieval-augmented and personalized generation at the final task-query stage. During training data construction, we select subsets from HaluMem [ chen2025halumem ] and PersonaMem [ jiang2025know ] that are relevant to implicitly characterizing user-specific attributes as the raw corpus sources. Using the dynamic PersonaTree evolution procedure described in Section 3.2 as the backbone, we invoke DeepSeek-R1-0528 to generate supervision signals for training. We first perform full supervised fine-tuning to initialize the base model as a MemListener that can stably generate operation lists. For any training sample, let the input context be s s (including the dialogue chunk, the previous tree state, and rule constraints), and the target output be o o (the ground-truth operation sequence segment). We optimize a standard autoregressive cross-entropy objective: where θ \\theta denotes the model parameters and τ \\tau is the target sequence length. The goal of this stage is to train the model to make executable and traceable update decisions within strict grammar and write boundaries, ensuring that the generated operation sequences are structurally stable and usable, thus providing a reliable starting point for subsequent alignment. After the SFT warm-up, we continue alignment with the remaining data using RL driven by process-based rewards. We set the model’s maximum context length to 11K"
+}

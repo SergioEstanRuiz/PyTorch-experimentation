@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0112",
+  "word_start": 22400,
+  "word_end": 22650,
+  "text": "z ​ ( v ) | ≥ 0 A_{z}:=\\sum_{v\\in V(C_{z})}|B_{z}(v)|\\geq 0 for each pattern z z . For each j j we showed pathwise that Err T ​ ( g j ) ≤ ∑ z : z j = 1 A z \\mathrm{Err}_{T}(g_{j})\\leq\\sum_{z:z_{j}=1}A_{z} , hence where the last inequality holds because each A z ≥ 0 A_{z}\\geq 0 and the maximum of partial sums is at most the total sum. Taking expectations and using ( 32 ) yields Since R R is concave and nondecreasing with R ​ ( 0 ) = 0 R(0)=0 and ∑ z T z = T \\sum_{z}T_{z}=T , Jensen’s inequality gives the pathwise bound The theorem shows that the difficulty of prediction-independent multicalibration is governed by the intersection structure of the groups, quantified by K j K_{j} and T j T_{j} . In particular, when | G | |G| is fixed independently of T T , the crude bound K j ≤ 2 k − 1 K_{j}\\leq 2^{k-1} recovers the same rate as the marginal algorithm. This simple reduction crucially relies on the fact that the groups are binary and prediction independent , since it needs to identify which subset of groups are active before it decides which algorithm will be assigned to make a prediction each day. It establishes that marginal calibration rates are the same as multicalibration rates (as a function of T T ) for any collection of groups whose cardinality is independent of T T — and hence, by the result"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "the robustness of pathology foundation models. Examples are stain normalization [ 53 , 66 ] , data augmentation [ 20 ] , projecting out confounder information [ 57 , 46 ] , distillation [ 22 ] , or applying methods during downstream training (e.g. DANN [ 26 , 46 ] ). To provide efficient alternatives to large-scale frontier pathology foundation models, several groups [ 82 , 60 , 23 ] have released lightweight counterparts by either training small encoders directly from scratch [ 60 , 37 , 55 , 1 ] or performing knowledge distillation [ 31 , 7 ] from larger foundation models [ 23 , 82 ] . We curate a dataset of 5.5 million de-identified WSIs, derived from the digital archives of Charité - Universitätsmedizin Berlin, LMU Munich, and Mayo Clinic, from which we extract tiles at multiple resolutions, namely 0.25, 0.5, 1.0, and 2.0 microns per pixel, corresponding to objective microscopic magnifications of 40 × 40\\times , 20 × 20\\times , 10 × 10\\times , and 5 × 5\\times , respectively. We perform model training in several phases. All of our model architectures are based on the Vision Transformer (ViT) [ 19 ] , using a patch-token size of 8. For our main model, Atlas 2, we use a 2 billion parameter variant. For the distilled versions, Atlas 2-B and Atlas 2-S, we use the model sizes “base” (ViT-B; 86 million parameters) and “small” (ViT-S; 22 million parameters), respectively. Our training framework uses an adapted RudolfV"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05232v1",
+  "title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence",
+  "abs_url": "https://arxiv.org/abs/2601.05232v1",
+  "html_url": "https://arxiv.org/html/2601.05232v1",
+  "chunk_id": "2601.05232v1:0016",
+  "word_start": 3200,
+  "word_end": 3407,
+  "text": "fine-tuned models for edge deployment, and extending across platforms such as TikTok and Twitter. The next steps in developing our MirrorMirror chrome extension are: 1) to use more extensive human feedback to compare the accuracy of different computational methods to measure the social dimensions in the YouTube videos, 2) to expand our testing of the UX/UI interface across a broader group of people, 3) to provide users information about how the videos they watch change over time, and 4) to do behavioral testing to measure the effects of MirrorMirror on users choice of videos and if those choices lead to improved behaviors with others. how levels of peace can be measured from news text sources using data-driven supervised machine learning how dimensions of social factors important in peaceful cultures, as identified by human experts and hypothesis-driven social science studies, can be measured from social media text using word and context level AI tools to develop a chrome extension that can provide users useful feedback to increase their awareness of how they are influenced by their own media diet. Our initial user interface is shown in Fig. 4 . Perhaps, such self-awareness may be a helpful tool in turning down the destructive, polarizing, heat in social media communications."
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0154",
+  "word_start": 30800,
+  "word_end": 31050,
+  "text": "d ​ log ⁡ ( 1 / δ ) 2 ) T(\\varepsilon^{\\prime})R+O(k(kR)^{2}d)=O(T(\\varepsilon^{\\prime})\\log(1/\\delta)+k^{3}d\\log(1/\\delta)^{2}) . ∎ Without loss of generality, assume μ = 0 \\mu=0 and σ = 1 \\sigma=1 , and for simplicity assume C 0 = 1 C_{0}=1 . That is, for all v ∈ S d − 1 v\\in S^{d-1} and t > 0 t>0 , Given δ , α ∈ ( 0 , 1 ) \\delta,\\alpha\\in(0,1) and n n i.i.d. samples x 1 , … , x n x_{1},\\dots,x_{n} . Let and M = sup v ∈ S d − 1 M ​ ( v ) M=\\sup_{v\\in S^{d-1}}M(v) , then for which we want to find an upper bound ( α ) \\Delta(\\alpha) . Let N ⊆ S d − 1 N\\subseteq S^{d-1} be an ε \\varepsilon -net of the unit sphere S d − 1 S^{d-1} , then | N | ≤ ( 1 + 2 / ε ) d |N|\\leq(1+2/\\varepsilon)^{d} . Take ε = 1 / 2 \\varepsilon=1/2 , we have | N | ≤ 5 d |N|\\leq 5^{d} and for any u ∈ S d − 1 u\\in S^{d-1} , there exists v ∈ N v\\in N that \\| ​ u − v ​ \\| 2 ≤ 1 / 2 \\|u-v\\|_{2}\\leq 1/2 . Then, for any S ⊆ [ n ] S\\subseteq[n] with | S | = α ​ n |S|=\\alpha n , Take the supreme over u ∈ S d − 1 u\\in S^{d-1} and the maximum over S S on the LHS, we"
+}

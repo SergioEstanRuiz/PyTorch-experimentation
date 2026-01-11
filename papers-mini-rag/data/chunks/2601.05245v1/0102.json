@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0102",
+  "word_start": 20400,
+  "word_end": 20650,
+  "text": "= ∑ t ≤ T ′ δ t 2 = : S \\sum_{a}E_{a}=\\sum_{t\\leq T^{\\prime}}\\delta_{t}^{2}=:S , so 1 K ​ ∑ a E a = K − 1 / 2 ​ S \\sqrt{\\frac{1}{K}\\sum_{a}E_{a}}=K^{-1/2}\\sqrt{S} . Therefore, pathwise, Taking expectations and applying Cauchy–Schwarz gives We now combine the pieces. Since the maximum over ( a , j ) (a,j) is at least the average, and using ∑ a N a ≥ N \\sum_{a}N_{a}\\geq N (Lemma 15 ), we obtain from ( 24 ) and ( 25 ): By Lemma 9 , MCerr T ′ ​ ( G ) ≥ 1 2 ​ max a , j ⁡ Err T ′ ​ ( h a , j ) \\mathrm{MCerr}_{T^{\\prime}}(G)\\geq\\tfrac{1}{2}\\max_{a,j}\\mathrm{Err}_{T^{\\prime}}(h_{a,j}) , so taking expectations and using ( 26 ) yields Define the ℓ 1 \\ell_{1} deviation from honesty Since | p t − x t | ≤ 1 |p^{t}-x^{t}|\\leq 1 we have ( p t − x t ) 2 ≤ | p t − x t | (p^{t}-x^{t})^{2}\\leq|p^{t}-x^{t}| pointwise and thus S ≤ A S\\leq A . Therefore, by Lemma 11 , Set Λ := log ⁡ ( T + 1 ) \\Lambda:=\\log(T+1) . Recall K = ⌈ Λ 10 ⌉ K=\\lceil\\Lambda^{10}\\rceil , so K ≥ Λ 10 K\\geq\\Lambda^{10} and (for Λ ≥ 1 \\Lambda\\geq 1 ) K ≤ 2 ​ Λ 10 K\\leq 2\\Lambda^{10} . Also log ⁡ ( m + 1 ) ≤ Λ \\log(m+1)\\leq\\Lambda and log ⁡ ( L + 1 ) ≤ Λ \\log(L+1)\\leq\\Lambda since m , L ≤ T"
+}

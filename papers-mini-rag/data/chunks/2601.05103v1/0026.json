@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0026",
+  "word_start": 5200,
+  "word_end": 5450,
+  "text": "closely with both pre-trained and fine-tuned model representations. We note that our reported scores are lower than those in prior work, including CitePrompt [ 32 ] , which may be attributed to differences in dataset partitioning, as discussed in Section 4.1 . To assess the robustness of different frameworks under domain shift, we evaluate models trained on ACL-ARC directly on a re-annotated subset of ACT2. No further fine-tuning or domain adaptation is performed. Table 2 and Figure 3 in Appendix 0.B report both accuracy and macro F 1 F_{1} scores, highlighting how well each framework generalizes beyond the original training domain. Despite its conceptual complexity, Cited Content Type classification generalizes well. Zero-shot LLMs maintain solid performance (average F 1 F_{1} drop 17%), and fine-tuned Qwen-Small drops moderately (0.78 to 0.64), suggesting that these content distinctions remain stable across domain shifts. SOFT-trained models exhibit superior generalizability on Citation Intent classification. Fine-tuned Qwen-Small drops from 0.65 to 0.56 (SOFT), outperforming ACL-ARC (0.51 to 0.49) and SciCite (0.62 to 0.23). Zero-shot performance mirrors this trend (Figure 2 ). SOFT’s average F 1 F_{1} drop is only 15.8% (vs. 30-65% for other frameworks), suggesting its discourse-grounded intent types generalize more robustly. A dimension-wise analysis reveals distinct model behaviors. In-domain, zero-shot LLMs perform better on Citation Intent (avg. F 1 F_{1} : 0.69) than Cited Content Type (0.66), suggesting these functions align well with LLM priors. With fine-tuning, however, Cited Content Type becomes more learnable (Qwen-Small F 1 F_{1} : 0.78 vs. 0.65 for intent),"
+}

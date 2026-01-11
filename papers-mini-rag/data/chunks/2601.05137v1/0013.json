@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "( G ) = { 1 , … , n } V(G)=\\{1,\\dots,n\\} takes in some initial vectors { 𝒙 i 0 } i = 1 n \\{\\boldsymbol{x}_{i}^{0}\\}_{i=1}^{n} representing features of the vertices, then iteratively generates new features { 𝒙 i t } i = 1 n \\{\\boldsymbol{x}_{i}^{t}\\}_{i=1}^{n} for t = 1 , 2 , t=1,2, and so on, using an update rule of the form where ϕ t , ψ t \\phi_{t},\\psi_{t} are some (often learnable) functions, ⨁ \\bigoplus is a permutation-invariant aggregation function, and 𝒩 ​ ( i ) \\mathcal{N}(i) is the set of neighbors of i i in G G . The GNN eventually outputs { 𝒙 i t } i = 1 n \\{\\boldsymbol{x}_{i}^{t}\\}_{i=1}^{n} for some t t called the depth of the GNN. Each update is called a layer of the GNN, and the final layer often uses a different function ϕ t \\phi_{t} or none at all so that the output has the desired form. One message-passing GNN architecture that we use predominantly throughout the paper is a Graph Convolutional Network (GCN) [ 5 ] , in which the update rule is given by where e i ​ j e_{ij} is the chosen weight of edge i ​ j ∈ E ​ ( G ) ij\\in E(G) , d ^ j \\hat{d}_{j} is the degree of vertex j ∈ V ​ ( G ) j\\in V(G) accounting for edge weights and including self-loops, 𝑾 t \\boldsymbol{W}_{t} is a learnable weights matrix, and σ t \\sigma_{t}"
+}

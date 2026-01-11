@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0016",
+  "word_start": 3200,
+  "word_end": 3450,
+  "text": "tasks. To investigate the distinct contribution of each component in RelayLLM , we conducted an ablation study using the Qwen3-1.7B model in Table 3 . We show that removing the data filtering mechanism results in a tripled call ratio with decreased accuracy; this confirms that filtering out queries intractable for the teacher is crucial to avoid cost that yield no performance gain. Filtering out some too hard data also save time and resources during the training stage. We remove the independence encouraging (where we boosted correctness reward from 1 1 to 1.5 1.5 for solvable queries), and this causes the call ratio to spike to 4.10%. This demonstrates that specifically rewarding the independent success is crucial to prevent the model from becoming over-reliant on the expert LLM for tasks it could solve alone. When we remove the exploration reward (for unsolvable queries), this leads to a significant accuracy drop to 47.56%, indicating that the exploration reward is necessary to encourage the model to call for help from teacher models in highly uncertain scenarios. To investigate whether RelayLLM improves the student’s inherent reasoning or merely learns to offload tasks, we evaluate the models in a “Teacher-Free” setting by strictly forbidding invocations during inference (implemented via bad_words=[‘‘<call>’’, ‘‘</call>’’] when inference). Results in Table 4 reveal three key insights. First, on Easy datasets, even without teacher access, RelayLLM (Simple-Reward) achieves 61.12%, surpassing the GRPO baseline. This suggests that the student model has successfully learn from the reasoning ability of the expert model during"
+}

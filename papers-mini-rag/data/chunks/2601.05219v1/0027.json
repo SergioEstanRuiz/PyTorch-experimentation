@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0027",
+  "word_start": 5400,
+  "word_end": 5650,
+  "text": "in patch Y i Y_{i} , the one-shot task is to predict where that same landmark is located in a test image. We instantiate one-shot landmarking using the patch-similarity approach described in Example 1. The embeddings e x ​ ( y ) e_{x}(y) in Eqn. 3 , come from a pretrained frozen DINOv3 model (ViT‑B/16 pretrained on LVD‑1689M) which produces a patch token for each image patch. The register and CLS tokens are dropped. Approaches for Conformal One-Shot Landmarking. Given a dataset of | 𝒟 n | |\\mathcal{D}_{n}| labeled examples, we can instantiate | 𝒟 n | |\\mathcal{D}_{n}| one-shot predictors. Rather than point predictions, we want to obtain conformal prediction sets at a target miscoverage level α \\alpha , which are guaranteed to contain the true label with finite-sample marginal probability at least 1 − α 1-\\alpha . Our guiding research question is how to leverage the available data to combine the one-shot predictors (e.g. by selecting the best ones for a new test example) while also using the available data to calibrate the conformal prediction sets. We evaluate CAOS in comparison to several split conformal baselines in terms of empirical coverage and prediction set size ( Eqns. 32 and 33 in Appendix D.2 ). Empirical coverage should meet or exceed the target level 1 − α 1-\\alpha , while smaller prediction sets, corresponding to lower predictive uncertainty, are preferred. For a fair comparison, all methods use the same one-shot prediction tasks, backbone models, and data splits, differing only in"
+}

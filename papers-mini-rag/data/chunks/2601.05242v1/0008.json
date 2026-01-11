@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "term from Eq. 2 , such that A sum ( i , j ) = r sum ( i , j ) − mean ​ { r sum ( i , 1 ) , … , r sum ( i , G ) } A^{(i,j)}_{\\text{sum}}=r_{\\text{sum}}^{(i,j)}-\\mathrm{mean}\\{r_{\\text{sum}}^{(i,1)},\\ldots,r_{\\text{sum}}^{(i,G)}\\} . Despite these works introduce this modification to mitigate question-level difficulty bias, at first glance, this change also appears to address the issue we identify. Specifically, removing the standard deviation normalization mitigates the issue: ( 𝟶 , 𝟷 ) \\mathtt{(0,1)} and ( 𝟶 , 𝟸 ) \\mathtt{(0,2)} now yield distinct advantages of ( − 0.5 , 0.5 ) \\mathit{(-0.5,0.5)} and ( − 1.0 , 1.0 ) \\mathit{(-1.0,1.0)} , respectively. However, when this setup is generalized to a larger number of rollouts while keeping the number of rewards fixed, as shown in Figure 3 , we observe that such fix only slightly increases the number of distinct advantage groups compared to GRPO. A similar trend can be observed under settings where the number of rollouts is fixed at four, but the number of rewards gradually increases. In this case, we also observe only modest improvements in the number of distinct advantage groups. We also empirically examine the effectiveness of removing the standard deviation normalization term in Section 4.1.1 , and find that this modification does not lead to improved convergence or better downstream evaluation performance. To overcome these challenges, we propose Group reward-Decoupled normalization Policy Optimization (GDPO) , a method designed to better maintain distinctions among"
+}

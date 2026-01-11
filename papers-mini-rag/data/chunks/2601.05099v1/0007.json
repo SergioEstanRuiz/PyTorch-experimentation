@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "𝒞 i \\mathcal{C}_{i} is the set of supporting citation contexts, and ℳ i \\mathcal{M}_{i} contains enriched metadata. We operate on Semantic Scholar Academic Graph (S2AG) [ 19 ] with a hybrid strategy: precomputed indices for citation windows plus on-demand filtering for query specialization. Given ( 𝒬 , ℱ ) (\\mathcal{Q},\\mathcal{F}) , we retrieve candidate papers, extract sentence-level windows around citation markers, and retain ( paper , target , window ) (\\text{paper},\\text{target},\\text{window}) triples with minimal metadata needed downstream. To maintain throughput over millions of papers while keeping latency manageable, we combine (1) prebuilt context tables and (2) light query-time joins; we further reduce noise with an LLM-based relevance filter in a retrieve-then-read setup [ 13 ] . This balances accuracy with computational cost (full-document processing is expensive for real-time recommendation). We cast extraction as Dataset Mention Extraction [ 14 ] over citation windows, augmented with citation-function cues. Building on scientific information retrieval [ 6 , 20 ] , we adapt Qwen2.5-72B-Instruct [ 21 ] , a large instruction-tuned model, to identify dataset mentions, including abbreviated or implicit references. To output a structured record with (1) cited content type and (2) citation intent (following SOFT’s [ 17 ] separation of intent vs. content type). This structured extraction captures the specific application context of a dataset, such as whether it was primarily used as a resource, modified for a new task, or served as a standard to evaluate against . Such semantic insight provides a level of granularity that is fundamentally unavailable to"
+}

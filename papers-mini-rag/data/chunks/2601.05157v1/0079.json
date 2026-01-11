@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0079",
+  "word_start": 15800,
+  "word_end": 16050,
+  "text": ", r ⟩ \\langle\\mu_{j_{1}},r\\rangle\\geq\\langle\\mu_{j_{2}},r\\rangle , then for any ℓ ∈ [ d ] \\ell\\in[d] , That is, the order of the projected means is preserved among each projection direction, as well as the separation, up to a constant. We will use γ 1 = δ 0 ​ γ 4 ​ d 5 / 2 = 2 ​ B ​ ε 1 \\gamma_{1}=\\frac{\\delta_{0}\\gamma}{4d^{5/2}}=2B\\varepsilon_{1} to denote the separation in the projections. Let where ⟨ μ j , r ℓ ⟩ ≤ \\| ​ μ j ​ \\| 2 ​ \\| ​ r ℓ ​ \\| 2 ≤ ( 1 + ε 1 ) ​ B ≤ 2 ​ B \\langle\\mu_{j},r_{\\ell}\\rangle\\leq\\|\\mu_{j}\\|_{2}\\|r_{\\ell}\\|_{2}\\leq(1+\\varepsilon_{1})B\\leq 2B , and g r ℓ ​ ( t ) = g ​ ( t ⋅ r ℓ ) g^{r_{\\ell}}(t)=g(t\\cdot r_{\\ell}) . Then by Theorem 2.1 , since T > O ​ ( d 5 / 2 ​ log ⁡ ( k / θ ) δ 0 ​ γ ) = O ​ ( log ⁡ ( k / θ ) γ 1 ) T>O\\left(\\frac{d^{5/2}\\log(k/\\theta)}{\\delta_{0}\\gamma}\\right)=O\\left(\\frac{\\log(k/\\theta)}{\\gamma_{1}}\\right) , the algorithm 𝖲𝖥𝖳 1 ​ ( x r ℓ , k , T , 2 ​ B , γ 1 , θ , δ 0 2 ​ ( d + 1 ) ) \\mathsf{SFT}_{1}(x^{r_{\\ell}},k,T,2B,\\gamma_{1},\\theta,\\frac{\\delta_{0}}{2(d+1)}) performs queries on x r ℓ ​ ( t ) x^{r_{\\ell}}(t) at t = t 1 r ℓ , t 2 r ℓ , … , t N 1 r ℓ t=t_{1}^{r_{\\ell}},t_{2}^{r_{\\ell}},\\dots,t_{N_{1}}^{r_{\\ell}} , and outputs { ( w ^ j r ℓ"
+}

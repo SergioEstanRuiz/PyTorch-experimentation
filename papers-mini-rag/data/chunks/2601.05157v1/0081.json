@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0081",
+  "word_start": 16200,
+  "word_end": 16450,
+  "text": "\\left|w_{j}-\\mathaccent 866{w}_{\\pi_{\\ell}(j)}^{r_{\\ell}}\\right|\\leq O(\\mathcal{N}) for all ℓ ∈ [ d ] \\ell\\in[d] , with probability 1 − δ 0 / 2 1-\\delta_{0}/2 . Suppose this happens. Since the ordering of the means is preserved among all the projections, we can match the projected means in different directions after sorting. Therefore, by Lemma 2.8 , there is a permutation π \\pi such that for any j ∈ [ k ] j\\in[k] with | w j | = ( 𝒩 ) |w_{j}|=\\Omega(\\mathcal{N}) , And for the weights, | w j − w ^ π ​ ( j ) r 0 | ≤ O ​ ( 𝒩 ) \\left|w_{j}-\\mathaccent 866{w}_{\\pi(j)}^{r_{0}}\\right|\\leq O(\\mathcal{N}) . The above two error guarantees hold with probability 1 − δ 0 / 2 − δ 0 / 2 = 2 / 3 1-\\delta_{0}/2-\\delta_{0}/2=2/3 . By Lemma 2.9 , there is an algorithm that achieves the same error guarantees, with probability 1 − δ 1-\\delta , using We now give a lemma for boosting the success probability. For the proof we refer to Appendix A . Assume that there are k k points μ 1 , … , μ k ∈ d \\mu_{1},...,\\mu_{k}\\in{}^{d} with γ = min j ′ ​ j ⁡ \\| ​ μ j ′ − μ j ​ \\| 2 \\gamma=\\min_{j^{\\prime}\\neq j}\\|\\mu_{j^{\\prime}}-\\mu_{j}\\|_{2} and weights w 1 , … , w k ∈ w_{1},\\dots,w_{k}\\in\\m@thbbch@rR . For ε ′ , ε w ∈ ( 0 , 1 ) \\varepsilon^{\\prime},\\varepsilon_{w}\\in(0,1) , let A ​ ( ε ′ , ε w ) A(\\varepsilon^{\\prime},\\varepsilon_{w})"
+}

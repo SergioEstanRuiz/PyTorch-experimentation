@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "and independence, while dependent success ( ρ ​ ( y ) > 0 \\rho(y)>0 ) still receives the simple reward r simple r_{\\text{simple}} in Eq.( 3 ), and incorrect responses receive zero reward. This scenario represents challenging queries where correct answers appear only in samples that call the large model. Here, the small model’s independent reasoning is insufficient. To discourage blind guessing, we impose a penalty on samples that fail to call the teacher ( r = − 1.0 r=-1.0 when ρ ​ ( y ) = 0 \\rho(y)=0 ). Conversely, effective expert calling that leads to a correct answer is rewarded with r simple r_{\\text{simple}} . This scenario occurs when no sample in 𝒢 \\mathcal{G} yields the correct answer, indicating that the query is extremely difficult or the teacher’s guidance was ineffective. Rather than providing zero training signal for all responses, we assign a small exploration reward ( r = ρ ​ ( y ) r=\\rho(y) ) to samples that attempted to call the large model. This reinforces the tendency to seek help in highly uncertain situations. This piecewise design aligns the policy with an optimal strategy: solve independently when possible, seek help when necessary, and avoid costly errors. To evaluate the effectiveness of RelayLLM , we utilize the Qwen3 model family (Yang et al. , 2025a ) due to its consistent architectural scaling and strong performance across various sizes. We select Qwen3-0.6B and Qwen3-1.7B as our primary small language models ( ℳ S \\mathcal{M}_{S} ) to investigate how"
+}

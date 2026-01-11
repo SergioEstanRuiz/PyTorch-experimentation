@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": "quality, we substitute each FFN expert with a GLU-based expert. Empirically, GLU-Experts match the accuracy of FFN-Experts (Table 2 ) while yielding a 1.4x speed-up in wall-clock time. As illustrated in Figure 5 , we conduct a sensitivity analysis on four critical hyperparameters that significantly influence the model’s performance: the number of experts (# experts ), the number of backbone layers (# layers ), the number of agent tokens in the agent-attention mechanism (# agents ), and the feature dimension (# dimension ). #experts . The optimal number of experts is 8 for CA/SD and 32 for GBA/GLA. Reducing the number of experts to 4 leads to a notable decline in performance, highlighting the importance of multiple experts in effectively modeling heterogeneity. While increasing the number of experts beyond the optimal values may yield marginal performance improvements, the associated computational costs may outweigh the benefits. #dimension. The dimensionality of node embeddings is a crucial hyperparameter that significantly influences model cost, as the majority of the model’s parameters are determined by the number of nodes and the embedding dimension. Increasing the embedding dimension enhances the model’s ability to represent nodes, enabling the capture of more nuanced features. However, this improvement exhibits diminishing returns; for instance, increasing the dimension beyond 64 results in negligible changes in prediction accuracy. #layers . This parameter directly impacts the computational complexity and the number of model parameters. The optimal configuration, however, depends on the dataset size. For the CA and SD datasets, 3 layers achieve the"
+}

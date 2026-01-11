@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0024",
+  "word_start": 4800,
+  "word_end": 5050,
+  "text": "We decompose The first term δ t \\delta_{t} is a bias term determined by the algorithm, and the second term Z t Z_{t} is the noise coming from the randomized labels. We partition time into disjoint blocks J a J_{a} . Using blockwise Hadamard signs ψ a , j \\psi_{a,j} , we form signed bucket sums for each block of time J a J_{a} and each prediction value v v : so that the calibration error of the signed Hadamard functional h a , j h_{a,j} decomposes as A martingale argument lower-bounds the noise. The signed noise terms Z t = x t − y t Z_{t}=x^{t}-y^{t} are i.i.d. Rademachers (scaled by 1 / 4 1/4 ). We analyze an arbitrary adaptive bucketing strategy that, at each time, chooses a bucket based on the past noise realizations. Via a potential-function argument for the bucket sums and a decomposition of the noise random walk into excursions away from zero, we prove an “adaptive noise bucketing” theorem: up to logarithmic factors, where n v , a n_{v,a} is the number of times prediction value v v appears in block J a J_{a} . In other words, no matter how the algorithm routes the noise, the total signed noise magnitude at block ( a , j ) (a,j) must be large whenever the bucket counts on that block are large. Hadamard groups upper bound the bias. The bias sequence ( δ t ) (\\delta_{t}) is arbitrary, but we can view it blockwise in"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0022",
+  "word_start": 4400,
+  "word_end": 4650,
+  "text": "leads to the largest shift in attention mass toward the image ( + 12 % +12\\% ), indicating a greater reliance on the image. Although implemented differently across models, PIH head ablation consistently reduces prompt copying and increases visual reliance, highlighting the promise of targeted interventions. In this work, we study prompt-induced hallucinations in VLMs through a controlled object-counting task, isolating text-image conflicts. Through mechanistic analysis of three models, we show that such hallucinations stem from systematic prompt-based copying rather than failures of visual perception, and can be substantially reduced by ablating a small set of attention heads. We find that PIH is localized primarily to early layers of the language model, where prompt-based numerical information is likely processed and propagated before multimodal integration. Additionally, we find that Qwen-VL and LLaVA-OneVision share many of these influential heads, indicating they largely originate from the shared language-model backbone rather than vision-specific components. Ablating PIH heads consistently shifts behavior toward visually grounded corrections, generalizes beyond counting to color prediction, and does not degrade general performance. Finally, we find that PIH heads mediate different forms of prompt copying with model-specific implementations. LLaVA-OneVision exhibits the strongest effects, including broad suppression of all forms of prompt-copying and substantially increased reliance on visual information after PIH head ablations. Our results highlight PIH as a mechanistically localized and model-dependent failure mode in VLMs, suggesting targeted interventions can improve visual grounding under prompt–image mismatches. Our study focuses on medium-scale VLMs ( ∼ \\sim 7B parameters). While these models are"
+}

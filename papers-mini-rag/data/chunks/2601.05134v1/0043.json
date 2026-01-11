@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0043",
+  "word_start": 8600,
+  "word_end": 8850,
+  "text": "Random 10% deletion Classwise deletion Initial distance bound Δ ​ ( ρ ) \\Delta(\\rho) 0.01 0.02 Unlearning step size η \\eta 1 × 10 − 4 1\\times 10^{-4} 1 × 10 − 3 1\\times 10^{-3} Weight decay λ \\lambda (unlearning) 10 30 Total privacy budget ε \\varepsilon 1.0 3.0 Failure probability δ \\delta 10 − 5 10^{-5} 10 − 5 10^{-5} Optimal RDP order q opt q_{\\mathrm{opt}} 24.50 9.10 Sum over blocks of Rényi ε rényi \\varepsilon_{\\text{r\\'{e}nyi}} 0.510 1.579 number of steps T T (per block) 2 2 noise variance σ 2 \\sigma^{2} 0.0980 0.1505 Fine-tuning learning rate 1 × 10 − 2 1\\times 10^{-2} 1 × 10 − 2 1\\times 10^{-2} Fine-tuning weight decay 1 × 10 − 5 1\\times 10^{-5} 1 × 10 − 5 1\\times 10^{-5} Fine-tuning momentum 0.9 0.9 Random 10% deletion Classwise deletion k k C 1 / k C_{1}/\\sqrt{k} ε rényi / k \\varepsilon^{\\text{r\\'{e}nyi}}/k C 1 / k C_{1}/\\sqrt{k} ε rényi / k \\varepsilon^{\\text{r\\'{e}nyi}}/k 2 70.71 0.255 70.71 0.789 4 50.00 0.128 50.00 0.395 7 37.80 0.073 37.80 0.226 10 31.62 0.051 31.62 0.158 13 27.74 0.039 27.74 0.121 Parameter Random 10% deletion Classwise deletion Initial distance bound Δ ​ ( ρ ) \\Delta(\\rho) 0.01 0.05 Unlearning step size η \\eta 1 × 10 − 4 1\\times 10^{-4} 1 × 10 − 3 1\\times 10^{-3} Weight decay λ \\lambda (unlearning) 30 3 Total privacy budget ε \\varepsilon 5 10 Failure probability δ \\delta 10 − 5 10^{-5} 10 − 3 10^{-3} Optimal RDP order"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0111",
+  "word_start": 22200,
+  "word_end": 22450,
+  "text": "​ ( x ) = 1 g_{j}(x)=1 if and only if z j ​ ( x ) = 1 z_{j}(x)=1 , we have for each v v , By the triangle inequality and summing over v v , we obtain Taking expectations and applying ( 32 ), which proves the first inequality in ( 30 ). For the second inequality in ( 30 ), fix a realization of ( T z ) z : z j = 1 (T_{z})_{z:z_{j}=1} and let K = K j K=K_{j} and a i := T z i a_{i}:=T_{z_{i}} for the K K patterns with z j = 1 z_{j}=1 . Since R R is concave and nondecreasing on [ 0 , ∞ ) [0,\\infty) with R ​ ( 0 ) = 0 R(0)=0 , Jensen’s inequality gives Multiplying by K K yields the pathwise bound ∑ z : z j = 1 R ​ ( T z ) ≤ K j ​ R ​ ( T j / K j ) \\sum_{z:z_{j}=1}R(T_{z})\\leq K_{j}\\,R(T_{j}/K_{j}) . Taking expectations establishes the second inequality in ( 30 ). To bound the multicalibration error, define A z := ∑ v ∈ V ​ ( C z ) | B z ​ ( v ) | ≥ 0 A_{z}:=\\sum_{v\\in V(C_{z})}|B_{z}(v)|\\geq 0 for each pattern z z . For each j j we showed pathwise that Err T ​ ( g j ) ≤ ∑ z : z j = 1 A z \\mathrm{Err}_{T}(g_{j})\\leq\\sum_{z:z_{j}=1}A_{z} , hence where the last inequality holds"
+}

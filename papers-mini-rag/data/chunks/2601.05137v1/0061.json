@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0061",
+  "word_start": 12200,
+  "word_end": 12450,
+  "text": "1 , … , N } i\\in\\{1,\\dots,N\\} , let X i X_{i} be the indicator that there is a monochromatic edge between the i i th pair of vertices, under some ordering of the N N pairs of vertices in the graph. Let S ⊆ { 1 , … , N } S\\subseteq\\{1,\\dots,N\\} be the random set consisting of indices i i for which there is an edge between the i i th pair of vertices. Let I I be a random index in { 1 , … , N } \\{1,\\dots,N\\} whose conditional distribution given S S is uniform over S S independently of X 1 , … , X N X_{1},\\dots,X_{N} . Then L = ∑ s ∈ S X s L=\\sum_{s\\in S}X_{s} and r = 𝔼 ​ [ X I ] r=\\mathbb{E}[X_{I}] . To be consistent with the statement of the proposition, the edge case in which S = ∅ S=\\emptyset is handled by defining I I arbitrarily, defining X I = 0 X_{I}=0 , and defining the empty sum ∑ s ∈ ∅ X s \\sum_{s\\in\\emptyset}X_{s} to be 0 as usual. When S ≠ ∅ S\\neq\\emptyset , we have Meanwhile, when S = ∅ S=\\emptyset , we have and it therefore follows by the law of total expectation that Since X I X_{I} is Bernoulli distributed, its variance is at most 1 / 4 1/4 , and thus its standard deviation is at most 1 / 2 1/2 . Since | S | |S| is Binomially"
+}

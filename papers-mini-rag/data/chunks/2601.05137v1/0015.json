@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "2 ] were large enough that the algorithm failed to converge, resulting in a more extensive search of the parameter space that eventually found a better solution than PI-GCN . When we tuned down the learning rate to make the algorithm converge, PI-SAGE performed no better than PI-GCN . We are presently interested in enforcing that the method converges to a local minimum; that way, we can determine which modifications help the method find better local minima. Our proposed modifications are as follows. Initial node embeddings: We show that making the rows of 𝑿 \\boldsymbol{X} orthogonal, thus making the initial node embeddings as “distinct” as possible, boosts performance. A particular orthogonal embedding that we leverage here is setting 𝑿 \\boldsymbol{X} to be a truncated identity matrix. Loss function: Instead of using the loss function ℒ \\mathcal{L} described in the introduction, we use the loss function for some p ∈ { 1 , 2 , … } p\\in\\{1,2,\\dots\\} . Note that taking p = 0 p=0 recovers the original loss function. This new loss function scales up the loss contribution of each monochromatic edge by the average p p th power of the degree of an endpoint of the edge. Thus, monochromatic edges are penalized more heavily in denser parts of the graph, with a more prominent increase in the penalty when p p is larger. We show that this new loss function boosts performance, with the most prominent improvement occurring when p ≈ 3 p\\approx 3 . Each modification was"
+}

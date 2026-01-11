@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "comprehensive knowledge base of dataset usage patterns [ 18 , 1 ] . We formulate dataset discovery as contextual information extraction over scientific literature. The core idea is to use citation contexts as semantic evidence linking natural-language research questions to datasets. Our system is a three-stage pipeline that combines efficient corpus access with neural extraction and robust entity resolution: (1) scalable citation-context retrieval, (2) neural dataset mention extraction with citation-aware quality signals, and (3) datasets entity resolution for consolidation. This design directly addresses three chronic shortcomings of metadata-only systems: semantic mismatch , contextual ambiguity , and incomplete coverage . Let a research query 𝒬 \\mathcal{Q} (free text) and optional field constraints ℱ \\mathcal{F} be given. The task is to retrieve and rank dataset entities 𝒟 = { d 1 , … , d n } \\mathcal{D}=\\{d_{1},\\dots,d_{n}\\} from a literature corpus. In this work, we operationally define a dataset d d as any named research resource (e.g., corpora, benchmarks, databases) that is explicitly mentioned in a paper as being used, modified, or evaluated against. This definition excludes mentions of software tools or general methodologies. Each entity d i d_{i} is a structured tuple where name i \\text{name}_{i} is the canonical identifier, 𝒞 i \\mathcal{C}_{i} is the set of supporting citation contexts, and ℳ i \\mathcal{M}_{i} contains enriched metadata. We operate on Semantic Scholar Academic Graph (S2AG) [ 19 ] with a hybrid strategy: precomputed indices for citation windows plus on-demand filtering for query specialization. Given ( 𝒬 , ℱ ) (\\mathcal{Q},\\mathcal{F})"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05205v1",
+  "title": "EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI",
+  "abs_url": "https://arxiv.org/abs/2601.05205v1",
+  "html_url": "https://arxiv.org/html/2601.05205v1",
+  "chunk_id": "2601.05205v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "LSM to capture temporal dependencies across multiple timescales. where u t u_{t} is the input vector, W in W_{\\text{in}} and W W are the input and recurrent weight matrices 2 2 2 W W is scaled by its spectral radius to ensure stable dynamics while preserving the reservoir’s nonlinear richness. , and α \\alpha is the leak rate governing the balance between memory retention and responsiveness to new input, ranging from overly stable dynamics (e.g., α < 0.1 \\alpha<0.1 ) to chaotic behavior that degrades temporal coherence (e.g., α > 0.3 \\alpha>0.3 ). [ 11 ] . This configuration allows the LSM to project input sequences into a rich high-dimensional space while keeping energy consumption low. The number of neurons, connection probability, and spectral radius jointly shape the trade-off between computational cost, accuracy, and energy efficiency. We optimize these parameters later through the proposed adaptive learning framework. To enhance temporal abstraction, the reservoir outputs are passed to Gated Recurrent Unit (GRU) that, in this paper, serves as the trainable readout. The GRU maintains a hidden state h t h_{t} , updated according to: where z t z_{t} denotes the update gate, h ~ t \\tilde{h}_{t} represents the candidate activation, and ⊙ \\odot indicates element-wise multiplication [ 6 ] . The gating mechanisms regulate how past information is retained or replaced, allowing the GRU to function as a learned temporal filter over the spiking activity of the reservoir. This hybrid LSM-GRU configuration integrates the nonlinear, event-driven dynamics of the LSM with"
+}

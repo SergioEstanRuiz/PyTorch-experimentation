@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "questions [ 11 ] . Full-document extraction can also be computationally expensive, making real-time search and recommendation challenging [ 12 , 13 , 14 ] . These methods are also limited by their dependency on high-quality structured inputs and a lack of robust cross-disciplinary evaluation. We build on this line of work by treating extracted mentions not as endpoints for cataloging but as semantic bridges linking research questions to datasets. In doing so, we leverage citation contexts to provide multi-domain applicability and enable efficient, literature-driven dataset discovery. Citation context analysis reveals semantic relationships between resources and applications. Zhao et al. [ 15 ] developed frameworks for classifying citation functions, while Färber et al. [ 16 ] distinguished between actively used versus mentioned datasets. Recent advances show neural language models excel at scientific information extraction [ 13 ] , and frameworks like SOFT [ 17 ] disentangle citation intent from content type. However, existing approaches treat context as auxiliary information rather than the primary semantic signal for discovery. We extend these techniques by treating citation contexts as semantic bridges connecting research questions to datasets across disciplines, creating a generalizable framework that operates without domain-specific training by leveraging scientific literature as a comprehensive knowledge base of dataset usage patterns [ 18 , 1 ] . We formulate dataset discovery as contextual information extraction over scientific literature. The core idea is to use citation contexts as semantic evidence linking natural-language research questions to datasets. Our system is a three-stage pipeline that combines efficient"
+}

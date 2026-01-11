@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "that optimizes two implicitly competing rewards, accuracy and length constraint (Sec. 4.2 ). We further conduct extensive analyses of the impact of incorporating different reward weights and modifying reward functions to better reflect varying priorities in human preferences, especially when rewards differ substantially in difficulty. Finally, we extend the number of optimized rewards to three and compare GRPO and GDPO on coding reasoning (Sec. 4.3 ), jointly optimizing code-generation accuracy, adherence to length constraints, and bug ratio, further demonstrating that GDPO generalizes effectively to settings with three reward objectives. We compare GDPO with GRPO on the tool calling task following the setup of ToolRL [ 12 ] 1 1 1 https://github.com/qiancheng0/ToolRL . Specifically, the model is trained to learn how to incorporate external tools into the reasoning trajectory to solve a user task following the output format shown in Appendix B , where the reasoning steps must be enclosed in <think></think> , the tool calls must appear within <tool_call></tool_call> , and the model’s final answer must be placed inside <response></response> . We adopt the same training set as ToolRL for RL training, which consists of 2k samples from ToolACE [ 15 ] , 1k samples from Hammar [ 16 ] , and 1k samples from xLAM [ 17 ] . Each training instance contains a question and its corresponding ground-truth tool calls. The training involves two rewards: Format reward : The format reward ℛ format ∈ { 0 , 1 } \\mathcal{R}_{\\text{format}}\\in\\{0,1\\} checks whether the model output satisfies the required"
+}

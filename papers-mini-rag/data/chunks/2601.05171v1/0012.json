@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0012",
+  "word_start": 2400,
+  "word_end": 2650,
+  "text": "grammar and write boundaries, ensuring that the generated operation sequences are structurally stable and usable, thus providing a reliable starting point for subsequent alignment. After the SFT warm-up, we continue alignment with the remaining data using RL driven by process-based rewards. We set the model’s maximum context length to 11K tokens, with the input length capped at 10K, which constitutes a typical ultra-long sequence optimization setting. Therefore, we enable the DAPO loss for process-reward alignment within a GRPO framework. We perform credit assignment via token-level policy gradients, and mitigate entropy collapse by decoupling the clipping range from dynamic sampling constraints, ensuring that the within-group advantage retains non-zero variance. This makes the method better suited to long-chain reasoning and structured operation-sequence generation. In addition, by limiting the maximum generation length and applying dynamic resampling to filter degenerate groups, we reduce training noise introduced by truncation and within-group advantage degeneration. Concretely, for each training sample, we take s s (including the dialogue chunk, the previous tree state, and update constraints) as input, and use the manually verified reference output y ⋆ y^{\\star} as the ground-truth operation trajectory. During optimization, we sample a group of candidate outputs { y i } i = 1 G \\{y_{i}\\}_{i=1}^{G} from the old policy π θ old ( ⋅ ∣ s ) \\pi_{\\theta_{\\text{old}}}(\\cdot\\mid s) , compute sequence-level returns under the process reward function R ​ ( ⋅ ) R(\\cdot) as R i = R ​ ( y i , y ⋆ ; s ) R_{i}=R(y_{i},y^{\\star};s) , and"
+}

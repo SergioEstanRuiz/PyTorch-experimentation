@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0033",
+  "word_start": 6600,
+  "word_end": 6850,
+  "text": "close to each other. The benefit of projecting along close-by directions is that the ordering of the means can be preserved with high probability. In other words, if there is an ordering π \\pi such that in the random direction, there the same ordering is preserved in any projection v ℓ v_{\\ell} , ℓ = 1 , … , d \\ell=1,...,d . Having preserved the order, one can recover the true means μ 1 , … , μ k \\mu_{1},...,\\mu_{k} by solving k k linear systems of the form where the matrix V ∈ d × d V\\in{}^{d\\times d} contains v 1 , … , v d v_{1},...,v_{d} . By picking ε 1 \\varepsilon_{1} appropriately, the condition number of these linear systems will be polynomially bounded. Solving this system results in an estimation of the means that implies the bound of Theorem 1.4 . Our goal is to learn the parameters of a mixture model that can be written as Our goal is to learn the parameters of this mixture model under some mild assumptions on the distributions and the separation of the parameters. At a high-level, our algorithm works in two stages, that we explain below. For the SFD part (e.g., Laplace distributions), the only assumption that we need is that the FFD components (e.g., Gaussian distributions) have a faster Fourier decay. Other than that, we place no minimum separation assumptions for the means μ 1 , … , μ k \\mu_{1},...,\\mu_{k} . The algorithm that recovers the SFD"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0054",
+  "word_start": 10800,
+  "word_end": 11050,
+  "text": "0 T ​ | g ​ ( t ) | 2 ​ d ​ t \\mathcal{N}^{2}\\approx\\frac{1}{T}\\intslop\\ilimits@_{0}^{T}|g(t)|^{2}\\mathrm{d}t and w j w_{j} is the j j -th weight, whenever the tone has large magnitude, i.e., | w j | = ( 𝒩 ) |w_{j}|=\\Omega(\\mathcal{N}) . Notably, the error goes to 0 as the noise level decreases to 0. This phenomenon is known as super-resolution [ moitra_super-resolution_2015 ] — one can achieve very high frequency resolution in sparse, nearly noiseless settings. Moreover, the rate of estimation is optimal [ PS15-SFT ] . For our purposes, we need to modify the statement of [ PS15-SFT ] and adapt its proof. We provide the modification below. For any fixed T > 0 T>0 , consider any signal x ​ ( t ) = x ⋆ ​ ( t ) + g ​ ( t ) ∈ x(t)=x^{\\star}(t)+g(t)\\in\\m@thbbch@rC over t ∈ [ 0 , T ] t\\in[0,T] , for arbitrary noise g ​ ( t ) g(t) and exactly k k -sparse x ⋆ ​ ( t ) = \\slimits@ j = 1 k ​ w j ​ e i ​ f j ​ t x^{\\star}(t)=\\sumop\\slimits@_{j=1}^{k}w_{j}e^{if_{j}t} with f j ∈ [ − B , B ] f_{j}\\in[-B,B] and frequency separation γ = min j ′ ​ j ⁡ | f j ′ − f j | \\gamma=\\min_{j^{\\prime}\\neq j}|f_{j^{\\prime}}-f_{j}| . Let θ > 0 \\theta>0 and δ > 0 \\delta>0 be some parameter. If T ≥ ( log ⁡ ( k / θ ) / γ )"
+}

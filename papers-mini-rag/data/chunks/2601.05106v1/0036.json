@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0036",
+  "word_start": 7200,
+  "word_end": 7450,
+  "text": "collaboration among candidate models. More fine-grained token-level collaboration has been studied in recent years. Collab (Chakraborty et al., 2025 ) uses a controlled decoding-based approach to evaluate the candidate tokens during decoding. Compared to them, our decoding algorithm is much more efficient and also achieves a better performance. CO-LLM (Shen et al., 2024 ) also explores token-level collaboration, but mainly uses one strong math expert to assist a small fine-tuned model, and its output depends entirely on the candidate experts. In contrast, we use multiple specialized LLMs, evaluate both cross-domain performance and general win rate, and additionally train the router as a complementary generator to improve robustness. Beyond multi-agent LLM collaboration, a substantial body of works also consider how to utilize and integrate different models to be comprehensive. The most representative area is Mixture-of-Expert (MoE), in which multiple expert models are combined for each layer with some routing network, allowing the system to leverage the specialized knowledge of each expert for different inputs (Zhou et al., 2022 ; Xue et al., 2024 ; Jiang et al., 2024a ) . However, because the final architecture tightly integrates the layers of multiple models with a routing network, these approaches are typically applicable only to models with similar structures. They also require access to the experts’ gradients and joint training of the entire system, which limits flexibility and incurs significant additional training cost. Model merging is another approach for integrating multiple experts (Yu et al., 2024 ; Ilharco et al., 2022 ; Yadav"
+}

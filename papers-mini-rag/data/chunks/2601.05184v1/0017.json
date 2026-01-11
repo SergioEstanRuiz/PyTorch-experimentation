@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0017",
+  "word_start": 3400,
+  "word_end": 3650,
+  "text": "all generated articles using the Gibberish Detector 1 1 1 Please refer to https://huggingface.co/madhurjindal/autonlp-Gibberish-Detector-492513457 . The detector identifies the incoherent of nonsensical text and has four Gibberish score: 3 for clean, 2 for mild gibberish, 1 and 0 for noise. Results Preference bias increases more rapidly in the SCPL than in the Non-dynamic loop under incremental fine-tuning. This is likely because bias in the dynamic case can stem from both the increasingly biased fine-tuned model and the performatively generated synthetic data. However, under the retraining setting, it shows a slower increase and only marginal differences compared to the non-dynamic loop. As shown in Figure 2 , using real data in the iterative training process results in a relatively stable bias trajectory with minimal variation. The generation quality decreases at a similar rate in retraining and incremental finetuning settings. Tables 1 and 2 show that the observed bias trends are consistent across model families. For completeness, we also report results on the MMLU benchmark. Accuracy remains stable at approximately 0.58 in the real-dynamic setting. In contrast, under the syn-dynamic setting, accuracy decreases at a similar rate for both incremental fine-tuning and retraining, with modest reductions of about 0.02 and 0.05, respectively. As our primary goal is to analyze the SCPL, standard benchmarks are less sensitive to group-specific distributional shifts and therefore may not fully capture performative bias dynamics. In Figure 5 , the bias score increases more rapidly in dynamic setting, and the GQ declines faster under the incremental fine-tuning loop."
+}

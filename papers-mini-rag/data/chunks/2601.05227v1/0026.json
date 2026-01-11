@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0026",
+  "word_start": 5200,
+  "word_end": 5450,
+  "text": "updates, I define the clipped update rule: where α ∈ [ 0 , 1 ] \\alpha\\in[0,1] regulates the trade-off between instantaneous and smoothed estimates. I show that this scheme yields improved concentration bounds on the gradient variance under mild ergodicity assumptions. Lastly, I emphasize that adjoint methods for SDEs offer a general-purpose theoretical framework for gradient-based learning in continuous-time latent variable models. This formulation unifies variational inference, score-based learning, and control-theoretic perspectives on optimization. By modeling the learning dynamics as a coupled forward-backward SDE system, I introduce a new analytical paradigm for reasoning about parameter updates and convergence properties in stochastic generative models. My model architecture is designed to facilitate scalable learning in continuous-time stochastic systems while maintaining modularity and interpretability. The encoder is implemented as a bidirectional recurrent neural network (RNN), such as a Bi-GRU or Transformer encoder, which processes the full observation sequence 𝐱 1 : T \\mathbf{x}_{1:T} and outputs the parameters of a variational distribution q ϕ ​ ( z 0 | 𝐱 1 : T ) q_{\\phi}(z_{0}|\\mathbf{x}_{1:T}) . This amortized inference scheme allows us to initialize latent trajectories with strong temporal context, serving as the basis for subsequent SDE-based evolution. The latent evolution is governed by an Itô SDE, with the drift μ θ ​ ( z t , t ) \\mu_{\\theta}(z_{t},t) and diffusion Σ θ ​ ( z t , t ) \\Sigma_{\\theta}(z_{t},t) parameterized by neural networks. To ensure temporal consistency, these functions share weights across all time steps. I explore both shallow and deep"
+}

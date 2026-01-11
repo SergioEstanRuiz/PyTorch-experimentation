@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0022",
+  "word_start": 4400,
+  "word_end": 4650,
+  "text": "the COSRL problems that are relevant to our study. A detailed description of all challenges is far beyond the scope of this review. Some of the most significant challenges are: 1) Small sample size is known as one of the biggest problems of online RL. Online RL deals with a consecutive sampling that represents a sample efficiency challenge, as the algorithm can sample only one trajectory h i h_{i} from each episode i i . It is not physically possible to go back in time and have more trajectories for the same episode. 2) Another challenge is policy optimization, i.e., selecting the best policy, the policy that maximizes the performance. Even if policy performance trends are generated, we have to compare them to select the best one. To be able to do that, we need some unbiased estimator mechanism that does not depend on nonstationarity. Besides, because of the interplay between reward and the cost function convexity, the assumption holds only for some specially designed laboratory settings. That makes it difficult to apply traditional gradient-based methods for optimization, which require the convexity of the objective function. 3) Setting the safety constraints is not a trivial task in online RL that acts in a nonstationary environment. In most cases, safety constraints are unknown or partially unknown at the deployment stage. Moreover, constraints can be time-dependent or data-driven and depend on the distribution of the data. 4) Scalability is one of the most serious challenges for the COSRL practical application. Many of"
+}

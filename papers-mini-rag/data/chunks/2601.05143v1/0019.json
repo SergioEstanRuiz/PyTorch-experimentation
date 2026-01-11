@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05143v1",
+  "title": "A Lightweight and Explainable Vision-Language Framework for Crop Disease Visual Question Answering",
+  "abs_url": "https://arxiv.org/abs/2601.05143v1",
+  "html_url": "https://arxiv.org/html/2601.05143v1",
+  "chunk_id": "2601.05143v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "of T5 over BART highlight improved semantic generation. We evaluate computational efficiency using model size and inference latency on a T4 GPU. Table 7 summarizes the trade-off between performance and efficiency. The Swin–BART model has the lowest parameter count at 167.5M. It also achieves the fastest inference time of 206.29 ms per sample. Swin–T5 increases the parameter count to 251M. This increase results in a higher inference latency of 373.35 ms. ViT-based models exhibit higher complexity and slower inference. ViT–BART contains 226M parameters and requires 325.17 ms per sample. ViT–T5 further increases complexity to 310M parameters with 497.39 ms inference time. Large-scale models incur substantially higher computational cost. Qwen-VL-Chat-7B [ cddm ] requires 12.02 s per sample with 7B parameters. LLaVA-v1.5-7B [ cddm ] reduces inference time to 9.11 s but remains significantly slower. These large models were evaluated without fine-tuning. The reported values therefore represent approximate inference performance. To enhance interpretability, we employ explainable AI techniques. Grad-CAM [ grad ] is used to identify salient image regions, and token-level attribution is applied to analyze linguistic relevance. Figure 5 presents the Grad-CAM visualization for an apple leaf image using the Swin–T5 model. The vision encoder focuses primarily on the leaf region. Increased attention is observed over the diseased areas. Figure 6 illustrates token-level attribution for the corresponding question. The model assigns higher importance to keywords such as grape and fine . This behavior indicates effective alignment between visual and textual cues. Figure 7 shows the Grad-CAM output for another apple"
+}

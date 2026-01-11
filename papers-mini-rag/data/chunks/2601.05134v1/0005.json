@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "and any observation O ⊂ ℝ d O\\subset\\mathbb{R}^{d} , Note that, by definition, 𝒜 ¯ \\bar{\\mathcal{A}} may be any algorithm. Following Koloskova et al. ( 2025 ) , we focus on guarantees with respect to 𝒜 ¯ ​ ( 𝒟 ∖ 𝒟 f ) = 𝒰 ​ ( 𝒜 ​ ( 𝒟 r ) , 𝒟 r , ∅ ) \\bar{\\mathcal{A}}(\\mathcal{D}\\setminus\\mathcal{D}_{f})=\\mathcal{U}(\\mathcal{A}(\\mathcal{D}_{r}),\\mathcal{D}_{r},\\varnothing) . In other words, we study the closeness between the distribution of the unlearning outcome applied to a model trained with the forget set and that of the reference model trained without it. Importantly, this definition provides a framework for reasoning about the indistinguishability of the two models, but it does not by itself guarantee that the resulting model preserves high accuracy. We build upon the noisy fine-tuning method introduced by Koloskova et al. ( 2025 ) , which is inspired by the standard DP-SGD algorithm (Abadi et al. , 2016 ) and applied only to the retained data D r D_{r} . The method combines gradient clipping with Gaussian noise injection and is defined as follows: where 𝐱 t \\mathbf{x}_{t} are the parameters at iteration t t , g t g_{t} is the gradient at step t t (computed on 𝒟 r \\mathcal{D}_{r} ), γ > 0 \\gamma>0 is the learning rate, λ ≥ 0 \\lambda\\geq 0 is the weight decay parameter, 𝛏 t + 1 ∼ 𝒩 ​ ( 0 , σ 2 ​ I d ) \\bm{\\xi}_{t+1}\\sim\\mathcal{N}(0,\\sigma^{2}I_{d}) is Gaussian noise, and Π C 0 , Π"
+}

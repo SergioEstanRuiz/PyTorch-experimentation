@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0028",
+  "word_start": 5600,
+  "word_end": 5850,
+  "text": "that roofs requires considerable runtime to perform a full benchmark. While all implemented methods are scalable to moderately high-dimensional data, in datasets with thousands of features, it may be reasonable to reduce the runtime by avoiding wrapper and ensemble methods and limiting the number of classifiers used in downstream prediction. We demonstrated the utility of roofs through application to the dataset from the PIONeeR clinical trial, focused on predicting resistance to anti-PD-(L)1 immunotherapy in advanced lung cancer. It enabled identification of the adjusted p-values filter – the union of a t-test and logistic regression controlled for PD-L1 – as an FS method offering the best stability, confidence in selected features, predictive performance and balance between TPR and FPR. The general findings of this study align with previous benchmarks where simple statistical filters outperformed more complicated ML approaches [ 20 ] . Therefore, we recommend starting the analysis of new datasets by benchmarking these methods, given their additional advantage of computational efficiency. To conclude, the choice of an FS method and, therefore, the resulting subset of features or \"signature\", should be driven by the dataset’s characteristics and study goals. It should consider study-specific acceptable trade-off between model stability, performance, and relative costs of false positives and false negatives. roofs can serve as a practical tool for researchers working in settings where reproducibility is crucial. By enabling comprehensive benchmarking, roofs and similar tools have the potential to improve the robustness and reproducibility of biomarker discovery and increase the translational value of clinical"
+}

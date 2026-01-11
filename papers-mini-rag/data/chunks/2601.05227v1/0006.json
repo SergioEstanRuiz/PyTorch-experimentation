@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "allowing low-variance gradient estimates of the evidence lower bound (ELBO). This yields a flexible and scalable approach to learning latent dynamics under uncertainty, combining the interpretability of probabilistic modeling with the adaptability of deep learning architectures. The incorporation of continuous-time latent dynamics into generative models has led to a series of innovations in time-series modeling. Classical state-space models (SSMs) assume linear transitions and Gaussian noise, which limit their expressiveness in complex, nonlinear settings. Neural SSMs attempt to relax these assumptions by parameterizing the transition and emission functions with neural networks. However, these models often treat time in a discretized manner, which can be problematic for irregularly sampled data or when the underlying process is intrinsically continuous. To address these limitations, several recent works have introduced continuous-time latent dynamics via ordinary and stochastic differential equations. The Neural ODE framework ( [ 11 ] ) interprets a residual network as an ODE solver, allowing for hidden states to evolve over continuous time. Despite its elegance, Neural ODEs impose a deterministic structure that lacks the ability to capture pathwise uncertainty — a key limitation when modeling noisy real-world sequences. Latent Neural SDEs (Latent SDEs) attempt to bridge this gap by defining the latent trajectory using a stochastic differential equation, where both drift and diffusion terms are parameterized by neural networks ( [ 38 ] ). This results in a continuous-time variational inference framework capable of learning distributions over latent paths. However, the posterior inference in these models often requires intricate approximations due to"
+}

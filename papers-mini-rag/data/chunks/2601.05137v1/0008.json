@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": ", the method almost always recovers an upper bound of 5 5 , even on graphs of order 200 200 with as many edges as possible. On r r -regular graphs, the method can almost always produce a Brooks coloring , meaning an r r -coloring, the existence of which is guaranteed by Brooks’s Theorem [ 21 ] . Furthermore, the method performs better on regular graphs than on Erdős-Rényi graphs of the same order and average degree. On the other hand, the method has some limitations when it comes to dealing with mathematical structure. On planar graphs, it usually does not recover the optimal upper bound of 4 4 , and it performs worse than on Erdős-Rényi graphs of the same order and average degree. Furthermore, in certain highly symmetric graphs, it can get stuck at a highly symmetric poor local minimum of the loss function. The remainder of the paper is organized as follows. Section 2 reviews necessary background. In Section 3 , we present the improved GNN-based differentiable algorithm. In Section 4 , we present a lightweight greedy algorithm and show that it may be improved by recursively calling itself to produce a ( k − 1 ) (k-1) -coloring to use as a warm start. Furthermore, we show that applying the same trick to the GNN-based approach leads to further improvement. In Section 5 , we test our approach on various graphs and families of graphs for which the true chromatic number or an upper bound"
+}

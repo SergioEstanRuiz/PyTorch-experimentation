@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0002",
+  "word_start": 400,
+  "word_end": 650,
+  "text": "method, result, or support, these platforms enhance transparency, accelerate literature review, and surface influential or controversial contributions [ 17 ] . Despite growing adoption, current citation classification practices face persistent limitations. Existing annotation frameworks often conflate distinct citation intents and content types and lack consistent semantic definitions. These ambiguities hinder downstream applications such as citation-based retrieval [ 7 ] and impact analysis [ 37 ] . In this paper, we introduce SOFT : a S emantically O rthogonal F ramework with T wo dimensions for citation annotation. SOFT separates what is being cited ( Cited Content Type ) from why it is being cited ( Citation Intent ), enabling clearer definitions, improved annotation consistency, and stronger support for LLM-based classification. Unlike prior one-dimensional frameworks, SOFT is grounded in the principles of semantic roles, offering conceptual alignment with how authors structure argumentation by performing actions (intent) on objects (content). We validate SOFT through a comprehensive re-annotation of the ACL-ARC dataset [ 28 ] and a cross-domain evaluation on ACT2 [ 40 ] , covering 19 scientific fields. Results show that SOFT yields higher inter-model and human-LLM agreement, improves classification accuracy for both zero-shot and fine-tuned models, and generalizes more robustly across domains than existing frameworks. These findings position SOFT as a reusable annotation standard for supporting citation-aware digital libraries and transparent research assessment. Our contributions are as follows: We propose SOFT, a two-dimensional, semantically grounded citation annotation framework that explicitly distinguishes the predicative intent of a citation from its cited content"
+}

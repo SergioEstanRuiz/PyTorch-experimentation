@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0115",
+  "word_start": 23000,
+  "word_end": 23250,
+  "text": "j S_{j} have means μ ~ j \\mathaccent 869{\\mu}_{j} that satisfy \\| ​ μ ~ j − μ j ′ ′ ​ \\| 2 ≤ O ​ ( B / w min 1 / t ) \\|\\mathaccent 869{\\mu}_{j}-\\mu_{j^{\\prime}}^{\\prime}\\|_{2}\\leq O(B/w_{\\min}^{1/t}) for some j ′ ∈ [ k ′ ] j^{\\prime}\\in[k^{\\prime}] , after merging all S j S_{j} whose means are within γ F / 2 ≥ C sep 2 ​ B / w min 1 / t > C 0 2 ​ B / w min 1 / t \\gamma_{\\text{F}}/2\\geq\\frac{C_{\\text{sep}}}{2}B/w_{\\min}^{1/t}>\\frac{C_{0}}{2}B/w_{\\min}^{1/t} , we will get k ′ k^{\\prime} new sets S 1 ′ , … , S k ′ ′ S_{1}^{\\prime},\\dots,S_{k^{\\prime}}^{\\prime} , such that there is a permutation π ′ \\pi^{\\prime} on [ k ′ ] [k^{\\prime}] that all but an α \\alpha fraction of the points in S j ′ S_{j}^{\\prime} are sampled from D π ′ ​ ( j ) ′ D_{\\pi^{\\prime}(j)}^{\\prime} , for all j ∈ [ k ′ ] j\\in[k^{\\prime}] . By Theorem 3.5 , for each j ∈ [ k ′ ] j\\in[k^{\\prime}] , we can robustly estimate the mean of D π ′ ​ ( j ) ′ D_{\\pi^{\\prime}(j)}^{\\prime} and get μ ^ π ′ ​ ( j ) ′ \\mathaccent 866{\\mu}_{\\pi^{\\prime}(j)}^{\\prime} that satisfies \\| ​ μ j ′ − μ ^ π ′ ​ ( j ) ′ ​ \\| 2 ≤ O ​ ( B ​ C sep 1 − 2 ​ t ) , \\|\\mu_{j}^{\\prime}-\\mathaccent 866{\\mu}_{\\pi^{\\prime}(j)}^{\\prime}\\|_{2}\\leq O(BC_{\\text{sep}}^{1-2t}), with probability at least 1 −"
+}

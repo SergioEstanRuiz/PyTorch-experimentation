@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0020",
+  "word_start": 4000,
+  "word_end": 4250,
+  "text": "function unless it updates with the environment. The same is correct regarding the threshold. One solution can be exact knowledge of the constraint function dynamic and the dynamic of the threshold change. In a simpler case, we can design a deterministic function f c ​ d ​ ( t ) f_{cd}(t) and a threshold σ ​ ( t ) \\sigma(t) such that f c ​ d ​ ( t ) ≤ σ ​ ( t ) f_{cd}(t)\\leq\\sigma(t) . In a general case, such models are imprecise and difficult to build, as for continual learners at design time, many constraint requirements are usually uncertain and difficult to predict. Another solution offers to use knowledge of the environment context to build constraints Berkenkamp ( 2019 ) . Utilizing the context allows us to build adjustable data-driven constraints that can change with the environment. We can formulate context-based constraints as follows where z z is a context variable that reflects the environment change, i.e., change in the distribution of the parameters in episodic MDPs. Another way to build data-driven constraints - to use statistical parameters of the environment. During the adjustment to the distribution shift, we don’t have access to the context data, but we can use, for example, variational budgets, i.e. maximum number of violations, of the performance thresholds Chandak et al. ( 2020b ); Wachi and Sui ( 2020 ); Wachi et al. ( 2024 ) . We can also use the adjust time and adjustment speed (see section 3.2) to"
+}

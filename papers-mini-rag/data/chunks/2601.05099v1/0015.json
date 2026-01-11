@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "Experts rated datasets on six 5-point Likert dimensions: Relevance , Utility , Accessibility , Trustworthiness , Novelty , and Overall Satisfaction . Figure 3 visualizes the per research question ratings, while Table III presents aggregate results. Per-Research Query mean ± \\pm SD ratings are reported in the Appendix in Table IV . Experts unanimously favored our system in Relevance and Utility , confirming that context-based retrieval identifies datasets genuinely useful for research. Gains were also consistent in Trustworthiness and Overall Satisfaction . In terms of Novelty , experts indicated that a meaningful subset of the additional (non-survey) datasets surfaced by our system are new to them and still perceived as useful within their domains. Across all expert-rated candidates, our literature-driven method produced 105 datasets with complete Utility and Novelty scores, of which 45 (42.9%) were rated at least 4 on both dimensions, compared to 4 of 31 (12.9%) for Google Dataset Search and 2 of 6 (33.3%) for DataCite Commons. These numbers quantitatively support that a substantial portion of the additional datasets surfaced by our approach are considered high utility by domain experts, and that a non-trivial subset is also regarded as novel for their specific research topics. Beyond raw recall metrics, our evaluation reveals significant differences in the quality and trustworthiness of extracted datasets across systems. our system achieves 14.23% trusted-backed recall, significantly outperforming Google Dataset Search (1.63%) and DataCite (0.00%). This indicates that our neural extraction approach not only discovers more datasets but also identifies higher-quality resources with"
+}

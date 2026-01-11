@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0000",
+  "word_start": 0,
+  "word_end": 250,
+  "text": "Large language models suffer from “hallucinations”—logical inconsistencies induced by semantic noise. We propose that current architectures operate in a “Metric Phase,” where causal order is vulnerable to spontaneous symmetry breaking. Here, we identify robust inference as an effective Symmetry-Protected Topological phase, where logical operations are formally isomorphic to non-Abelian anyon braiding, replacing fragile geometric interpolation with robust topological invariants. Empirically, we demonstrate a sharp topological phase transition: while Transformers and RNNs exhibit gapless decay, our Holonomic Network reveals a macroscopic “mass gap,” maintaining invariant fidelity below a critical noise threshold. Furthermore, in a variable-binding task on S 10 S_{10} ( 3.6 × 10 6 3.6\\times 10^{6} states) representing symbolic manipulation, we demonstrate holonomic generalization: the topological model maintains perfect fidelity extrapolating 100 × 100\\times beyond training ( L = 50 → 5000 L=50\\to 5000 ), consistent with a theoretically indefinite causal horizon, whereas Transformers lose logical coherence. Ablation studies indicate this protection emerges strictly from non-Abelian gauge symmetry. This provides strong evidence for a new universality class for logical reasoning, linking causal stability to the topology of the semantic manifold. The derivation of macroscopic reasoning from microscopic statistical correlations remains the fundamental challenge of modern Artificial Intelligence. While Transformer-based architectures [ 1 ] excel at pattern matching, they suffer from a fundamental fragility: the inability to distinguish between a probabilistically likely continuation and a logically necessary conclusion [ 2 , 3 ] . In the context of safety and alignment, this manifests as “hallucination” [ 4 ] , where models"
+}

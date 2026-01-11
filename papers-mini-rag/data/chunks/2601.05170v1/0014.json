@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05170v1",
+  "title": "Reverse-engineering NLI: A study of the meta-inferential properties of Natural Language Inference",
+  "abs_url": "https://arxiv.org/abs/2601.05170v1",
+  "html_url": "https://arxiv.org/html/2601.05170v1",
+  "chunk_id": "2601.05170v1:0014",
+  "word_start": 2800,
+  "word_end": 3050,
+  "text": "the diamond is understood as existentially quantifying over accessible worlds. Table 1 shows the three different readings of each of the NLI relations. The first is based on the material conditional (MC) of classical propositional logic. The second corresponds to the strict conditional (SC) of Lewis and Langford ( 1959 ) . The third (EI) takes into account the fact that NLI premises are logically possible, giving the operator □ \\Box existential import , similar to the universal premises of Aristotle’s syllogistics (Lewis and Langford, 1959 , p. 62ff) . Under both modal readings, modal logic K K proves that, for all propositional atoms a a and b b , E ​ a ​ b ∨ C ​ a ​ b ∨ N ​ a ​ b Eab\\lor Cab\\lor Nab , so that the relations together cover the whole space. 4 4 4 Proofs are verified using the Tree Proof Generator (Schwarz, 2025 ) . For the SC reading, we can prove ¬ E ​ a ​ b ∨ ¬ C ​ a ​ b ∨ ¬ N ​ a ​ b \\lnot Eab\\lor\\lnot Cab\\lor\\lnot Nab and N ​ a ​ b → ¬ E ​ a ​ b ∧ ¬ C ​ a ​ b Nab\\rightarrow\\lnot Eab\\land\\lnot Cab , meaning that the relations are not fully mutually exclusive: There might be overlap between E E and C C . The EI reading, on the other hand, gives full K K -provable trichotomy: Using these definitions of the NLI relations,"
+}

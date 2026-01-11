@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0033",
+  "word_start": 6600,
+  "word_end": 6850,
+  "text": "should be expected in this low-sample regime. These results indicate that CAOS improves efficiency without sacrificing reliability in the one-shot setting. We introduced Conformal Aggregation of One-Shot Predictors (CAOS) , a conformal prediction framework designed for one-shot and in-context learning settings where labeled data are scarce and multiple reference-induced predictors naturally arise. CAOS adaptively aggregates nonconformity scores across all available one-shot predictors while allowing every labeled example to participate in calibration. Despite breaking classical exchangeability assumptions at the score level, we proved that CAOS achieves exact finite-sample marginal coverage. Our analysis relies on a novel monotonicity-based argument that reduces the CAOS procedure to full conformal prediction, thereby avoiding the slack terms that typically arise in cross-conformal or data-adaptive settings. This result shows that algorithmic departures from exchangeability need not preclude sharp coverage guarantees when carefully structured aggregation rules are used. Empirically, we demonstrated that CAOS substantially improves efficiency over split conformal baselines in both vision and language applications, yielding significantly smaller prediction sets while maintaining reliable coverage. These gains are especially pronounced in low-data regimes, where data splitting and coarse calibration quantiles severely limit the usefulness of standard conformal approaches. This paper presents work whose goal is to advance the field of Machine Learning. There are many potential societal consequences of our work, none which we feel must be specifically highlighted here. This appendix summarizes the notation used throughout the paper. 𝒟 n = { ( X i , Y i ) } i = 1 n \\mathcal{D}_{n}=\\{(X_{i},Y_{i})\\}_{i=1}^{n} : labeled"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05143v1",
+  "title": "A Lightweight and Explainable Vision-Language Framework for Crop Disease Visual Question Answering",
+  "abs_url": "https://arxiv.org/abs/2601.05143v1",
+  "html_url": "https://arxiv.org/html/2601.05143v1",
+  "chunk_id": "2601.05143v1:0016",
+  "word_start": 3200,
+  "word_end": 3450,
+  "text": "entities (e.g., disease or condition names) are correctly identified in the generated answers. Named entities are extracted from the generated text using text extraction techniques and compared with the corresponding ground-truth annotations. BLEU (Bilingual Evaluation Understudy) : BLEU [ bleu ] measures the precision of n n -gram overlap between the generated and reference texts, incorporating a brevity penalty to discourage overly short hypotheses. where p n p_{n} denotes the modified n n -gram precision, w n w_{n} represents the weight for each n n -gram order (typically uniform), and BP is the brevity penalty defined as: Here, c c and r r denote the lengths of the candidate and reference texts, respectively. ROUGE (Recall-Oriented Understudy for Gisting Evaluation) : ROUGE [ rouge ] evaluates the recall-based overlap between generated and reference texts, commonly using n n -gram co-occurrence (ROUGE-N) or longest common subsequence measures. where gram n \\text{gram}_{n} denotes an n n -gram and counts are aggregated over all reference texts. BERTScore : BERTScore [ bertscore ] measures semantic similarity by computing cosine similarities between contextualized token embeddings from a pretrained BERT model and optimally aligning tokens between generated and reference texts. where precision P P and recall R R are derived from token-level cosine similarity scores. The experiments were conducted using two NVIDIA T4 GPUs provided by Kaggle platform. Standard deep learning libraries such as PyTorch and Hugging Face Transformers were used. Table 4 compares plant and disease classification accuracy across different model configurations. The proposed Swin–T5 model"
+}

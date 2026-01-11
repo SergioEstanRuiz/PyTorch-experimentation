@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": ", Y i ) } i = 1 n \\mathcal{D}_{n}=\\{(X_{i},Y_{i})\\}_{i=1}^{n} . Each labeled example induces a one-shot predictor π i \\pi_{i} with an associated nonconformity score s π i s_{\\pi_{i}} . Our goal is to construct prediction sets C ^ caos ​ ( X n + 1 ) \\hat{C}_{\\mathrm{caos}}(X_{n+1}) that satisfy finite-sample marginal coverage guarantees while remaining as small as possible. Smaller prediction sets correspond to more informative predictions and reduced predictive uncertainty. No single reference example is uniformly optimal: the informativeness of one-shot predictors varies substantially across reference examples and may depend on the test input. The central challenge is therefore to design a method that (i) aggregates information across multiple one-shot predictors, (ii) calibrates the resulting aggregate using the same limited labeled data, and (iii) retains finite-sample coverage guarantees. We address this challenge with CAOS , a leave-one-out conformal aggregation strategy that leverages all labeled data for both aggregation and calibration. CAOS score aggregation. For notational convenience, given a dataset 𝒟 \\mathcal{D} and a target pair ( x , y ) (x,y) , we define the multiset of one-shot nonconformity scores That is, 𝒜 𝒟 ​ ( x , y ) \\mathcal{A}_{\\mathcal{D}}\\!\\left(x,y\\right) collects the nonconformity scores for ( x , y ) (x,y) induced by all reference examples in 𝒟 \\mathcal{D} . A key observation in the one-shot setting is that only a subset of reference examples are informative for a given test input. For instance, in landmark transfer, reference images with locally similar appearance yield more meaningful"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0024",
+  "word_start": 4800,
+  "word_end": 5050,
+  "text": "input layer is replaced with a linear layer; b) w/o HA-MoE : The HA-MoE module is removed and replaced with GLU; c) w/o HA-Router : The heterogeneity-aware router module is removed, and the expert weight distribution is predicted using the hidden representation output by the previous layer; d) w/o AGA-Att : The adaptive graph agent attention is removed. As shown in Figure 4 , the complete FaST outperforms all variants on all datasets, validating the effectiveness of each module. Specifically, the w/ LinearInput shows a significant performance drop on both the SD and GLA datasets, indicating that the MoE-enhanced input layer is crucial for capturing complex features. The w/o HA-MoE exhibits the most pronounced performance decline, especially on GBA, demonstrating the core role of the MoE module in the model. The performance of w/o HA-Router and w/o AGA-Att also significantly decreases, indicating that the heterogeneity-aware router and agent attention modules contribute importantly to improving model performance. In conclusion, each component of FaST plays a positive role in the model’s performance, and its complete design achieves optimal performance in complex tasks. Expert Component Comparison. A standard MoE layer assigns every token to one or more FFNs. To reduce latency without sacrificing quality, we substitute each FFN expert with a GLU-based expert. Empirically, GLU-Experts match the accuracy of FFN-Experts (Table 2 ) while yielding a 1.4x speed-up in wall-clock time. As illustrated in Figure 5 , we conduct a sensitivity analysis on four critical hyperparameters that significantly influence the model’s performance: the"
+}

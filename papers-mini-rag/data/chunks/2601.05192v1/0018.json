@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0018",
+  "word_start": 3600,
+  "word_end": 3850,
+  "text": "we observe a processing time of 44 seconds per mention on average 7 7 7 With 10 samples for self-consistency. . The MoE Qwen3-30B-A3B offers the most compelling trade-off of speed vs. performance, achieving inference speeds faster than the smaller Qwen3-4B model (26 vs 31 seconds on ZESHEL) while significantly outperforming it and often matching the performance of Magistral-Small-2509 . We compare the performance of different rerankers in Appendix H . Other models can achieve a recall@k similar to the one of our default model Qwen3-Reranker-4B , showing that LELA is not tied to a specific reranker. Our results suggest that LLM-based candidate reranking and selection can effectively compensate for the absence of labeled training data, and even outperform the fine-tuned approaches. Our ablation studies suggest that these gains stem primarily from the ability of LLMs to jointly reason over multiple candidates rather than from candidate ranking alone. The fact that the candidate ranking alone does not perform well also mitigates concerns regarding data contamination: If the models were simply recalling memorized gold labels from pre-training, the reranking alone would nearly always find the best candidate – which it does not. Our work points to a fundamental shift in how entity linking can be approached in resource-constrained environments. While traditional methods optimize for inference efficiency, front-loading costs onto human annotation, LELA demonstrates that allocating computational budget to test-time reasoning can effectively substitute for domain-specific supervision. This suggests that the ability for disambiguation is a general capability of reasoning models that"
+}

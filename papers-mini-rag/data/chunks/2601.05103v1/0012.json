@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0012",
+  "word_start": 2400,
+  "word_end": 2650,
+  "text": "or Contrast use the citing work as the acting subject. This shift in perspective causes cognitive inconsistency and makes the annotation process more confusing. Moreover, the underlying citation intent is not always clearly specified. For example, a citation marked as Comparison or Contrast might align findings, methods, or conceptual framing, but whether the comparison serves to justify a design, critique a precedent, or merely provide context depends entirely on the citing author’s functional goal. Existing frameworks offer no mechanism for disambiguating these divergent functions, leaving the predicative action of the citation act ambiguous. Without an explicit model separating the author’s action from the object of that action, annotation relies on inference and subjective interpretation, which reduces reproducibility and cross-annotator agreement. We propose SOFT , a two-dimensional citation annotation framework designed to overcome core limitations of previous citation classification systems. SOFT directly addresses three major problems: (1) entanglement of content type and citation function, (2) inconsistent annotation perspectives, and (3) ambiguous or underspecified citation intent. First, SOFT explicitly disentangles Cited Content Type (what specific content is referenced from the cited work) from Citation Intent (why the citing work refers to that content), thus resolving the long-standing problem of dimensional entanglement, ensuring each dimension is orthogonal and semantically bounded, greatly reducing ambiguity and cognitive load. Second, SOFT maintains a unified authorial perspective by consistently modeling the action of the citing work. This approach is grounded in semantic role theory [ 20 , 6 , 21 , 44 ] , which decomposes events"
+}

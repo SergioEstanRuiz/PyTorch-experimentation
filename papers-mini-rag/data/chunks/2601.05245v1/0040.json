@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0040",
+  "word_start": 8000,
+  "word_end": 8250,
+  "text": "[ X ~ 2 ] . \\mathbb{P}\\big(\\tilde{X}\\geq\\theta\\,\\mathbb{E}[\\tilde{X}]\\big)\\;\\geq\\;(1-\\theta)^{2}\\,\\frac{\\mathbb{E}[\\tilde{X}]^{2}}{\\mathbb{E}[\\tilde{X}^{2}]}. Applying this to X X with θ = 1 / 2 \\theta=1/2 , we get where p 0 p_{0} depends only on σ \\sigma and α \\alpha . Hence, the proposition holds for c σ , α := σ ​ p 0 ​ α / 2 c_{\\sigma,\\alpha}:=\\sigma p_{0}\\sqrt{\\alpha/2} , since: We are now ready to prove our lower bound for prediction-dependent groups, using the instance ( 𝒟 T , m , G ) (\\mathcal{D}_{T,m},G) defined above. Given an algorithm and a realization of ( x t , p t ) t = 1 T (x^{t},p^{t})_{t=1}^{T} , we will partition the rounds as follows. We refer to t ∈ B t\\in B as big-deviation rounds and t ∈ H t\\in H as η \\eta -honest rounds . Note that B T + H T = T B_{T}+H_{T}=T holds pathwise. The proof of Theorem 1 reduces to two main components which we will combine at the end: Big-deviation rounds incur large error under g 1 g_{1} or g 2 g_{2} (Section 3.3.1 ). Many η \\eta -honest rounds incur large error under g 3 g_{3} (Section 3.3.2 ). In this section we prove that big deviations (rounds t t with | p t − x t | ≥ η |p^{t}-x^{t}|\\geq\\eta ) necessarily incur large expected error on g 1 g_{1} or g 2 g_{2} . We first note that since our lower bound instance is fixed and non-adaptive, it suffices to consider deterministic predictors. Fix"
+}

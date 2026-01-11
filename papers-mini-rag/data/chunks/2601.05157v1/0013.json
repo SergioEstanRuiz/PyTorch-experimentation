@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "log ⁡ k 1/k^{\\log\\log k} error in Frobenius norm. The fact that we show moment-matching in Frobenius norm is crucial since it implies a d log ⁡ k = k log ⁡ log ⁡ k d^{\\log k}=k^{\\log\\log k} sample complexity lower bound for any moment-based algorithm. In particular, the above result implies that there is an SFD mixture estimation problem that is solvable with sample and computational complexity poly ​ ( d , k ) \\mathrm{poly}(d,k) but any moment-based method requires number of samples that are super-polynomial in k k . We refer to Section 1.3.3 for more discussion. No Tail Requirement. As we mentioned in Remark 1 , our SFD condition is essentially incomparable to the tail-behavior of the mixture components. This allows us to learn mixtures of even heavy-tailed distributions, e.g., even distributions with infinite variance (see Remark 1 ), using our Fourier-based method as long as their characteristic function decays sufficiently slow. This opens a new avenue for learning mixtures of heavy tailed distributions and bypasses the difficulties faced by Sum-of-Squares based methods. Composing our result with SoS. An additional advantage of our Fourier-based tool is that it composes well with the existing sum-of-squares framework for learning mixture models (that currently applies to the widest known cluster distributions). This allows to learn mixture models that have both SFD and FFD components as our next theorem shows. Consider a mixture model ℳ \\mathcal{M} in d d dimensions that consists of k + k ′ k+k^{\\prime} components of the"
+}

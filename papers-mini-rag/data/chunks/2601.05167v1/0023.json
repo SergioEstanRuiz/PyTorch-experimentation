@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0023",
+  "word_start": 4600,
+  "word_end": 4835,
+  "text": "simplified expressions), we use GPT-4o-mini as a judge. The exact prompt and configuration used for this evaluation are detailed below. RelayLLM also align with efficient reasoning, include efficient chain-of-thought methods (Wang et al. , 2025c ; Huang et al. , 2025a ) , speculative best-of-N decoding (Sun et al. , 2024a ) , in-context learning methods (Huang et al. , 2024 ) and non-myopic generation (Ma et al. , 2024 ) . We utilize the Group Relative Policy Optimization (GRPO) algorithm for post-training. The model is optimized using AdamW with a constant learning rate of 1 × 10 − 6 1\\times 10^{-6} and a weight decay of 1 × 10 − 2 1\\times 10^{-2} . The global batch size is set to 32. To support extensive reasoning steps required for complex mathematical problems, we configure the maximum sequence length to allow for long Chain-of-Thought (CoT) generation. Specifically, the maximum prompt length is set to 4096 tokens, and the maximum response length is extended to 8192 tokens. For the GRPO specific configurations, we set the group size G = 8 G=8 , meaning that 8 outputs are sampled for each prompt to estimate the baseline. To ensure training stability and prevent the policy from deviating excessively from the reference model, we apply a KL divergence coefficient β \\beta of 0.01. During the rollout phase, we use a sampling temperature of 1.0 to encourage diverse reasoning paths."
+}

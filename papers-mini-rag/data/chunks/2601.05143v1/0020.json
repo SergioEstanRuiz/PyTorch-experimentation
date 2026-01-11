@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05143v1",
+  "title": "A Lightweight and Explainable Vision-Language Framework for Crop Disease Visual Question Answering",
+  "abs_url": "https://arxiv.org/abs/2601.05143v1",
+  "html_url": "https://arxiv.org/html/2601.05143v1",
+  "chunk_id": "2601.05143v1:0020",
+  "word_start": 4000,
+  "word_end": 4250,
+  "text": "region. Increased attention is observed over the diseased areas. Figure 6 illustrates token-level attribution for the corresponding question. The model assigns higher importance to keywords such as grape and fine . This behavior indicates effective alignment between visual and textual cues. Figure 7 shows the Grad-CAM output for another apple leaf sample. The attention map highlights the region affected by leaf rust. This localization suggests disease-specific visual reasoning. Figure 8 presents the token-level attribution for the question “What stands out in this image?” . The model places greater emphasis on the token image . This reflects reliance on visual context for open-ended queries. Figure 9 illustrates the Grad-CAM visualization for a healthy tomato leaf. The attention is uniformly distributed across the leaf surface. No localized region dominates the activation. Figure 10 shows token-level attribution for the question “Is this crop diseased?” . Higher weights are assigned to the tokens diseased and crop . This indicates correct sensitivity to diagnostic keywords. Overall, the explainability results indicate coherent visual grounding. They also confirm meaningful token-level reasoning during answer generation. This subsection presents qualitative examples to evaluate the robustness of the proposed framework under diverse question formulations. The evaluation focuses on user-driven queries that differ from the original test questions. All qualitative results are generated using the Swin–T5 model. Figure 11 shows a healthy soybean leaf from the test set. The base question describes the visual content, and the model correctly identifies the leaf as healthy. For follow-up queries, the model consistently recognizes"
+}

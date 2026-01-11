@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "content type). This structured extraction captures the specific application context of a dataset, such as whether it was primarily used as a resource, modified for a new task, or served as a standard to evaluate against . Such semantic insight provides a level of granularity that is fundamentally unavailable to metadata-driven search systems and allows researchers to filter resources by their function in prior research. We enforce a JSON schema for downstream consistency and apply a multi-tier validator (schema checks, semantic checks, domain rules) to the extraction quality. We also compute citation-enhanced signals. e.g., recency-weighted usage and context salience, to complement model confidence. A high-level procedure is given in Algorithm 1 . We adopt a deterministic, evidence-preserving consolidation pipeline rather than graph clustering. First, mentions tied to the same bibliographic relation are locally consolidated by selecting the most reliable mention and unioning compatible attributes (e.g., roles, brief descriptions), while recording the number of merged mentions for diagnostics. Second, we perform a global aggregation by a strict canonical name: surface forms are normalized by trimming quotation/bracket marks, removing parenthetical qualifiers and generic type words (e.g., dataset/corpus/benchmark or train/test/validation markers), collapsing whitespace, stripping punctuation, and lowercasing. Mentions sharing the same canonical name are grouped; we retain all provenance, select a human-readable display name by frequency, and keep all surface variants as aliases. References are rendered with persistent identifiers preferred over URLs. The procedure is summarized in Algorithm 2 . Putting the stages together yields an end-to-end flow from query to ranked datasets."
+}

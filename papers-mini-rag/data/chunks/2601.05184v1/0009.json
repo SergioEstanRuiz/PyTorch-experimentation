@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "both groups to evaluate the performance. If a model performs better on D a D^{a} , users from this group are more likely to continue interacting and generating data, while users from D d D_{d} may disengage, reducing their future representation and exacerbating fairness issues. Our framework models a controlled self-consuming loop in which a single provider collects, fine-tunes, and repeatedly reuses its own model outputs (e.g. e-commerce recommendation system), enabling systematic study of how internal feedback can amplify or distort demographic preferences. In this study, group-wise sample selection is governed by dynamic functions that simulate practical human preference patterns. Algorithm 1 presents the SCPL, while Algorithm 2 outlines the performative sampling process. Moreover, we study two realistic cases for SCPL: Performative Retraining Loop The next generation model ℳ t \\mathcal{M}_{t} is retrained from the base model using the synthetic data performative sampling by previous generation model ℳ t − 1 \\mathcal{M}_{t-1} . This retraining loop is widely study in previous work (Wang et al. , 2024c ; Briesch et al. , 2023 ) . Performative Incremental Fine-tuning Loop We consider a more practical scenario reflecting real-world constraints. Formally, at generation t − 1 t-1 , the model ℳ t − 1 \\mathcal{M}_{t-1} is used to generate a new dataset D t D_{t} . This dataset is then used to fine-tune the model ℳ t − 1 \\mathcal{M}_{t-1} , resulting in the updated model ℳ t \\mathcal{M}_{t} . In user-facing applications with limited computational resources, it is often necessary to"
+}

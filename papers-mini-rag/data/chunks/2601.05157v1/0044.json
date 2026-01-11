@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0044",
+  "word_start": 8800,
+  "word_end": 9050,
+  "text": "as n n independent random variables, with a ( 1 − α ) (1-\\alpha) fraction being sampled from D ​ ( μ ) D(\\mu) , and the rest α \\alpha fraction being sampled from D ​ ( z k ) D(z_{k}) , where z k z_{k} is chosen by the adversary, for k = 1 , 2 , … , α ​ n k=1,2,\\dots,\\alpha n . Our goal is to recover the true mean μ \\mu . Note that the input distribution can also be viewed as a mixture model, but now we only care about the major component (i.e., D ​ ( μ ) D(\\mu) ). Thus, the analysis will be very similar to that of the mixture learner. Given sample { Y j } j ∈ [ n ] \\{Y_{j}\\}_{j\\in[n]} generated according to Definition 2 , we have This time, in the right-hand side, we will view the first term as a 1 1 -sparse signal, and the second term as noise. Note that, by triangle inequality, the modulus of the second term is upper bounded by α \\alpha . Therefore, as long as α \\alpha is at most some absolute constant, we can again apply the sparse Fourier transform algorithm of Theorem 1.4 , with true signal x ⋆ ​ ( t ) = ( 1 − α ) ​ e i ​ ⟨ t , μ ⟩ x^{\\star}(t)=(1-\\alpha)e^{i\\langle t,\\mu\\rangle} and noise g ​ ( t ) g(t) that contains (i) the term from the adversarial corruption"
+}

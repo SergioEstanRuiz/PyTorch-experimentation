@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "al. ( 2025 ) . Further exploring modality conflicts, Zhang et al. investigated modality preference through the lens of unimodal uncertainty. In contrast, our work studies modality conflicts stemming from minor, realistic inconsistencies and examines a more complex task that more closely reflects real-world usage. In this section, we present Prompt-Induced Hallucinations (PIH) and study when they manifest in the context of object counting. Object counting provides a clean setting for isolating prompt–image conflicts: ground-truth answers are verifiable, numerical deviations can be precisely controlled, and model errors can be explicitly measured. While a language model could legitimately answer the question \"Describe 4 waterlilies\" as part of an instruction-following task without hallucinating, for VLMs these responses constitute hallucinations: (1) we explicitly ground prompts with the phrase “in the image,” and (2) the models describe additional objects not present in the image (see examples in Table 9 ). We investigate three VLMs covering a range of state-of-the-art model families: LLaVA-OneVision-7B Li et al. ( 2024a ) , Qwen2-VL-7B Wang et al. ( 2024 ) , and Janus-Pro-7B Chen et al. ( 2025 ) . We study counting using CountBench Paiss et al. ( 2023 ) , a benchmark designed to measure object-count understanding in VLMs. For each image with ground-truth object count N N , we first present a baseline prompt , P B = P_{B}= “How many [objects] are there in the image?”, retaining only samples where the model correctly predicts N N . We then use misaligned prompts asking the"
+}

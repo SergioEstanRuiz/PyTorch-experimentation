@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": "We design a reward-based rejection sampling strategy to mitigate the bias, moving towards more trustworthy self-improving systems. Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop Yaxuan Wang 1 , Zhongteng Cai 2 , Yujia Bao 3 , Xueru Zhang 2 , Yang Liu 1 1 University of California, Santa Cruz, 2 The Ohio State University, 3 Center for Advanced AI, Accenture The widespread integration of Large Language Models (LLMs) into daily applications has raised concerns regarding training on synthetic data Cai et al. ( 2025 ) . As LLMs become more capable, there are a large amount of generated content that is posted to coding platforms, social media platforms and other platforms on the internet. Such LLM-generated text is getting hard to distinguish from human-generated content Sadasivan et al. ( 2023 ) and might be used to train the next generation of LLMs. While human-generated data still exists, access to clean human-authored data is increasingly limited by contamination and cost, prompting widespread reliance on synthetic data. Consequently, a self-consuming training loop Shumailov et al. ( 2023 ); Briesch et al. ( 2023 ); Alemohammad et al. ( 2023 , 2024 ); Ferbach et al. ( 2024 ) emerges in which future models are trained repeatedly on LLM-generated data from previous generations. The recursive training loop on synthetic data may lead to model collapse Guo et al. ( 2023 ); Seddik et al. ( 2024 ); Shumailov et al. ( 2024 ); Wei and Zhang ( 2025"
+}

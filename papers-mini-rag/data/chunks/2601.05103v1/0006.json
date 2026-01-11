@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "shaped the landscape of citation intent classification, offering valuable insights into scholarly discourse. However, many adopt single-layer label structures that implicitly combine the author’s action, the citation’s function, with its semantic argument, the type of content being cited. While effective for some tasks, this design can limit semantic clarity and hinder flexible reuse across diverse domains. We return to these structural challenges in Section 3 , which motivates the design of a new, semantically disentangled framework. Computational approaches to CIC have evolved significantly. Early models relied on hand-engineered features [ 47 , 36 ] , but the release of benchmark datasets like ACL-ARC and SciCite catalyzed a shift towards deep learning. Transformer-based encoders, particularly the domain-specific SciBERT [ 10 ] , quickly became the standard [ 18 , 50 ] . More recent advances explore diverse learning paradigms, including graph-based models [ 11 ] , multi-task learning [ 22 , 53 ] , and prompt-based methods [ 32 , 30 ] . Following the latest trend, recent work has also focused on fine-tuning LLMs for this task [ 29 ] . In our experiments, we re-annotated the ACL-ARC dataset using our proposed two-dimensional framework and used it for model training and evaluation. To assess cross-domain generalizability, we additionally re-annotated a sample from the ACT2 dataset. Results from these evaluations are presented in Section 5 , where we compare the performance of CitePrompt and CitationIntentOpenLLM under our framework. A persistent challenge in CIC is the limited ability of models to generalize"
+}

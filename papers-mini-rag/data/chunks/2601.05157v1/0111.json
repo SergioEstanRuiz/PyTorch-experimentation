@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0111",
+  "word_start": 22200,
+  "word_end": 22450,
+  "text": "δ 3 ​ k , c 0 ​ C sep − 2 ​ t ​ w min ) / w min n\\gtrsim n_{r}(\\frac{\\delta}{3k},c_{0}C_{\\text{sep}}^{-2t}w_{\\min})/w_{\\min} , with probability at least 1 − δ / 3 1-\\delta/3 , any c 0 ​ C sep − 2 ​ t ​ w min c_{0}C_{\\text{sep}}^{-2t}w_{\\min} fraction of the points sampled from D j D_{j} has its empirical mean within distance ( c 0 ​ C sep − 2 ​ t ​ w min ) \\Delta(c_{0}C_{\\text{sep}}^{-2t}w_{\\min}) of μ j \\mu_{j} , for each j ∈ [ k ] j\\in[k] . Given Theorem 3.6 , we will repeat the proof in [ kothari_better_2017 , Section 5.5] , with an extra case for the components D 1 , … , D k D_{1},...,D_{k} for which we are given accurate predictions. First, we can show that after Step 2 in the above process (i.e., after removing the sets in Step 2), all the survival sets S j S_{j} have their empirical mean μ ~ j \\mathaccent 869{\\mu}_{j} to be close to μ j ′ ′ \\mu_{j^{\\prime}}^{\\prime} for some j ′ ∈ [ k ′ ] j^{\\prime}\\in[k^{\\prime}] . For a given S j S_{j} , since | S j | ≥ 0.9 ​ w min ​ n / 4 |S_{j}|\\geq 0.9w_{\\min}n/4 , by the pigeonhole principle, S j S_{j} must either (1) have at least w j ′ ​ w min ​ n / 5 w_{j^{\\prime}}w_{\\min}n/5 points sampled from some D j ′ D_{j^{\\prime}} , or (2) have at least w"
+}

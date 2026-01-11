@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0121",
+  "word_start": 24200,
+  "word_end": 24450,
+  "text": "then one can achieve vanishing error on the estimates of the FFD means, independent of the separation. For simplicity, we will assume that the SFD part consists of Laplace distributions and the FFD part consists of Gaussian distributions, both with identity covariance. Let ℳ \\mathcal{M} be a mixture of k k Laplace distributions Lap ⁡ ( μ j , I ) \\operatorname{\\mathrm{Lap}}(\\mu_{j},I) and k ′ k^{\\prime} Gaussian distributions 𝒩 ​ ( μ 𝒿 ′ , ℐ ) \\euscr{N}(\\mu_{j}^{\\prime},I) , with means μ 1 , … , μ k , μ 1 ′ , … , μ k ′ ∈ d \\mu_{1},\\dots,\\mu_{k},\\mu_{1}^{\\prime},\\dots,\\mu_{k}^{\\prime}\\in{}^{d} and weights w 1 , … , w k , w 1 ′ , … , w k ′ w_{1},\\dots,w_{k},w_{1}^{\\prime},\\dots,w_{k}^{\\prime} that \\slimits@ j ∈ [ k ] ​ w j + \\slimits@ j ∈ [ k ′ ] ​ w j ′ = 1 \\sumop\\slimits@_{j\\in[k]}w_{j}+\\sumop\\slimits@_{j\\in[k^{\\prime}]}w_{j}^{\\prime}=1 . Let γ S = min j ​ j ′ ∈ [ k ] ⁡ \\| ​ μ j − μ j ′ ​ \\| 2 \\gamma_{\\text{S}}=\\min_{j\\neq j^{\\prime}\\in[k]}\\|\\mu_{j}-\\mu_{j^{\\prime}}\\|_{2} , γ F = min j ​ j ′ ∈ [ k ′ ] ⁡ \\| ​ μ j ′ − μ j ′ ′ ​ \\| 2 \\gamma_{\\text{F}}=\\min_{j\\neq j^{\\prime}\\in[k^{\\prime}]}\\|\\mu_{j}^{\\prime}-\\mu_{j^{\\prime}}^{\\prime}\\|_{2} , γ SF = min j ∈ [ k ] , j ′ ∈ [ k ′ ] ⁡ \\| ​ μ j − μ j ′ ′ ​ \\| 2 \\gamma_{\\text{SF}}=\\min_{j\\in[k],j^{\\prime}\\in[k^{\\prime}]}\\|\\mu_{j}-\\mu_{j^{\\prime}}^{\\prime}\\|_{2} , w min = min ⁡ { min j ∈ [ k ] ⁡"
+}

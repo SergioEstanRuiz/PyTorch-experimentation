@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0016",
+  "word_start": 3200,
+  "word_end": 3450,
+  "text": "problem or open question. The gap may be identified by the cited work or the citing work, and no commitment to solving it is required. Example: “[cited work] noted that tuning remains underexplored.” (3) HighlightLimitation : The citing work or cited work identifies a flaw, constraint, or drawback in the cited method or result. This type is used only when the cited contribution is explicitly critiqued. Example: “[cited work] fails to capture domain drift in user behavior.” (4) JustifyDesignChoice : The citing work supports a design or methodological decision by referencing the cited work. No direct reuse is required, but the author must commit to a choice. Example: “We follow [cited work]’s feature grouping to ensure consistency.” This type does not apply if the action is merely hypothetical (e.g., “we could follow …”). (5) Use : The citing work directly applies a reusable contribution (e.g., model, process, settings, definitions) from the cited work. The citing author must be the actor, meaning statements like “[cited work] used…” do not qualify. Only past or present-tense application counts; plans or hypothetical uses are not ‘Use’. Example: “We use [cited work]’s BERT-based classifier.” (6) Modify : The citing work alters or extends a reusable contribution from the cited work, such as by adapting configurations, changing algorithms, or integrating with a new pipeline. Example: “We adapt [cited work]’s encoder for multi-domain inputs.” (7) EvaluateAgainst : The citing work explicitly compares its own findings and results with those of the cited work, typically to establish effectiveness."
+}

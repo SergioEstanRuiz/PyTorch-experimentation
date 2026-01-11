@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05170v1",
+  "title": "Reverse-engineering NLI: A study of the meta-inferential properties of Natural Language Inference",
+  "abs_url": "https://arxiv.org/abs/2601.05170v1",
+  "html_url": "https://arxiv.org/html/2601.05170v1",
+  "chunk_id": "2601.05170v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": "same type creates opportunities to investigate the “internal consistency” of the model; that is, the properties of the learned function in relation to how we think it should theoretically behave. In a number of papers, the internal consistency of NLI models is investigated by means of their meta-inferential properties. For example, if we believe that contradiction is symmetric (“ a a contradicts b b ” is equivalent with “ b b contradicts a a ”), then we may demand that any NLI model labeling the sentence pair ( a , b ) (a,b) as a contradiction must label the pair ( b , a ) (b,a) in the same way, in order to be internally consistent with regards to our external understanding of contradiction. Here, the relation C ​ a ​ b Cab that holds when a a contradicts b b is an example of an inference relation, wheras the postulate that C ​ a ​ b → C ​ b ​ a Cab\\rightarrow Cba is a meta-inferential relation. A problem with many logical approaches to NLI in the literature is that (1) the NLI relations are left undefined so that it is not clear what the relations are or in which logic they can be expressed (if at all); and (2) it is not made clear from which logic the meta-inferential intuitions are coming. This is problematic since which meta-inferential relations that hold between inference relations depends on the definition of the inference relations. In this paper, we first"
+}

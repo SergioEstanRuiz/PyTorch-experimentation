@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05143v1",
+  "title": "A Lightweight and Explainable Vision-Language Framework for Crop Disease Visual Question Answering",
+  "abs_url": "https://arxiv.org/abs/2601.05143v1",
+  "html_url": "https://arxiv.org/html/2601.05143v1",
+  "chunk_id": "2601.05143v1:0012",
+  "word_start": 2400,
+  "word_end": 2650,
+  "text": "prototypical learning and retrieval-augmented querying. The goal was effective learning with few labeled samples. The following research gaps are identified through our extensive literature search: VQA frameworks for agricultural disease diagnosis lack standardized large-scale benchmarks that cover diverse crops, diseases and real field conditions across regions. Existing datasets show strong bias toward laboratory or controlled environments, which limits cross-crop, cross-region and cross-season generalization. Current task-specific learning strategies emphasize identification and description but provide weak support for causal, counterfactual and decision-oriented reasoning in VQA tasks. Knowledge-enhanced and multitask datasets remain limited in multimodal diversity, with minimal integration of sensor data, temporal information and ecological context. Few-shot and data-efficient learning frameworks rely heavily on synthetic augmentation and lack robust validation protocols for real-world agricultural deployment. We use the Crop Disease Domain Multimodal (CDDM) dataset [ cddm ] , which contains images of healthy and diseased crops paired with multiple question–answer (QA) instances. It covers 16 crop categories and 60 disease categories, with over one million QA pairs in total. A 90/10 QA-level split is applied for training and validation, while the default test set is used exclusively for benchmarking. The average question length is 6.11 words and the average answer length is 8.92 words. The test set contains 3,963 QA pairs from 3,000 unique images and includes 292 unique answers, indicating moderate linguistic diversity. Figures 1 – 3 show the distributions of plants, diseases and plant–disease combinations. Table 1 summarizes the sizes of the training and test splits used in this study."
+}

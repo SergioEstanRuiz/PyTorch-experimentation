@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0040",
+  "word_start": 8000,
+  "word_end": 8250,
+  "text": "define Otherwise, for any y ∈ 𝒴 ∖ { y 1 , i } i ∈ [ n ] y\\in\\mathcal{Y}\\setminus\\{y_{1,i}\\}_{i\\in[n]} , we assign r ​ ( x , y ) = 1 . r(x,y)=1. Difference Now we show the difference between multiple candidate MDPs { M p T / 2 } p T / 2 ∈ P T / 2 \\{M_{p_{T/2}}\\}_{p_{T/2}\\in P_{T/2}} . Each MDP M p M_{p} is constructed in the following ways: For path p ′ ∈ { p ∈ P T / 2 + i ∣ i ≥ 1 , p ​ has prefix ​ p T / 2 } p^{\\prime}\\in\\{p\\in P_{T/2+i}\\mid i\\geq 1,p\\text{ has prefix }p_{T/2}\\} , we define r ​ ( x , y p ′ ) = 1 r(x,\\textbf{y}^{p^{\\prime}})=1 . For any path p ′ ∈ { p ∈ P T / 2 + 1 ∣ p ​ does not have prefix ​ p T / 2 } p^{\\prime}\\in\\{p\\in P_{T/2+1}\\mid p\\text{ does not have prefix }p_{T/2}\\} , r ​ ( x , y p ′ ) = 1 − Δ . r(x,\\textbf{y}^{p^{\\prime}})=1-\\Delta. For any path p ′ ∈ { p ∈ P T / 2 + i ∣ i ≥ 2 , p ​ does not have prefix ​ p T / 2 } p^{\\prime}\\in\\{p\\in P_{T/2+i}\\mid i\\geq 2,p\\text{ does not have prefix }p_{T/2}\\} , we define r ​ ( x , y p ′ ) = 0 . r(x,\\textbf{y}^{p^{\\prime}})=0. For all other states that are not mentioned, their reward functions are defaulted to 1."
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0037",
+  "word_start": 7400,
+  "word_end": 7650,
+  "text": "with this graph even though the proper coloring is intuitive. Odd Cycles: Cycles of odd order have chromatic number 3 3 . Furthermore, no improper 3 3 -coloring is a local minimum, since any vertex that belongs to a monochromatic edge can simply switch to whichever color does not appear among its 2 2 neighbors. Therefore, the algorithm should easily find a proper coloring. Thankfully, it does. The results of running Mod-GCN 100 100 times on the cycle of order 199 199 are recorded in Figure 9 . Triangular Lattice Graphs: A triangular lattice graph is defined analogously to hexagonal lattice graphs but for the regular triangular tiling of the plane (Figure 7 , bottom right). Since these graphs are filled with 3 3 -cycles, they are not 2 2 -colorable, though they do admit a proper 3 3 -coloring that is unique up to permuting the colors. The 3 3 -coloring is intuitive since it can be obtained by first coloring two adjacent vertices with opposite colors, then noting that every vertex’s color from then on is forced due to the colors of its neighbors. We ran Mod-GCN 100 times on the triangular lattice graph with 19 19 rows and 18 18 columns of triangles; this is isomorphic to a 20 × 10 20\\times 10 grid graph with diagonal chords in each square that alternate orientation with each row. The results are recorded in Figure 9 . Like with the even cycle and hexagonal lattice, the algorithm struggles to"
+}

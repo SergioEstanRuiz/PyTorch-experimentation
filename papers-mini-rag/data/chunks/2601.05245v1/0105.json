@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0105",
+  "word_start": 21000,
+  "word_end": 21250,
+  "text": "highlight one: For prediction-independent groups, we show that constant-sized families reduce to marginal calibration and hence can be solved at O ​ ( T 2 / 3 − ε ) O(T^{2/3-\\varepsilon}) rates by (Dagan et al. , 2025 ) , while families of size | G | = Θ ​ ( T ) |G|=\\Theta(T) are subject to the Ω ~ ​ ( T 2 / 3 ) \\tilde{\\Omega}(T^{2/3}) lower bound. What happens for intermediate sizes | G | |G| ? Is there a sharp threshold, or does the complexity interpolate smoothly? What about for families of size | G | = polylog ​ ( T ) |G|=\\textrm{polylog}(T) ? One strategy for giving better upper bounds in this case might be to give a more refined reduction from multicalibration to marginal calibration, that unlike the reduction in Appendix A incurs overhead poly ​ ( | G | ) \\textrm{poly}(|G|) rather than 2 | G | 2^{|G|} . However, in Appendix B we give an “oracle” lower bound that serves as an obstruction to this approach: we demonstrate an instance in which | G | = Θ ​ ( log ⁡ T ) |G|=\\Theta(\\log T) such that every reduction from multicalibration to marginal calibration in a natural family of “proper” reductions that we define must instantiate at least exponentially many marginal calibration oracles in | G | |G| to obtain non-trivial multicalibration error. There may nevertheless be ways to circumvent this obstruction. We gratefully acknowledge funding from the Simons Foundation, the UK"
+}

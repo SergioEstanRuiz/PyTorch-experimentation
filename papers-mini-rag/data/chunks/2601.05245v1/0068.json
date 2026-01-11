@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0068",
+  "word_start": 13600,
+  "word_end": 13850,
+  "text": "must also be small. Fix a prediction value v ∈ [ 0 , 1 ] v\\in[0,1] . Because the context means always lie on the grid { x 1 , … , x m } \\{x_{1},\\dots,x_{m}\\} , the sign pattern sign ​ ( v − x i ) \\mathrm{sign}(v-x_{i}) is determined solely by the number of grid points ≤ v \\leq v . Define Define the discrete sign function on indices u ∈ { 0 , … , m − 1 } u\\in\\{0,\\dots,m-1\\} by Then for every grid point x i x_{i} we have f r ​ ( v ) ​ ( i − 1 ) = + 1 f_{r(v)}(i-1)=+1 if x i ≤ v x_{i}\\leq v and f r ​ ( v ) ​ ( i − 1 ) = − 1 f_{r(v)}(i-1)=-1 if x i > v x_{i}>v . In particular, for every time t ≤ T ′ t\\leq T^{\\prime} (with x t ∈ { x 1 , … , x m } x^{t}\\in\\{x_{1},\\dots,x_{m}\\} ), We now expand the threshold sign pattern f r f_{r} in the Walsh basis on { 0 , … , m − 1 } \\{0,\\dots,m-1\\} and bound the ℓ 1 \\ell_{1} mass of its coefficients. Recall that m = max ⁡ { 2 , 2 ⌊ log 2 ⁡ ( T 1 / 3 ) ⌋ } m=\\max\\{2,2^{\\lfloor\\log_{2}(T^{1/3})\\rfloor}\\} is a power of two. Fix m m a power of two. Let { ψ ℓ Wal } ℓ = 0 m − 1 \\{\\psi^{\\mathrm{Wal}}_{\\ell}\\}_{\\ell=0}^{m-1}"
+}

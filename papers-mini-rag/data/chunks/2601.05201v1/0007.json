@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "understanding in VLMs. For each image with ground-truth object count N N , we first present a baseline prompt , P B = P_{B}= “How many [objects] are there in the image?”, retaining only samples where the model correctly predicts N N . We then use misaligned prompts asking the model to “Describe the N + k N+k [objects] in the image,”, where k ∈ { 1 , 2 , … , 5 } k\\in\\{1,2,\\ldots,5\\} denotes the discrepancy distance between the prompt and the visual input. A PIH occurs when the model proceeds to describe N + k N+k objects without correcting the count, despite contradictory visual evidence. See Appendix ˜ A for additional details. Figure 2 shows the proportion of outputs that either match the prompted count ( N + k N+k , blue curves) or the true count ( N N , orange curves) across a range of object quantities and prompt offsets ( k k ). The x x -axis denotes the true number of objects ( N N ), and the y y -axis shows the fraction of responses aligned with either the prompt or ground truth. We observe a consistent pattern across all three models. For images containing small numbers of objects ( 2 2 - 4 4 objects), models typically resist misleading prompts and report the true count, demonstrated by the orange curves being mostly higher than the blue curves. However, models still produce PIH in approximately 20 20 – 40 40 % of"
+}

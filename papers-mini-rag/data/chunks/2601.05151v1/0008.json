@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "the j th j_{\\text{th}} feature was computed as: where R j 2 R_{j}^{2} stands for the coefficient of determination from regressing the j th j_{\\text{th}} feature onto all remaining predictors. To evaluate each method’s ability to identify the \"true features\" (i.e., the ones hypothesized as having generated the outcome), a part of FS benchmarking implemented in roofs is conducted on a semi-synthetic dataset with a simulated outcome denoted y ~ \\tilde{y} . With the true model being unknown, the real outcome y y cannot be used directly for this purpose, but the original n × p n\\times p features matrix X X can still be used. The simulated outcome was derived by applying a logistic function to a linear combination of S S pre-selected features from the real dataset X with added Gaussian noise: where 𝒮 \\mathcal{S} is the index set of the specified true predictors and β j \\beta_{j} is the coefficient of j t ​ h j^{th} feature estimated from an unpenalized logistic regression fitted using this set of predictors. For the benchmark on PIONeeR data, the true predictors (19 features in total) were selected from the full dataset using a 0.01 threshold on adjusted p-values from a multivariable Cox model for progression-free survival. This approach was chosen to mimic a realistic data structure. The evaluation of a given FS method by roofs is based on a bootstrap experiment (Figure 1 ). Let 𝒟 original = { ( x i , y i ) } i = 1"
+}

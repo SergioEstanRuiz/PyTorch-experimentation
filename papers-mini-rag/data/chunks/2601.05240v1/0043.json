@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0043",
+  "word_start": 8600,
+  "word_end": 8850,
+  "text": "d\\mathcal{A} ), while the non-commutative matrix multiplication implements the cubic interaction term ( 𝒜 ∧ 𝒜 ∧ 𝒜 \\mathcal{A}\\wedge\\mathcal{A}\\wedge\\mathcal{A} ). Unlike the expRNN, this system is topologically non-trivial: the memory state is defined by the non-Abelian holonomy (the path-ordered product of rotations). This ensures that the reasoning process is protected by the global topology of the group S ​ O ​ ( N ) SO(N) , rather than the local metric of an activation function. Although the gauge constraint implies a sequential path-ordered product ( h t = U t ​ h t − 1 h_{t}=U_{t}h_{t-1} ), the isometric linear recurrence structure allows us to utilize the associativity of matrix multiplication. Because the group S ​ O ​ ( N ) SO(N) is closed under multiplication, the cumulative product of unitary operators preserves the norm, rendering intermediate normalization steps algebraically redundant. This allows the forward pass to be parallelized via a binary tree reduction (parallel prefix scan) [ 42 ] , reducing the parallel complexity from O ​ ( L ) O(L) to O ​ ( log ⁡ L ) O(\\log L) on parallel hardware. This places the Holonomic Network in the efficient linear-recurrence universality class (enabling parallel prefix scans) alongside recent state space models, while retaining the bilinear expressivity of the input-dependent update. Implementation Details: To ensure the hidden state evolution remains strictly on the S ​ O ​ ( N ) SO(N) manifold, we parameterize the orthogonal transition operators via the Lie algebra 𝔰 ​ 𝔬 ​ ("
+}

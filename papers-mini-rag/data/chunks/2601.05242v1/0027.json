@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0027",
+  "word_start": 5400,
+  "word_end": 5650,
+  "text": "We compare GDPO and GRPO by training DeepSeek-R1-7B on the Eurus-2-RL dataset [ 28 ] , which contains 24k coding problems, each with multiple test cases. Training is conducted using the verl [ 19 ] framework for 400 steps, and we adopt the same hyperparameter configuration used in the mathematical reasoning experiments. The training optimizes three rewards: Passrate reward: The passrate reward ℛ pass ∈ [ 0 , 1 ] \\mathcal{R}_{\\text{pass}}\\in[0,1] measures the proportion of test cases passed by the generated code: Conditioned Length reward: The length reward ℛ ~ length ∈ { 0 , 1 } \\mathcal{\\tilde{R}}_{\\text{length}}\\in\\{0,1\\} checks whether the model’s response remains within the target length l l and whether the generated code satisfies correctness requirements: Bug reward: The bug reward ℛ bug ∈ { 0 , 1 } \\mathcal{R}_{\\text{bug}}\\in\\{0,1\\} indicates whether the generated code runs without runtime or compilation errors. For evaluation, we assess the trained model on the validation set from PRIME [ 28 ] , which includes Apps [ 29 ] , CodeContests [ 30 ] , Codeforces 2 2 2 https://huggingface.co/datasets/MatrixStudio/Codeforces-Python-Submissions , and Taco [ 31 ] . Following the same settings used for the mathematical reasoning evaluations, we use a sampling temperature of 0.6, a t ​ o ​ p p top_{p} value of 0.95, and a maximum response length of 32k tokens. For each evaluation question, we generate 16 rollouts and report the average test case pass rate, the average length-exceeding ratio, and the average bug ratio, where the bug ratio measures"
+}

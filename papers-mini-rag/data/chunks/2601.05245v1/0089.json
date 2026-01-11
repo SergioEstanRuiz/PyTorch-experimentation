@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0089",
+  "word_start": 17800,
+  "word_end": 18050,
+  "text": "n_{v}=\\sum_{j=1}^{R_{v}}\\ell^{v}_{j} , we have n v ≤ ∑ j = 1 R v ℓ j v . \\sqrt{n_{v}}\\;\\leq\\;\\sum_{j=1}^{R_{v}}\\sqrt{\\ell^{v}_{j}}. To bound this quantity for each v v , we prove a truncated return-time bound for a simple random walk: for an excursion length ℓ \\ell (truncated at horizon L L ) one has: Applying this excursion-by-excursion, summing over buckets, and recalling Step 1 then yields Let Φ t := ∑ v | B v ​ ( t ) | \\Phi_{t}:=\\sum_{v}|B_{v}(t)| for 0 ≤ t ≤ L 0\\leq t\\leq L , with Φ 0 = 0 \\Phi_{0}=0 and ∑ v | B v | = Φ L \\sum_{v}|B_{v}|=\\Phi_{L} . Since only bucket v t v_{t} changes at time t t , the one-round increment satisfies: Condition on ℱ t − 1 \\mathcal{F}_{t-1} and abbreviate b := B v t ​ ( t − 1 ) b:=B_{v_{t}}(t-1) . If | b | ≤ ε |b|\\leq\\varepsilon , then b = 0 b=0 (as ε = h / 4 \\varepsilon=h/4 and b ∈ h ​ ℤ b\\in h\\mathbb{Z} ), so Φ t − Φ t − 1 = | Z t | = h \\Phi_{t}-\\Phi_{t-1}=|Z_{t}|=h deterministically. Otherwise, by convexity of x ↦ | x | x\\mapsto|x| and 𝔼 ​ [ Z t ∣ ℱ t − 1 ] = 0 \\mathbb{E}[Z_{t}\\mid\\mathcal{F}_{t-1}]=0 , Taking expectations, summing over t t , and telescoping yields 𝔼 ​ [ ∑ v | B v | ] = 𝔼 ​ [ Φ L ] ≥ h ​ 𝔼 ​ ["
+}

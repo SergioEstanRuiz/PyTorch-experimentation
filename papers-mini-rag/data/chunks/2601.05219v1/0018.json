@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0018",
+  "word_start": 3600,
+  "word_end": 3850,
+  "text": "CAOS requires a separate threshold for each test input y y to construct the full conformal prediction set To establish conformal validity, full conformal prediction requires the scores to by symmetric. For any dataset 𝒟 \\mathcal{D} and any permutation σ \\sigma of its elements, That is, s ~ caos \\tilde{s}_{\\mathrm{caos}} is symmetric in its dataset argument. Fix ( x , y ) (x,y) and a dataset 𝒟 \\mathcal{D} . Let 𝒜 𝒟 ​ ( x , y ) \\mathcal{A}_{\\mathcal{D}}(x,y) denote the multiset of one-shot nonconformity scores obtained by using each element of 𝒟 \\mathcal{D} as a reference example for the target ( x , y ) (x,y) . Permuting the elements of 𝒟 \\mathcal{D} does not change this multiset, hence 𝒜 𝒟 ​ ( x , y ) = 𝒜 𝒟 σ ​ ( x , y ) . \\mathcal{A}_{\\mathcal{D}}(x,y)=\\mathcal{A}_{\\mathcal{D}_{\\sigma}}(x,y). The operator Σ min k + 1 \\Sigma^{k+1}_{\\min} depends only on the multiset of its inputs and is therefore symmetric. Moreover, the subtracted term in Eqn. 19 corresponds to the one-shot score induced by the target example itself and is unaffected by permutations of the remaining elements of 𝒟 \\mathcal{D} . It follows that s ~ caos ​ ( ( x , y ) ; 𝒟 ) = s ~ caos ​ ( ( x , y ) ; 𝒟 σ ) . \\tilde{s}_{\\mathrm{caos}}((x,y);\\mathcal{D})=\\tilde{s}_{\\mathrm{caos}}((x,y);\\mathcal{D}_{\\sigma}). ∎ By Lemma 5.1 and standard full conformal arguments (Angelopoulos et al. , 2024 ) , the prediction set defined in Eqn. 22 achieves finite-sample marginal"
+}

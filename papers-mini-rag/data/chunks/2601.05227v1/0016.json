@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0016",
+  "word_start": 3200,
+  "word_end": 3450,
+  "text": "[ 19 ] ). This is crucial for enabling gradient-based optimization with respect to both ϕ \\phi and θ \\theta , and ensures that my training algorithm can scale to large datasets and complex architectures. A key theoretical aspect of this construction is that the variational posterior q ϕ ​ ( z 0 : T | 𝐱 1 : T ) q_{\\phi}(z_{0:T}|\\mathbf{x}_{1:T}) defines a law on the space of continuous paths. The Kullback–Leibler divergence term in the ELBO therefore becomes a divergence between path measures, which can be expressed (in the case of absolutely continuous diffusions) via the Girsanov theorem ( [ 15 ] ; [ 34 ] ). That is, if the posterior dynamics differ from the prior only in their drift terms, then the pathwise KL divergence reduces to: where D = Σ ​ Σ ⊤ D=\\Sigma\\Sigma^{\\top} is the diffusion tensor and the norm is a Mahalanobis distance weighted by D − 1 D^{-1} . This formulation provides a clean interpretation of the ELBO: the cost of deviating from the prior dynamics is measured by the accumulated energy of the drift mismatch over time. In practice, I do not explicitly model an alternative posterior drift μ q \\mu_{q} , but rather treat q ϕ q_{\\phi} as implicitly defined by the samples generated via μ θ \\mu_{\\theta} and Σ θ \\Sigma_{\\theta} starting from a data-conditioned z 0 z_{0} . Thus, the amortized variational family is limited to trajectories consistent with the generative dynamics but originating from different initial conditions."
+}

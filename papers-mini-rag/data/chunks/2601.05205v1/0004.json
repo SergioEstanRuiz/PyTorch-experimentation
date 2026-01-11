@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05205v1",
+  "title": "EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI",
+  "abs_url": "https://arxiv.org/abs/2601.05205v1",
+  "html_url": "https://arxiv.org/html/2601.05205v1",
+  "chunk_id": "2601.05205v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "memory formation [ 14 ] , highlighting its relevance for bio-inspired and neuromorphic computing 1 1 1 The architecture of LSM’s naturally maps onto neuromorphic hardware platforms, where asynchronous spike-based processing and local synaptic updates can be efficiently realized in emerging substrates such as memristive arrays and neuromorphic silicon. . Liquid State Machine are spiking neural network that processes temporal data through its intrinsic recurrent dynamics. The LSM operates in three main stages: input encoding, dynamic processing within the reservoir, and readout. The input layer converts continuous data into spike trains, which are then propagated through a randomly connected reservoir of Leaky Integrate-and-Fire (LIF) neurons. The reservoir’s synaptic weights remain fixed during training, allowing it to transform temporal inputs into high-dimensional representations without the need for backpropagation [ 7 ] . The membrane potential of each neuron evolves according to the leaky integration rule: where V i V_{i} denotes the membrane potential, V rest V_{\\text{rest}} is the resting potential, and I i ​ ( t ) I_{i}(t) represents the synaptic input current. When V i V_{i} crosses a firing threshold, the neuron emits a spike and resets its potential. This mechanism provides a fading memory of previous activity, allowing the LSM to capture temporal dependencies across multiple timescales. where u t u_{t} is the input vector, W in W_{\\text{in}} and W W are the input and recurrent weight matrices 2 2 2 W W is scaled by its spectral radius to ensure stable dynamics while preserving the reservoir’s nonlinear richness."
+}

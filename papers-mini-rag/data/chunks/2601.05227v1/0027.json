@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0027",
+  "word_start": 5400,
+  "word_end": 5650,
+  "text": "an Itô SDE, with the drift μ θ ​ ( z t , t ) \\mu_{\\theta}(z_{t},t) and diffusion Σ θ ​ ( z t , t ) \\Sigma_{\\theta}(z_{t},t) parameterized by neural networks. To ensure temporal consistency, these functions share weights across all time steps. I explore both shallow and deep variants of these parameterizations, balancing expressive power with regularization and interpretability. Importantly, both μ θ \\mu_{\\theta} and Σ θ \\Sigma_{\\theta} are initialized using Xavier initialization and normalized with spectral constraints to avoid explosion in long-term trajectories ( [ 30 ] ). A central architectural innovation of this paper is the introduction of adjoint coparameterization. While traditional models treat the forward and backward (adjoint) computations as separate procedures, I propose a bi-level model where the adjoint state a t a_{t} is not only computed for gradients but also explicitly modeled via a second neural network 𝒜 θ ​ ( z t , t ) \\mathcal{A}_{\\theta}(z_{t},t) that co-evolves alongside z t z_{t} during forward propagation. This results in the coupled system: where 𝒜 θ \\mathcal{A}_{\\theta} is trained to minimize the discrepancy with the analytic adjoint d d ​ t ​ a t \\frac{d}{dt}a_{t} derived in the previous section. This creates a self-correcting architecture in which the gradient field itself is learned and adapted across training epochs. I hypothesize that learning the adjoint field can be viewed as a form of meta-gradient optimization, where the model internalizes the geometry of the optimization trajectory. This is conceptually related to neural meta-learners ( [ 12"
+}

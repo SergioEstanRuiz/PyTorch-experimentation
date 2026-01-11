@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": "complementation roles to compensate for the mismatch by contributing additional, adaptive logits. In this way, the combined policy effectively expands the expressivity of the action space, enabling it to approximate the optimal policy π ∗ \\pi^{*} even when none of the individual candidate models is sufficient. This demonstrates that making the router a complementary component in the decoding process is not merely a heuristic enhancement, but a principled mechanism that circumvents the coverage assumption for all prefixes. Furthermore, when the optimal policy and a candidate model are already reasonably well aligned, the router’s complementary component need not be highly accurate; even a weakly informative router can suffice. In this case, the router is substantially easier to learn, as it only needs to correct the limited set of states where the candidate model deviates from π ∗ \\pi^{*} . On well-aligned states, the candidate models already provide strong responses. Consequently, combining a candidate model with a trainable router can outperform both fine-tuning a single model and pure routing. In this section, we first describe the experimental setup in § 5.1 . We then present cross-domain performance and win rates on general benchmarks in § 5.2 . Together, these evaluations demonstrate that our FusionRoute enables effective collaboration among multiple models by (a) selecting the most domain-appropriate models for accurate specialized responses and (b) delivering consistently high-quality outputs on general datasets. We compare FusionRoute against a broad set of baselines including sequence-level collaboration, token-level collaboration, model merging, and single-model fine-tuning. For sequence-level collaboration,"
+}

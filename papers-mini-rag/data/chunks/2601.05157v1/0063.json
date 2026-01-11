@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0063",
+  "word_start": 12600,
+  "word_end": 12850,
+  "text": "the randomness r r across the whole execution of the algorithm is fixed (except of b ) b) , the values of the first and the second parameters of P σ , ξ , b P_{\\sigma,\\xi,b} are determined and hence the values t 1 , … , t N t_{1},...,t_{N} are fixed. Finally, our definition of the noise rate 𝒩 \\mathcal{N} is the main difference compared to Equation 3 (we pay the worst choice of the algorithm given the random string r r instead of the “average cost” of Equation 3 ). We proceed with the proof of the modified Lemma. [ PS15-SFT ] prove their version of the inequality (i.e., Equation 3 ) by considering two cases, x ⋆ ​ ( t ) = 0 x^{\\star}(t)=0 (see [ PS15-SFT , Lemma 3.3] and g ​ ( t ) = 0 g(t)=0 (see [ PS15-SFT , Lemma 3.4] , separately, and then combining them together by linearity. Due to our change on the definition of 𝒩 \\mathcal{N} , we need to modify only the statement and the proof of the first case [ PS15-SFT , Lemma 3.3] (i.e., when x ⋆ ( t ) = 0 ) x^{\\star}(t)=0) . We now provide the proof of our modified version of [ PS15-SFT , Lemma 3.3] , when the second parameter of P σ , ξ , b P_{\\sigma,\\xi,b} is ξ = a \\xi=a . The proof for ξ = { γ , γ + β } \\xi=\\{\\gamma,\\gamma+\\beta\\} is the same. Assume"
+}

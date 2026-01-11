@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "| z t − 1 ) p(z_{t}|z_{t-1}) is the transition density induced by the SDE dynamics. The second KL term captures the divergence between the inferred dynamics and the true prior diffusion process. This objective forms the core of amortized variational inference in my model, extending standard VAE frameworks to continuous-time stochastic processes ( [ 23 ] ; [ 8 ] ). A central mathematical challenge in this setting is computing or estimating the KL divergence between pathwise distributions. When both the prior and variational families are defined via SDEs, the KL divergence becomes an integral over drift mismatches, as justified by Girsanov’s theorem ( [ 15 ] ). Assuming matched diffusion coefficients Σ \\Sigma , the divergence simplifies to a functional of the drift fields: where D = Σ ​ Σ ⊤ D=\\Sigma\\Sigma^{\\top} is the diffusion matrix. This result enables gradient-based optimization using stochastic reparameterization, since the ELBO is differentiable with respect to both the generative parameters θ \\theta and inference parameters ϕ \\phi ( [ 26 ] ). An original contribution of my method lies in augmenting the ELBO with a pathwise regularization term that penalizes excessive divergence in latent trajectories. Specifically, I introduce an energy-based penalty: which encourages smooth latent dynamics while preserving expressiveness. This is analogous to action minimization in classical mechanics and serves to regularize overfitting in high-variance regions of the latent space ( [ 4 ] ). The total objective becomes ℒ − ℛ path \\mathcal{L}-\\mathcal{R}_{\\text{path}} , balancing reconstruction quality and path complexity. Furthermore,"
+}

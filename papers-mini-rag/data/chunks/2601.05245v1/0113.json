@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0113",
+  "word_start": 22600,
+  "word_end": 22850,
+  "text": "it decides which algorithm will be assigned to make a prediction each day. It establishes that marginal calibration rates are the same as multicalibration rates (as a function of T T ) for any collection of groups whose cardinality is independent of T T — and hence, by the result of Dagan et al. [ 2025 ] , o ​ ( T 2 / 3 ) o(T^{2/3}) . Contrast this with Theorem 1 which establishes an Ω ​ ( T 2 / 3 ) \\Omega(T^{2/3}) lower bound for multicalibration of even 3 3 groups when the groups can depend on the prediction. This section formalizes a natural class of proper black-box reductions from multicalibration to marginal calibration, and proves an oracle lower bound showing that such reductions require exponentially many oracle copies (in the number of groups) in the worst case, even for prediction independent groups — showing that our reduction in Appendix A is in a sense tight. Like the lower bounds in Sections 3 and 4 , the environment here is completely oblivious, but our instance here is even more benign: the labels are now deterministic given the context; the lower bound follows purely from the properness constraint and the “context-blindness” of marginal calibration algorithms. We show that any “proper” black-box reduction from marginal calibration to multicalibration must itself incur multicalibration error Ω ​ ( T 1 − γ ) \\Omega(T^{1-\\gamma}) for any constant γ > 0 \\gamma>0 unless it uses exponentially many oracle copies. Our construction uses"
+}

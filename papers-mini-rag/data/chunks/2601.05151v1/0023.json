@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "fig. S1 ). As expected, embedded ensemble methods that control for false discoveries (stability selection, Stabl LASSO, RENT) achieved the lowest FPR but at the cost of lower TPR. These methods are characterized by consistent strict selection of features with the strongest signal. However, they omit a high proportion of true predictors with weaker signals, demonstrating the TPR of only 0.46 ± 0.07, 0.31 ± 0.07 and 0.47 ± 0.07, respectively. Statistical filters exhibited the highest TPR values, while their FPR remained moderate, with one exception. p.adjust filter achieved the highest TPR (0.93 ± 0.06), rarely omitting true predictors, but at the cost of high FPR and FDR, despite BH adjustment being explicitly designed to control false discoveries. FPR of p.adjust was significantly higher than that of random FS (0.1 ± 0.03 vs 0.07 ± 0.03; Mann–Whitney U test, p < 0.0001 p<0.0001 ), while its FDR was high but significantly lower than that of random FS (0.53 ± 0.06 vs 0.89 ± 0.04; Mann–Whitney U test, p < 0.0001 p<0.0001 ). The high FPR of p.adjust may be explained by residual correlations among predictors in the post-VIF dataset, which can inflate false discoveries in multiple hypothesis testing settings, as demonstrated by Kanduri et al. [ 29 ] . Finally, information theory filters performed poorly, exhibiting both high FPR and low TPR, consistent with their omission of known biomarkers in the real outcome analysis. Overall, Table 2 illustrates that a low FPR did not necessarily correspond to better predictive performance,"
+}

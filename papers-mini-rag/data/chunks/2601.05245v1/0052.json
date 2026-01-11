@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0052",
+  "word_start": 10400,
+  "word_end": 10650,
+  "text": "3 / 16 \\sigma^{2}=3/16 and α = 1 2 \\alpha=\\frac{1}{2} (so that 𝔼 ​ [ n x ] ≥ T x 2 \\mathbb{E}[n_{x}]\\geq\\frac{T_{x}}{2} ). Applying the proposition with L = T x L=T_{x} and this value of α \\alpha yields 𝔼 ​ | N x | ≥ c σ , α ​ T x , \\mathbb{E}|N_{x}|\\geq c_{\\sigma,\\alpha}\\sqrt{T_{x}}, for a constant c σ , α > 0 c_{\\sigma,\\alpha}>0 depending only on the variance lower bound and α \\alpha . Hence there exists a constant c ′ > 0 c^{\\prime}>0 such that (Here T x min T_{x}^{\\min} and T x max T_{x}^{\\max} denote the minimum and maximum of the T x T_{x} , controlled by ( 4 ).) Thus We can now combine the previous bounds to obtain a lower bound on the g 3 g_{3} contribution. Assume T ≥ m 0 T\\geq m_{0} and η ≤ 1 / ( 2 ​ m ) \\eta\\leq 1/(2m) . Then there exists a constant c > 0 c>0 (independent of T T and m m ) such that, for any deterministic prediction algorithm under 𝒟 T , m \\mathcal{D}_{T,m} , either or else 𝔼 ​ [ B T ] < T 4 \\mathbb{E}[B_{T}]<\\frac{T}{4} and If 𝔼 ​ [ B T ] ≥ T 4 \\mathbb{E}[B_{T}]\\geq\\frac{T}{4} , then Lemma 3 yields Otherwise, if 𝔼 ​ [ B T ] < T 4 \\mathbb{E}[B_{T}]<\\frac{T}{4} , then Lemma 6 gives We now combine all the pieces to prove Theorem 1 . The argument proceeds by case analysis:"
+}

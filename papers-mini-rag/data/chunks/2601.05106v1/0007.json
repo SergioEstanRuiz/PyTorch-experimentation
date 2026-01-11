@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "pairs ( x , y + , y − ) (x,y^{+},y^{-}) where y + y^{+} and y − y^{-} represent the preferred and dispreferred response respectively, DPO derives a closed-form objective from the Bradley–Terry model, enabling policy updates through a purely supervised loss: where β \\beta controls the strength of alignment. FusionRoute aims to enable effective token-level collaboration among multiple specialized LLMs by selecting the most suitable expert at each decoding step, while remaining robust when individual experts produce unreliable outputs. Pure expert selection is often insufficient: even strong specialist models may fail on out-of-domain queries, and relying solely on expert logits makes the decoding process brittle. FusionRoute addresses this challenge by introducing a router that simultaneously identifies the appropriate expert and provides a complementary logit capable of correcting or refining the expert’s prediction. The FusionRoute router model π θ \\pi_{\\theta} is post-trained from a base LLM parameterized by θ LM \\theta_{\\mathrm{LM}} . Given a prompt x x and a partial generation y ≤ t y_{\\leq t} , FusionRoute processes the sequence and produces two outputs: a vector of routing weights w θ ∈ ℝ n w_{\\theta}\\in\\mathbb{R}^{n} , which determines the preferred expert from a set of specialized LLMs { π 1 , … , π n } \\{\\pi_{1},\\ldots,\\pi_{n}\\} , and a set of logits log π θ LM ( ⋅ ∣ x , y ≤ t ) \\log\\pi_{\\theta_{\\mathrm{LM}}}(\\cdot\\mid x,y_{\\leq t}) , which act as a complementary corrective component. The routing weights are generated via a lightweight linear projection applied"
+}

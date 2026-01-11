@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": "the path to general intelligence may lie in symmetry-first architectures [ 11 ] that prioritize the topology of the manifold over the volume of the weights. The Origin of Topological Protection. A fundamental question is why a neural network would generate a topological term at all. As detailed in the Methods, our derivation identifies causality as the symmetry-breaking mechanism. The inference process flows strictly from t → t + 1 t\\to t+1 , breaking Time-Reversal ( 𝒯 \\mathcal{T} ) symmetry. In the language of quantum field theory, the neural operator becomes chiral. It is a well-established result (the parity anomaly) that integrating out chiral fermions induces a complex phase in the functional determinant. Consistency requires this phase to be compensated by a Chern-Simons term with an integer-quantized level k ∈ ℤ k\\in\\mathbb{Z} . This integer invariant is crucial: it provides a discrete topological index for an infinite tower of logical states, explaining how the Holonomic Network can robustly distinguish between millions of combinatorial sectors (as in our variable binding task) rather than merely maintaining a binary truth value. The infinite logical memory horizon observed in our experiments (Figs. 2 and 4 ) admits a precise physical interpretation through the lens of our effective field theory. In the Methods, we identified the effective dynamics with a Wess-Zumino-Witten (WZW) model [ 35 , 36 ] , which requires a virtual ( 2 + 1 ) (2+1) -dimensional bulk to restore gauge invariance. We now identify the neural hidden state h t h_{t}"
+}

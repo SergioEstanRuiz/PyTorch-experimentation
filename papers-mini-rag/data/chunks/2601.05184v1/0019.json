@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "Dissection dataset Li et al. ( 2024b ) as test dataset. Evaluation Metric We compute the average preference probability for the non-creative attribute across all ten scenarios in the test dataset Li et al. ( 2024b ) as the preference bias. Since the raw preference scores consistently fall within the range [ 0.4 , 0.6 ] [0.4,0.6] (0.5 denotes neutral), we apply min-max normalization to rescale them. The normalized values are denoted as Non-Creative Preference . Results Non-Creative Preference Bias increases faster in the SCPL under both incremental fine-tuning and retraining settings. In the Non-dynamic self-consuming setting, the change in bias follows a trend similar to that of the accumulation-enhanced loop. In contrast, the bias increases more obviously in the self-consuming performative incremental fine-tuning loop, as shown in Figure 2 . Under both fine-tuning and retraining settings, using accumulation effectively mitigates bias and achieves performance close to that of the real-data setting. In this task, we use the NuminaMath dataset (Li et al. , 2024a ) and divide the problems into easy and hard groups. Easy problems are considered the advantage group, as they more commonly appear in real-world usage. Over time, the model’s math-solving ability may become skewed due to repeated exposure to easy problems, potentially degrading its performance on harder ones (Tong et al. , 2024 ) . Our goal is to examine how LLMs perform when exposed to different proportions of easy and hard problems in SCPL. The performance gap between these two groups is treated as"
+}

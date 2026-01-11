@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "input. The goal of the candidate generation step is to identify the entities C m ⊆ ℰ {C_{m}\\subseteq\\mathcal{E}} that could potentially be relevant to m m . For this step, LELA is retriever-agnostic, and can work with any method that is capable of pre-selecting a subset of relevant entities. In practice, any generation method that requires domain-specific training would jeopardize LELA’s goal of being fine-tuning-free. Hence, we primarily consider BM25 Robertson and Sparck Jones ( 1988 ) and dense retrieval, and also experiment with prior-based dictionaries. Each candidate c ∈ C m c\\in C_{m} is then given a score s ​ ( c ) ∈ ℝ s(c)\\in\\mathbb{R} by pointwise reranking. While any off-the-shelf reranker can be used, we opt for instructed rerankers, as the candidate entity reranking task is not typically covered during reranker training. Rerankers based on generative language models typically take as input a query q q , a document d d , and a reranking-instruction I I . They then compute a score as: The score can also be expressed as a single-logit binary classifier 1 1 1 https://huggingface.co/Qwen/Qwen3-Reranker-0.6B/discussions/3 . In our case, we want to obtain a score for each candidate c ∈ C m c\\in C_{m} , and hence, following the formalism of information retrieval, we set q = S q=S (marking the mention m m ), I I as an entity disambiguation instruction (see Appendix A ), and d d as the name of c c followed by its description. We then identify the"
+}

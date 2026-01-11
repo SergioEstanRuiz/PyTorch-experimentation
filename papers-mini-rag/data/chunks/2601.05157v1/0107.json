@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0107",
+  "word_start": 21400,
+  "word_end": 21650,
+  "text": "\\{D_{i}^{\\prime}\\} , w min = min ⁡ { min j ∈ [ k ] ⁡ w j , min j ∈ [ k ′ ] ⁡ w j ′ } w_{\\min}=\\min\\{\\min_{j\\in[k]}w_{j},\\min_{j\\in[k^{\\prime}]}w_{j}^{\\prime}\\} , and c 0 , C 0 c_{0},C_{0} be some absolute constants. If for some C sep ≥ C 0 C_{\\text{sep}}\\geq C_{0} , γ F ≥ C sep ​ B / w min 1 / t \\gamma_{\\text{F}}\\geq C_{\\text{sep}}B/w_{\\min}^{1/t} and γ SF ​ C sep ​ B / w min 1 / t + ( c 0 ​ C sep − 2 ​ t ​ w min ) \\gamma_{\\text{SF}}\\gtrsim C_{\\text{sep}}B/w_{\\min}^{1/t}+\\Delta(c_{0}C_{\\text{sep}}^{-2t}w_{\\min}) , then there is an algorithm that given δ ∈ ( 0 , 1 ) \\delta\\in(0,1) , n n i.i.d. samples from ℳ \\mathcal{M} , and a list { μ ^ j } j ∈ [ k ] \\{\\mathaccent 866{\\mu}_{j}\\}_{j\\in[k]} such that there is a permutation π \\pi on [ k ] [k] with for some ε ≤ γ SF / 4 \\varepsilon\\leq\\gamma_{\\text{SF}}/4 , outputs a list { μ ^ j ′ } j ∈ [ k ′ ] \\{\\mathaccent 866{\\mu}_{j}^{\\prime}\\}_{j\\in[k^{\\prime}]} such that there is a permutation π ′ \\pi^{\\prime} on [ k ′ ] [k^{\\prime}] with with probability at least 1 − δ 1-\\delta , as long as and the running time is n O ​ ( t ) n^{O(t)} . The above guarantee is quite general and can be immediately used to estimate the parameters of FFD components given that we have some estimates for the SFD part"
+}

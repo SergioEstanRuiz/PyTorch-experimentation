@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0106",
+  "word_start": 21200,
+  "word_end": 21450,
+  "text": "marginal calibration in a natural family of “proper” reductions that we define must instantiate at least exponentially many marginal calibration oracles in | G | |G| to obtain non-trivial multicalibration error. There may nevertheless be ways to circumvent this obstruction. We gratefully acknowledge funding from the Simons Foundation, the UK AI Safety Institute, and the NSF ENCoRE TRIPODS Institute. We thank Princewill Okoroafor for enlightening discussions at an early stage of this work. The authors used AI tools including GPT 5.1 Pro in the development of this paper; all of the final theorems and proofs are written and verified by the authors, and all of the exposition and discussion of related work was written without AI assistance. The lower bound in Theorem 1 crucially exploits the fact that the groups g 1 , g 2 , g 3 g_{1},g_{2},g_{3} are allowed to depend on the prediction value v v . In this section we show that an analogous lower bound cannot hold for a constant number (i.e. not growing with T T ) of binary prediction-independent groups—groups that depend only on the context x x and not on the prediction v v . To do this we show a simple reduction from the problem of sequential adversarial multicalibration (for prediction independent groups) to the problem of sequential adversarial marginal calibration, with rates that degrade at most exponentially with the number of groups to be multicalibrated. An implication of this is that for any constant number of groups, the best rate"
+}

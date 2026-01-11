@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "strengths of our study on PIONeeR are the following: 1) it addresses heterogeneous, mixed-type data; 2) it evaluates a broader and more diverse range of FS algorithms; 3) it reports all standard performance metrics, with an emphasis on stability; and 4) it extends FS evaluation to assess the balance between true and false discoveries. 1) In the Methods section, we introduce a Python framework for comprehensive evaluation of FS methods on user-provided data to help identify the most suitable FS approach for a given dataset and predictive task. 2) In the Results section, we demonstrate the applicability of this framework using a clinical dataset from lung cancer patients comprising diverse biomarkers, including demographic, clinical, and immunoprofiling data from both blood and tumor samples, to improve the prediction of resistance to immunotherapy. #D = number of datasets, #M = number of FS methods, F = filters, E = embedded methods, W = wrappers, Ens = ensemble methods The development of roofs was motivated by the following real-world problem: identifying robust biomarkers of resistance to immunotherapy in lung cancer. To this end, we relied on the PIONeeR clinical trial dataset, derived from a prospective, multicenter cohort of patients (17 centers in France) with advanced or recurrent non-small cell lung cancer (NSCLC). Patients received either frontline combination therapy with platinum-based chemotherapy plus anti-PD-(L)1 immune checkpoint inhibitors (ICIs) or second-/third-line monotherapy with anti-PD-(L)1 ICIs following progression on prior platinum-based chemotherapy. The dataset integrated multi-modal data from n = 435 n=435 patients, comprising a total"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": "search algorithm. We call this algorithm Discrete-Color . We define a new algorithm called Full-Color that works exactly the same way as Discrete-Color , except instead of starting with a random k k -coloring, it recursively calls Full-Color to produce a ( k − 1 ) (k-1) -coloring, then uses that coloring as the starting point for the k k -coloring. In other words, Full-Color starts by producing the unique 1 1 -coloring, then turns that 1 1 -coloring into a 2 2 -coloring, then turns that 2 2 -coloring into a 3 3 -coloring, and so on. It may not be apparent right away whether a random k k -coloring or a strong ( k − 1 ) (k-1) -coloring would work as a better starting point for Discrete-Color . The random k k -coloring, though initially having a large number of monochromatic edges, may leave enough room for improvement due to not already being modified by any algorithm that the end result is the same. However, our numerical results suggest that Full-Color far outperforms Discrete-Color . Figure 3 shows the results of repeating the experiment of Figure 2 for the algorithms Discrete-Color and Full-Color . Since Discrete-Color and Full-Color are much faster than Mod-GCN , we tested 1000 1000 Erdős-Rényi graphs for each n n and d d rather than 100 100 . We notice that Full-Color outperforms Discrete-Color in all cases by a striking amount. We also see that for both Discrete-Color and Full-Color , the average"
+}

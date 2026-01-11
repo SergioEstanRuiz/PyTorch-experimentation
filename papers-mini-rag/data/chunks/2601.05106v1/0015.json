@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "an initial prompt s 0 = x s_{0}=x , at step t t the state is defined by s t = ( x , y ≤ t ) , s_{t}=(x,y_{\\leq t}), and the action is represented by the next token a t = y t + 1 a_{t}=y_{t+1} . The transition kernel is then defined by ℙ ​ ( s t + 1 ∣ s t , a t ) = 𝕀 ​ { s t + 1 = ( x , y ≤ t , y t + 1 ) } \\mathbb{P}(s_{t+1}\\mid s_{t},a_{t})=\\mathbb{I}\\{s_{t+1}=(x,y_{\\leq t},y_{t+1})\\} . Finally, the reward function r ​ ( s , a ) = r ​ ( x , y ≤ t + 1 ) ∈ [ 0 , 1 ] r(s,a)=r(x,y_{\\leq t+1})\\in[0,1] is a token-level reward function that maps any text ( x , y ≤ t + 1 ) (x,y_{\\leq t+1}) to a real number. We also denote R ​ ( x , y ≤ t ) = ∑ i = 1 t r ​ ( x , y ≤ i ) R(x,y_{\\leq t})=\\sum_{i=1}^{t}r(x,y_{\\leq i}) is the total reward function of the prefix ( x , y ≤ t ) (x,y_{\\leq t}) . A language model can be represented as a policy π ​ ( a ∣ s ) = π ​ ( y t + 1 ∣ x , y ≤ t ) \\pi(a\\mid s)=\\pi(y_{t+1}\\mid x,y_{\\leq t}) , where it takes the previous text ( x , y ≤ t ) (x,y_{\\leq t})"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0014",
+  "word_start": 2800,
+  "word_end": 3050,
+  "text": "across all T T rounds. Standard (anti)-concentration arguments establish that if there is a value v v that the learner predicts k k times, then the empirical sum of the labels on the rounds in which v v is predicted will differ from its expectation by roughly ≈ k \\approx\\sqrt{k} . The “rounded” honest learner uses at most m m different prediction values, and the worst-case for the learner is if they are all used equally frequently: k ≈ T / m k\\approx T/m . In this case the summed noise magnitude of the learner’s predictions scales as m ​ k ≈ m ​ T m\\sqrt{k}\\approx\\sqrt{mT} . Picking m m to trade this noise term off against the bias term of T / m T/m results in a O ~ ​ ( T 2 / 3 ) \\tilde{O}(T^{2/3}) upper bound. This style of argument applies both to marginal calibration and multicalibration, because the “rounded honest” strategy obtains bounds of this form simultaneously on any subsequence of rounds. However, it does not give a lower bound because there may be a strategy for the learner that obtains better calibration error than “honesty” by cleverly setting up cancellations — indeed, this is exactly what Dagan et al. ( 2025 ) show in the case of marginal calibration. At a very high level, our goal is to rule out that “dishonest” strategies can be beneficial. We note in passing a conceptual similarity to recent work on designing truthful calibration measures (Haghtalab et al."
+}

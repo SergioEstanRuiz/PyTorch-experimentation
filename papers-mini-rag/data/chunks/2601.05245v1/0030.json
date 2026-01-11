@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0030",
+  "word_start": 6000,
+  "word_end": 6250,
+  "text": "( 2025 ) up to log factors. The hard instance reveals contexts x t x^{t} that cycle through a grid of m = Θ ​ ( T 1 / 3 ) m=\\Theta(T^{1/3}) values, with labels drawn as y t ∼ Bernoulli ​ ( x t ) y^{t}\\sim\\mathrm{Bernoulli}(x^{t}) . The key insight is that prediction-dependent groups can directly detect when the learner deviates from “honest” predictions p t = x t p^{t}=x^{t} : Groups g 1 g_{1} and g 2 g_{2} activate when predictions overshoot or undershoot the context by more than η \\eta . Any such “big deviation” incurs expected bias of at least η \\eta , so many big deviations yield large error on g 1 g_{1} or g 2 g_{2} . Group g 3 g_{3} activates on “ η \\eta -honest” rounds where | p t − x t | < η |p^{t}-x^{t}|<\\eta . On these rounds, predictions are approximately honest, so calibration error is driven by the inherent noise x t − y t x^{t}-y^{t} . A martingale argument shows this noise accumulates to Ω ​ ( m ​ T ) = Ω ​ ( T 2 / 3 ) \\Omega(\\sqrt{mT})=\\Omega(T^{2/3}) . Either the algorithm makes many big deviations (punished by g 1 , g 2 g_{1},g_{2} ) or mostly honest predictions (punished by g 3 g_{3} ), yielding Ω ​ ( T 2 / 3 ) \\Omega(T^{2/3}) error in both cases. Let ( 𝒟 T , m , G ) (\\mathcal{D}_{T,m},G) be the hard instance defined"
+}

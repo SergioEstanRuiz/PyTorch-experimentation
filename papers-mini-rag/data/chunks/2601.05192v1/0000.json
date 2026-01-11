@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0000",
+  "word_start": 0,
+  "word_end": 250,
+  "text": "Entity linking (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question-answering, and information extraction. Our method, LELA, is a modular coarse-to-fine approach that leverages the capabilities of large language models (LLMs), and works with different target domains, knowledge bases and LLMs, without any fine-tuning phase. Our experiments across various entity linking settings show that LELA is highly competitive with fine-tuned approaches, and substantially outperforms the non-fine-tuned ones. LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation Samy Haffoudhi, Fabian M. Suchanek, Nils Holzenberger Télécom Paris Institut Polytechnique de Paris, France {samy.haffoudhi, fabian.suchanek, nils.holzenberger}@telecom-paris.fr Entity linking, also known as Entity Disambiguation, is the task of mapping ambiguous mentions of entities in natural language text to reference entities in a knowledge base (KB). Typically, the input is a sentence in which the mention of an entity has already been identified, as in this example: The knowledge base contains each entity, associated with a short textual description, e.g.: The goal is to map the mention of Paris to the correct entity in the KB (here, the first one). Entity Linking is an important preprocessing step in tasks such as information extraction Martinez-Rodriguez et al. ( 2020 ) , knowledge-based question answering Welty et al. ( 2012 ) , and knowledge graph completion Ji and Grishman ( 2011 ) . Most of the work on entity linking focuses on linking to general knowledge graphs such as Wikidata Vrandečić ("
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0014",
+  "word_start": 2800,
+  "word_end": 3050,
+  "text": "to satisfy both low-latency and high-coverage requirements. For the latency-sensitive interaction scenario, the system enables a lightweight fast mode: it directly reads out the structure of 𝒯 N \\mathcal{T}_{N} along with the non-empty leaf texts as a personalized prior, concatenates them with the user query q q as the input context, and generates an answer in a single pass. When the user explicitly requests additional details or the query exhibits stronger long-tail characteristics, the system switches to the agentic recall mode. Concretely, we generate a set of expanded queries { q ~ ( k ) } k = 1 K \\{\\tilde{q}^{(k)}\\}_{k=1}^{K} from the original query q q conditioned on 𝒯 N \\mathcal{T}_{N} , where each q ~ ( k ) \\tilde{q}^{(k)} emphasizes a different attribute dimension or potential missing aspect relevant to the question. The system retrieves candidate evidence sets { d j ( k ) } \\{d^{(k)}_{j}\\} in parallel for { q ( k ) } \\{q^{(k)}\\} , and reranks them based on relevance to obtain a fused context C C . Finally, we generate the final answer conditioned on [ q , 𝒯 N , C ] [q,\\,\\mathcal{T}_{N},\\,C] . This procedure operates under a gated policy that is triggered only when necessary, improving answer quality in complex scenarios while keeping the overall interaction cost controllable. We conduct experiments on the PersonaMem benchmark [ jiang2025know ] . This dataset is centered on user personas: each instance contains a user’s static demographic information as well as dynamic attributes that evolve"
+}

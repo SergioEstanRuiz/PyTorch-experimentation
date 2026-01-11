@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05163v1",
+  "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+  "abs_url": "https://arxiv.org/abs/2601.05163v1",
+  "html_url": "https://arxiv.org/html/2601.05163v1",
+  "chunk_id": "2601.05163v1:0003",
+  "word_start": 600,
+  "word_end": 850,
+  "text": "explore a source document through intent-guided, tool-augmented interactions to collect grounded evidence (the Exploration stage), and then synthesizes high-quality document-grounded QA pairs via multi-observation reasoning (the Synthesis stage). We then train our DocQA agent, DocDancer , on the synthesized dataset, instantiating it with two open-source backbones, Qwen3-4B-Thinking-2507 and Qwen3-30B-A3B-Thinking-2507 Team ( 2025 ) . Despite being trained with only 5,000 instances, both variants achieve competitive performance, with the 30B-A3B model attaining state-of-the-art results in several settings. Extensive experiments are conducted on two long-context document understanding benchmarks, MMLongBench-Doc Ma et al. ( 2024 ) and DocBench Zou et al. ( 2025 ) . The results demonstrate the effectiveness of the proposed DocDancer . Further analyses provide insights into document parsing strategies, tool design, and the role of synthetic data in agent learning. In summary, our contributions are three-fold: Effective Agentic DocQA Framework : We propose a tool-driven DocQA agent framework grounded in information-seeking principles, which achieves SOTA performance when paired with a proprietary LLM. Autonomous Data Synthesis Pipeline : We introduce an Exploration-then-Refine data synthesis pipeline that generates high-quality training data for learning agentic behaviors. Empirical Performance : Our method achieves state-of-the-art results and provides practical insights into effective and efficient agentic system design. Document Question Answering Methods. Traditional DocQA methods rely on OCR-based pipelines Ding et al. ( 2022 ) or end-to-end vision–language models Sukh ( 2025 ); Hu et al. ( 2025 ) , but both are constrained by limited input length and struggle with long documents Ma et"
+}

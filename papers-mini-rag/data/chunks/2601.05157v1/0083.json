@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0083",
+  "word_start": 16600,
+  "word_end": 16850,
+  "text": "O ​ ( n ​ ( min ⁡ { ε / 3 , γ / 16 } , ε w ) ​ log ⁡ ( 1 / δ ) ) O(n(\\min\\{\\varepsilon/3,\\gamma/16\\},\\varepsilon_{w})\\log(1/\\delta)) samples and runs in O ​ ( T ​ ( min ⁡ { ε / 3 , γ / 16 } , ε w ) ​ log ⁡ ( 1 / δ ) + k 3 ​ d ​ log ⁡ ( 1 / δ ) 2 ) O(T(\\min\\{\\varepsilon/3,\\gamma/16\\},\\varepsilon_{w})\\log(1/\\delta)+k^{3}d\\log(1/\\delta)^{2}) times, and with probability 1 − δ 1-\\delta , computes points μ ^ 1 , … , μ ^ k \\mathaccent 866{\\mu}_{1},...,\\mathaccent 866{\\mu}_{k} such that there is a permutation π \\pi such that max j ∈ [ k ] ⁡ \\| ​ μ j − μ ^ π ​ ( j ) ​ \\| 2 ≤ ε \\max_{j\\in[k]}\\|\\mu_{j}-\\mathaccent 866{\\mu}_{\\pi(j)}\\|_{2}\\leq\\varepsilon and max j ∈ [ k ] ⁡ | w j − w ^ π ​ ( j ) | ≤ ε w \\max_{j\\in[k]}|w_{j}-\\mathaccent 866{w}_{\\pi(j)}|\\leq\\varepsilon_{w} . In this section we will study how to use our efficient sparse Fourier tool for learning mixture models. First, we recall the definition of SFD that we will need for our results. Let D D be a probability distribution over d . We say that D D satisfies the Slow Fourier Decay property (SFD) with constants c 1 , c 2 ≥ 0 c_{1},c_{2}\\geq 0 if the function R ​ ( T ) = inf t : \\| ​ t ​ \\| 2 ≤ T"
+}

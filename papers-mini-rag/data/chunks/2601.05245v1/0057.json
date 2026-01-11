@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0057",
+  "word_start": 11400,
+  "word_end": 11650,
+  "text": "the prediction value. Instead, we proceed in three steps: Global orthogonal groups enforce approximate honesty (Section 4.3 ): We define a family of Walsh-based groups on the mean grid. Using the orthogonality and “prefix-sum” properties of the Walsh basis, we show that any forecaster with small multicalibration error on these groups must have small total ℓ 1 \\ell_{1} deviation from honest predictions: ∑ t | p t − x t | = O ~ ​ ( MCerr ) \\sum_{t}|p^{t}-x^{t}|=\\tilde{O}(\\mathrm{MCerr}) . Approximate honesty forces diverse predictions (Section 4.3 ): Small ℓ 1 \\ell_{1} deviation from honesty prevents the forecaster from concentrating predictions on a few values, forcing N := ∑ v n v N:=\\sum_{v}\\sqrt{n_{v}} to be large, where n v n_{v} counts predictions equal to v v . Blockwise Hadamard groups extract unavoidable noise (Sections 4.5 – 4.7 ): We partition time into blocks and define Hadamard-based groups on each block. The calibration error decomposes into bias (controlled by approximate honesty) and noise (inherently random). Using a martingale argument, we show the noise contribution scales as Ω ~ ​ ( N ) \\tilde{\\Omega}(N) , which combined with step 2 yields the Ω ~ ​ ( T 2 / 3 ) \\tilde{\\Omega}(T^{2/3}) lower bound. Recall that for a group function g : 𝒞 → [ 0 , 1 ] g:\\mathcal{C}\\to[0,1] , its calibration error is: where 𝒱 T := { p 1 , … , p T } \\mathcal{V}_{T}:=\\{p^{1},\\dots,p^{T}\\} . In the analysis we will also apply this definition to signed weight"
+}

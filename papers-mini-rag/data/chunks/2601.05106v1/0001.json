@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": "diverse benchmarks spanning mathematical reasoning, code generation, and instruction following, FusionRoute outperforms both sequence- and token-level collaboration, model merging, and direct fine-tuning, while remaining competitive with domain experts on their respective tasks. First and last authors at and \\metadata [Project Page] https://github.com/xiongny/FusionRoute Large language models (LLMs) have demonstrated strong performance across an extensive range of tasks, such as mathematical reasoning (Wang et al., 2025b ; Zhao et al., 2025 ; Zhou et al., 2025 ) , code generation (Deng et al., 2025 ; Huynh and Lin, 2025 ; Qi et al., 2024 ; Jiang et al., 2024b ; Jimenez et al., 2023 ) , and instruction following (Wang et al., 2025a ; Qin et al., 2024 ) . Although sufficiently large, general-purpose LLMs can often deliver balanced performance across diverse domains (Hurst et al., 2024 ; Team et al., 2025 ; Yang et al., 2025 ; Zeng et al., 2025 ) , their computational and monetary costs make them not ideal for every real-world applications. This motivates an alternative paradigm: employing multiple smaller, specialized LLMs, each excelling in a particular domain while remaining comparatively efficient. However, the strengths of such smaller LLMs often remain uneven—an LLM that performs exceptionally well on one task may underperform on others due to inductive biases (Levine et al., 2021 ; Si et al., 2023 ) and domain-specific training distributions (Yuan et al., 2023 ) . As a result, achieving general-purpose performance through a collection of specialized models hinges on developing mechanisms that can robustly"
+}

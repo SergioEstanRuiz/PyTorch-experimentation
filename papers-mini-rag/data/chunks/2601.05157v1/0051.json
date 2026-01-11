@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0051",
+  "word_start": 10200,
+  "word_end": 10450,
+  "text": "statistics. [ diakonikolas2016efficient , diakonikolas2016properly , diakonikolas2016fourier ] have used discrete Fourier transforms for learning sums of integer-valued random variables. [ chakraborty2020learning ] give an algorithm for learning mixtures of spherical Gaussians in dimensions ω ​ ( 1 ) ≤ d ≤ O ​ ( log ⁡ k ) \\omega(1)\\leq d\\leq O(\\log k) via deconvolving the mixture using Fourier transforms. [ chen2020learning ] study the problem of learning mixtures of linear regressions (MLRs), which can be reduced to estimating the minimum variance in a mixture of zero-mean Gaussians. They solved this problem by estimating the Fourier moments – the moments of the Fourier transform, and gave the first sub-exponential time algorithm for learning MLRs. [ chen2021algorithmic ] study learning mixtures of Airy disks, a problem that is motivated by the physics of diffraction. Their algorithm also proceeds by first estimating the Fourier transform of the mixture, and then dividing it pointwise by the Fourier spectrum of the “base” distribution. Finally, we have already discussed in the introduction the work of [ qiao2022fourier ] . The content of Section 4 contains the results appearing in the recent Master’s thesis [ li2023thesisAnon ] . [ kotekal2025optimal ] independently study the model of in one dimension and derive matching information theoretic upper and lower bounds for Gaussian mean estimation. They also consider the unknown variance case. Before these works, [ carpentier2021estimating ] studied the sample complexity of noise-oblivious robust Gaussian mean estimation in the special case where the corruption points z i z_{i}"
+}

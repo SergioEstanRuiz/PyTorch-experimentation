@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0043",
+  "word_start": 8600,
+  "word_end": 8850,
+  "text": "was designed and serves as a good indication of the potential applicability of the algorithm. Space complexity includes the following parameters: a continuous state space (CS), a discrete state space (DS), a tabular discrete state space (TDS), and an infinite discrete state space (IDS). Nonstationarity Type describes the following types of nonstationarities: nonstationarity in the transition probability function - (P), nonstationarity in the reward - (R), nonstationarity in the actions - (A), nonstationarity in constraints - (C), or nonstationarity between task similarities, including combinations of P, R, A, C Table 3 represents the key assumptions of the methods. Based on review data, we categorise constraints as follows. One approach formulates safety as an improved performance of the algorithm and puts constraints on the performance of the algorithm in the following way: each new policy update should improve the performance of the algorithm. Another approach explicitly takes safety into account and considers not only constraints on performance improvement but also some additional constraints. Based on a state-of-the-art survey, safety constraints can be divided into three groups: Constraints ​ { P ​ e ​ r ​ f ​ o ​ r ​ m ​ a ​ n ​ c ​ e − b ​ a ​ s ​ e ​ d S ​ a ​ f ​ e ​ t ​ y − b ​ a ​ s ​ e ​ d ​ { P ​ r ​ e ​ d ​ e ​ f ​ i ​ n ​ e ​"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0055",
+  "word_start": 11000,
+  "word_end": 11250,
+  "text": "hypothesis test at level 0.05 0.05 assuming roughly equal standard errors. When testing the modifications of Mod-GCN for stability, the results for each modification in the present section are as follows. Here the encodings outperform the default for two d d values, and the modified dropout rate of 0.1 0.1 outperforms the default for all three d d values. However, the differences for the encodings are almost negligible, and the differences for the dropout rate are not significant. Therefore, we maintain the default, though we acknowledge that it is inconclusive whether changing the dropout rate would be beneficial. For the initial embedding 𝑿 \\boldsymbol{X} , encodings do not help as much as one may have hoped. This makes sense since the initial embedding 𝑿 \\boldsymbol{X} is only used as a starting point for an optimization algorithm, and therefore it may not be as important as in other GNN applications to include meaningful information in 𝑿 \\boldsymbol{X} . The triangle loss function does not work as well as the first modified loss function, even though it should ostensibly have the same effect of penalizing monochromatic edges more heavily in dense parts of a graph. An explanation for this is that there often simply are not enough triangles for the triangle loss function to be meaningful. In an Erdős-Rényi graph, the expected number of triangles that each edge belongs to is ( n − 2 ) ​ p 2 = d 2 ​ ( n − 2 ) ( n − 1"
+}

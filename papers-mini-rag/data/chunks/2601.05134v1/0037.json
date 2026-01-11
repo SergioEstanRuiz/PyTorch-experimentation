@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0037",
+  "word_start": 7400,
+  "word_end": 7650,
+  "text": "= ∏ k = t + 1 T − 1 ρ k \\alpha_{t}=\\prod_{k=t+1}^{T-1}\\rho_{k} , then the condition on a a can be rewritten as In fact, determining T T is equivalent to finding the first moment when the left-hand side exceeds the right-hand side: Moreover, the unlearning budget ε \\varepsilon is computed directly from the constraint on the Rényi divergence: Let y y be the vector with coordinates y i = a i σ i y_{i}=\\tfrac{a_{i}}{\\sigma_{i}} . By the constraint, we are searching for a solution such that Observe that by proportionally increasing a i a_{i} until the inequality becomes an equality, we do not increase the minimal number of epochs T T required for condition equation 14 . Hence, at the optimum we may assume Next, consider the optimal choice of a i a_{i} for our condition. By the Cauchy–Schwarz inequality, Equality holds when the two vectors are proportional, which determines the optimal values of a i a_{i} . Rewriting inequality equation 14 , we obtain Thus, T T does not decrease if we set σ i = σ \\sigma_{i}=\\sigma for every step. We now expand the inequality we aim to obtain, using the fact that Observe that both sides of the inequality are positive, hence it suffices to require that the square of the left-hand side exceeds the square of the right-hand side. Thus, the problem of finding the minimal T T is equivalent to finding the maximal x x , subject to the constraint 0 < x"
+}

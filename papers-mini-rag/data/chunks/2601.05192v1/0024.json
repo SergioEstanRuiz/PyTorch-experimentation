@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0024",
+  "word_start": 4800,
+  "word_end": 5050,
+  "text": "value of k k results in a trade-off between recall and selection accuracy, as shown in Figure 4 : lower values of k k allow for a high selection accuracy, but may result in the correct entity not being among the candidates. Higher values of k k reduce the selection accuracy but improve the candidate recall. The impact of k k on these two components depends on the reranker and selection LLM in use. For instance, the selection accuracy experiences a steeper drop when k k increases for Qwen3-30B-A3B than Magistral-Small-2509 . Reranker-specific results are given in Section H . Figure 15 shows an example of selection output for k = 10 k=10 and k = 64 k=64 . As shown by our ablation studies, Section 4.5 , self-consistency systematically allows for performance improvements over single selection LLM answer sampling. Figure 6(a) reports the selection accuracy over the number of sampled answers, k s ​ c k_{sc} , and shows that a plateau is reached across models for k s ​ c = 3 k_{sc}=3 . The best improvement comes from k s ​ c = 2 k_{sc}=2 . Furthermore, Figure 6(b) shows how the invalid output rate, which also significantly drops for k s ​ c = 2 k_{sc}=2 . In order to check that the impact of self-consistency is not strictly limited to higher robustness towards invalid model outputs, we show in Figure 5 that for our default k s ​ c = 10 k_{sc}=10 choice, the models"
+}

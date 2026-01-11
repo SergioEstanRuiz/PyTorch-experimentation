@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0049",
+  "word_start": 9800,
+  "word_end": 10050,
+  "text": "to enable parameter estimation with separation as small as k ε k^{\\varepsilon} for any ε > 0 \\varepsilon>0 , even beyond the Gaussian setting. Building on this moment-based framework, numerous follow-up works extended these techniques to more general statistical problems on mixture models across multiple directions ( e.g. , [ bakshi2020outlier , diakonikolas2020robustly , kane2021robust , liu2021settling , bakshi2022robustly , liu2022clustering , liu2022learning , buhai2023beyond , anderson2024dimension ] ). As a result, moment-based methods have become the dominant algorithmic paradigm for parameter recovery in GMMs. Regarding the fundamental class of spherical GMMs, the runtime of moment-based algorithms has been recently improved from poly ​ ( d , k polylog ​ ( k ) ) \\mathrm{poly}(d,k^{\\mathrm{polylog}(k)}) [ hopkins2018mixture , kothari2018robust , diakonikolas2018list , diakonikolas2020small ] to poly ​ ( d , k ) \\mathrm{poly}(d,k) under either a slightly stronger separation [ liu2022clustering ] or under the assumption that the largest pairwise distance is comparable to the smallest one [ diakonikolas2024implicit ] . In this section, we add some related TCS works that make use of Fourier transforms. The main algorithmic tools we use rely on robust sparse Fourier transforms. [ PS15-SFT ] gave the first robust sparse Fourier transform algorithm in the continuous setting in one dimension. Later, [ jin2022superresolutionrobustsparsecontinuous ] generalized it to d d dimensions. For k k -sparse signal with γ \\gamma -separated frequencies, the sample duration needed in [ jin2022superresolutionrobustsparsecontinuous ] is T = O ​ ( log ⁡ ( k ) / γ ) T=O(\\log(k)/\\gamma) ."
+}

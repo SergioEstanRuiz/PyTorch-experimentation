@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "with advanced or recurrent non-small cell lung cancer (NSCLC). Patients received either frontline combination therapy with platinum-based chemotherapy plus anti-PD-(L)1 immune checkpoint inhibitors (ICIs) or second-/third-line monotherapy with anti-PD-(L)1 ICIs following progression on prior platinum-based chemotherapy. The dataset integrated multi-modal data from n = 435 n=435 patients, comprising a total of p = 374 p=374 variables. It included clinical and demographic variables (e.g., sex, age, p = 10 p=10 ), routine blood tests (e.g., blood counts, biochemistry, p = 49 p=49 ), tumor multiplex immunohistochemistry markers (e.g., immune cells, p = 159 p=159 ), and circulating immune and vasculophenotyping markers. The latter included both flow cytometry data ( p = 141 p=141 ) and soluble ( p = 15 p=15 ) markers. The dataset contained 30.8% of missing values. The outcome to predict was primary resistance to immunotherapy, defined as disease progression within 6 months of treatment [ 39 ] . To address multicollinearity, a reduced dataset with 214 features was derived from the full data by applying iterative variance inflation factor (VIF) pre-filtering [ 25 ] , sequentially removing the feature with the highest VIF until all remaining features had VIF ≤ \\leq 5. At each iteration, VIF of the j th j_{\\text{th}} feature was computed as: where R j 2 R_{j}^{2} stands for the coefficient of determination from regressing the j th j_{\\text{th}} feature onto all remaining predictors. To evaluate each method’s ability to identify the \"true features\" (i.e., the ones hypothesized as having generated the outcome), a"
+}

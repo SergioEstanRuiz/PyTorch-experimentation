@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "\\mathrm{sign}(p^{t}-x^{t}) on the mean grid, we show that if the forecaster has small multicalibration error on the global Walsh family, then A A must be small in expectation: Intuitively: systematic deviations from x t x^{t} would either be detected by marginal calibration ( g all g_{\\mathrm{all}} ) or be witnessed by some Walsh functional. ℓ 1 \\ell_{1} -truthfulness forces many moderately-used prediction values. Let n v := | { t ≤ T : p t = v } | n_{v}:=|\\{t\\leq T:p^{t}=v\\}| and define An honest forecaster on this instance would spread its forecasts equally across all relevant values v v . We show that small ℓ 1 \\ell_{1} -distance to honesty A A prevents the forecaster from concentrating mass on only a few prediction values, and similarly forces spread out predictions in the sense that: Since x t x^{t} traverses a grid of size m = Θ ​ ( T 1 / 3 ) m=\\Theta(T^{1/3}) and T / m = Θ ​ ( T 2 / 3 ) T/m=\\Theta(T^{2/3}) , this implies that when A A is small we must have N ≳ m ​ T ≈ T 2 / 3 N\\gtrsim\\sqrt{mT}\\approx T^{2/3} . Buckets decompose into bias and noise. We decompose The first term δ t \\delta_{t} is a bias term determined by the algorithm, and the second term Z t Z_{t} is the noise coming from the randomized labels. We partition time into disjoint blocks J a J_{a} . Using blockwise Hadamard signs ψ a , j \\psi_{a,j}"
+}

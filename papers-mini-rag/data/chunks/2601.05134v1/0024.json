@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0024",
+  "word_start": 4800,
+  "word_end": 5050,
+  "text": "Results are averaged over 5 runs to ensure statistical reliability. Figure 3 shows results for the random 10% deletion task. Block-wise NFT is consistently more stable: the accuracy drop during the unlearning phase is smaller, and recovery under fine-tuning is stronger. For instance, at the tight budget ε = 0.5 \\varepsilon=0.5 on MNIST , NFT fails to recover even after fine-tuning, while Block-wise NFT retains non-trivial accuracy. The trajectories are smoother, suggesting that distributing noise across subspaces better preserves retained data. Increasing the number of blocks ( 2 → 4 → 10 ) (2\\to 4\\to 10) further reduces early accuracy loss, with k = 10 k=10 giving the best results. Table 1 reports results for the task of forgetting class 5 5 ; results for other target classes are provided in Appendix G.6 . We compare Block-Wise NFT to retraining, fine-tuning (FT) (Warnecke et al. , 2023a ) , gradient ascent (GA) (Thudi et al. , 2022 ) , influence unlearning (IU) (Koh and Liang, 2017 ) , and sparsity-based approaches (SaLUN (Fan et al. , 2024 ) , ℓ 2 \\ell_{2} -sparsity (Jia et al. , 2023 ) ). Baselines were reproduced using the official SaLUN repository. Evaluation uses standard metrics: unlearning accuracy (UA, 1 − Acc ​ ( 𝒟 f ) 1-\\text{Acc}(\\mathcal{D}_{f}) ), test and retain accuracy (TA and RA), membership inference attack score (MIA) (Jia et al. , 2023 ) (see Appendix G.2 for details), and run-time efficiency (RTE, minutes), with all results interpreted relative to retraining."
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0042",
+  "word_start": 8400,
+  "word_end": 8650,
+  "text": "the distribution of the model weights and gradients, the group norms are approximately equal. Hence we may treat as the individual clipping bounds for B i B_{i} . Keeping the same noise level (not necessarily minimal) does not change the number of steps T T for each group, since the factors of k \\sqrt{k} compensate. Thus, the total cost is exactly k ​ T kT steps for the whole algorithm. Finally, we may choose a larger noise level, thereby reducing T T . Since in each step we add substantially less noise to the model than in the baseline algorithm, we have the flexibility to increase the noise. Parameter Fully trained Retrain baseline Optimizer SGD SGD Learning rate 0.01 0.01 Momentum 0.9 0.9 Weight decay 1 × 10 − 5 1\\times 10^{-5} 1 × 10 − 5 1\\times 10^{-5} Batch size 64 64 Parameter Fully trained Retrain baseline Optimizer SGD SGD Learning rate 0.1 0.1 Momentum 0.9 0.9 Weight decay 5 × 10 − 4 5\\times 10^{-4} 5 × 10 − 4 5\\times 10^{-4} Batch size 256 256 LR scheduler MultiStep(91, 136) × 0.1 \\times 0.1 ; 182 epochs same Data augmentation Crop(32,pad=4)+Flip+Norm( μ , σ \\mu,\\sigma ) same Parameter Random 10% deletion Classwise deletion Initial distance bound Δ ​ ( ρ ) \\Delta(\\rho) 0.01 0.02 Unlearning step size η \\eta 1 × 10 − 4 1\\times 10^{-4} 1 × 10 − 3 1\\times 10^{-3} Weight decay λ \\lambda (unlearning) 10 30 Total privacy budget ε \\varepsilon 1.0 3.0 Failure"
+}

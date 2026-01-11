@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0000",
+  "word_start": 0,
+  "word_end": 250,
+  "text": "Safety is a vital component for the future development and acceptance of reinforcement learning (RL) methods. Although over the last decades, online reinforcement learning and learning in nonstationary environments have made huge progress, safe continual online reinforcement learning remains one of the most challenging topics of research. Despite numerous recent works in the safe RL field and in continual online RL learning, a systematic understanding of how to establish safety during continual online learning under nonstationary conditions remains limited. This happened because of the complexity of problem that requires a combination of knowledge from different research areas, including safe learning, adaptation to the distribution shift, and safe optimization. Combination of knowledge from these domains is not a straightforward task because of numerous challenges including the consecutive nature of data flow, potential delay of the reward, unpredictable nature of the nonstationarity (NS) dynamics, and difficulties in precise constraint formulation. In this article, we provide a review of existing continual online safe reinforcement learning (COSRL) methods. We provide the taxonomy of COSRL based on the type of safe learning mechanism that takes adaptation to nonstationarity into account. We categorise safety constraints formulation for online reinforcement learning algorithms, and finally, we discuss challenges and prospects for creating reliable, safe online learning methods. Reinforcement learning is a method for solving sequential tasks when the agent perceives the states and acts to maximize the long-term return, which is based on a real-valued reward Altman ( 1999 ) . In real life, aside from the return,"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0033",
+  "word_start": 6600,
+  "word_end": 6850,
+  "text": "model by mapping latent states back into the observation space. From a theoretical perspective, my framework is designed to ensure both tractability and stability in the analysis of continuous-time generative models. I study the conditions under which the forward SDE dynamics and the associated adjoint systems remain well-posed, focusing in particular on the Lipschitz continuity and boundedness of the drift μ θ \\mu_{\\theta} and diffusion Σ θ \\Sigma_{\\theta} functions. To ensure stability of these dynamics, I impose spectral norm constraints on the Jacobians ∇ z μ θ \\nabla_{z}\\mu_{\\theta} and ∇ z Σ θ \\nabla_{z}\\Sigma_{\\theta} , which I have shown contributes to bounded growth in the latent trajectories and adjoint sensitivities over time. This constraint is motivated by results in the theory of dynamical systems and echoes spectral regularization strategies shown to improve conditioning in deep architectures ( [ 30 ] ). I further analyze the variance properties of gradient estimators derived from stochastic path integrals, showing how variance accumulates over long trajectories and can dominate signal strength in high-noise regimes. To address this, I propose a generalized framework for theoretical variance reduction, including formal treatments of antithetic perturbations and control variates in the adjoint SDE setting. These derivations yield closed-form bounds on variance reduction efficacy as a function of time horizon, step size, and diffusion strength, providing guidelines for future theoretical and algorithmic work in this area. Together, these analyses offer a principled approach to characterizing and mitigating the instability endemic to learning with stochastic latent dynamics. Rather than relying"
+}

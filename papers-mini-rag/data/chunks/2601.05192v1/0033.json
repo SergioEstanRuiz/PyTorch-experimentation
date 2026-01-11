@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0033",
+  "word_start": 6600,
+  "word_end": 6850,
+  "text": "development tools- Focuses on databases, which is a specific area, but the original sentence is broader. 4. KDevelop - A specific software development tool, but the mention is general. 5. business process modelling - Involves modeling business processes, which could relate to efficiency. 6. create business process models - Similar to 5, but more about creating models rather than tools. 7. develop film - Unrelated to internal business tools. 8. software frameworks - Tools for software development, which might be relevant if the tools are software-related. 9. Eclipse - Another specific software development tool, like KDevelop. 10. apply tools for content development - Focuses on content, not internal business processes. The original mention is \"Develop tools\" for internal teams to run the business more efficiently. The most general and fitting option seems to be 0 (None of the listed candidates) if none of the options perfectly match. However, looking again, option 5 and 6 are about business process modelling and creating models, which could be tools to improve efficiency. However, the mention is about \"tools\" in general, not specifically process models. Option 8 is software frameworks, which are tools for development. But the original sentence doesn’t specify software. Option 10 is about content development tools, which doesn’t fit. Alternatively, maybe \"None of the listed candidates\" is correct if none of the options accurately describe developing general internal tools. However, looking at the descriptions again, option 5 and 6 are about business process modelling, which might be considered tools. But the"
+}

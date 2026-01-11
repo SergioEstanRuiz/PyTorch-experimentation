@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0120",
+  "word_start": 24000,
+  "word_end": 24250,
+  "text": "\\{\\mathaccent 866{\\mu}_{j}^{\\prime}\\}_{j\\in[k^{\\prime}]} such that there is a permutation π \\pi on [ k ] [k] and a permutation π ′ \\pi^{\\prime} on [ k ′ ] [k^{\\prime}] with with probability at least 1 − δ 1-\\delta , as long as and the running time is n O ​ ( t ) n^{O(t)} . As an immediate corollary one can show that there is an algorithm that learns mixtures of k k Laplace components (SFD part) and k ′ k^{\\prime} FFD distributions which are (i) 2 ​ t 2t -certifiably-bounded, (ii) sub-exponential, and (iii) whose characteristic function decays faster than the Laplace. The separation between the Laplace components is arbitrary γ > 0 \\gamma>0 , the separation between the FFD components is poly ​ ( k ) \\mathrm{poly}(k) , and the separation between Laplace and FFD is poly ​ ( k ) \\mathrm{poly}(k) . The estimates for the Laplace means can be done in time poly ​ ( d , k , 1 / ε , 1 / γ ) \\mathrm{poly}(d,k,1/\\varepsilon,1/\\gamma) , while the remaining means can be estimated in time (roughly) d O ​ ( t ) d^{O(t)} . In particular, if the FFD part consists of spherical Gaussian distributions, then one can achieve vanishing error on the estimates of the FFD means, independent of the separation. For simplicity, we will assume that the SFD part consists of Laplace distributions and the FFD part consists of Gaussian distributions, both with identity covariance. Let ℳ \\mathcal{M} be a mixture of k"
+}

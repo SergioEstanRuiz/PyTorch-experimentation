@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0032",
+  "word_start": 6400,
+  "word_end": 6650,
+  "text": "vary. The main idea is to find context variables z i z_{i} , or so-called latent variables, that can represent the distribution at each particular episode i i . Then, regular CMDP can be modified as follows: C ​ M ​ D ​ P ​ ( S , R , P , A , C , Z ) CMDP(S,R,P,A,C,Z) . In the general case, latent variables can parametrize all the parameters of the CMDP process, and a particular hidden variable is responsible for each parameter: C ​ M ​ D ​ P ​ ( S Z s , R Z r , P z p , A Z a , C Z c ) CMDP(S_{Z_{s}},R_{Z_{r}},P_{z_{p}},A_{Z_{a}},C_{Z_{c}}) . Knowledge of latent variables can provide a tailor-made solution for finding a policy that fits best for each NS-MDP episode. Chen et al. Chen et al. ( 2021 ) proposed a model-based context-aware safe algorithm that incorporates domain knowledge to guarantee safety. This method uses a probabilistic latent variable model for figuring out the context, based on amortized variational inference analysis. The context is then used to improve the prediction of the next state. Authors use a sample prioritizing method to improve the sample efficiency of rare unsafe events during training. Safety is implemented with risk-averse decision-making with constrained model predictive control. Remarkably, alongside the traditional formulation of CMDP, the authors use two sets of probabilistic state constraints to modify optimization criteria. The first set of constraints concerns the states predicted by the context-parametrized"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0027",
+  "word_start": 5400,
+  "word_end": 5650,
+  "text": "both the Llama-3 (Dubey et al., 2024 ) and Gemma-2 (Team et al., 2024 ) families, using the model checkpoints provided by He et al. ( 2025 ) . For each family, we select three expert models specializing in mathematics, coding, and instruction following, respectively. Specifically, for the Llama-3 family, we use math expert models Llama-3.1-8B-Instruct _ \\_ math and coding expert models Llama-3.1-8B-Instruct _ \\_ coding from MergeBench (He et al., 2025 ) as the two expert models, and Llama-3.1-8B-Instruct as the instruction-following expert. Following Chakraborty et al. ( 2025 ) , we use the reward model Ray2333/reward-model-Mistral-7B-instruct-Unified-Feedback as the external reward for Collab (Chakraborty et al., 2025 ) . For the Gemma-2 family, we use Gemma-2-2B-Instruct _ \\_ math , Gemma-2-2B-Instruct _ \\_ coding and Gemma-2-2B-Instruct _ \\_ instruction from MergeBench (He et al., 2025 ) as three expert models. For a fair comparison, we use weqweasdas/RM-Gemma-2B as the external reward for Collab (Chakraborty et al., 2025 ) , instead of a larger 7B reward model. We randomly select 500 samples from the PerfectBlend dataset (Xu et al., 2024 ) as a held-out test set and use the remaining samples as the training pool. For the initial SFT phase, we randomly sample 200k examples from the PerfectBlend training split, which provides a balanced mixture of mathematics, coding, and instruction-following tasks. For both the Llama and Gemma families, the router is initialized from the instruction-following expert and fine-tuned by minimizing the loss in Eq. ( 6 ) with λ"
+}

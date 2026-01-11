@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0093",
+  "word_start": 18600,
+  "word_end": 18850,
+  "text": "ℙ ​ ( τ 0 = 2 ​ n ) ≤ c 0 ​ n − 3 / 2 \\mathbb{P}(\\tau_{0}=2n)\\leq c_{0}n^{-3/2} for a universal c 0 > 0 c_{0}>0 , so for all m ≥ 1 m\\geq 1 , for a universal c 2 > 0 c_{2}>0 . We now have for L ≥ 2 L\\geq 2 that Since m + 1 − m ≤ ( 2 ​ m ) − 1 \\sqrt{m+1}-\\sqrt{m}\\leq(2\\sqrt{m})^{-1} for m ≥ 1 m\\geq 1 , the above tail bound gives If 𝒢 \\mathcal{G} is any σ \\sigma -field independent of the future increments ( X k ) k ≥ 1 (X_{k})_{k\\geq 1} , then conditionally on 𝒢 \\mathcal{G} the increments remain i.i.d. with the same law, so the same bound holds for 𝔼 ​ [ min ⁡ ( τ 0 , L ) ∣ 𝒢 ] \\mathbb{E}[\\sqrt{\\min(\\tau_{0},L)}\\mid\\mathcal{G}] . ∎ Having proved Proposition 3 , we now relate it back to the cumulative bucket noise in our setup. Under the assumptions of Theorem 3 and with the choice of ε \\varepsilon fixed above, there exists a constant C ret > 0 C_{\\mathrm{ret}}>0 such that We will first prove an intermediate claim, which implies the result of the lemma: for every bucket v v and every excursion index j ∈ { 1 , … , R v } j\\in\\{1,\\dots,R_{v}\\} , we will now show that Towards this, fix v , j v,j and set 𝒢 := ℱ t v , κ j v − 1 . \\mathcal{G}:=\\mathcal{F}_{t_{v,\\kappa_{j}^{v}}-1}."
+}

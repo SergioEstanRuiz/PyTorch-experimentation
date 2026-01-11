@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0044",
+  "word_start": 8800,
+  "word_end": 9050,
+  "text": "policy will select the reward-maximizing token at every remaining time step, that leads to a T − t T-t reward. Now, on a particular MDP M p M_{p} with path p ∈ P T / 2 p\\in P_{T/2} , we know that for any prefix x , y ≤ t x,y_{\\leq t} , if there is not a full response x , y ≤ T x,y_{\\leq T} with prefix x , y ≤ t x,y_{\\leq t} and R ​ ( x , y ≤ T ) ≥ V π ∗ − Δ = T − Δ , R(x,y_{\\leq T})\\geq V^{\\pi^{*}}-\\Delta=T-\\Delta, we must have By our construction, Eq. ( 20 ) holds if and only if t ≥ T / 2 + 1 t\\geq T/2+1 and y ≤ T / 2 = y p y_{\\leq T/2}=\\textbf{y}^{p} . Hence, we only need to verify Eq. ( 13 ) holds when y ≤ T / 2 ≠ y p . y_{\\leq T/2}\\neq\\textbf{y}^{p}. We denote π i ​ ( x , y ≤ t ) \\pi_{i}(x,y_{\\leq t}) is the deterministic next token given prefix x , y ≤ t x,y_{\\leq t} for expert model π i \\pi_{i} . Then, we know that Situation 1: If t = T / 2 t=T/2 and y ≤ t = 𝐲 p y_{\\leq t}=\\mathbf{y}^{p} coincides with 𝐲 p \\mathbf{y}^{p} , we have Situation 2: If t ≥ 1 t\\geq 1 and y ≤ T / 2 ≠ y p y_{\\leq T/2}\\neq\\textbf{y}^{p} , by our construction, we have Situation"
+}

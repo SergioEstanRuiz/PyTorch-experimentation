@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0042",
+  "word_start": 8400,
+  "word_end": 8650,
+  "text": ", 32 ] , such as the exponential RNN (expRNN) [ 33 ] . Standard uRNNs employ orthogonality primarily as a kinetic constraint to stabilize gradients, while retaining the additive update structure of classical RNNs: Topologically, the additive term 𝐖 i ​ n ​ x t \\mathbf{W}_{in}x_{t} acts as an external forcing term that breaks the group structure of the evolution. Because the non-linearity σ \\sigma is interleaved with the recurrence, the sequence of operations is non-associative, preventing the compression of causal history into a single topological invariant. In contrast, our Holonomic Network identifies the orthogonal group as the gauge symmetry of the logic itself. We remove the additive coupling entirely, relying on a multiplicative, input-dependent update: Here, the input x t x_{t} determines the local curvature of the manifold via the gauge connection 𝒜 ​ ( x t ) \\mathcal{A}(x_{t}) . While the hidden state evolution is gauge-covariant (transforming as a spinor under the group action), the underlying physical laws governing the dynamics are gauge-invariant, derived from the topological action. Physically, this update rule realizes the discrete gauge dynamics derived in the previous subsection: the temporal recurrence implements the kinetic propagation term ( 𝒜 ∧ d ​ 𝒜 \\mathcal{A}\\wedge d\\mathcal{A} ), while the non-commutative matrix multiplication implements the cubic interaction term ( 𝒜 ∧ 𝒜 ∧ 𝒜 \\mathcal{A}\\wedge\\mathcal{A}\\wedge\\mathcal{A} ). Unlike the expRNN, this system is topologically non-trivial: the memory state is defined by the non-Abelian holonomy (the path-ordered product of rotations). This ensures that the reasoning process is protected"
+}

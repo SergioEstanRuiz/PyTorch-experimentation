@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0036",
+  "word_start": 7200,
+  "word_end": 7450,
+  "text": "\\sigma_{0},\\ldots,\\sigma_{T-1}>0 , λ ≥ 0 \\lambda\\geq 0 and consider the two sequences { x t } 0 ≤ t ≤ T , { x t ′ } 0 ≤ t ≤ T \\{x_{t}\\}_{0\\leq t\\leq T},\\{x^{\\prime}_{t}\\}_{0\\leq t\\leq T} as defined above. Denote by D q D_{q} the Rényi divergence of order q q . Assume that for every t ∈ { 0 , … , T − 1 } t\\in\\{0,\\ldots,T-1\\} , γ t ​ λ < 1 \\gamma_{t}\\lambda<1 . Denote for every t ∈ { 0 , … , T − 1 } t\\in\\{0,\\ldots,T-1\\} , If there exist a 0 , … , a T − 1 ∈ ℝ ≥ 0 a_{0},\\ldots,a_{T-1}\\in\\mathbb{R}_{\\geq 0} such that Let us attempt to find the optimal parameters. We will search for a solution under the following constraints: Suppose there exists a maximum allowable noise level at any given step, σ ≥ σ i \\sigma\\geq\\sigma_{i} . Suppose the weight decay λ \\lambda and learning rate γ \\gamma are the same for all steps. We will also seek a solution for fixed C 0 C_{0} , C 1 C_{1} , and RDP-budget ( ε rényi , q ) (\\varepsilon^{\\text{r\\'{e}nyi}},q) . For simplicity, let us denote α t = ∏ k = t + 1 T − 1 ρ k \\alpha_{t}=\\prod_{k=t+1}^{T-1}\\rho_{k} , then the condition on a a can be rewritten as In fact, determining T T is equivalent to finding the first moment when the left-hand side exceeds the right-hand side: Moreover, the unlearning budget ε \\varepsilon"
+}

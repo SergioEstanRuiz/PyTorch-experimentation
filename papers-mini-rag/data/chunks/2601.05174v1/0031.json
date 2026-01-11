@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0031",
+  "word_start": 6200,
+  "word_end": 6450,
+  "text": ", 2023 ; Liu et al. , 2024b ) , lightweight MLP-mixers (Chen et al. , 2023 ; Wang et al. , 2024 ) and linear pattern decomposition (Zeng et al. , 2023 ; Challu et al. , 2023 ; Lin et al. , 2024 ) . These temporal models lack mechanisms to encode dynamic spatial correlations, limiting their applicability to STG forecasting where joint spatial-temporal modeling is essential. Mixture-of-Experts for Spatial-Temporal Modeling. MoE models (Jacobs et al. , 1991 ) have emerged as a promising paradigm for achieving high model capacity with reduced computation via expert sparsity and input-dependent routing. Although classical MoE architectures were initially developed for static inputs and classification tasks, recent work has extended MoE to time series (Chen et al. , 2024 ; Shi et al. , 2025 ; Liu et al. , 2024a ) , where expert specialization and temporal abstraction enable efficient sequence modeling. In spatiotemporal domains, methods like ST-MoE (Li et al. , 2023 ) and TESTAM (Lee and Ko, 2024 ) apply MoE principles to traffic and weather data, but often rely on sparse gating with limited parallelism. Furthermore, most existing MoE applications overlook the heterogeneity and non-uniform dynamics intrinsic to large-scale urban sensing systems, where different nodes exhibit diverse temporal patterns and interaction semantics. Another challenge is expert load balancing: uneven expert selection leads to polarization, deteriorating both efficiency and accuracy. Addressing this issue is particularly important in dense MoE setups. In this paper, we proposed FaST, an efficient framework"
+}

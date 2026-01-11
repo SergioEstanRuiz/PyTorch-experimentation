@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05111v1",
+  "title": "Agent-as-a-Judge",
+  "abs_url": "https://arxiv.org/abs/2601.05111v1",
+  "html_url": "https://arxiv.org/html/2601.05111v1",
+  "chunk_id": "2601.05111v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "judgment, agentic evaluation typically involves multiple reasoning steps, intermediate decisions, and coordination among multiple agents, all of which increase computation per evaluation. In addition to higher computational cost, Agent-as-a-Judge often suffers from increased inference latency. Agentic evaluation requires sequential reasoning steps, external tool calls, or multi-agent communication, each of which introduces additional delays. This latency can be particularly problematic in real-time or interactive settings, such as online model evaluation, user-facing content moderation, or reinforcement learning loops where rapid feedback is required. As a result, there exists a tension between evaluation reliability and practical deployment constraints, where more thorough agentic judgment may not be feasible under strict latency budgets. While Agent-as-a-Judge is designed to improve evaluation robustness, it also raises new safety concerns. Tool-augmented judges may access external systems such as search engines, code executors, or databases, which expands the attack surface for prompt injection, tool misuse, or unintended side effects. Multi-agent collaboration can further amplify risks if unsafe behaviors propagate across agents or if adversarial interactions emerge. Moreover, when judge agents are used to provide reward signals for model optimization, systematic biases or errors in agentic judgment may be reinforced and amplified during training, leading to unintended model behaviors. Agent-as-a-Judge also introduces privacy challenges, particularly in settings that involve persistent memory or personalized evaluation. To maintain consistency or adapt judgments to specific users or contexts, judge agents may store intermediate states, user information, or historical interaction data. If not carefully designed, such memory mechanisms can increase the risk of sensitive"
+}

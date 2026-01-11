@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "so that our method may be used out of the box. Three of our strongest improvements are as follows. First, we show that it is beneficial to initialize 𝑿 \\boldsymbol{X} to have orthogonal row vectors. Second, we present a new loss function that improves performance by penalizing monochromatic edges more heavily in dense parts of a graph. Third, we show that the method is improved by recursively calling itself to produce a ( k − 1 ) (k-1) -coloring to use as a warm start. The latter in particular may be of independent interest, not only to GNN-based methods, but to any local search method, since such methods require an initial coloring and thus benefit from a warm start. Indeed, we show that a discrete version of our GNN approach also benefits vastly from this warm start trick. After presenting these improvements, we test the improved method on various graphs and families of graphs with mathematically interesting structure for which the chromatic number or a bound on the chromatic number is known. The method performs well in many of these cases. On planar graphs, for which an optimal upper bound on the chromatic number is known to be 4 4 , the method almost always recovers an upper bound of 5 5 , even on graphs of order 200 200 with as many edges as possible. On r r -regular graphs, the method can almost always produce a Brooks coloring , meaning an r r -coloring, the existence of which"
+}

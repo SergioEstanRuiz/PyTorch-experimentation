@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0016",
+  "word_start": 3200,
+  "word_end": 3450,
+  "text": "advantage compared to the second group of methods with respect to both true and false positives. Their TPR was lower bounded, as by design the selection conducted by these methods was not too stringent, and only a random or very inaccurate method would have obtained a low TPR. In turn, their FPR was upper bounded, as these methods could not select more than 19 features. To allow users to efficiently evaluate the results of benchmarking, roofs generates a report summarizing the key metrics of FS performance. The report includes: 1) a table that aggregates FS frequencies across methods and shows agreement between different methods in selecting individual features; 2) a stability – AUC plot for a quick visual overview of performance and identification of Pareto-optimal methods; 3) a summary table that combines all metrics from every model, with filtering options that help identify the optimal methods based on user’s criteria of interest. roofs allows users to manually choose a method that best fits their objectives based on the metrics included in the automatically generated report. By itself, the package does not select the best FS method from user’s data, as the acceptable trade-off between different metrics depends on the specific prediction or discovery goals. All experiments on PIONeeR data were conducted on a MacBook Pro (2019) with a 2.4 GHz 8-core Intel Core i9 processor and 64 GB 2667 MHz DDR4 RAM. Our motivation in the PIONeeR study was to establish a biomarker signature capable of explaining resistance to immunotherapy"
+}

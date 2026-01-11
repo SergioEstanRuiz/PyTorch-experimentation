@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0035",
+  "word_start": 7000,
+  "word_end": 7250,
+  "text": "(arms) for the preservation of life, liberty, and property (✗) LELA: <think>Okay, let’s try to figure out which entity is the correct answer here. The input text mentions the Golden Rule as the basis for the modern concept of human rights. The marked mention is [right], and we need to choose from the candidates. First, the context is about human rights and the Golden Rule. The sentence says each individual has a [right] to just treatment and a responsibility to ensure justice. The options include several types of rights. Let’s look at the candidates. Option 4 is Human rights, which is already mentioned in the text. But the question is about the specific entity that fits the [right] in the sentence. The sentence is talking about an individual’s right, so maybe a more general term. Option 6 is \"Rights\" in general. The description says rights are principles of freedom or entitlement. The sentence uses \"right\" in a general sense, not a specific type like the right to bear arms or civil rights. So maybe option 6. But wait, the text mentions \"human rights\" earlier, but the marked term is [right], which is more general. Let me check the options again. Option 6 is \"Rights\" which is the general term. The sentence says \"a [right] to just treatment\", which would fit under the general definition of rights. However, option 4 is Human rights, but the sentence is about individual rights within human rights. Hmm. But the answer might be 6 because"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0048",
+  "word_start": 9600,
+  "word_end": 9850,
+  "text": "at risk Chen et al. ( 2021 ); Ying et al. ( 2022 ) , is technically more straightforward to implement because of the availability of appropriate statistical parameters for each episode. Setting hard constraints requires knowledge of safe states and safe actions valid for the lifetime of the algorithm. However, in a nonstationary environment safe state and a safe action set can change over time. That means that in most cases, hard constraints are unknown. In the general case, safety functions and safety thresholds evolve and have time and data dependency. Forecasting future safe states and safe actions is one of the potential directions of future research. Based on our survey, we believe that there are several prospective avenues for research . One promising direction is the development of context-based meta-learning algorithms, able to predict and proactively adjust to distribution shifts based on the context dynamics. Developing such mechanisms would substantially cut the adjustment time. Another direction for future research is the development of adjustable data-driven hard constraints dependent on the context of the environment. Finally, one more potential direction of research is the relation between the adjustment speed and safety constraints for COSRL applications. Even though quick adaptation is a clear trend in the research we studied, we are not aware of any work that explicitly specified the speed of adjustment as a safety constraint. At the same time, adjustment speed is extremely important for safety-critical applications, and we believe that in the future, adjustment speed can be"
+}

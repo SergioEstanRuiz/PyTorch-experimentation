@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0020",
+  "word_start": 4000,
+  "word_end": 4250,
+  "text": "second best performing model. For survival prediction tasks, H-Optimus-0 [ 67 ] is the best performing model, but it is noteworthy that all models perform close to the chance level (C-Index of 50) for this task. Table 3 shows results for resource efficient models. Atlas 2-B and Atlas 2-S are distilled from Atlas 2 and are 24 and 91 times smaller in parameter size and 3.4 and 9 times more resource efficient for a standard-size image inference. The results show that Atlas 2-B and Atlas 2-S are the best performing models in 22/27 and 25/27 tasks and at least second best in 27/27 and 26/27 respectively in their respective compute category. Despite being more resource efficient, Atlas 2-B performs similar to or on par with larger models Atlas [ 2 ] , and UNI2-H [ 13 ] and outperforms the larger models H-Optimus-0 [ 67 ] , Midnight-12k [ 39 ] , and Virchow2 [ 82 ] . Atlas 2-S achieves similar performance as H-Optimus-0 [ 67 ] , Midnight-12k [ 39 ] , and Virchow2 [ 82 ] despite being 4.3-7.4 times more resource efficient for a standard-size image inference. The models also show significantly better robustness with an improvement of 29.3 p.p. and 24.7 p.p. compared to the second best model, respectively. Due to a lack of reference values and model access, H0-mini [ 23 ] could not be compared on each robustness benchmark. A comparison to H0-mini [ 23 ] on published results shows that for the"
+}

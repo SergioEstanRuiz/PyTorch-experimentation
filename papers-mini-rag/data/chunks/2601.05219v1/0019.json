@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "x , y ) ; 𝒟 ) = s ~ caos ​ ( ( x , y ) ; 𝒟 σ ) . \\tilde{s}_{\\mathrm{caos}}((x,y);\\mathcal{D})=\\tilde{s}_{\\mathrm{caos}}((x,y);\\mathcal{D}_{\\sigma}). ∎ By Lemma 5.1 and standard full conformal arguments (Angelopoulos et al. , 2024 ) , the prediction set defined in Eqn. 22 achieves finite-sample marginal coverage guarantees at the target level. We prove next that these guarantees extend to CAOS . We now prove Thrm. 4.2 by comparing the two constructions of CAOS : the leave-one-out calibrated prediction set defined in Eqn. 16 and the theoretical full conformal construction defined in Eqn. 22 . The proof leverages the conformal validity of full CAOS via two steps: (i) a monotonicity lemma showing that the CAOS nonconformity scores can only improve as the reference set grows, and (ii) a comparison lemma relating leave-one-out CAOS scores to their full conformal analogues. Together, these yield the set inclusion C ^ full ​ ( X n + 1 ) ⊆ C ^ caos ​ ( X n + 1 ) \\hat{C}_{\\mathrm{full}}(X_{n+1})\\subseteq\\hat{C}_{\\mathrm{caos}}(X_{n+1}) , which implies coverage. Fix a target pair ( x , y ) (x,y) and an integer k ≥ 1 k\\geq 1 . Let 𝒟 ⊆ 𝒟 ′ \\mathcal{D}\\subseteq\\mathcal{D}^{\\prime} be two reference datasets with | 𝒟 | ≥ k |\\mathcal{D}|\\geq k . Then That is, the CAOS nonconformity score can only improve (decrease) as the reference set grows. Let 𝒜 = 𝒜 𝒟 ​ ( x , y ) \\mathcal{A}=\\mathcal{A}_{\\mathcal{D}}(x,y) and 𝒜 ′ = 𝒜 𝒟 ′ ​ ("
+}

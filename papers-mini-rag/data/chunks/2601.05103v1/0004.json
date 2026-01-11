@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "datasets, which provide the foundation for our re-annotation of ACL-ARC and ACT2 using a two-dimensional framework. The functional purpose behind why an author cites a particular work has been described using various terms, including Citation Motivation [ 55 , 59 ] , Citation Purpose [ 1 ] , Citation Type [ 45 ] , Citation Function [ 60 , 28 ] , and Citation Intent [ 14 ] . For conceptual clarity and consistency, we adopt Citation Intent throughout this paper. Research on citation classification has evolved from bibliometric traditions to computational frameworks tailored for large-scale modeling. One of the earliest and most fine-grained typologies was proposed by [ 55 ] , which defined thirteen citation roles spanning rhetorical, epistemic, and contextual functions. The Citation Function Corpus (CFC) [ 60 ] was one of the first computationally oriented citation resources. Drawing on Spiegel’s typology [ 55 ] , it defined twelve function labels grouped into four superclasses ( Weakness , Contrast , Positive , and Neutral ). The Citation Typing Ontology (CiTO) [ 52 ] introduced an ontology-based framework with over thirty citation relations, intended for semantic web interoperability. Although formal and expressive, CiTO remains relatively underused in NLP research. Other frameworks were designed for domain-specific annotation and model training. The six-label framework ( Use , Criticizing , Comparison , Substantiating , Basis , and Neutral ) proposed by [ 1 ] emphasized purpose-driven types developed through the annotation of NLP publications. ACL-ARC [ 28 ] defined a six-type framework"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0066",
+  "word_start": 13200,
+  "word_end": 13450,
+  "text": "the difference between two groups in G G : Similarly, by definition of the signed Walsh feature and Walsh half-groups, we have Fix any two groups g + , g − : 𝒞 → [ 0 , 1 ] g^{+},g^{-}:\\mathcal{C}\\to[0,1] . For every realization, In particular, with h a , j h_{a,j} as in ( 19 ) and w ℓ w_{\\ell} as in ( 20 ), Then B ​ ( v , g + − g − ) = B ​ ( v , g + ) − B ​ ( v , g − ) B(v,g^{+}-g^{-})=B(v,g^{+})-B(v,g^{-}) , so | B ​ ( v , g + − g − ) | ≤ | B ​ ( v , g + ) | + | B ​ ( v , g − ) | |B(v,g^{+}-g^{-})|\\leq|B(v,g^{+})|+|B(v,g^{-})| . Summing over v v gives Err T ′ ​ ( g + − g − ) ≤ Err T ′ ​ ( g + ) + Err T ′ ​ ( g − ) \\mathrm{Err}_{T^{\\prime}}(g^{+}-g^{-})\\leq\\mathrm{Err}_{T^{\\prime}}(g^{+})+\\mathrm{Err}_{T^{\\prime}}(g^{-}) , and hence the max is at least half. For the last inequality, apply this to each pair ( g a , j + , g a , j − ) (g^{+}_{a,j},g^{-}_{a,j}) and take a maximum over ( a , j ) (a,j) , and apply this to each pair ( g ℓ Wal , + , g ℓ Wal , − ) (g^{\\mathrm{Wal},+}_{\\ell},g^{\\mathrm{Wal},-}_{\\ell}) and take a maximum over ℓ \\ell . ∎ We now show that multicalibration with"
+}

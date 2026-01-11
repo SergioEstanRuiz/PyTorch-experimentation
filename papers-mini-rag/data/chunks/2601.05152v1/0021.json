@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "but we can use, for example, variational budgets, i.e. maximum number of violations, of the performance thresholds Chandak et al. ( 2020b ); Wachi and Sui ( 2020 ); Wachi et al. ( 2024 ) . We can also use the adjust time and adjustment speed (see section 3.2) to set up the constraints during the adjustment period. We formulate the problem of safe continual online learning as finding a policy π \\pi that maximizes cumulative reward during the lifetime of the learning agent where f c ′ f^{\\prime}_{c} and f c ​ v ​ a ​ r f_{cvar} represent constant and variable constraint functions and σ ′ \\sigma^{\\prime} and σ v ​ a ​ r \\sigma_{var} constant and variable thresholds correspondingly, z z is a context variable, t a ​ d ​ j t_{adj} and σ a ​ d ​ j \\sigma_{adj} represent time of adjusment and adjustment threshold value. Adjustment constraints show the upper bound for adjustment time. We believe that adjustment is an important part of safety and that adjustment constraints should be considered together with safety constraints for COSRL methods. We will provide more details on constraints in 7 . In this section, we introduce just the COSRL problems that are relevant to our study. A detailed description of all challenges is far beyond the scope of this review. Some of the most significant challenges are: 1) Small sample size is known as one of the biggest problems of online RL. Online RL deals with a"
+}

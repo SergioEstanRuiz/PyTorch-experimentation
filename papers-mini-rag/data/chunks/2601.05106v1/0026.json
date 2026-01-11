@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0026",
+  "word_start": 5200,
+  "word_end": 5450,
+  "text": "our FusionRoute enables effective collaboration among multiple models by (a) selecting the most domain-appropriate models for accurate specialized responses and (b) delivering consistently high-quality outputs on general datasets. We compare FusionRoute against a broad set of baselines including sequence-level collaboration, token-level collaboration, model merging, and single-model fine-tuning. For sequence-level collaboration, we compare with the common Sequence Selection, where each expert independently generates a full response using greedy decoding and an external reward model selects the highest-scoring output. For the token-level collaboration, we include Collab (Chakraborty et al., 2025 ) , which performs controlled decoding by evaluating candidate tokens from multiple models using an external reward signal; we follow the original decoding procedure and replace only the reward model when necessary to ensure fair comparison across model families. To evaluate training-free expert integration, we include two popular model merging approaches, DARE (Yu et al., 2024 ) and TaskArithmetic (Ilharco et al., 2022 ) . We additionally include a Fine-tuned Model baseline obtained by directly fine-tuning the base LLM using the same SFT and DPO procedures as FusionRoute , but without any routing or collaboration mechanism, thereby isolating the benefit of token-level multi-LLM collaboration and complementary logit contributions. We conduct experiments on both the Llama-3 (Dubey et al., 2024 ) and Gemma-2 (Team et al., 2024 ) families, using the model checkpoints provided by He et al. ( 2025 ) . For each family, we select three expert models specializing in mathematics, coding, and instruction following, respectively. Specifically, for the Llama-3 family,"
+}

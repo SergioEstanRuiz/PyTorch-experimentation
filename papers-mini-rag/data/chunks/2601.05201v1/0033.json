@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0033",
+  "word_start": 6600,
+  "word_end": 6850,
+  "text": "); Grimsley et al. ( 2020 ) . Table 9 shows examples of generated texts after PIH-head ablations. To investigate whether PIH heads generalize beyond the counting task, we extend our framework to a color prediction task using the Visual CounterFact dataset Golovanevsky et al. ( 2025a ) . This setting replaces numerical offsets with color offsets while preserving the overall experimental structure used in counting. We use ”What color is the [object] in the image?” as the baseline prompt, and “Describe the C + k C+k [object]” as the misaligned prompt, where C C denotes the ground-truth color of the object in the image and k ∈ { 1 , 2 , 3 } k\\in\\{1,2,3\\} denotes the perceptual “difference” from the C C on the color wheel. In particular, k = 1 k=1 indicates a highly similar color and k = 3 k=3 indicates the contrasting color which is the further distance on the color wheel from C C . For example, given C = red C=\\text{red} , we have orange, yellow, and green for k = 1 , 2 , 3 k=1,2,3 , respectively. While Figure ˜ 4 focuses on the single layer exhibiting the largest intervention-induced shift in attention mass, we additionally examine how PIH head ablation affects attention allocation across all transformer layers . Specifically, for each layer we compute the change in attention mass to image tokens relative to the baseline, with the complementary change applied to text tokens (since attention mass sums to one)."
+}

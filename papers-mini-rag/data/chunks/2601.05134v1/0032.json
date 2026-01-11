@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0032",
+  "word_start": 6400,
+  "word_end": 6650,
+  "text": "2016 ) give the following one-step inequalities: Unrolling this recursion yields the explicit bound where B B is the set of iteration indices for which the minibatches differ. This provides a closed-form upper bound on δ T \\delta_{T} , and therefore on Δ ​ ( ρ ) \\Delta(\\rho) in this regime. Bassily et al. ( 2020 ) prove argument stability for SGD without requiring smoothness. Using the monotonicity of subgradients together with L L -Lipschitzness, they bound the deviation ‖ θ ( t ) − θ ′ ⁣ ( t ) ‖ \\|\\theta^{(t)}-\\theta^{\\prime(t)}\\| at every iteration, directly giving an upper bound on Δ ​ ( ρ ) \\Delta(\\rho) . For certain neural architectures, stability of gradient-based methods has also been established. The work of Lei et al. ( 2022 ) proves stability-based generalization bounds for shallow ReLU networks. Complementarily, Richards and Kuzborskij ( 2021 ) analyze the dynamics of gradient descent and obtain stability and generalisation guarantees for shallow networks beyond the NTK regime. In both cases, the analysis controls how the learned parameters change under small perturbations of the training data, providing architecture-specific upper bounds on the parameter deviation and hence on Δ ​ ( ρ ) \\Delta(\\rho) for these models. Together, these results show that Δ ​ ( ρ ) \\Delta(\\rho) can be bounded in several well-understood regimes — including smooth non-convex objectives, nonsmooth convex objectives, and specific neural-network architectures for which parameter-stability analyses exist. Establishing such bounds for arbitrary deep networks remains an open problem, but many"
+}

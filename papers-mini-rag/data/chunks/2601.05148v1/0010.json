@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0010",
+  "word_start": 2000,
+  "word_end": 2250,
+  "text": "on an internal framework. For each benchmark, we apply linear probing using logistic regression. Results are computed for 5 seeds over data split, shuffling, and initialization of the prediction head per foundation model and task. The mean across seeds is reported. Dataset splits are described in detail in Appendix A.1 . Atlas 2 Pluto-4G* Atlas UNI2-H H-Optimus-0 Midnight-12k Virchow2 Prov-GigaPath UNI Phikon-v2 HEST-ccRCC 27.9 - 29.5 28.1 29.2 20.9 27.2 24.9 25.1 27.4 HEST-COAD 34.9 - 29.3 33.2 30.9 31.8 25.8 32.0 25.8 25.6 HEST-IDC 62.7 - 60.4 60.5 61.1 59.9 59.7 58.1 58.5 56.8 HEST-LUNG 59.4 - 58.1 57.4 57.5 58.3 56.8 56.1 55.6 55.0 HEST-LYMPH-IDC 28.6 - 26.2 27.4 26.6 27.5 25.7 25.0 25.8 24.8 HEST-PAAD 54.2 - 51.7 52.3 51.1 50.2 47.8 49.9 48.8 47.7 HEST-PRAD 39.7 - 38.6 37.5 36.2 37.1 35.3 39.1 32.7 37.9 HEST-RECTUM 25.4 - 22.6 22.7 24.0 20.3 20.7 19.4 17.6 18.7 HEST-SKCM 70.0 - 62.0 68.3 66.1 64.8 64.0 59.7 62.3 58.4 MSI CRC (patch) 78.0 - 72.6 72.0 70.0 70.8 71.9 69.5 69.7 68.3 MSI STAD (patch) 76.1 - 73.0 73.1 72.2 73.7 72.5 68.1 68.6 69.2 HEST-Average 44.8 43.2 42.0 43.0 42.5 41.2 40.3 40.5 39.1 39.1 Molecular-Average 50.6 - 47.6 48.4 47.7 46.8 46.1 45.6 44.6 44.5 BACH 91.7 93.2 92.3 92.2 74.7 90.6 88.6 79.2 79.7 73.6 BreakHis 88.3 81.8 89.9 86.3 81.0 83.4 81.1 84.5 80.4 70.9 CoNSeP 66.1 65.0 65.1 63.6 64.5 62.4 64.5 63.0 63.0 62.9 CRC-100k 97.2 96.8 96.9 96.9 96.4 96.7 96.6"
+}

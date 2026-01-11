@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0049",
+  "word_start": 9800,
+  "word_end": 10050,
+  "text": "y^{t} is independent of ℋ t \\mathcal{H}_{t} with mean x t x^{t} , so for Z t = x t − y t Z_{t}=x^{t}-y^{t} we have For each x ∈ X 0 x\\in X_{0} , let t 1 < ⋯ < t T x t_{1}<\\dots<t_{T_{x}} be the times with x t i = x x^{t_{i}}=x . We define a local filtration and set ℱ T x ( x ) := σ ​ ( ℋ t T x , y t T x ) \\mathcal{F}^{(x)}_{T_{x}}:=\\sigma(\\mathcal{H}_{t_{T_{x}}},y^{t_{T_{x}}}) . Clearly ( ℱ i ( x ) ) i = 0 T x (\\mathcal{F}^{(x)}_{i})_{i=0}^{T_{x}} is a filtration and, for each i = 1 , … , T x i=1,\\dots,T_{x} , the random variable is ℱ i ( x ) \\mathcal{F}^{(x)}_{i} -measurable. Moreover, by ( 7 ) and the fact that ℱ i − 1 ( x ) \\mathcal{F}^{(x)}_{i-1} contains ℋ t i \\mathcal{H}_{t_{i}} , we have Membership t i ∈ H x t_{i}\\in H_{x} depends only on the context x t i x^{t_{i}} and the prediction p t i p^{t_{i}} , both of which are ℋ t i \\mathcal{H}_{t_{i}} -measurable; hence I i ( x ) I^{(x)}_{i} is ℱ i − 1 ( x ) \\mathcal{F}^{(x)}_{i-1} -measurable. Thus the sequence ( Z i ( x ) , ℱ i ( x ) ) (Z^{(x)}_{i},\\mathcal{F}^{(x)}_{i}) together with the predictable indicators I i ( x ) I^{(x)}_{i} satisfies the assumptions ( 1 ) of Proposition 1 with σ 2 = 3 / 16 \\sigma^{2}=3/16 and L ="
+}

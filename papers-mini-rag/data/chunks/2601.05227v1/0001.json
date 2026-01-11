@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": "markets and climate dynamics to neural activity and disease progression. Traditional machine learning approaches, though highly flexible and performant, often provide point estimates with little or no quantification of uncertainty. This limitation can lead to overconfidence in predictions and reduced reliability in critical applications. To address this, probabilistic machine learning methods have emerged as a compelling alternative, aiming to integrate principled statistical reasoning with the representational power of deep learning. Recent advances have seen the synthesis of probabilistic and deep learning paradigms, including Bayesian neural networks ( [ 9 ] ), Gaussian processes ( [ 36 ] ), and variational inference frameworks ( [ 23 ] ). However, a persistent challenge remains in modeling data that is both temporal and structured — where uncertainty evolves over time and across latent spatial or relational manifolds. Standard methods may either ignore the dynamics of noise (by assuming static distributions) or struggle with scalability when integrated into deep architectures. In this work, I propose a novel probabilistic framework that explicitly incorporates time-evolving uncertainty into deep generative modeling. My approach is grounded in the mathematics of stochastic differential equations (SDEs), particularly those of the Itô type, which naturally model continuous-time processes under randomness. By embedding an SDE within a variational autoencoder (VAE) structure, I enable learning of flexible, interpretable, and temporally coherent latent dynamics. This “Stochastic Deep Learning” framework leverages both stochastic calculus and deep learning, providing a bridge between classical stochastic modeling and modern data-driven inference. I evaluate the method on several real-world"
+}

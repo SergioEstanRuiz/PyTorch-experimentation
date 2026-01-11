@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "person toward modeling how a person becomes who they are. Expanding real-world applicability: in emerging applications such as personalized assistants and affective companions, the ability to reproduce individual styles from historical data is crucial. After the SFT warm-up, we continue alignment with the remaining data using RL driven by process-based rewards. We set the model’s maximum context length to 11K tokens, with the input length capped at 10K, which constitutes a typical ultra-long sequence optimization setting. If we were to adopt sample-level group-relative policy optimization (GRPO), the key decision signals in long sequences would be easily diluted by within-sample averaging; moreover, when group-wise sampling under the same input yields outputs that are all correct or all incorrect, the advantage term degenerates, resulting in insufficient effective gradients. Consequently, training stability and sample efficiency are constrained. Therefore, the RL stage is conducted using the Swift RLHF framework [ zhao2024swift ] with the DAPO algorithm (Table 5 ). All model parameters are updated via full fine-tuning, and training is performed in bfloat16 precision to balance numerical stability and memory efficiency. We further employ a dynamic, LLM-as-a-judge evaluation strategy, using Qwen3-32B (reasoning mode) as the discriminator to score the gap between the model’s prediction and the ground truth. The judge is prompted using the template in Table 10 , and its assessment signal is used to guide optimization during RL. For transparency and reproducibility, we release the complete training scripts in our public repository. A learning rate of 1 × 10 − 6 1\\times"
+}

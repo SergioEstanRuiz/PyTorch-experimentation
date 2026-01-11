@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05170v1",
+  "title": "Reverse-engineering NLI: A study of the meta-inferential properties of Natural Language Inference",
+  "abs_url": "https://arxiv.org/abs/2601.05170v1",
+  "html_url": "https://arxiv.org/html/2601.05170v1",
+  "chunk_id": "2601.05170v1:0012",
+  "word_start": 2400,
+  "word_end": 2650,
+  "text": "3 3 This style of semantics originates with Tarski ( 1933 ) and is outlined in just about any modern textbook in mathematical logic, such as Mendelson ( 2015 ) . The metalanguage in which we define the NLI relations is a weak classical set theory. We leave the object language, as well as the notion of structure and satisfaction unspecified. This means that we are treating the NLI sentences as structurally unanalyzed, as we are only concerned with the meta-relations between NLI relations. We are never concerned with concepts such as what makes a a true or false, nor the internal logical form (if any) of a a , but only with whether, for example, E ​ a ​ b Eab implies in the metalanguage that ¬ C ​ b ​ a \\lnot Cba . The standard Tarskian compositional clause for implication is the basis for our modal interpretation of meta-inference. Tentatively, we define This can be more succinctly and suggestively expressed in the language of propositional modal logic as □ ​ ( a → b ) \\Box(a\\rightarrow b) , where □ \\Box is understood as universally quantifying over accessible (possible) “worlds” or situations (Goldblatt, 1992 ) . This is the definition of strict implication given by Lewis and Langford ( 1959 ) . We remain agnostic as to which kind of worlds the modal operators quantify over, and also leave the accessibility relation unspecified. If ⊨ \\vDash is first-order satisfaction and □ \\Box quantifies over all first-order structures,"
+}

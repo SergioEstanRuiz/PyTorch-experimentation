@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05163v1",
+  "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+  "abs_url": "https://arxiv.org/abs/2601.05163v1",
+  "html_url": "https://arxiv.org/html/2601.05163v1",
+  "chunk_id": "2601.05163v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "its applicability to agent-based processing of long, visually rich documents. To address these issues, we substantially enhance the document outline. For content accuracy, we leverage MinerU2.5 Niu et al. ( 2025 ) for high-precision layout analysis and extraction, defining 17 element types and enriching outline nodes with layout and semantic attributes while removing structurally irrelevant elements such as headers and footers. For structural accuracy, title elements are visually cropped and clustered to infer hierarchical levels, enabling fine-grained section segmentation and reducing information loss in long documents. To improve visual retrieval, we generate captions for images and charts using an multimodal model M m M_{m} and incorporate them as auxiliary information, allowing the outline to better align and retrieve visual content. Tool Design. We point out that DocQA can be naturally formulated as an agentic information-seeking task in which the external information source is restricted to the given documents. Accordingly, our tool design aims to enable agents to efficiently and effectively locate and extract relevant information from documents, while keeping the overall toolkit complexity low to ensure ease of use for agent models. Specifically, we design the following two tools for DocDancer: Search. Conducts keyword-based full-text search over the given documents, returning the section IDs, page numbers, and surrounding text snippets for each match. A visible window is used to constrain the snippet length for efficient localization. This tool provides the agent with global textual signals for guiding subsequent information access. Read. Given a goal and a set of section IDs,"
+}

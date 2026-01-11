@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "⁡ | G | ) \\widetilde{O}(T^{2/3}\\sqrt{\\log|G|}) ; very recently, Hu et al. ( 2025 ) gave corresponding oracle-efficient rates (not just for means, but for any elicitable property; c.f. Noarov and Roth ( 2023 ) ). In fact, given their benign O ​ ( log ⁡ G ) O(\\sqrt{\\log G}) dependence on | G | |G| , these algorithms guarantee O ~ ​ ( T 2 / 3 ) \\widetilde{O}(T^{2/3}) rates even for p ​ o ​ l ​ y ​ ( T ) poly(T) -sized group families G G . However, to date no lower bound for online multicalibration has been obtained, beyond the Ω ​ ( T 0.54389 ) \\Omega(T^{0.54389}) lower bound inherited from the easier problem of marginal calibration (Dagan et al. , 2025 ) . Nor have any O ​ ( T 2 / 3 − ϵ ) O(T^{2/3-\\epsilon}) -rate multicalibration algorithms been derived for any ϵ > 0 \\epsilon>0 . It is natural to wonder whether the answer to the online multicalibration rate problem is simply the (as yet unknown) minimax marginal calibration rate. Indeed, consider any constant-sized collection G G of prediction-independent groups 1 1 1 For convenience further assume the groups in G G are binary-valued, so that the Venn diagram corresponding to G G is well-defined for the purposes of this reduction. We note that our lower bounds hold even for binary groups, thus showing that binary groups are as hard as real-valued ones in the minimax sense. (i.e., groups that only"
+}

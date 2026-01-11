@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": "(CRC) tissue samples [ 41 ] . The tissue samples originate from CRC primary tumors and CRC liver metastases. The task of this benchmark is to classify each image into one of the following 9 tissue classes: “adipose”, “background”, “debris”, “lymphocytes”, “mucus”, “smooth muscle”, “normal colon mucosa”, “cancer-associated stroma”, and “colorectal adenocarcinoma epithelium”. The dataset is split into 100,000 training images (NCT-CRC-HE-100K-NONORM) and 7,180 test images (CRC-VAL-HE-7K). We use the original (no-norm) images without Macenko color normalization [ 40 ] . The task of MHIST is to classify images of colorectal polyps into hyperplastic polyps (HPs) vs. sessile serrated adenomas (SSAs) [ 78 ] . This distinction is clinically important as HPs are typically benign whereas SSAs are precancerous lesions that can turn into cancer if left untreated. The task is challenging for pathologists, often showing considerable inter-pathologist variability. The MHIST dataset consists of 3,152 H&E images (224 × \\times 224 pixels at 8 × \\times magnification) of colorectal polyps. Labels are derived from the majority vote of seven pathologists. The dataset is split into 2,162 training images (1,545 HP and 617 SSA) and 990 test images (630 HP and 360 SSA). PCAM (PatchCamelyon) defines the clinically-relevant task of metastasis detection as a binary image classification task [ 74 ] . The dataset consists of 327,680 H&E images (96 × \\times 96 pixels at 10 × \\times magnification) extracted from scans of sentinel lymph node sections. Each image is annotated with a binary label indicating the presence of metastatic breast"
+}

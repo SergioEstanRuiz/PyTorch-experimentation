@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0012",
+  "word_start": 2400,
+  "word_end": 2650,
+  "text": "\\oplus is a broadcast addition operation. g ℓ ​ ( ⋅ ) g^{\\ell}(\\cdot) is a scoring function used to calculate expert scores, and 𝐖 ℓ ∈ ℝ T × e {\\bf W}^{\\ell}\\in\\mathbb{R}^{T\\times e} is a trainable parameter. 𝐑 S ∈ ℝ N × e {\\bf R}^{\\mathrm{S}}\\in\\mathbb{R}^{N\\times e} and 𝐑 t T , 𝐑 t W ∈ ℝ 1 × e {\\bf R}^{\\mathrm{T}}_{t},{\\bf R}^{\\mathrm{W}}_{t}\\in\\mathbb{R}^{1\\times e} are adaptive spatial and temporal expert biases obtained via trainable parameters. Specifically, 𝐑 S {\\bf R}^{\\mathrm{S}} captures the expert bias on the spatial locations while 𝐑 t T {\\bf R}^{\\mathrm{T}}_{t} and 𝐑 t W {\\bf R}^{\\mathrm{W}}_{t} encode the expert bias on the temporal horizons (e.g., time of day and day of week). Finally, the weight distribution 𝐆 ℓ ∈ ℝ N × e {\\bf G}^{\\ell}\\in\\mathbb{R}^{N\\times e} is used to assign weights to the experts and aggregate their representations, shown as follows: where ⊗ \\otimes is a broadcast multiplication, and Exp i ​ ( 𝐙 t ℓ ) ∈ ℝ N × d \\mathrm{Exp}_{i}({\\bf Z}^{\\ell}_{t})\\in\\mathbb{R}^{N\\times d} is i i -th expert’s output. This router adapts to input variations, making MoE suitable for heterogeneous data. Experts can specialize in different aspects of the data, improving model performance on diverse tasks. Parallelized GLU Expert Networks. For the selection of experts, existing works generally use FFNs. However, FFNs with a multi-layer structure often require complex mechanisms and high costs to achieve parallelism (e.g., assigning experts to different computing units). A promising alternative is to use linear units as experts, which"
+}

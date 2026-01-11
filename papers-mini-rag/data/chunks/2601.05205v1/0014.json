@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05205v1",
+  "title": "EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI",
+  "abs_url": "https://arxiv.org/abs/2601.05205v1",
+  "html_url": "https://arxiv.org/html/2601.05205v1",
+  "chunk_id": "2601.05205v1:0014",
+  "word_start": 2800,
+  "word_end": 3050,
+  "text": "stopping rule detects convergence to regions of marginal improvement and prevents excessive computation in performance plateaus, enhancing the overall efficiency of the EARL search process. We evaluate the proposed EARL framework on three public benchmark datasets covering audio, environmental sensing, and human activity recognition: the Free Spoken Digit Dataset (FSDD), Occupancy Detection, and UCI Human Activity Recognition (HAR). The FSDD dataset [ 9 ] provides ∼ \\sim 3,000 spoken-digit audio samples. We resample each waveform and extract MFCC features for classification. The Occupancy Detection dataset [ 5 ] offers ∼ \\sim 10,000 environmental sensor measurements labeled as occupied or unoccupied, forming a representative low-dimensional binary task. The UCI HAR dataset [ 2 ] contains ∼ \\sim 15,000 multivariate accelerometer and gyroscope sequences across six activity classes and serves as a standard benchmark for time-series models. We normalize all datasets to zero mean and unit variance and split them into 80% training and 20% validation using stratified sampling. Across all experiments, a Liquid State Machine (LSM) generates reservoir states, and a GRU network performs classification. We optimize LSM hyperparameters (leak rate, spectral radius, connectivity, reservoir size) as summarized in Table I , and train the GRU for 100 epochs using AdamW. All models run in PyTorch with fixed random seeds to ensure reproducibility. We conduct all experiments on an NVIDIA Tesla T4 GPU (16 GB VRAM) under identical runtime settings. For each trial, we record classification accuracy, energy consumption, and execution time. To evaluate optimization performance, EARL was compared with two"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "the optimal marginal calibration rate. Therefore, we have two challenging regimes in which to pin down the complexity of online multicalibration and to establish whether it is still exactly as hard as marginal calibration or strictly harder: (1) Prediction-dependent group collections; and (2) prediction-independent group collections whose size grows with T T . To summarize, in this paper our goal will be to answer the fundamental questions: What are the minimax rates for sequential multicalibration? Is sequential multicalibration a strictly harder problem than sequential marginal calibration? We answer the above questions in a strong sense: We prove Ω ~ ​ ( T 2 / 3 ) \\widetilde{\\Omega}(T^{2/3}) online multicalibration lower bounds that match (up to logarithmic factors) the existing O ~ ​ ( T 2 / 3 ) \\widetilde{O}(T^{2/3}) upper bounds — both in the prediction-independent case, and in the prediction-dependent case with growing-in- T T group family size. Therefore, our results strictly separate the complexity of marginal calibration from that of multicalibration , while also separating two regimes of complexity for multicalibration — prediction-dependent and prediction-independent groups — that existing upper bounds have treated identically. The work of Hébert-Johnson et al. ( 2018 ) defined multicalibration in terms of what we will call binary prediction-independent groups, that depend on the context but not the prediction, and map to a binary range: g : X × ℝ → { 0 , 1 } g:X\\times\\mathbb{R}\\rightarrow\\{0,1\\} such that for all v , v ′ ∈ ℝ v,v^{\\prime}\\in\\mathbb{R} and for all x ∈"
+}

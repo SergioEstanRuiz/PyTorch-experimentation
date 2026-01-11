@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "following examples indicate that the decay of the characteristic function is quite different from the tail behavior: There is an SFD distribution with sub-Gaussian tails (e.g., uniform distribution over [ − 1 , 1 ] [-1,1] ). There is an SFD distribution with tails that are sub-exponential but not sub-Gaussian (e.g., Laplace distribution and chi-squared distribution with constant degrees of freedom). There is an SFD distribution with infinite variance (e.g., Linnik distribution [ anderson1993linnik ] ). Our Results. In this work we focus on learning mixtures ℳ \\mathcal{M} of SFD and FFD distributions in high dimensions. As a driving example through the paper, the reader should think of ℳ \\mathcal{M} as a mixture of Laplace (SFD part) and Gaussian (FFD part) components. Our first result is an efficient algorithm for recovering the means and weights of ℳ \\mathcal{M} when the mixture model only consists of SFD components (e.g., mixture of Laplace distributions). Consider a mixture model ℳ \\mathcal{M} consisting of k k translations of an SFD distribution D D with parameters c 1 , c 2 = O ​ ( 1 ) c_{1},c_{2}=O(1) and with means μ 1 , … , μ k \\mu_{1},...,\\mu_{k} , weights w 1 , … , w k = ( 1 / k ) w_{1},...,w_{k}=\\Omega(1/k) , and separation γ = min i ​ j ⁡ \\| ​ μ i − μ j ​ \\| \\gamma=\\min_{i\\neq j}\\|\\mu_{i}-\\mu_{j}\\| .There exists an algorithm that uses n = poly ​ ( d , k , 1 / γ ,"
+}

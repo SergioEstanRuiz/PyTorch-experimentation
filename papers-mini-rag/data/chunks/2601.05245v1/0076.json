@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0076",
+  "word_start": 15200,
+  "word_end": 15450,
+  "text": ", x ​ ( i ) , z i ) (a,b,c)=(p(i),x(i),z_{i}) , Now partition indices by prediction value: for each v ∈ 𝒱 T ′ v\\in\\mathcal{V}_{T^{\\prime}} , let S v := { i : p ​ ( i ) = v } S_{v}:=\\{i:p(i)=v\\} so that | S v | = n v |S_{v}|=n_{v} and { 1 , … , T ′ } = ⨆ v ∈ 𝒱 T ′ S v \\{1,\\dots,T^{\\prime}\\}=\\bigsqcup_{v\\in\\mathcal{V}_{T^{\\prime}}}S_{v} . Then Fix v v and write n := n v n:=n_{v} . Let i 1 < ⋯ < i n i_{1}<\\cdots<i_{n} be the elements of S v S_{v} in increasing order, and define a j := z i j a_{j}:=z_{i_{j}} for j = 1 , … , n j=1,\\dots,n . Since ( z i ) (z_{i}) is an arithmetic progression with step d d and i j + 1 ≥ i j + 1 i_{j+1}\\geq i_{j}+1 , we have a j + 1 − a j ≥ d a_{j+1}-a_{j}\\geq d . Claim. Let a 1 ≤ ⋯ ≤ a n a_{1}\\leq\\cdots\\leq a_{n} satisfy a j + 1 − a j ≥ d a_{j+1}-a_{j}\\geq d for all j j . Then Write n = 2 ​ q n=2q or n = 2 ​ q + 1 n=2q+1 . If n = 2 ​ q n=2q is even, any minimizer lies in [ a q , a q + 1 ] [a_{q},a_{q+1}] and the minimum equals ∑ j = 1 q ( a q + j − a j"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0003",
+  "word_start": 600,
+  "word_end": 850,
+  "text": "architectures encode causal history as geometric distances (via attention or fading memory), the signal-to-noise ratio decays with sequence length. We hypothesize that this leads to a logical context horizon—a critical length beyond which logical coherence is lost. Overcoming this requires an architecture where the memory state is not a decaying signal, but a conserved topological charge, allowing for indefinite extrapolation beyond the training window. If reasoning is to be robust against semantic noise (such as adversarial prompts or accumulation of floating-point errors), it cannot be a broken-symmetry phase. This fragility in deductive reasoning stems from a fundamental structural mismatch: logical inference is inherently non-commutative ( A ⋅ B ≠ B ⋅ A A\\cdot B\\neq B\\cdot A ), whereas the information aggregation in standard architectures is commutative ( A + B = B + A A+B=B+A ). Standard networks—whether via attention mechanisms ( ∑ α i ​ V i \\sum\\alpha_{i}V_{i} ) or residual streams ( h + f ​ ( x ) h+f(x) )—rely on additive accumulation ( h n ​ e ​ w = h o ​ l ​ d + update h_{new}=h_{old}+\\text{update} ), treating tokens as features to be summed rather than operators to be composed. To resolve this, the system must belong to a universality class where local perturbations are forbidden by a global invariant. In condensed matter physics, such robustness is found in the Quantum Hall Effect [ 14 , 15 ] , where the Hall conductivity is quantized and immune to local impurities due to the"
+}

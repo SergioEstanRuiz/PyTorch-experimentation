@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0061",
+  "word_start": 12200,
+  "word_end": 12450,
+  "text": "h_{\\sigma,b}(f) is the index of the bin that f f is hashed into, and u ^ j \\mathaccent 866{u}_{j} is the total “mass” of signal hashed into the j j -th bin with a phase depending on a a . H H is the set of true frequencies that are hashed without collisions and large offsets from the centers of the bins. I I is the set of the indices of the bins with no true frequencies hashed into it. Lastly, we mention that the algorithm 𝖧𝖺𝗌𝗁𝖳𝗈𝖡𝗂𝗇𝗌 \\mathsf{HashToBins} is called 3 times where the second argument is P σ , ξ , b P_{\\sigma,\\xi,b} with ξ = { a , γ , γ + β } \\xi=\\{a,\\gamma,\\gamma+\\beta\\} . This essentially implies 3 variants of Equation 3 (one for each value of ξ \\xi , Equation 3 corresponds to ξ = a ) \\xi=a) . We now provide our modified version of the inequality. We will remove the expectation over σ \\sigma and a a in Equation 3 , and instead state another inequality which holds for any fixed randomness r r used by the algorithm to determine the value of all the variables but b b . In particular, the inequality will consist of an expectation over b b and will be true for all the values of σ \\sigma and ξ \\xi (i.e., a , γ , a,\\gamma, and γ + β \\gamma+\\beta in [ PS15-SFT , Algorithm 2] ) of P σ , ξ , b P_{\\sigma,\\xi,b} that"
+}

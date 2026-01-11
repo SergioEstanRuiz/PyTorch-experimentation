@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05170v1",
+  "title": "Reverse-engineering NLI: A study of the meta-inferential properties of Natural Language Inference",
+  "abs_url": "https://arxiv.org/abs/2601.05170v1",
+  "html_url": "https://arxiv.org/html/2601.05170v1",
+  "chunk_id": "2601.05170v1:0002",
+  "word_start": 400,
+  "word_end": 650,
+  "text": "in which logic they can be expressed (if at all); and (2) it is not made clear from which logic the meta-inferential intuitions are coming. This is problematic since which meta-inferential relations that hold between inference relations depends on the definition of the inference relations. In this paper, we first review related work, partly in order to start disentangling different interpretations of the NLI relations (Sec. 3 ), then establish a framework for analyzing the NLI relations (Sec. 4 ), and moreover propose three different readings of those relations, analyze their meta-inferential properties, and hypothesize that one of the readings better captures the mode of inference that is implicit in the NLI dataset. We generate new data (Sec. 5 ) and experimentally confirm its suitability for testing the main hypothesis (Sec. 6 ). 1 1 1 For data and experimental code see: https://github.com/GU-CLASP/reverse-engineering-NLI The SLNI corpus (Bowman et al. , 2015 ) , and its derivatives (such as MNLI (Williams et al. , 2018 ) , e-SNLI (Camburu et al. , 2018 ) , MedNLI (Romanov and Shivade, 2018 ) , XNLI (Conneau et al. , 2018 ) , ANLI (Nie et al. , 2020 ) ), has been used extensively as a proxy for the NLI task. This is a three-way classification task, where sentence pairs ( a , b ) (a,b) of a premise a a and a hypothesis b b are to be classified using one of the labels Entailment, Neutral and Contradiction. 2 2 2 This"
+}

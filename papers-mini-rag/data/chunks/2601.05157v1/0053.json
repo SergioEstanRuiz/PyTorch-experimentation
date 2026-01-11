@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0053",
+  "word_start": 10600,
+  "word_end": 10850,
+  "text": "presented in prior work runs in time exponential in the dimension. The first key result that we will use is a modification of the algorithm of [ PS15-SFT ] for robustly computing sparse Fourier transforms in the continuous setting. To state the result intuitively, let x ​ ( t ) = x ⋆ ​ ( t ) + g ​ ( t ) x(t)=x^{\\star}(t)+g(t) , where x ⋆ x^{\\star} has a k k -sparse Fourier transform and g g is an arbitrary noise term. Given query access to x ​ ( t ) x(t) for times t ∈ [ 0 , T ] t\\in[0,T] , the algorithm is able to estimate the frequencies and the weights, i.e., the tones of the true signal x ⋆ x^{\\star} , with an estimation error that depends on the noise level, i.e., on how large g g is in some average sense. In particular, the algorithm queries the signal roughly k ​ log ⁡ T k\\log T times and outputs estimates f ^ 1 , … , f ^ k \\mathaccent 866{f}_{1},...,\\mathaccent 866{f}_{k} of the true frequencies such that there is a permutation π \\pi with where 𝒩 2 ≈ 1 T ​ \\ilimits@ 0 T ​ | g ​ ( t ) | 2 ​ d ​ t \\mathcal{N}^{2}\\approx\\frac{1}{T}\\intslop\\ilimits@_{0}^{T}|g(t)|^{2}\\mathrm{d}t and w j w_{j} is the j j -th weight, whenever the tone has large magnitude, i.e., | w j | = ( 𝒩 ) |w_{j}|=\\Omega(\\mathcal{N}) . Notably, the error goes to 0 as"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05163v1",
+  "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+  "abs_url": "https://arxiv.org/abs/2601.05163v1",
+  "html_url": "https://arxiv.org/html/2601.05163v1",
+  "chunk_id": "2601.05163v1:0020",
+  "word_start": 4000,
+  "word_end": 4250,
+  "text": "synthesized data and trained models may inherit biases present in the underlying document sources, including domain and content imbalances. Finally, although improved document exploration capabilities could be misused if deployed irresponsibly, the strong grounding in retrieved evidence and our commitment to releasing code and data aim to support transparency, reproducibility, and responsible research use. Figure 9 demonstrates how the Exploration-then-Synthesis framework iteratively navigates a 73-page document, aggregating heterogeneous evidence, text (in Sec. 2.43), charts (in Figure 1), and tables (in Table 1), scattered across disjoint pages (pp. 40, 41, 49) to synthesize a high-quality question that requires complex reasoning. In the Exploration Stage, the agent generates a exploartion trajectory ξ \\xi via iterative ( i t , u t ) (i_{t},u_{t}) steps, effectively performing a “random walk” over the document’s implicit knowledge graph. It aggregates heterogeneous evidence by bridging disjoint pages—linking visual trends in a chart (p. 40) with precise values in text (p. 49) and a table (p. 41). In the Synthesis Stage, the model M s M_{s} reasons over this accumulated trajectory to construct a complex multi-hop numerical question Wu et al. ( 2025b ) . The final QA pair requires arithmetic calculation ( 29.92 % − 15 % = 14.92 % 29.92\\%-15\\%=14.92\\% ) rather than simple retrieval, ensuring deep document grounding and preventing shortcut learning. The prompts for the DocDancer are shown in Figure 10 . This section details the tool schemas provided to the agent. We designed two primary tools: search for keyword-based retrieval and read"
+}

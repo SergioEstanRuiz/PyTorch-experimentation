@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "data is rich and heterogeneous combining clinical features, routine blood tests and detailed immunoprofiling of blood and tumor samples measured by different clinical and research partners; 2) it contains clusters of highly correlated features, e.g. numerous variables describing related immune cell populations; and 3) p p (374) is roughly equivalent to n n (435). This is different from the three types of datasets popular in the literature: a) high-dimensional omics ( p ≫ n p\\gg n ); b) data with a sufficiently high event-per-variable ratio, e.g. the number of patients in the smallest class is at least ten times the number of predictors n m ​ i ​ n ≥ 10 ​ p n_{min}\\geq 10p (for classification problems); and c) big data (e.g., from electronic health records), typically modeled using deep artificial neural networks. A comprehensive survey of FS benchmarks across multiple domains published before 2020 is provided by Hopf and Reifenrath [ 23 ] . Table 1 summarizes more recent benchmarks on high-dimensional biomedical data. Most of these studies focused on a single data modality (genomic data). Only two studies included FS methods representing all algorithmic families, and stability was evaluated in only three of the eight benchmarks. The strengths of our study on PIONeeR are the following: 1) it addresses heterogeneous, mixed-type data; 2) it evaluates a broader and more diverse range of FS algorithms; 3) it reports all standard performance metrics, with an emphasis on stability; and 4) it extends FS evaluation to assess the balance between"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0037",
+  "word_start": 7400,
+  "word_end": 7650,
+  "text": "For instance, for Laplace components, the deviation of the mean of an α \\alpha fraction of the sample will be at most O ​ ( log ⁡ ( 1 / α ) ) O(\\log(1/\\alpha)) , and so γ SF ≈ poly ​ ( k ) \\gamma_{\\text{SF}}\\approx\\mathrm{poly}(k) . In general, this is expected since we do not put any tail requirement on the SFD part. Under the above conditions, there is a natural SoS-based algorithm that will recover the FFD components. Our algorithm combines classical tools from robust statistics such as robust mean estimation and list-decodable mean estimation procedures that use SoS [ kothari_better_2017 ] . Assume that we run the SFD algorithm from Step I and we have a list of predictions for the SFD means μ 1 , … , μ k . \\mu_{1},...,\\mu_{k}. Our algorithm, apart from this list, has access to i.i.d. samples from the mixture ℳ \\mathcal{M} . The idea is that when the number of samples is sufficiently large, we can run a list-decodable mean estimation algorithm for each FFD distribution D i ′ ​ ( μ i ′ ) D_{i}^{\\prime}(\\mu_{i}^{\\prime}) with i ∈ [ k ′ ] . i\\in[k^{\\prime}]. This algorithm treats samples from all the remaining k + k ′ − 1 k+k^{\\prime}-1 components as “corruptions”. The guarantee of this algorithm (see Theorem 3.6 ) is a sequence of subsets S 1 , . . , S m ⊆ [ n ] S_{1},..,S_{m}\\subseteq[n] with m ≈ poly ​ ( k ) m\\approx\\mathrm{poly}(k) with"
+}

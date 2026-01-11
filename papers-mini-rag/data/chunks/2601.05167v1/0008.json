@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": ") . This paradigm is well-suited for domains where the quality of generated responses can be deterministically verified. In its standard form, RLVR employs a rule-based verifier v : 𝒳 → { 0 , 1 } v:\\mathcal{X}\\to\\{0,1\\} that assigns binary rewards. This binary scheme is effective for tasks with unambiguous success criteria, such as mathematical problem-solving. In our setting, we design a corresponding rule-based reward to verify model-generated relations, described in Sec. 3.2.3 . To optimize the policy using these rewards, GRPO samples a group of outputs { o i } i = 1 G \\{o_{i}\\}_{i=1}^{G} for each query q q from the old policy π θ old \\pi_{\\theta_{\\mathrm{old}}} and evaluates them relative to the group average. The training objective is formulated as: where 𝔻 KL = D KL ​ ( π θ ∥ π ref ) \\mathbb{D}_{\\mathrm{KL}}=D_{\\mathrm{KL}}(\\pi_{\\theta}\\parallel\\pi_{\\mathrm{ref}}) is the regularization term. The surrogate objective ℳ i \\mathcal{M}_{i} is computed as min ⁡ ( ρ i ​ A i , clip ​ ( ρ i , 1 − ϵ , 1 + ϵ ) ​ A i ) \\min(\\rho_{i}A_{i},\\mathrm{clip}(\\rho_{i},1-\\epsilon,1+\\epsilon)A_{i}) , where ρ i = π θ ​ ( o i | q ) π θ old ​ ( o i | q ) \\rho_{i}=\\frac{\\pi_{\\theta}(o_{i}|q)}{\\pi_{\\theta_{\\mathrm{old}}}(o_{i}|q)} . The advantage A i A_{i} is derived from the group-normalized rewards defined below: where ε stab \\varepsilon_{\\mathrm{stab}} is a small constant for stability. This formulation encourages the model to generate responses that outperform the group average. Since our method leverages the large model to generate"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0029",
+  "word_start": 5800,
+  "word_end": 6050,
+  "text": "domains, while also running faster than Qwen3-4B . In fact, based on our results, the smaller dense Qwen3-4B should only be preferred to Qwen3-30B-A3B in cases of VRAM limitations. Similarly, in terms of tokens usage, which directly impact the runtime of the approach, Magistral-Small-2509 generated the longest thoughts on average, with similar values for the other models. In addition, these numbers of thought tokens also vary based on the setting and domain. Using the token length insights on ZESHEL, as well as those from Section E , we also report the results for a runtime-optimized configuration on ZESHEL by sampling only three answers for self-consistency and by limiting the context length to 8192 tokens. The results show that these two settings effectively result in significant runtime improvements across the three models, but at the expense of some accuracy percentage points. BM25, using the outputs from Logeswaran et al. ( 2019 ) . The Qwen3-Embedding-4B embedder, computing the similarity between mentions and our entity verbalizations from the candidate list. The Qwen3-4B LLM with the same prompt and score computation as in Zhang et al. ( 2025 ) but without any additional training. The results show that BM25 underperforms compared to the three other approaches, while Qwen3-Reranker-4B achieves the highest recall@10 and Qwen3-Embedding-4B yield competitive results, despite the latter not being provided with the context. Furthermore, Figure 9 shows the ground truth rank distribution across the four approaches. Interestingly, Qwen3-Embedding-4B assigns the higher score to the ground truth in more than 60%"
+}

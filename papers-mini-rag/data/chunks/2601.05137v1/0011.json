@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "≠ φ ​ ( v j ) \\varphi(v_{i})\\neq\\varphi(v_{j}) . A graph G G is k k -colorable if it admits a proper k k -coloring. The chromatic number χ ​ ( G ) \\chi(G) of a graph G G is the smallest k ∈ { 1 , 2 , … } k\\in\\{1,2,\\dots\\} such that G G is k k -colorable. Graph k k -coloring usually refers to the task of finding a proper k k -coloring of a graph, if one exists. In a coloring of a graph, we say that an edge is monochromatic if its endpoints have the same color. Approximate k k -coloring is the task of finding a k k -coloring of a graph such that the number of monochromatic edges is approximately minimized. One type of method for approximate k k -coloring is a local search method , in which we have some space 𝒮 \\mathcal{S} representing potential k k -colorings and some loss function ℒ : 𝒮 → [ 0 , ∞ ) \\mathcal{L}:\\mathcal{S}\\rightarrow[0,\\infty) representing the penalty of each potential k k -coloring, and we attempt to find an element of 𝒮 \\mathcal{S} with small loss by choosing some initial element s 0 ∈ 𝒮 s_{0}\\in\\mathcal{S} , then iteratively finding new elements s t s_{t} for t = 1 , 2 , t=1,2, and so on such that s t + 1 s_{t+1} is close to s t s_{t} under some metric on 𝒮 \\mathcal{S} and ideally has smaller loss. A soft coloring of"
+}

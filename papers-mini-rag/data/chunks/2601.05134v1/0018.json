@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0018",
+  "word_start": 3600,
+  "word_end": 3850,
+  "text": ", z , a ≥ 0 z,a\\geq 0 , and X , Y X,Y be arbitrary random variables and matrix A i A_{i} as described in Definition 4 . If ξ , ξ ′ ∼ 𝒩 ​ ( 0 , σ 2 ​ I r i ) \\xi,\\xi^{\\prime}\\sim\\mathcal{N}(0,\\sigma^{2}I_{r_{i}}) with σ > 0 \\sigma>0 , then The original proof for the unshifted case is adapted by modifying the first step of the inequality. In particular, instead of considering ( X + W , − W + ξ ) (X+W,-W+\\xi) and ( Y , ξ ′ ) (Y,\\xi^{\\prime}) , we consider ( X + A i ​ W , − W + ξ ) (X+A_{i}W,-W+\\xi) and ( Y , ξ ′ ) (Y,\\xi^{\\prime}) , so as to ensure the shift ( 0 , … , a , … , 0 ) = a ​ e i (0,\\ldots,a,\\ldots,0)=ae_{i} . Indeed, X + A i ​ ξ X+A_{i}\\xi and Y + A i ​ ξ ′ Y+A_{i}\\xi^{\\prime} can be obtained from ( X + A i ​ W , − W + ξ ) (X+A_{i}W,-W+\\xi) and ( Y , ξ ′ ) (Y,\\xi^{\\prime}) by post-processing f ​ ( x , y ) = x + A i ​ y f(x,y)=x+A_{i}y . For the non-zero shift z z , we adapt the proof by redefining W 1 W_{1} . Rather than the original choice W 1 = h z ​ ( W ) W_{1}=h_{z}(W) (with h z ​ ( x ) = x h_{z}(x)=x if"
+}

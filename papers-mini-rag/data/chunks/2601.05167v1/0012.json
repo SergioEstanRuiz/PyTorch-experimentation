@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0012",
+  "word_start": 2400,
+  "word_end": 2650,
+  "text": "To evaluate the effectiveness of RelayLLM , we utilize the Qwen3 model family (Yang et al. , 2025a ) due to its consistent architectural scaling and strong performance across various sizes. We select Qwen3-0.6B and Qwen3-1.7B as our primary small language models ( ℳ S \\mathcal{M}_{S} ) to investigate how our framework scales with model capacity at the sub-2B parameter level. For the teacher model ( ℳ L \\mathcal{M}_{L} ), we utilize Qwen3-8B. Selecting a model from the same model family ensures that the generation style, token distribution, vocabulary and tokenizer are more consistent, making collaboration more stable. To optimize training and inference efficiency, we consistently run the models in non-thinking mode. To evaluate the effectiveness of RelayLLM , we conduct experiments on six reasoning benchmarks, and compare our approach against the standard GRPO baseline. We also add CITER (Zheng et al. , 2025b ) , a token-level routing method as the baseline method which requires an additional controller. The benchmarks include Minerva (Lewkowycz et al. , 2022 ) , MATH-500 (Hendrycks et al. , 2021 ) , GSM8K (Cobbe et al. , 2021 ) , Olympiad-Bench (He et al. , 2024 ) , AIME-2024, and AIME-2025. We use GPT-4o-mini as a semantic judge to verify the model’s output against the ground truth (Zhao et al. , 2025 ) . For the high-difficulty AIME datasets, we report the avg@32 metric to ensure a robust evaluation. For other benchmarks, we report standard accuracy (pass@1) using greedy decoding. We conduct our experiments"
+}

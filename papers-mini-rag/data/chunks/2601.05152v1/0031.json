@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0031",
+  "word_start": 6200,
+  "word_end": 6450,
+  "text": "authors proposed double restart as a model adaptation measure. A different adaptation technique was proposed by Car et al. Carr et al. ( 2023 ) , who extended the applicability of shields in deep reinforcement learning. The proposed algorithm can guarantee safety during training in a shielded environment and during testing with the shield off. This approach utilizes a POMDP model to represent nonstationarity. The algorithm builds a belief support as a state estimator and then uses a state estimator and a reach-avoid specification, given a priori, for safe action selection. Belief support is formed based on the history of actions and observations. So, the updating of the belief support, which is a foundation of the shield, is reactive rather than proactive, and that can slow down the adaptation. Quick safety adaptation includes methods that actively try to figure out the context model, i.e, find the set of distributions of the environment, and based on the context, predict the best performance policy and best safety policy. Nonstationary MDP (NSMDP) is represented in an episodic setting Chen et al. ( 2021 ); Khattar et al. ( 2024 ); Wen et al. ( 2022 ) where the transition function and reward can vary. The main idea is to find context variables z i z_{i} , or so-called latent variables, that can represent the distribution at each particular episode i i . Then, regular CMDP can be modified as follows: C ​ M ​ D ​ P ​ ( S , R ,"
+}

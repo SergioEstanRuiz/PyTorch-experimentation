@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "to known limitations in reinforcement learning and imitation learning, where value information or on-policy demonstrations alone do not uniquely identify optimal actions without additional realizability assumptions (Kakade and Langford, 2002 ; Ross et al., 2011 ; Levine et al., 2021 ) In fact, due to this identifiability failure, this theorem implies that designing a reliable method for selecting the optimal model to produce the optimal response is inherently difficult. For example, Theorem 4.3 shows that using SFT to train a router that chooses the optimal model is not reliable, because this is essentially equivalent to use behavior cloning for learning the actions that maximize the optimal value function Q π ∗ Q^{\\pi^{*}} . The proof is provided in Appendix 9 . From the previous theorem, we show that reliable performance cannot be guaranteed under single-policy coverage. The core difficulty is that even if a prefix that may lead to good response (theoretically, a state has a large value Q π ∗ Q^{\\pi^{*}} ), this response may not be realizable by the available candidate models. For each token, the set of feasible actions is restricted by the fixed expert models. Consequently, whenever the optimal policy π ∗ \\pi^{*} and the expert models are not perfectly aligned, the resulting approximation error becomes uncontrollable. To solve this issue, we consider adding a trainable part to our decoding process. We also train the π r ​ o ​ u ​ t ​ e ​ r \\pi_{router} to align the optimal model, and add the"
+}

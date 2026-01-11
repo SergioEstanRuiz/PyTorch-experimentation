@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0065",
+  "word_start": 13000,
+  "word_end": 13250,
+  "text": "i G_{i} satisfies \\slimits@ j ​ | G j | 2 ≍ 1 ℬ \\sumop\\slimits@_{j}|G_{j}|^{2}\\asymp\\frac{1}{\\mathcal{B}} . Then the original proof goes through by taking the expectation over a a , and by noting that a ⁡ | g ​ ( σ ​ ( j − a ) ) | 2 ​ 1 T ​ \\ilimits@ 0 T ​ | g ​ ( t ) | 2 ​ d ​ t \\operatornamewithlimits{\\m@thbbch@rE}_{a}|g(\\sigma(j-a))|^{2}\\lesssim\\frac{1}{T}\\intslop\\ilimits@_{0}^{T}|g(t)|^{2}\\mathrm{d}t . In our modified proof, we can bound | g ​ ( σ ​ ( j − a ) ) | 2 ≤ max j ∈ [ N ] ⁡ | g ​ ( t j ) | 2 |g(\\sigma(j-a))|^{2}\\leq\\max_{j\\in[N]}|g(t_{j})|^{2} , since every σ ​ ( j − a ) \\sigma(j-a) is one of the times queried t 1 , … , t N t_{1},\\dots,t_{N} . Therefore, b ⁡ [ \\slimits@ j = 1 ℬ ​ | u ^ j | 2 ] ⁡ ℬ ℬ ​ max j ∈ [ N ] ⁡ | g ​ ( t j ) | 2 = max j ∈ [ N ] ⁡ | g ​ ( t j ) | 2 \\operatornamewithlimits{\\m@thbbch@rE}_{b}\\bigl[\\sumop\\slimits@_{j=1}^{\\mathcal{B}}\\left|\\mathaccent 866{u}_{j}\\right|^{2}\\bigr]\\lesssim\\frac{\\mathcal{B}}{\\mathcal{B}}\\max_{j\\in[N]}|g(t_{j})|^{2}=\\max_{j\\in[N]}|g(t_{j})|^{2} . The above provides the modification of [ PS15-SFT , Lemma 3.3] and completes our sketch for the modification of the hashing step, where instead of the “average cost” of the noise g g , the algorithm pays the maximum of g g at the times it queries. Given the hashing step, we have reduced the problem"
+}

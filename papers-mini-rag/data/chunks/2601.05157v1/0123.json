@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0123",
+  "word_start": 24600,
+  "word_end": 24850,
+  "text": "that there is a permutation π \\pi on [ k ] [k] and a permutation π ′ \\pi^{\\prime} on [ k ′ ] [k^{\\prime}] with with probability at least 1 − δ 1-\\delta , as long as and the running time is n O ​ ( 1 / β ) n^{O(1/\\beta)} . Lap ⁡ ( μ j , I ) \\operatorname{\\mathrm{Lap}}(\\mu_{j},I) satisfies SFD with parameter c 1 = 0 c_{1}=0 and c 2 = 2 c_{2}=2 , i.e., inf t : \\| ​ t ​ \\| 2 ≤ T | ϕ Lap ⁡ ( μ j , I ) ​ ( t ) | ​ T − 2 \\inf_{t:\\|t\\|_{2}\\leq T}|\\phi_{\\operatorname{\\mathrm{Lap}}(\\mu_{j},I)}(t)|\\gtrsim T^{-2} , 𝒩 ​ ( μ 𝒿 ′ , ℐ ) \\euscr{N}(\\mu_{j}^{\\prime},I) satisfies FFD with parameter c 1 ′ = 0 c_{1}^{\\prime}=0 and any c 2 ′ ≥ 0 c_{2}^{\\prime}\\geq 0 , i.e., sup t : \\| ​ t ​ \\| 2 ≥ T | ϕ 𝒩 ​ ( μ 𝒿 ′ , ℐ ) ​ ( t ) | ​ T − c 2 ′ \\sup_{t:\\|t\\|_{2}\\geq T}|\\phi_{\\euscr{N}(\\mu_{j}^{\\prime},I)}(t)|\\lesssim T^{-c_{2}^{\\prime}} for any c 2 ′ ≥ 0 c_{2}^{\\prime}\\geq 0 , Lap ⁡ ( μ j , I ) \\operatorname{\\mathrm{Lap}}(\\mu_{j},I) is sub-exponential, and thus satisfies ( 1 α poly ( d , log ⁡ ( 1 / δ ) , O ( log ⁡ ( 1 / α ) ) ) (\\frac{1}{\\alpha}\\mathrm{poly}(d,\\log(1/\\delta),O(\\log(1/\\alpha))) -resilience, and 𝒩 ​ ( μ 𝒿 ′ , ℐ ) \\euscr{N}(\\mu_{j}^{\\prime},I) is ( 2 ​ t , O ​"
+}

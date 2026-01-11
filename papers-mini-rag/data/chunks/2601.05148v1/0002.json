@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0002",
+  "word_start": 400,
+  "word_end": 650,
+  "text": "performance of Atlas 2 to other leading models available for testing using eighty benchmarks assessing a variety of downstream pathology tasks. An overview of model characteristics and main results can be found in Figure 1 and Figure 2 . In the past years pathology foundation models [ 17 , 2 , 82 , 25 , 79 , 67 , 13 , 16 , 60 , 50 , 35 , 52 , 64 ] established themselves as the basis for developing clinical-grade applications [ 77 ] in digital pathology. These models are divided into tile- or slide-based models. Tile-based models [ 17 , 2 , 82 , 13 , 9 , 60 , 39 , 38 ] are trained via self-supervised-learning frameworks such as DINOv2 [ 59 ] or DINOv3 [ 69 ] to encode small, fixed-sized image tiles into compact embeddings. These embeddings then typically serve as a starting point to train slide-based pathology foundation models [ 52 , 68 , 77 ] which learn to aggregate the per-tile information into a single representation for an entire whole slide image (WSI) using slide-level supervision such as patient report- [ 52 , 76 , 68 , 71 ] or molecular [ 73 , 80 ] data. Key drivers of the success story of pathology foundation models are increasing both the number of WSIs powering foundation model training [ 2 , 9 , 82 ] and the capacity of such models by means of their encoder size [ 82 , 9 ,"
+}

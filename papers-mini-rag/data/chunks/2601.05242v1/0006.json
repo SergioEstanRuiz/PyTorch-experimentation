@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "general cases. Consider a scenario where we generate two rollouts for each question for calculating the group-relative advantage and the task involves two binary reward r 1 , r 2 ∈ { 0 , 1 } r_{1},r_{2}\\in\\{0,1\\} . Consequently, the total reward for each rollout can take values from { 0 , 1 , 2 } \\{0,1,2\\} . As shown in Figure 2 , we enumerate all possible rollout reward combinations within a group, represented as ( 𝚛𝚘𝚕𝚕𝚘𝚞𝚝 ​ ​ 𝟷 ′ ​ 𝚜 ​ ​ 𝚝𝚘𝚝𝚊𝚕 ​ ​ 𝚛𝚎𝚠𝚊𝚛𝚍 , 𝚛𝚘𝚕𝚕𝚘𝚞𝚝 ​ ​ 𝟸 ′ ​ 𝚜 ​ ​ 𝚝𝚘𝚝𝚊𝚕 ​ ​ 𝚛𝚎𝚠𝚊𝚛𝚍 ) (\\mathtt{rollout}\\text{ }\\mathtt{1}^{\\prime}\\mathtt{s}\\text{ }\\mathtt{total}\\text{ }\\mathtt{reward},\\mathtt{rollout}\\text{ }\\mathtt{2^{\\prime}s}\\text{ }\\mathtt{total}\\text{ }\\mathtt{reward}) and the corresponding normalized advantages as ( 𝑟𝑜𝑙𝑙𝑜𝑢𝑡 ​ ​ 1 ′ ​ s ​ ​ 𝑛𝑜𝑟𝑚𝑎𝑙𝑖𝑧𝑒𝑑 ​ ​ 𝑎𝑑𝑣𝑎𝑛𝑡𝑎𝑔𝑒 , 𝑟𝑜𝑙𝑙𝑜𝑢𝑡 ​ ​ 2 ′ ​ s ​ ​ 𝑛𝑜𝑟𝑚𝑎𝑙𝑖𝑧𝑒𝑑 ​ ​ 𝑎𝑑𝑣𝑎𝑛𝑡𝑎𝑔𝑒 ) (\\mathit{rollout}\\text{ }\\mathit{1}^{\\prime}\\mathit{s}\\text{ }\\mathit{normalized}\\text{ }\\mathit{advantage},\\mathit{rollout}\\text{ }\\mathit{2^{\\prime}s}\\text{ }\\mathit{normalized}\\text{ }\\mathit{advantage}) . Despite having six distinct combinations when order is ignored, only two unique advantage groups emerge after applying group-wise reward normalization. Specifically, ( 𝟶 , 𝟷 ) (\\mathtt{0,1}) , ( 𝟶 , 𝟸 ) (\\mathtt{0,2}) , and ( 𝟷 , 𝟸 ) (\\mathtt{1,2}) yield identical normalized advantages A sum A_{\\text{sum}} of ( − 0.7071 , 0.7071 ) (\\mathit{-0.7071},\\,\\mathit{0.7071}) , while ( 𝟶 , 𝟶 ) (\\mathtt{0,0}) , ( 𝟷 , 𝟷 ) (\\mathtt{1,1}) , and ( 𝟸 , 𝟸 ) (\\mathtt{2,2}) all result in ( 0 , 0 ) (\\mathit{0,0}) . This demonstrates a fundamental limitation"
+}

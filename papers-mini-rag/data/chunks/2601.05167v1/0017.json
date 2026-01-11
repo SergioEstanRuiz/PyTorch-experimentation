@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0017",
+  "word_start": 3400,
+  "word_end": 3650,
+  "text": "during inference (implemented via bad_words=[‘‘<call>’’, ‘‘</call>’’] when inference). Results in Table 4 reveal three key insights. First, on Easy datasets, even without teacher access, RelayLLM (Simple-Reward) achieves 61.12%, surpassing the GRPO baseline. This suggests that the student model has successfully learn from the reasoning ability of the expert model during the collaborative training process. On Harder datasets, removing the teacher leads to a notable performance drop (e.g., Difficulty-Aware-Reward falls from 15.00% to 11.93%), confirming that for complex tasks, the model remains heavily dependent on expert intervention. Third, comparing reward schemes, the Simple-Reward variant demonstrates stronger capabilities than the Difficulty-Aware-Reward variant. This aligns with our previous observation that Difficulty-Aware-Reward encourages a higher call ratio, leading to a stronger dependency on the teacher, whereas Simple-Reward retains more independence. We investigate whether dynamically predicting the calling length n n requested from the large model is superior to using rigid, pre-defined lengths. To ensure a fair evaluation, we retrained separate variations of the student model where the call command is hard-constrained to a fixed token count k ∈ { 20 , 100 , 500 } k\\in\\{20,100,500\\} during both training and inference. As shown in Table 5 , RelayLLM demonstrates superior efficiency compared to these specialized fixed-length models. Specifically, compared to the Fixed-100 model, RelayLLM achieves a similar accuracy but reduces the call ratio from 2.87% to 1.07%. This indicates that while the fixed-length model is forced to consume a set budget even for simple queries, RelayLLM effectively learns to request “just enough” tokens to"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "of constraints formulation; however, this work does not specifically cover constraints formulation for nonstationary environments or online learning algorithms. Our survey aims to fulfill these gaps and provide a review of the state-of-the-art methods and theoretical aspects of building safe continual reinforcement learning algorithms able to work in nonstationary environments. The rest of this review is organized as follows. In Section 2 , we provide preliminaries for safe continual reinforcement learning. We provide definitions, notations, and explain the main concepts required for understanding COSR. Section 3 provides problem formulation. In this section, we explain three key components of COSRL. Section 4 describes challenges of building safe online RL algorithms.Section 5 categorises current solutions based on safety adaptation techniques. Section 6 provides the details of the most important COSRL works. Section 7 provides a taxonomy of constraint formulation for COSRL. Section 8 concludes the study by discussing findings and open problems. In this review, we present a survey of research on the safety of online reinforcement learning under non-stationarity. We cover the optimization, adaptation, and safety aspects of the algorithms, but we don’t address the catastrophic forgetting problem. We focus on a single learning agent setting and don’t consider multi-agent learning, as we believe that both topics require separate research. In this section, we provide notations, definitions, and main ideas that can help better understand the general concept of COSRL. In this survey, capital letters are used for random variables, while lower-case letters are used for the values of random variables"
+}

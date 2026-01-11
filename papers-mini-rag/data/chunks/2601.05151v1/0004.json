@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "[ 43 ] . Given the numerous challenges in FS for biomedical data highlighted above, researchers may be hesitant about which FS approach to use when analyzing a new dataset. To address this gap, we propose a Python package called roofs available at https://gitlab.inria.fr/compo/ roofs . roofs conducts comprehensive benchmarking of multiple pre-implemented FS algorithms on the user’s data based on three criteria: 1) method stability and robustness of individual features, 2) predictive performances, and 3) true positive and false positive rates (from semi-synthetic data with a simulated outcome). For point 2), we relied on the optimism-correction (OC) framework emphasized as a guideline for development of clinical predictive models by Collins et al. [ 12 ] . roofs provides automated reporting of the evaluation metrics listed above – a key feature of the package aimed to guide users in selecting the FS approach adapted to their dataset. We demonstrate the practical value of roofs by applying it to a complex dataset from the PIONeeR clinical study (NCT03833440, Precision Immuno-Oncology for Advanced Non-small Cell Lung Cancer Patients With PD-1 ICI Resistance) to predict the resistance to immunotherapy. This dataset is an interesting and challenging use case for FS because: 1) the data is rich and heterogeneous combining clinical features, routine blood tests and detailed immunoprofiling of blood and tumor samples measured by different clinical and research partners; 2) it contains clusters of highly correlated features, e.g. numerous variables describing related immune cell populations; and 3) p p (374) is roughly equivalent"
+}

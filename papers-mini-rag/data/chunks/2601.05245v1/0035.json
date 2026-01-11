@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0035",
+  "word_start": 7000,
+  "word_end": 7250,
+  "text": "the adversary is non-adaptive/oblivious), and the labels y 1 , … , y T y^{1},\\dots,y^{T} are independent with y t ∼ Bernoulli ​ ( x t ) y^{t}\\sim\\mathrm{Bernoulli}(x^{t}) . Let with the convention that ℱ 0 \\mathcal{F}_{0} is the trivial σ \\sigma -algebra. Then Z t = x t − y t Z_{t}=x^{t}-y^{t} is ℱ t \\mathcal{F}_{t} -measurable and since y t y^{t} is independent of ( y 1 , … , y t − 1 ) (y^{1},\\dots,y^{t-1}) and has mean x t x^{t} . Thus ( Z t , ℱ t ) (Z_{t},\\mathcal{F}_{t}) is a martingale difference sequence. Moreover, for a fixed prediction algorithm, each prediction p t p^{t} is a measurable function of ( x 1 , … , x t , y 1 , … , y t − 1 ) (x^{1},\\dots,x^{t},y^{1},\\dots,y^{t-1}) . Because the contexts ( x t ) (x^{t}) are deterministic under 𝒟 T , m \\mathcal{D}_{T,m} , this implies p t p^{t} is ℱ t − 1 \\mathcal{F}_{t-1} -measurable for every t t . Multicalibration error adds up the magnitude of empirical bias the algorithm has obtained over various subsequences of the data, and those subsequences can be defined by the predictions of the algorithm itself, which in turn can depend on the history of the sequence in arbitrary ways. To reason about this we will use the following deviation bound for a martingale transform N = ∑ t = 1 L I t ​ Z t N=\\sum_{t=1}^{L}I_{t}Z_{t} , where ( Z t )"
+}

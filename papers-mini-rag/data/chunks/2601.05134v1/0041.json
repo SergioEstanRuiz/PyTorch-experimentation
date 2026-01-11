@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0041",
+  "word_start": 8200,
+  "word_end": 8450,
+  "text": "pair ( x , x ′ ) (x,x^{\\prime}) , the condition ensures the bound componentwise. ∎ Using the lemma above and decomposed Shift Reduction Lemma ( 1 ), we can proceed block by block. By zeroing out the coordinates sequentially, we bound the increment in Rényi divergence contributed by block i i by a quantity ε i rényi \\varepsilon^{\\text{r\\'{e}nyi}}_{i} . Summing these contributions yields an overall Since we already have an estimate for the number of steps required for unlearning in each component, summing them gives the bound on the total number of steps. Applying the standard conversion from Rényi DP to ( ε , δ ) (\\varepsilon,\\delta) -DP (Mironov, 2017 ) gives where we define ε i := ε i rényi + log ⁡ ( 1 / δ ) q − 1 \\varepsilon_{i}:=\\varepsilon^{\\text{r\\'{e}nyi}}_{i}+\\tfrac{\\log(1/\\delta)}{q-1} for notational convenience. We emphasize that we do not claim each block is itself an ( ε i , δ ) (\\varepsilon_{i},\\delta) -mechanism; the equality above is an algebraic rewriting of the single ( ∑ i ε i rényi , q ) (\\sum_{i}\\varepsilon^{\\text{r\\'{e}nyi}}_{i},q) -RDP bound after conversion. To guarantee the same budget as the baseline algorithm, it suffices to set Moreover, due to the randomness in the distribution of the model weights and gradients, the group norms are approximately equal. Hence we may treat as the individual clipping bounds for B i B_{i} . Keeping the same noise level (not necessarily minimal) does not change the number of steps T T for each group, since the"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "\\mathcal{A}_{\\mathcal{D}_{n}}\\!\\left(X_{n+1},y\\right) denote the pool of all one-shot nonconformity scores induced by examples in 𝒟 n \\mathcal{D}_{n} . The CAOS aggregated nonconformity score is defined as where k k is a small constant (we use k = 3 k=3 in all experiments). This score is small when several reference examples strongly support the candidate output y y , and large otherwise. We explicitly indicate the dependence on 𝒟 n \\mathcal{D}_{n} , since unlike split conformal prediction, CAOS does not maintain disjoint reference and calibration sets. CAOS calibration and prediction sets. To obtain valid prediction sets, the aggregated CAOS nonconformity scores must be calibrated. We adopt a leave-one-out calibration strategy. Specifically, for each labeled example ( X i , Y i ) ∈ 𝒟 n (X_{i},Y_{i})\\in\\mathcal{D}_{n} , the CAOS calibration score is computed without using ( X i , Y i ) (X_{i},Y_{i}) as a reference example. We therefore define the leave-one-out dataset 𝒟 n − i = 𝒟 n ∖ ( X i , Y i ) \\mathcal{D}_{n}^{-i}=\\mathcal{D}_{n}\\setminus{(X_{i},Y_{i})} and let 𝒜 𝒟 n − i ​ ( X i , Y i ) \\mathcal{A}_{\\mathcal{D}_{n}^{-i}}\\!\\left(X_{i},Y_{i}\\right) denote the collection of one-shot nonconformity scores induced by all reference examples in 𝒟 n − i \\mathcal{D}_{n}^{-i} . Collecting these scores over all i = 1 , … , n i=1,\\ldots,n , we compute the empirical quantile which mirrors the finite-sample correction used in split conformal prediction. The resulting CAOS prediction set for a new input X n + 1 X_{n+1} is CAOS ’ coverage guarantees."
+}

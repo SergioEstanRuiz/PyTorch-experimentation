@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05143v1",
+  "title": "A Lightweight and Explainable Vision-Language Framework for Crop Disease Visual Question Answering",
+  "abs_url": "https://arxiv.org/abs/2601.05143v1",
+  "html_url": "https://arxiv.org/html/2601.05143v1",
+  "chunk_id": "2601.05143v1:0017",
+  "word_start": 3400,
+  "word_end": 3650,
+  "text": "R are derived from token-level cosine similarity scores. The experiments were conducted using two NVIDIA T4 GPUs provided by Kaggle platform. Standard deep learning libraries such as PyTorch and Hugging Face Transformers were used. Table 4 compares plant and disease classification accuracy across different model configurations. The proposed Swin–T5 model achieves the highest accuracy for plant (99.94%) and disease (99.06%) identification. These results confirm the effectiveness of the two-stage training strategy. Models built on the Swin Transformer consistently outperform their ViT-based counterparts by a large margin in both plant and disease classification tasks, validating the choice of Swin-T as the vision encoder as discussed in the methodology. The improvement is attributed to hierarchical feature learning and strong locality modeling. These properties are well suited for fine-grained disease patterns. Compared to LLaVA-AG [ cddm ] and Qwen-VL-Chat-AG [ cddm ] , the proposed Swin-based models achieve higher accuracy. This improvement is observed despite significantly lower model complexity. Swin–T5 improves disease classification accuracy by more than 7% over these methods, highlighting the benefit of task-specific visual pretraining. The strong performance of Swin–BART further demonstrates that accurate visual representations are critical for downstream reasoning, while the consistent gains of T5 indicate improved language modeling and cross-modal alignment. To evaluate answer generation quality, standard n-gram based metrics are reported. These metrics include ROUGE [ rouge ] and BLEU [ bleu ] scores. Table 5 presents a comparative evaluation across different model configurations. The proposed Swin–T5 model achieves the highest scores across all ROUGE variants"
+}

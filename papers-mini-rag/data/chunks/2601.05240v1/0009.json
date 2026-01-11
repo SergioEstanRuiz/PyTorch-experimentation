@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "reasoning task, we subject standard metric RNNs, Transformers, and our topological model to injected semantic noise. As shown in Fig. 1 , we observe a sharp deconfinement transition. Both metric RNNs and Transformers exhibit gapless decay, indicating that attention alone does not confer topological protection. In contrast, the topological model reveals a protected plateau—a mass gap—where logical fidelity remains invariant up to a critical noise threshold. Furthermore, in the variable binding task shown in Fig. 2 , we demonstrate that this topological protection enables holonomic generalization. The model successfully extrapolates to sequence lengths 100 × 100\\times beyond its training window (trained on L ≤ 50 L\\leq 50 , extrapolated to L = 5000 L=5000 ) and maintains zero drift in a state space of 3.6 × 10 6 3.6\\times 10^{6} sectors, a feat that a Transformer with 65 × 65\\times more parameters fails to achieve. This suggests that the path to robust general intelligence lies not in larger models, but in architectures that enforce topological gauge constraints. To understand the origin of robustness in neural reasoning, we model the deep network not as a stack of discrete layers, but as a continuous dynamical system. We propose that the flow of information belongs to a universality class governed by the breaking of time-reversal symmetry. While the formal microscopic derivation is detailed in the Methods, here we outline the physical principles governing this emergence. Causality as Chirality. The fundamental constraint of logical inference is causality: information flows strictly from t → t"
+}

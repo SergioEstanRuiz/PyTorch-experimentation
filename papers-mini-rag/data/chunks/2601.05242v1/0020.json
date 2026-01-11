@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0020",
+  "word_start": 4000,
+  "word_end": 4250,
+  "text": "final answer extracted from the model’s response matches the ground truth. We compare the GRPO and GDPO-trained model on AIME-24 [ 23 ] , AMC (AMC 2022 and AMC 2023) [ 24 ] , MATH [ 25 ] , Minerva [ 26 ] and Olympiad Bench [ 27 ] . All evaluations are conducted using vLLM as the inference backend with a sampling temperature of 0.6, t ​ o ​ p p top_{p} = 0.95, and a maximum response length of 32k tokens. For each evaluation question, we generate 16 samples and report the average pass@1 score and the average length-exceeding ratio, denoted Exceed, which measures the percentage of model responses that exceed the predefined length limit of 4000 tokens. From the training curves of GRPO and GDPO on DeepSeek-R1-1.5B as shown in Fig. 5 , we first observe that the model tends to maximize the easier reward regardless of the optimization method. In this case, the length reward is easier to optimize, and both GRPO and GDPO reach a full length score within roughly the first 100 training steps. We also see that this rapid rise in the length reward coincides with an early drop in the correctness reward, which indicates that the two rewards are competing. During the initial phase of training, the model prioritizes satisfying the length constraint, often at the expense of the more challenging correctness objective. However, from the correctness reward trajectories, we observe that GDPO recovers the correctness reward more effectively than GRPO, achieving"
+}

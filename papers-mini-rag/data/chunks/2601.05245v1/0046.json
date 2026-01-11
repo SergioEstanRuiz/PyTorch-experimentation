@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0046",
+  "word_start": 9200,
+  "word_end": 9450,
+  "text": "noise and drift contributions Note that | p t − x t | < η |p^{t}-x^{t}|<\\eta on H x H_{x} , so | R x | ≤ η ​ n x |R_{x}|\\leq\\eta n_{x} . For group g 3 g_{3} , the contribution of context x x to the bias is We next show that the calibration error over group g 3 g_{3} is always at least the summed magnitude of the “honest” noise terms (summed over contexts x x ) minus the summed magnitude of the “honest” drift terms. For any realization, if η ≤ 1 / ( 2 ​ m ) \\eta\\leq 1/(2m) : The condition η ≤ 1 / ( 2 ​ m ) \\eta\\leq 1/(2m) ensures that the η \\eta -neighborhoods around different grid points x ∈ X 0 x\\in X_{0} are disjoint, so each prediction value v v can be η \\eta -close to at most one context. This allows us to decompose the g 3 g_{3} error cleanly by context. For each context x ∈ X 0 x\\in X_{0} and prediction value v v , let Then H x = ⨆ v H x , v H_{x}=\\bigsqcup_{v}H_{x,v} and If η ≤ 1 / ( 2 ​ m ) \\eta\\leq 1/(2m) then for each prediction value v v there is at most one context x ∈ X 0 x\\in X_{0} such that | v − x | < η |v-x|<\\eta . Hence, for each v v , at most one of the sets H x ,"
+}

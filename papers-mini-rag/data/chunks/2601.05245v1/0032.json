@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0032",
+  "word_start": 6400,
+  "word_end": 6650,
+  "text": ") t = 1 T (x^{t},y^{t})_{t=1}^{T} as follows: Contexts: x t x^{t} cycles through X 0 X_{0} in round-robin order. Formally, fix any enumeration ( x ( 1 ) , … , x ( m 0 ) ) (x^{(1)},\\dots,x^{(m_{0})}) of X 0 X_{0} , and set Thus each x ( k ) x^{(k)} appears either ⌊ T / m 0 ⌋ \\lfloor T/m_{0}\\rfloor or ⌈ T / m 0 ⌉ \\lceil T/m_{0}\\rceil times. Labels: given the context ( x t ) (x^{t}) , draw y 1 , … , y T y^{1},\\dots,y^{T} independently with We denote by 𝒟 T , m \\mathcal{D}_{T,m} the joint distribution of ( x t , y t ) t = 1 T (x^{t},y^{t})_{t=1}^{T} constructed above. For our purposes, the order of the contexts will not matter: the important properties of this distribution are that each context is approximately equally frequent, and that it encodes the label mean at each round. We observe a useful property about this distribution. For each t t , define Z t := x t − y t Z_{t}:=x^{t}-y^{t} , the residuals of “honest predictions”. Then ( Z t ) t = 1 T (Z_{t})_{t=1}^{T} are independent, mean zero, and have nontrivial variance: because x t ∈ [ 1 / 4 , 3 / 4 ] x^{t}\\in[1/4,3/4] for all t t . We now define the family of disjoint groups G = { g 1 , g 2 , g 3 } G=\\{g_{1},g_{2},g_{3}\\} used for the lower bound. The groups are"
+}

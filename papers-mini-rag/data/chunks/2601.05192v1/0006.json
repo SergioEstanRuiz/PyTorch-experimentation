@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "et al. ( 2025 ) . Some approaches make use of reasoning token generation Abdallah et al. ( 2025 ); Liu et al. ( 2025a ); Zhuang et al. ( 2025 ) , and study its impact on performance Jedidi et al. ( 2025 ) . While this body of work primarily targets document and passage retrieval, we demonstrate that pointwise LLM-based reranking, followed by reasoning-driven selection, can be effectively adapted to the entity linking setting without task-specific fine-tuning. Let the KB ℰ \\mathcal{E} be a set of entities, each with a textual description. Given a mention m m in a text S S , the goal of entity linking is to find the entity e ∈ ℰ {e\\in\\mathcal{E}} that m m refers to in the context of S S , or, optionally, return a special entity e none e_{\\text{none}} , which indicates that no entity is relevant. LELA uses a three-stage coarse-to-fine pipeline, as illustrated in Figure 2 : Candidate entities are first generated Sevgili et al. ( 2022 ); Wu et al. ( 2020 ) , then ranked, and then selected. Beyond the text, mention, and KB, LELA requires only a parameter k ∈ ℕ + k\\in\\mathbb{N}^{+} as input. The goal of the candidate generation step is to identify the entities C m ⊆ ℰ {C_{m}\\subseteq\\mathcal{E}} that could potentially be relevant to m m . For this step, LELA is retriever-agnostic, and can work with any method that is capable of pre-selecting a subset of relevant entities. In"
+}

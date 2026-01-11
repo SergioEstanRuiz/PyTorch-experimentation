@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0030",
+  "word_start": 6000,
+  "word_end": 6250,
+  "text": "is explicit, should lead to the “performative”, (2) synthetic data can be generated reliably across generations, and (3) bias effects can be measured continuously over iterative fine-tuning. The three tasks we selected were chosen because they satisfy these criteria: Clear group structure. Each task provides natural, well-defined group splits (e.g., left/right political leaning, creative/non-creative preferences, easy/hard math problems), enabling controlled bias evaluation. Suitability for multi-generation synthetic data. Many standard bias benchmarks (e.g., BBQ) are closed-ended, making them unsuitable for recursive data generation. Our tasks support repeated prompting and regeneration across iterations. Grounding in prior work. Political bias in news generation has been studied (Wang et al. , 2024c ) ; creative vs. non-creative preference gaps follow the Preference Dissection; and easy/hard math disparities capture reasoning performance differences. We will clarify this rationale in Section 4 of the revised version. All experiments can be conducted using two 80 GB A100 GPUs. We used the vLLM Kwon et al. ( 2023 ) framework to generate the synthetic data. The generation parameters in the main observation experiments are set as follows: n = 1 (single sample per prompt). All other parameters followed the default settings in vLLM, including temperature = 1.0 and t ​ o ​ p p top_{p} = 1.0. These settings correspond to standard sampling without additional constraints. Using an unbiased dataset of 1000 human-written articles evenly distributed across right-lean and left-lean categories, we generate the synthetic articles by deterministically predicting the next 256 tokens. Right lean bias is the percentage"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0030",
+  "word_start": 6000,
+  "word_end": 6250,
+  "text": "as a strict impossibility result under all settings. Note that the argument uses only that the unlearning procedure is training-agnostic and that the number of steps T T is fixed in advance, i.e., it does not depend on the model weights. We stated the argument in terms of step counts T T and T retrain T_{\\mathrm{retrain}} , although the per-step computational cost may differ across procedures. The same reasoning can be reformulated in terms of wall-clock time or total compute, provided the algorithm computation const does not depend on the model weights. The key quantity in our certificates is the discrepancy Δ ​ ( ρ ) \\Delta(\\rho) between the full retrain and the retraining-from-scratch. While obtaining a tight bound on Δ ​ ( ρ ) \\Delta(\\rho) for arbitrary deep models is challenging, this question is well-studied in the literature on argument stability (also known as parameter stability). Below we summarize regimes where such bounds are known or can be derived under standard assumptions. Algorithmic stability has long been used to analyze how sensitive learning algorithms are to changes in the training data. Liu et al. ( 2017 ) formalized argument stability , which upper-bounds the parameter deviation between hypotheses trained on neighboring datasets. Several subsequent works derive explicit bounds on this deviation under standard assumptions. Hardt et al. ( 2016 ) provide a trajectory-level recursion for SGD under β \\beta -smooth and L L -Lipschitz losses in three regimes: (i) non-convex, (ii) convex, (iii) γ \\gamma -strongly convex. When the"
+}

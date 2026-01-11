@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05242v1",
+  "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+  "abs_url": "https://arxiv.org/abs/2601.05242v1",
+  "html_url": "https://arxiv.org/html/2601.05242v1",
+  "chunk_id": "2601.05242v1:0028",
+  "word_start": 5600,
+  "word_end": 5850,
+  "text": "0.6, a t ​ o ​ p p top_{p} value of 0.95, and a maximum response length of 32k tokens. For each evaluation question, we generate 16 rollouts and report the average test case pass rate, the average length-exceeding ratio, and the average bug ratio, where the bug ratio measures the proportion of generated code that results in either a runtime error or a compilation error. We compare GDPO and GRPO under two configurations: (1) a two-reward setting using ℛ pass \\mathcal{R}_{\\text{pass}} and ℛ ~ length \\tilde{\\mathcal{R}}_{\\text{length}} , and (2) a three-reward setting using ℛ pass \\mathcal{R}_{\\text{pass}} , ℛ ~ length \\tilde{\\mathcal{R}}_{\\text{length}} , and ℛ bug \\mathcal{R}_{\\text{bug}} . We denote the two-reward and three-reward versions of GRPO as GRPO 2-obj \\text{GRPO}_{\\text{2-obj}} and GRPO 3-obj \\text{GRPO}_{\\text{3-obj}} , and use the same notation for GDPO. As shown in Table 5 , GDPO 2-obj \\text{GDPO}_{\\text{2-obj}} improves pass rates across all the tasks compared with GRPO 2-obj \\text{GRPO}_{\\text{2-obj}} , while maintaining a similar length-exceeding ratio. For example, GDPO 2-obj \\text{GDPO}_{\\text{2-obj}} improves the Codecontests pass rate by 2.6% while increasing the length-exceeding ratio by only 0.1%, and achieves a 3.3% pass rate gain together with a 1% reduction in length violations compared with GRPO 2-obj \\text{GRPO}_{\\text{2-obj}} on Taco. A similar pattern holds in the three-reward setting where GDPO 3-obj \\text{GDPO}_{\\text{3-obj}} achieves a substantially better balance across all objectives, maintaining similar pass rate to GRPO 3-obj \\text{GRPO}_{\\text{3-obj}} while also markedly reducing both the length-exceeding ratio and the bug ratio. Overall, these results demonstrate that GDPO remains"
+}

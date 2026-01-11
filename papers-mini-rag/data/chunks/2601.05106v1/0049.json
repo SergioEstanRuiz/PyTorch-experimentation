@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0049",
+  "word_start": 9800,
+  "word_end": 10014,
+  "text": "following text as the prompt provided to the GPT-4o model. The output scores for both responses are then extracted to compute the win rate. In this section, we examine the routing behavior of our model on both domain-specific and general datasets to demonstrate the effectiveness of the router’s token-level routing capability. In the following text, we use red , blue and softgreen to represent the math, coding and instruction-following model, respectively. Based on the above qualitative examples, we observe that FusionRoute successfully assigns the majority of tokens associated with specific problem types such as coding, mathematical reasoning, and instruction following, to their corresponding expert models. This behavior demonstrates the effectiveness of FusionRoute in performing accurate token-level routing on domain-specific datasets, enabling the model to effectively leverage the complementary expertise of different specialists. Furthermore, when evaluated on general-purpose datasets, we find that FusionRoute exhibits a more nuanced routing pattern. Tokens that require mathematical or logical reasoning are predominantly routed to the math and code experts, while tokens related to discourse structure, formatting, or general instruction phrasing (e.g., “According to”, “Let’s”, “So”) are more frequently assigned to the instruction-following model. This adaptive token-level routing behavior highlights FusionRoute ’s ability to dynamically balance specialized reasoning and general linguistic fluency, thereby improving overall generation quality across diverse tasks."
+}

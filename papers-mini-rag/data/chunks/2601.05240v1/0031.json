@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0031",
+  "word_start": 6200,
+  "word_end": 6450,
+  "text": "navigation. Similarly, in Cybersecurity, software execution paths and network protocols can be modeled as trajectories on a finite state manifold. Exploits often manifest as forbidden transitions that violate the valid topology of the control flow. A Holonomic Network trained on valid execution traces could serve as a topological intrusion detection system, identifying zero-day attacks not by signature matching, but by detecting the topological violations that characterize a breach of the system’s logical geometry. To isolate the physics of reasoning, we constructed two distinct synthetic manifolds representing complementary aspects of inference: non-Abelian composition and algorithmic generalization. 1. The S 3 S_{3} Path Integration Task (Robustness). To test thermodynamic stability in Fig. 1 , we utilized the symmetric group S 3 S_{3} (order 6). As the smallest non-Abelian group, S 3 S_{3} serves as the minimal instance of path-dependent inference, where the final state depends strictly on the ordered composition of operators ( A ⋅ B ≠ B ⋅ A A\\cdot B\\neq B\\cdot A ). The dataset consists of sequences of group operations g 1 , g 2 , … , g L g_{1},g_{2},\\dots,g_{L} , where the target is the path-ordered product y = ∏ i = 1 L g i y=\\prod_{i=1}^{L}g_{i} . This task isolates the model’s ability to maintain a coherent topological state in the presence of semantic noise. 2. The Variable Binding Task (Generalization). To test holonomic generalization in Fig. 2 , we constructed a variable tracking task formally isomorphic to the permutation of world-lines. The system consists of"
+}

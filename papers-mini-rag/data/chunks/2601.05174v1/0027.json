@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0027",
+  "word_start": 5400,
+  "word_end": 5650,
+  "text": "3.7GB of GPU memory (89.3% lower than GWNet’s 34.5GB) with optimal training (59s/epoch) and inference times (18s). Its parameter count (709K) is higher than DLinear’s 130K but less than PatchSTG’s 2,421K, balancing performance and efficiency. FaST demonstrates strong scalability on the GLA dataset (672-step). Its GPU memory (17.4GB) is 38.9% lower than BigST’s 28.5GB, with training time reduced to 60.5% of BigST’s (514s vs 311s/epoch). The 102.7% memory growth from 96 → \\rightarrow 672 step (18.8GB → \\rightarrow 38.1GB) is significantly lower than NHITS’s 194.8% (13.5GB → \\rightarrow 39.8GB) and DLinear’s 487.3% (5.5GB → \\rightarrow 32.3GB), validating its learning efficiency. On the CA dataset (672-step), FaST’s parameter count (1,466K) exceeds most baselines but achieves competitive training (746s/epoch) and inference times (238s), outperforming BigST in training speed (746s vs 1,284s/epoch) and inference (238s vs 374s). Moreover, the memory growth rate from 96 → \\rightarrow 672 steps (102.7%) and training time increase (269%) are lower than comparable models, confirming strong adaptability to long-sequence tasks. In summary, FaST delivers an efficient solution for large-scale time series prediction. By leveraging adaptive agent attention and parallelized expert routing, it achieves high performance with minimal computational overhead. Crucially, its efficiency scales linearly with the number of graph nodes and the length of the horizon, as demonstrated in Figure 6 . This section will demonstrate the correlation between traffic patterns and expert weight distribution through case studies. Using Node 6, Node 7, and Node 710 from the SD dataset as examples, Figure 7 a illustrates the cyclical"
+}

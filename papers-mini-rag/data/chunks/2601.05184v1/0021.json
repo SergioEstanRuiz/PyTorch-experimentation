@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "the apparent performance drop as the data distribution becomes simpler. We further observe that the linear dynamic setting better preserves math-solving ability compared to the size-fixed dynamic. The trend in disparate bias reduction is similar across both settings. Notably, model scale plays a critical role: for smaller models such as Qwen2.5-Math-1.5B, performative dynamics slow both performance and bias degradation, whereas for larger models like Qwen2.5-Math-7B, SCPL leads to faster performance decline compared to non-dynamic training (Figure 3 ). This suggests that larger models are more sensitive to distributional shifts in synthetic data, and dynamic sampling may disrupt their learned balance by reducing exposure to harder or more diverse examples. In SCPL, Accumulation helps reduce the decline in disparity and math-solving ability. We evaluate the effectiveness of our proposed bias mitigation method, which curates less biased data using a predefined rule-based reward function (Eq. 2 ) and a reweighting technique. Setup We set k = 4 k=4 , α 1 = 1.0 \\alpha_{1}=1.0 , and α 2 = 3.0 \\alpha_{2}=3.0 . In News task, r 1 r_{1} evaluates the fluency of generated responses using a Gibberish Detector, which assigns a score based on generation quality. Since topic consistency is crucial in this task, we use content similarity as a proxy to assess whether the preference between the input and output remains aligned. r 2 r_{2} calculates the cosine similarity between the generated content and the ground-truth continuation. If the similarity exceeds a predefined threshold, the rule returns +1; otherwise, it returns"
+}

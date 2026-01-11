@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0016",
+  "word_start": 3200,
+  "word_end": 3450,
+  "text": "MDP M i ​ ( S i , A i , R i , P i , Ψ i ) M_{i}(S_{i},A_{i},R_{i},P_{i},\\Psi_{i}) . MDP parameters can change between episodes. Nonstationarity can be seen as the difference between distributions of separate parameters of different MDPs, e.g. transition probability function or the reward. In a more practical setting, nonstationarity can be seen as the difference between tasks Visús et al. ( 2021 ) , Khattar et al. ( 2024 ) , Song et al. ( 2016 ) . The goal of the learning agent is to find such a policy π \\pi that would maximize the expected cumulative reward collected while travelling over tasks from 1 to n n . where J π J_{\\pi} is an objective function, π ∈ Π \\pi\\in\\Pi is a policy, i i is an episode index, n ∈ N n\\in N is the number of episodes, and τ \\tau is the number of time steps. As a learning agent operates in nonstationary conditions, it is important to take the effect of nonstationarity into account. Speed of adjustment to NS is an important factor for both performance and safety. For example, if the adjustment to an unfamiliar environment takes too much time for the control system of an autonomous vehicle, the vehicle can crash. Let’s consider how quickly the agent can adjust to some unknown form of nonstationarity. Let’s define function J ∗ J^{*} as the optimal performance of a learning agent and J ∗ ∗ J^{**} as a"
+}

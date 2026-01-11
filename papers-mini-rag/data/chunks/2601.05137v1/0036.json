@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0036",
+  "word_start": 7200,
+  "word_end": 7450,
+  "text": "is the 7 7 -dimensional analog of the colorings shown in Figure 6 . Notice how this 7 7 -dimensional coloring is indeed a local minimum for both the original and modified loss functions, while in smaller dimensions, the modified loss function escapes the analogous coloring despite that coloring being a local minimum of the original loss function. Increasing r r increases the number of spatial symmetries of the grid graph. These results suggest that the algorithm responds in interesting ways to graphs with a high degree of symmetry. The symmetry often leads the algorithm to a proper coloring, but it can also cause the algorithm to get stuck at one of these highly symmetric colorings that are local minima with large loss. Hexagonal Lattice Graphs: A hexagonal lattice graph has its nodes and edges on the regular hexagonal tiling of the plane (Figure 7 , top right). These graphs have no odd cycles and thus have chromatic number 2 2 . We ran Mod-GCN 100 times on the hexagonal lattice graph with 9 9 rows and 9 9 columns of hexagons. The results are recorded in Figure 9 . Like with the even cycle and path, the algorithm struggles with this graph even though the proper coloring is intuitive. Odd Cycles: Cycles of odd order have chromatic number 3 3 . Furthermore, no improper 3 3 -coloring is a local minimum, since any vertex that belongs to a monochromatic edge can simply switch to whichever color does not appear"
+}

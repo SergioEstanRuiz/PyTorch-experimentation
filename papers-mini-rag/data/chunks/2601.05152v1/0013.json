@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "level, but brings some difficulties in implementation. There were several efforts to extend POMDP to simplify its implementation for nonstationary environments. Choi et. al Choi et al. ( 2001 ) developed the Hidden Mode Markov Decision Process (HM-MDP) , a special case of the POMDP model, that represents the non-stationary environment as a set of stationary environments, also known as a set of contexts , or modes. HM-MDP assumes that the number of hidden modes, or the contexts, is known, and proposes a way of learning the HM-MDP model by using the Baum-Welch algorithm. Da Silva et. al Da Silva et al. ( 2006 ) propose methods that can detect a prior unknown set of contexts. The Bayes-adaptive (BAMDP) model was developed by Ross et al. ( 2007 ) , Duff ( 2002 ) . Both HM-DP and BAMDP consider an episodic MDP with an unknown reward and transition dynamics that have to be found during the episode. Schöpe et al. ( 2021 ) proposed a constrained POMDP formulation and algorithms. The second group includes research that extends traditional stationary MDPs Puterman ( 1990 ) to non-stationary environments. Lecarpentier et. al Lecarpentier and Rachelson ( 2019 ) proposed NSMDP - a modified version of MDP that represents nonstationary MDP M N ​ S M_{NS} as a time series of stationary MDPs M S 1 , M S 2 ​ … ​ M S k M_{S_{1}},M_{S_{2}}...M_{S_{k}} where k k is an epoch number. The distribution of transition function P and reward"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "clarify that even when the drift term is zero in expectation, diffusion can cause the covariance to grow linearly or nonlinearly in time. This temporal evolution of uncertainty is essential to distinguish systems with similar means but different noise characteristics — a feature that deterministic latent models like neural ODEs cannot capture. From a variational inference perspective, the latent SDE serves as a stochastic prior over paths, which is then aligned with the posterior inferred from observed data. The flexibility of modeling μ θ \\mu_{\\theta} and Σ θ \\Sigma_{\\theta} via neural networks enables the learning of highly non-linear and data-adaptive dynamics. Moreover, since Eq. 1 defines a continuous-time generative process, my framework naturally handles data with irregular or missing timestamps, unlike RNNs or discrete-time VAEs. To make this model tractable within a VAE framework, I assume a tractable variational approximation q ϕ ​ ( z 0 ) q_{\\phi}(z_{0}) over the initial state and simulate trajectories forward using Eq. 3 . Gradients with respect to θ \\theta and ϕ \\phi are estimated using a combination of stochastic reparameterization and the adjoint sensitivity method for SDEs ( [ 26 ] ), allowing for efficient and unbiased learning. The presence of diffusion in the latent state also implies that the KL divergence term in the evidence lower bound includes contributions not just from the mismatch in means, but from the entire stochastic path distribution — making posterior alignment a much richer objective. Finally, it is worth noting that the class of models described"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0141",
+  "word_start": 28200,
+  "word_end": 28450,
+  "text": "​ ( d 2 ​ log ⁡ ( 1 / δ ) / ε 4 ) \\mathaccent 869{O}(d^{2}\\log(1/\\delta)/\\varepsilon^{4}) samples and runs in O ~ ​ ( d 3 ​ log ⁡ ( 1 / δ ) / ε 4 ) \\mathaccent 869{O}(d^{3}\\log(1/\\delta)/\\varepsilon^{4}) time. Since for multivariate Laplace distribution, the marginal distribution on each coordinate is a one-dimensional Laplace distribution, the analysis is analogous to that of Corollary 4.3 . However, the characteristic function ϕ Lap ⁡ ( 0 , 1 ) ​ ( t ) = 1 1 + t 2 / 2 \\phi_{\\operatorname{\\mathrm{Lap}}(0,1)}(t)=\\frac{1}{1+t^{2}/2} . Thus, R ​ ( T ) = sup t ∈ B T 1 ​ ( 0 ) | ϕ Lap ⁡ ( 0 , 1 ) ​ ( t ) | − 1 = O ​ ( T 2 ) R(T)=\\sup_{t\\in B^{1}_{T}(0)}|\\phi_{\\operatorname{\\mathrm{Lap}}(0,1)}(t)|^{-1}=O(T^{2}) . For estimating one coordinate, the sample complexity is Again, in total the algorithm uses O ~ ​ ( d 2 ​ log ⁡ ( 1 / δ ) / ε 4 ) \\mathaccent 869{O}(d^{2}\\log(1/\\delta)/\\varepsilon^{4}) samples and O ~ ​ ( d 3 ​ log ⁡ ( 1 / δ ) / ε 4 ) \\mathaccent 869{O}(d^{3}\\log(1/\\delta)/\\varepsilon^{4}) time. ∎ We run R = O ​ ( log ⁡ ( 1 / δ ) ) R=O(\\log(1/\\delta)) independent copies of A A with input accuracy ε ′ = min ⁡ { ε / 3 , γ / 16 } , \\varepsilon^{\\prime}=\\min\\{\\varepsilon/3,\\gamma/16\\}, and greedily perform a clustering algorithm on the set of all k ​ R"
+}

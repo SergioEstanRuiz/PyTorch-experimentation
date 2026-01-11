@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05163v1",
+  "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+  "abs_url": "https://arxiv.org/abs/2601.05163v1",
+  "html_url": "https://arxiv.org/html/2601.05163v1",
+  "chunk_id": "2601.05163v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "agentic system design. Document Question Answering Methods. Traditional DocQA methods rely on OCR-based pipelines Ding et al. ( 2022 ) or end-to-end vision–language models Sukh ( 2025 ); Hu et al. ( 2025 ) , but both are constrained by limited input length and struggle with long documents Ma et al. ( 2024 ); Zou et al. ( 2025 ); Dong et al. ( 2025a ) . Retrieval-augmented generation Zhang et al. ( 2024 ); Dong et al. ( 2025a , b ) improves scalability, yet most approaches decouple retrieval and reasoning in a single-shot manner, making them brittle to retrieval errors and ineffective for complex, multi-step queries Zhang et al. ( 2025 ) . Recent agent-based DocQA systems Wu et al. ( 2025c ); Sun et al. ( 2025a ); Dong et al. ( 2025c ) address these issues through iterative document navigation and reading, but they predominantly depend on prompt-engineered, closed-source LLMs. In this work, we aim to train an open-source document agent with learnable behaviors for robust and scalable DocQA. Synthetic Data for Agent Training. High-quality training data is critical for training agents. Due to its scalability, rapid iteration, and inherent trainability, synthetic data offers significant advantages over manually annotated data, serving as a highly effective alternative to human-labeled datasets for agent learning Liu et al. ( 2025a ); Team et al. ( 2025b ) . Prior work has demonstrated that large-scale agent-synthesized data can be effectively generated for search agents Wu et al. ( 2025a );"
+}

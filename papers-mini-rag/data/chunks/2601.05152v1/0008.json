@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "the starting state distribution Bellman ( 1957 ) . A stationary policy π ∈ Π \\pi\\in\\Pi maps from states to probability distributions over actions π \\pi : S → P(A), with π \\pi (a|s) denoting the probability of selecting action a in state s. Π \\Pi denotes the set of all stationary policies. Sutton and Barto ( 2018 ) . Each learning task can be represented as some where i i represents episode number, and the goal of the learning agent is to find such a policy π \\pi , that maximizes the objective function J π J_{\\pi} over the episodes i − N i-N . where r t r_{t} represents the reward, and γ t \\gamma^{t} represents the discount factor. However, such a clear and convenient formulation does not take any goals other than performance into account. In real life, the agent can have multiple goals and multiple objectives that should be satisfied at the same time. One of the most important goals that is different from performance is safety. Although the definition of RL safety varies from one study to another, in this work, we define safety as the state of being protected from harm or other dangers. We also define safe learning as the process of learning policies that maximize the expected return while satisfying safety constraints during the learning and deployment processes Garcıa and Fernández ( 2015 ) . So, we can modify equation ( 2 ) by adding some constraints C on policy π \\pi"
+}

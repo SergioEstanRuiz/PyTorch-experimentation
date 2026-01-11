@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0030",
+  "word_start": 6000,
+  "word_end": 6250,
+  "text": "complex spatial and temporal dependencies. These models achieve excellent short-term accuracy (e.g., 12-step) on graphs of a few hundred nodes, but their spatial and temporal modules suffer from quadratic complexity, resulting in excessive memory and time consumption. To address scalability, structure-aware approaches (e.g., SGP (Cini et al. , 2023 ) , PatchSTG (Fang et al. , 2025 ) ) reduce spatial interactions via sparse aggregation or partitioning, yet often sacrifice long-range dependencies and rely on accurate graph structures. Conversely, structure-free methods (e.g., BigST (Han et al. , 2024b ) , RPMixer (Yeh et al. , 2024 ) , STID (Shao et al. , 2022 ) ) simplify spatial modeling with node embeddings and feature mixing, but may dilute critical spatial semantics. These limitations hinder their effectiveness in large-scale, long-horizon STG forecasting, where preserving rich spatial relationships is essential. To this end, this paper aims to simultaneously improve the accuracy and efficiency of STG in long-term and large-scale prediction. Temporal Forecasting Methods. STG forecasting can be simplified to a time series forecasting problem by ignoring spatial information. The long-horizon forecasting challenge is tackled by Transformer variants (Zhou et al. , 2021 ; Liu et al. , 2022 ; Nie et al. , 2023 ; Liu et al. , 2024b ) , lightweight MLP-mixers (Chen et al. , 2023 ; Wang et al. , 2024 ) and linear pattern decomposition (Zeng et al. , 2023 ; Challu et al. , 2023 ; Lin et al. , 2024 ) . These temporal models"
+}

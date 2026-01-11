@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0056",
+  "word_start": 11200,
+  "word_end": 11450,
+  "text": "expected multicalibration error o ​ ( T 2 / 3 ) o(T^{2/3}) against adversarially chosen contexts and outcomes, matching (up to logarithmic factors) known online multicalibration upper bounds (Noarov et al. , 2025 ) , and separating the statistical complexity of multicalibration from marginal calibration for which O ​ ( T 2 / 3 − ε ) O(T^{2/3-\\varepsilon}) upper bounds are known (Dagan et al. , 2025 ) . This section gives a lower bound for online multicalibration using only prediction-independent group functions g : 𝒞 → [ 0 , 1 ] g:\\mathcal{C}\\to[0,1] , where 𝒞 \\mathcal{C} is the context space. Specifically, this section is devoted to proving the following theorem: There exist universal constants c , C > 0 c,C>0 and T 0 ∈ ℕ T_{0}\\in\\mathbb{N} such that for all T ≥ T 0 T\\geq T_{0} , under the distribution and prediction-independent group family G G defined in this section, every (possibly randomized) online forecaster satisfies The key challenge in proving lower bounds for prediction-independent groups is that we cannot directly detect when the learner deviates from “honest” predictions p t = 𝔼 ​ [ y t ] = x t p^{t}=\\mathbb{E}[y^{t}]=x^{t} , since our groups cannot depend on the prediction value. Instead, we proceed in three steps: Global orthogonal groups enforce approximate honesty (Section 4.3 ): We define a family of Walsh-based groups on the mean grid. Using the orthogonality and “prefix-sum” properties of the Walsh basis, we show that any forecaster with small multicalibration error on these"
+}

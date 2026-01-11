@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "multi-LLM collaboration methods. This dual design allows FusionRoute to function as an automatic, domain-agnostic coordination mechanism, enabling consistent performance improvements across diverse tasks and datasets. In summary, we have the following contributions: We propose FusionRoute , a token-level approach that automatically selects the most suitable expert model at each decoding step while simultaneously providing a complementary logit for better generation. Theoretically, we show that expert-only token-level collaboration as in (Chakraborty et al., 2025 ) cannot in general attain the optimal value function unless strong assumptions hold, revealing a fundamental limitation of prior methods. In contrast, FusionRoute ’s complementary generator overcomes this limitation and enables recovery of the optimal policy. Empirically, FusionRoute consistently outperforms strong baselines—including token-level collaboration methods, model merging, and even finetuned models—across diverse expert domains (mathematics, coding, and instruction following) as well as general-purpose evaluations. These results highlight FusionRoute ’s robustness, efficiency, and broad applicability in scenarios where expert strengths differ. We formalize the decoding process of a language model as sampling from an autoregressive policy π \\pi . Let 𝒳 \\mathcal{X} denote the space of prompts and 𝒴 \\mathcal{Y} the vocabulary. A response is represented as a sequence y = ( y 1 , … , y T ) ∈ 𝒴 T y=(y_{1},\\dots,y_{T})\\in\\mathcal{Y}^{T} . Given a prompt x ∈ 𝒳 x\\in\\mathcal{X} , the language model induces a conditional distribution over responses through the policy where π ​ ( y t ∣ x , y < t ) \\pi(y_{t}\\mid x,y_{<t}) specifies the probability of generating token y t"
+}

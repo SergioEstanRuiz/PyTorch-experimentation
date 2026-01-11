@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0028",
+  "word_start": 5600,
+  "word_end": 5850,
+  "text": "33 in Appendix D.2 ). Empirical coverage should meet or exceed the target level 1 − α 1-\\alpha , while smaller prediction sets, corresponding to lower predictive uncertainty, are preferred. For a fair comparison, all methods use the same one-shot prediction tasks, backbone models, and data splits, differing only in how prediction sets are constructed and calibrated. SCOS Avg.: This baseline follows Alg. 2 to calibrate | 𝒟 ref | |\\mathcal{D}_{\\textrm{ref}}| one-shot predictors on calibration data 𝒟 cal \\mathcal{D}_{\\mathrm{cal}} . Performance is reported on average over one-shot predictors. SCOS Best: This baseline considers the same pool of one-shot predictors and calibration procedure but then uses the calibration set to select the predictor that produces the smallest prediction sets (on average over calibration examples). This selection step, in theory breaks the coverage guarantees associated with split conformal approaches. SCOS Oracle: This oracle variant is also based on Alg. 2 , but leverages access to the test set and the ground-truth label to adaptively select, for each example, the smallest single-source prediction set that contains the true label. While this approach attains perfect coverage, it is not deployable in practice and is included solely as a reference. CAOSours : Our approach uses 𝒟 n \\mathcal{D}_{n} both as the pool of reference examples and as calibration data according to Alg. 1 . To avoid issues with hyperparameter selection we set the number of smallest scores to aggregate k = 3 k=3 throughout. Results Table 1 summarizes results in terms of empirical coverage and"
+}

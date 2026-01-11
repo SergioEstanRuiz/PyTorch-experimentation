@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0024",
+  "word_start": 4800,
+  "word_end": 5050,
+  "text": "demonstrated by Kanduri et al. [ 29 ] . Finally, information theory filters performed poorly, exhibiting both high FPR and low TPR, consistent with their omission of known biomarkers in the real outcome analysis. Overall, Table 2 illustrates that a low FPR did not necessarily correspond to better predictive performance, whereas higher TPR values were generally associated with improved AUC. This highlights that generalisation requires identifying a sufficient set of true predictors rather than minimising false positives alone. Table 2 additionally compares computational efficiency across FS methods. Most filter and embedded methods required ≤ 10 \\leq 10 seconds per bootstrap iteration (and ≤ 1 \\leq 1 second for some). In contrast, wrapper methods and resampling-based approaches were substantially more demanding, with computation time approaching 1 minute per bootstrap iteration. Based on the results presented above, the p.adjust filter based on the union of BH-adjusted p-values from logistic regression (controlled for PD-L1) and t-test with 0.05 threshold was identified as the top-performing method for predicting the resistance to immunotherapy in the PIONeeR data. It demonstrated the highest optimism-corrected AUC (0.72) when fitted with the gradient boosting classifier. It also ranked among the most stable methods (S = 0.39). When benchmarked on semi-synthetic dataset, it achieved the highest TPR of 0.93 ± 0.06 at the expense of a quite high FPR of 0.1 ± 0.03. This was acceptable in our setting, as the cost of missing a true biomarker was considered to be higher than that of including redundant biomarkers. Importantly, unlike"
+}

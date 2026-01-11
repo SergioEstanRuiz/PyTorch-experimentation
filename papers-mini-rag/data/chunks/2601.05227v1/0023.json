@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "variational inference and continuous-time generative modeling. The explicit use of drift and diffusion in both prior and posterior allows for tighter variational bounds, more stable training, and interpretable latent representations—a significant step forward in combining stochastic calculus with deep learning architectures. Training stochastic processes with continuous-time dynamics poses a major computational challenge. To compute gradients efficiently through SDE paths, I employ the adjoint sensitivity method ( [ 11 ] ; [ 22 ] ). This method treats the loss ℒ \\mathcal{L} as a functional over the solution to a stochastic differential equation and computes gradients by solving an associated adjoint SDE backward in time. Specifically, for a state trajectory z t z_{t} satisfying the gradient with respect to the terminal state is propagated backward via the stochastic adjoint equation: where a t = ∂ ℒ ∂ z t a_{t}=\\frac{\\partial\\mathcal{L}}{\\partial z_{t}} and the derivatives are evaluated along the forward path. This approach allows gradients with respect to model parameters θ \\theta to be obtained without storing the full forward trajectory, yielding substantial memory savings. While the deterministic adjoint equation is well established for ODEs, its extension to SDEs is more subtle due to the Itô–Stratonovich discrepancy and the presence of noise-driven evolution. To remain consistent with Itô calculus, I adopt the backward Itô interpretation, which allows the chain rule to apply in expectation but introduces additional correction terms that must be handled numerically ( [ 26 ] ). In this setting, the adjoint state a t a_{t} is itself a stochastic"
+}

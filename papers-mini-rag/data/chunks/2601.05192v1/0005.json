@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "the mention before selecting the best candidate entity and Ye and Mitchell ( 2025 ) uses in-context learning Brown et al. ( 2020 ) for candidate selection. All of these LLM-based approaches leverage task- or domain-specific candidate retrieval, fine-tuning, or complex prompt engineering, which limits their applicability in true zero-shot settings. In contrast, LELA requires no fine-tuning or domain-specific components, and our experiments show that it outperforms these approaches across multiple datasets, in a true zero-shot setting. LLMs have recently been explored as general-purpose rerankers in information retrieval: pointwise approaches compute a score for each query-document pair Pipitone et al. ( 2025 ); Zhang et al. ( 2025 ) ; pairwise approaches compare the relevance of a pair of documents Qin et al. ( 2024 ); Luo et al. ( 2024 ) ; and listwise approaches process a list of documents and output them ranked by their relevance Wang et al. ( 2025 ); Liu et al. ( 2025b ) . Other methods are setwise Zhuang et al. ( 2024 ) , tournament-inspired Chen et al. ( 2025b ) , efficiency-centered Dedov ( 2025 ) , as well as attention-pattern-based Chen et al. ( 2025a ) or conditional perplexity-based Shi et al. ( 2025 ) . Some approaches make use of reasoning token generation Abdallah et al. ( 2025 ); Liu et al. ( 2025a ); Zhuang et al. ( 2025 ) , and study its impact on performance Jedidi et al. ( 2025 ) . While this body of"
+}

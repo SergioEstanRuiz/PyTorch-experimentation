@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05170v1",
+  "title": "Reverse-engineering NLI: A study of the meta-inferential properties of Natural Language Inference",
+  "abs_url": "https://arxiv.org/abs/2601.05170v1",
+  "html_url": "https://arxiv.org/html/2601.05170v1",
+  "chunk_id": "2601.05170v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "MNLI corpus, along with the gloss that the hypothesis of an entailment is “necessarily true or appropriate whenever the premise is true”, a contradiction “necessarily false or inappropriate whenever the premise is true” and neutral “neither condition applies”. This suggests that the three-way classification should cover the whole space of sentence pairs, and that neutral pairs are neither entailments nor contradictions – sentiments that are repeated by Nie et al. ( 2020 ) . Models trained on SNLI-style datasets learn to classify sentence pairs according to the NLI labels. The classification induces relations E E , C C , N N that hold on sentence pairs classified by the respective label. Externally, our logical intuition is the norm according to which we expect the models to behave. But, a salient question is whether we can actually expect the models to behave according to that norm, given the data from which the inference relations are induced. In other words, what inference relations could possibly be induced from the data provided to the models? If those relations are not compatible with our intuitions, then perhaps the models are not so much to blame as the datasets. A preliminary inspection shows that the NLI relations are not definable in propositional logic (in a strong sense, see Sec. 3.2 ). The classical material conditional is also well known to be inadequate for formalizing natural language conditionals (see, e.g., Lewis and Langford 1959 ). Moreover, the NLI annotator instructions exhibit strong modal language (“necessary”/“definitely true”),"
+}

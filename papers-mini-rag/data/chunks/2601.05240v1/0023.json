@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "to a Topological Phase, where logical truths are protected by non-local invariants (braiding statistics) rather than local geometry. This phase transition explains not only the robustness against noise (Fig. 1 ) but also the capacity for holonomic generalization beyond the training window (Fig. 2 ), as the logical rule is encoded in the path-independent holonomy rather than the sequence length. This suggests that the “black box” of neural networks is not unstructured; it possesses a hidden topological order that differentiates true reasoning from mere pattern matching. By identifying tokens as effective anyons, we provide a theoretical framework for why order-sensitive reasoning ( A ⋅ B ≠ B ⋅ A A\\cdot B\\neq B\\cdot A ) emerges naturally from gauge-invariant dynamics, whereas it must be artificially engineered into commutative metric architectures. Ultimately, while scaling parameters remains essential for capturing the breadth of semantic knowledge, our results support the view that the structural integrity of reasoning depends on the Topological Phase. This suggests that the path to general intelligence requires integrating the inductive bias of gauge symmetry with the capacity of large-scale models, ensuring that the expanding knowledge base remains logically coherent. Symmetry Breaking vs. Scaling Laws. Current trends in AI rely on the Scaling Hypothesis—the observation that error rates decay as a power law of parameter count P P . Our results challenge the universality of this law for logical reasoning. In the variable binding task, a 3 3 million parameter Transformer failed where a 46 , 000 46,000 parameter Holonomic Network"
+}

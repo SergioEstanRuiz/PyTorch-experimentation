@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05170v1",
+  "title": "Reverse-engineering NLI: A study of the meta-inferential properties of Natural Language Inference",
+  "abs_url": "https://arxiv.org/abs/2601.05170v1",
+  "html_url": "https://arxiv.org/html/2601.05170v1",
+  "chunk_id": "2601.05170v1:0031",
+  "word_start": 6200,
+  "word_end": 6450,
+  "text": "the expected label set (either the label used to prompt the model or the inferred possible labels). Table 6 shows those items, the expected labels, and how they were annotated. We note that in two of the four generated items, one of the annotators initially chose the label intended by the model. In nearly all cases, the inconsistency appears to hinge on either the precise interpretation of a lexical item or degree of plausibility of the hypothesis in conjunction with the premise. This observation highlights the subjective nature of the task, but overall gives us confidence that the data is of similar enough quality to SNLI for the present purposes. This section contains additional results for the experiment in Sec. 6.2 . In particular, Table 7 shows the results without filtering out items for which the model made an incorrect prediction on one or more of the anticedent input items; and Tables 8 and 9 show the same results for the Llama3.3-generated data. As in Table 4 : Results are disaggregated by the labels of the item(s) they are based on ( input items ) and the premise-hypothesis pair provided to the model ( item ). All a a and b b sentences come from SNLI — Flickr30k captions and human-generated hypotheses, respectively. The next column shows the origin of the c c sentence (h = SNLI hypothesis; g = LLM-generated hypothesis). The number of items included is listed under count ; E , C and N give the percentage"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "FS algorithm. The false positive rate (FPR) – the proportion of features not included in the true model but selected by an algorithm – shows the cost of discovery in terms of the error. The procedure used to derive the synthetic outcome in our benchmark on PIONeeR dataset is described in subsection 2.1.3 . roofs supports modeling both linear and non-linear relationships between predictors and outcome, but in the present benchmark we used a linear model for simplicity. Variability in FPR and TPR is assessed by repeating the experiment with resampled noise, with the number of replicates specified by the user (set to 36 in our benchmark). FS methods gathered in roofs can be subdivided into two groups based on how they determine the number of features they select: 1) methods with fixed, user-defined subset size, and 2) methods with subset size based on internal criteria, such as cross-validated lambda in the case of LASSO or p-value thresholds in the case of p.adjust or Shapicant. In the experiment on the semi-synthetic dataset, methods from the first group were configured to select 19 features, corresponding to the number of predictors in the true model. This configuration provided these methods with an advantage compared to the second group of methods with respect to both true and false positives. Their TPR was lower bounded, as by design the selection conducted by these methods was not too stringent, and only a random or very inaccurate method would have obtained a low TPR. In turn,"
+}

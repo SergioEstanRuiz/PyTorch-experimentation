@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0003",
+  "word_start": 600,
+  "word_end": 850,
+  "text": "interactions through techniques such as sparse aggregation (e.g., SGP (Cini et al. , 2023 ) ), neighbor sampling (e.g., SAGDFN (Jiang et al. , 2024 ) ), and graph partitioning (e.g., PatchSTG (Fang et al. , 2025 ) ). However, these approaches often discard long-range dependencies and heavily rely on an accurate graph structure (which may not always be available in real-world scenarios). To circumvent this, structure-free methods avoid using graph structure and instead rely on node embeddings and feature-mixing mechanisms. For example, BigST (Han et al. , 2024b ) adopts linear attention to bypass pairwise node computation; RPMixer (Yeh et al. , 2024 ) employs random projection and MLPs to facilitate efficient spatial fusion; and STID (Shao et al. , 2022 ) eliminates spatial interactions by encoding spatial identity with positional embeddings. While these techniques reduce the complexity from O ​ ( N 2 ) O(N^{2}) to O ​ ( N ⋅ ϕ ) O(N\\cdot\\phi) , where ϕ < N \\phi\\textless N is a tunable factor depending on the implementation and hyperparameters (e.g., sampled neighbors, feature dimension, or partition granularity), they often oversimplify the interaction operation, which can dilute meaningful relationships, introduce irrelevant noise, and therefore lead to significant loss of spatial semantics. Temporally , two main strategies have emerged: sparse/linear attention mechanisms and temporal pattern compression methods . The former, adopted in models like Airformer (Liang et al. , 2023 ) , SAGDFN (Jiang et al. , 2024 ) , and BigST (Han et al. , 2024b )"
+}

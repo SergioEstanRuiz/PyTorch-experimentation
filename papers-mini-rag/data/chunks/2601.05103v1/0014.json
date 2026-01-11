@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0014",
+  "word_start": 2800,
+  "word_end": 3050,
+  "text": "provides explicit, semantically precise definitions for all citation intent types, ensuring the underlying authorial purpose is clearly specified in every case. For instance, we rephrase Background (used in ACL-ARC, SciCite, and ACT/ACT2) as Contextualize to mark deliberate authorial moves, and rephrase Extension as Modify to capture not only extension but also reduction, replacement, or novel combination. We replace the citation function Motivation (present in ACL-ARC and ACT/ACT2) with SignalGap and HighlightLimitation , which allow for a fine-grained distinction between identifying a research gap and highlighting a limitation. To further reduce ambiguity, we eliminate the type Comparison or Contrast (in ACL-ARC), which is often confused in practice, and instead introduce JustifyDesignChoice for decision justification and EvaluateAgainst for direct empirical comparison. The SOFT type inventory was empirically derived and iteratively refined using diverse datasets and existing frameworks (including SciCite, ACL-ARC, and CiTO), systematically resolving label ambiguity and mixed semantic scope. As a result, SOFT yields a more interpretable and robust annotation framework, improving both human agreement and model generalizability for tasks such as discourse analysis and citation influence detection. Below, we detail the two core dimensions of the framework. captures the ontological status of the contribution being referenced in the cited work. We distinguish three types: (1) PerformedWork : The citing work references what the cited work did (e.g., experimental process, pipeline design), without isolating specific outcomes or reusable resources. Example: “[cited work] developed an NLP pipeline.” (2) Discovery : The citing work references observations, findings, or theoretical conclusions made by the"
+}

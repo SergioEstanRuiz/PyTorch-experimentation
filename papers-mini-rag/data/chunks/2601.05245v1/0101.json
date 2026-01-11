@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0101",
+  "word_start": 20200,
+  "word_end": 20450,
+  "text": "1 2 ​ max a , j ⁡ Err T ′ ​ ( h a , j ) \\mathrm{MCerr}_{T^{\\prime}}(G)\\geq\\tfrac{1}{2}\\max_{a,j}\\mathrm{Err}_{T^{\\prime}}(h_{a,j}) so it suffices to lower-bound max a , j ⁡ Err T ′ ​ ( h a , j ) \\max_{a,j}\\mathrm{Err}_{T^{\\prime}}(h_{a,j}) . Fix ( a , j ) (a,j) . For each bucket v v on block J a J_{a} , the signed Hadamard functional satisfies: We now average over Hadamard directions j j within each block, and then over blocks a a . The key insight is that while the noise term is large for every j j (by Corollary 2 ), the bias term is small on average over j j (by Lemma 16 ). This averaging argument is what allows us to find at least one Hadamard direction where noise dominates bias. Take expectations in ( 23 ), apply Corollary 2 , and then average over j j : Using Lemma 16 and then averaging over blocks a a yields By Lemma 15 , ∑ a N a ≤ K ​ N \\sum_{a}N_{a}\\leq\\sqrt{K}\\,N , hence 1 K ​ ∑ a N a ≤ K − 1 / 4 ​ N \\sqrt{\\frac{1}{K}\\sum_{a}N_{a}}\\leq K^{-1/4}\\sqrt{N} . Also ∑ a E a = ∑ t ≤ T ′ δ t 2 = : S \\sum_{a}E_{a}=\\sum_{t\\leq T^{\\prime}}\\delta_{t}^{2}=:S , so 1 K ​ ∑ a E a = K − 1 / 2 ​ S \\sqrt{\\frac{1}{K}\\sum_{a}E_{a}}=K^{-1/2}\\sqrt{S} . Therefore, pathwise, Taking expectations and applying Cauchy–Schwarz gives We now combine the pieces. Since the maximum over"
+}

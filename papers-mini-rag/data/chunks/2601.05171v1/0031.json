@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0031",
+  "word_start": 6200,
+  "word_end": 6357,
+  "text": "window size w w influences performance. Across settings, the curves consistently exhibit the pattern that a moderate window is optimal. In particular, values around w = 3 w=3 are more stable and overall superior under all three response models, suggesting that this configuration strikes a more appropriate trade-off between contextual sufficiency and update frequency. To delineate the theoretical boundaries of the memory tree, we construct a hierarchical Schema based on the Biopsychosocial model, scientifically decomposing user characteristics into three core dimensions: (1) Biological Aspects: Establishes biological traits by referencing theories in human morphology, human physiology, chronobiology, etc. (2) Psychological Aspects: Deeply mines psychological and characterological traits through cognitive psychology, the Big Five personality theory, metacognition theory, etc. (3) Social Aspects: Unifies demographic and behavioral traits based on social identity theory, behavioral psychology, attachment theory, etc. Due to the lengthy initial personalization tree, we include the full schema in our codebase, where the complete content can be inspected."
+}

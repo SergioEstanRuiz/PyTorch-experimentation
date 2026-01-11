@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": "significantly drops for k s ​ c = 2 k_{sc}=2 . In order to check that the impact of self-consistency is not strictly limited to higher robustness towards invalid model outputs, we show in Figure 5 that for our default k s ​ c = 10 k_{sc}=10 choice, the models select the same candidate across all samples in approximately 60% of the cases, two answers in approximately 25% of cases and three answers in less than 10% of the cases. To study the impact of the positional bias Liu et al. ( 2024a ) on the LLM selection accuracy, we report the results on ZESHEL for five different top-k candidate sorting approaches: Reranker: We rank the top-k candidates according to their reranker-assigned score (the standard LELA approach) Answer first: The correct answer is moved to the first position. Answer last: The correct answer is moved to the last position. Random: The top-k candidates are shuffled. BM25: We rank the top-k candidates according to their BM25 score (the standard LELA approach) The results in Table 8(a) show varying effects of candidate ordering across models. For Magistral-Small-2509 , performance differences between the sorting approaches are minimal, indicating a low sensitivity to candidate position. Among these, the oracle Answer first sorting achieves the highest accuracy, closely followed by the Reranker sorting. For Qwen3-30B-A3B , the performance gap between sorting strategies becomes more pronounced. Again, the Answer first sorting yields the highest accuracy, with the Reranker sorting ranking second. In contrast, Random sorting performs"
+}

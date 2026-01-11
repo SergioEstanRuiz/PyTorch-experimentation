@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0026",
+  "word_start": 5200,
+  "word_end": 5450,
+  "text": "detection as a binary image classification task [ 74 ] . The dataset consists of 327,680 H&E images (96 × \\times 96 pixels at 10 × \\times magnification) extracted from scans of sentinel lymph node sections. Each image is annotated with a binary label indicating the presence of metastatic breast cancer tissue. An image is labeled as metastatic if the center (32 × \\times 32 pixels) region contains at least one pixel of tumor tissue. The dataset is split by ratios of 80:10:10 into training, validation, and test sets with no overlap of WSIs/cases between the splits. Moreover, every split has a 50:50 balance of positive and negative examples. For evaluation, we resize each image to 224 × \\times 224 pixels. PCAM has been derived from the CAMELYON16 Challenge [ 6 ] . The task of the CAMELYON16 challenge [ 6 ] is to classify whole slide images (WSIs) of lymph node tissue sections into metastatic breast cancer tissue being present or not. The dataset comprises 399 H&E-stained WSIs of sentinel lymph node sections, which were acquired and scanned (40 × \\times magnification) at two centers from the Netherlands [ 6 ] . The dataset is split into 270 training slides (110 with and 160 without metastasis) and 129 test slides (49 with and 80 without metastasis). Here, we report results for the CAMELYON16 (small) setup in eva [ 27 ] , which randomly samples max. 1,000 patches per slide. The PANDA challenge [ 10 ] is concerned with the"
+}

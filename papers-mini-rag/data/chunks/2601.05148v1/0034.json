@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0034",
+  "word_start": 6800,
+  "word_end": 7050,
+  "text": "tasks), tissue microenvironment (TME) characterization (16 tasks), tumor grading (9 tasks), molecular subtyping (6 tasks), mutation prediction (34 tasks), treatment response and assessment (7 tasks), and survival prediction (12 tasks). We evaluate on a subset of 53 tasks drawn from multiple datasets, including CPTAC datasets covering breast (BRCA), colorectal (COAD), glioblastoma (GBM), head and neck (HNSC), lung squamous and adenocarcinoma (LSCC, LUAD), pancreatic (PDA), clear cell renal cell carcinoma (ccRCC), BC-Therapy for breast cancer, MBC for metastatic breast cancer, Hancock for head and neck squamous cell carcinoma, IMP-Cervical for cervical cancer, and Boehmke for ovarian cancer. Each task is formulated as a WSI-level classification or survival prediction problem. Following the Patho-Bench [ 81 ] evaluation protocol, we use the Attention-based Multiple Instance Learning (ABMIL) framework [ 32 ] , where H&E-stained whole-slide images are represented as bags of patch-level feature embeddings extracted from foundation models. We employ the pre-defined task folds, depending on cohort size with label- and patient-stratified splits. Atlas 2 Pluto-4G* Atlas UNI2-H H-Optimus-0 Midnight-12k Virchow2 Prov-GigaPath UNI Phikon v2 H-Optimus-1* HEST-ccRCC 26.0 28.9 27.8 26.4 26.8 21.3 27.4 24.7 24.0 26.6 24.5 HEST-COAD 32.3 31.6 25.9 30.1 30.9 29.1 25.9 30.2 26.2 25.0 32.0 HEST-IDC 62.1 60.6 59.6 59.0 59.8 58.2 59.2 56.5 57.4 54.1 60.2 HEST-LUNG 57.2 56.9 57.0 55.8 55.9 55.8 55.3 54.2 54.6 54.2 57.8 HEST-LYMPH-IDC 28.2 27.3 25.7 27.2 25.9 26.4 25.6 25.1 25.6 24.4 27.7 HEST-PAAD 52.3 51.1 50.7 50.0 49.1 49.0 47.2 48.6 48.1 44.5 49.6 HEST-PRAD 38.5 37.4 35.3 35.7"
+}

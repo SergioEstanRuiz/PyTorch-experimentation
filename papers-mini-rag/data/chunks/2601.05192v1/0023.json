@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "LELA to outperform the true zero-shot ET4EL, as well as the classical GENRE and ReFinED methods, which also use prior-based candidates. In fact, for all three models considered, using dense retrieval systematically underperforms on this benchmark. Therefore, we conducted an error analysis to analyze LELA’s behavior when using dense retrieval in this setting. Four out of the ten analyzed errors come from candidate retrieval, and another four come from imprecise ground truth annotations, where we believe that our approach’s predicted Wikipedia entity could also be considered as correct. This is caused by the large number of highly similar entities in Wikipedia. Only the two remaining cases correspond to the reranker losing the correct candidate and a wrong LLM final answer selection The performance of LELA is a product of the candidate retrieval recall ( is the correct answer within the retrieved candidates? ) and the candidate selection accuracy ( does the LLM select the correct answer? ). Regarding the first retrieval stage, the number of retrieved candidates should be exclusively limited by computational cost constraints, given the finer subsequent stages and that the recall can only improve with the number of retrieved candidates. However, for the next two stages, the value of k k results in a trade-off between recall and selection accuracy, as shown in Figure 4 : lower values of k k allow for a high selection accuracy, but may result in the correct entity not being among the candidates. Higher values of k k reduce the selection"
+}

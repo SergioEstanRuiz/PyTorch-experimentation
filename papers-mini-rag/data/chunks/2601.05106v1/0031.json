@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0031",
+  "word_start": 6200,
+  "word_end": 6450,
+  "text": "the overall response quality compared to the response of the directly fine-tuned model (Fine-tuned Model in Table 1 ). For two responses, the pairwise comparison is selected from win , tie and loss , and the win rate is computed as the proportion of wins, with ties counted as half a win, over 500 evaluation examples. Addition details such as evaluation prompt provided in Appendix 11.1 . As shown in Fig. 4 , FusionRoute achieves a substantially higher win rate than the fine-tuned baseline on both model families, indicating improved overall response quality on general prompts. This improvement reflects better alignment, fluency, and formatting, complementing the strong task-level performance observed on domain benchmarks. As shown in Fig. 4 , the performance gap between FusionRoute and other baselines becomes markedly larger in the 8B Llama-3 family. In this setting, both existing token-level collaboration (Collab (Chakraborty et al., 2025 ) ) and sequence-level selection exhibit substantial degradation in win rate, whereas FusionRoute continues to improve response quality. This suggests that as model capacity increases, purely selecting among fixed expert outputs becomes increasingly brittle, while FusionRoute ’s complementary routing mechanism is able to effectively leverage the additional representational capacity to refine and correct expert predictions. In contrast, in the 2B Gemma-2 family, the gap between FusionRoute and pure token-level collaboration is smaller. While expert-only token-level collaboration still under-performs FusionRoute , it remains competitive and even outperforms the directly fine-tuned baseline. This indicates that at smaller scales, expert models alone can already capture a"
+}

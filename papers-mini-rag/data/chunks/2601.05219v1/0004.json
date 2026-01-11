@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "conformal calibration for simplicity. In one-shot settings, however, each labeled example induces a distinct predictor, giving rise to a collection of predictors rather than a single fixed model. Existing conformal approaches largely ignore this structure, leaving uncertainty quantification for collections of one-shot predictors underexplored. While few-shot adaptation is particularly attractive when labeled data are scarce, this regime exacerbates a fundamental trade-off in classical conformal prediction. Split conformal is computationally efficient but statistically inefficient in low-data regimes (Bashari et al. , 2025 ) , while full conformal improves statistical efficiency at prohibitive computational cost. Cross-conformal prediction (Vovk, 2015 ) and related leave-one-out methods (Barber et al. , 2021 ) reuse data more effectively, but typically incur slack in their coverage guarantees due to non-exchangeable scores (Gasparin and Ramdas, 2025 ) , resulting in a tension between efficiency, tractability, and exact validity in the one-shot setting. When faced with a collection of predictors, a natural response is to either select a single predictor (Liang et al. , 2024 ; Bai and Jin, 2024 ; Hegazy et al. , 2025 ) or to aggregate predictions across predictors (Gasparin and Ramdas, 2024b ; Rivera et al. , 2024 ; Alami et al. , 2025 ) . However, most such approaches rely on disjoint data splits or additional calibration data to preserve coverage guarantees, which in turn limits data efficiency in small-sample regimes. This inefficiency is not incidental, but stems from a central requirement of classical conformal prediction: standard coverage guarantees rely on the exchangeability"
+}

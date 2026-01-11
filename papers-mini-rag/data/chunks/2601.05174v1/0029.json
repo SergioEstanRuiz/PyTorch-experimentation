@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0029",
+  "word_start": 5800,
+  "word_end": 6050,
+  "text": "for Node 710 are distinctly different. Moving to a longitudinal analysis, slight differences exist between the time-series distributions of Node 6 and Node 7, which are also reflected in the expert weights learned by our model. This shows that the MoE module adapts to the data schema, capturing long-term temporal patterns and spatial heterogeneity among nodes. Spatial-Temporal Graph Forecasting Methods. Early efforts (Li et al. , 2018 ; Yu et al. , 2018 ) utilize GCNs to capture the spatial correlations, and RNNs or CNNs to model temporal dependencies. Follow-up studies introduce various enhancements, including adaptive graph learning (Wu et al. , 2019 , 2020 ; BAI et al. , 2020 ) , dynamic graph learning (Guo et al. , 2019 ; Zheng et al. , 2020 ; Guo et al. , 2022 ; Kong et al. , 2024 ) , spatial-temporal synchronization learning (Song et al. , 2020 ; Li and Zhu, 2021 ; Zhao et al. , 2023 ) , pre-training enhanced methods (Gao et al. , 2024 ) , embedding-based methods (Shao et al. , 2022 ; Liu et al. , 2023a ) , and neural ODEs (Fang et al. , 2021 ) , to better capture complex spatial and temporal dependencies. These models achieve excellent short-term accuracy (e.g., 12-step) on graphs of a few hundred nodes, but their spatial and temporal modules suffer from quadratic complexity, resulting in excessive memory and time consumption. To address scalability, structure-aware approaches (e.g., SGP (Cini et al. , 2023 )"
+}

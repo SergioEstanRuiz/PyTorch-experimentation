@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0097",
+  "word_start": 19400,
+  "word_end": 19650,
+  "text": "all v ∈ S d − 1 v\\in S^{d-1} and t > 0 t>0 (e.g., Laplace distribution with constant bounded covariance), then D D satisfies ( 1 α ​ poly ​ ( d , log ⁡ ( 1 / δ ) ) , O ​ ( σ ​ ln ⁡ ( 1 / α ) ) ) \\left(\\frac{1}{\\alpha}\\mathrm{poly}(d,\\log(1/\\delta)),O\\left(\\sigma{\\ln(1/\\alpha)}\\right)\\right) -resilience. The second definition that we will need is that of certifiably-bounded distributions [ hopkins2018mixture , kothari_better_2017 , kothari2018robust ] . Let D D be a distribution over d with mean μ \\mu . We say D D is ( 2 ​ t , B ) (2t,B) -certifiably-bounded for t ∈ t\\in\\m@thbbch@rN and B > 0 B>0 , if there is a degree- 2 ​ t 2t sum-of-squares proof of the following polynomial inequality on v v : To see why this definition is relevant, recall that a distribution D D is s s -sub-Gaussian if all its linear projections have tail probabilities decaying at least as fast as Gaussian tails. In terms of moments this means that for any t ≥ 1 t\\geq 1 and for all v : v: for some universal constant C C . The above definition can be seen as an algorithmic friendly notion of sub-Gaussian distributions since it guarantees that up to power 2 ​ t 2t , there is a short certificate in the form of a sum of squares proof that the moment-boundedness holds in all directions v v . Note that Definition 6"
+}

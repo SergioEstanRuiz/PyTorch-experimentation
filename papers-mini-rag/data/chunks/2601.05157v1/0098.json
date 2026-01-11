@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0098",
+  "word_start": 19600,
+  "word_end": 19850,
+  "text": "be seen as an algorithmic friendly notion of sub-Gaussian distributions since it guarantees that up to power 2 ​ t 2t , there is a short certificate in the form of a sum of squares proof that the moment-boundedness holds in all directions v v . Note that Definition 6 allows for more general tail behaviors that sub-Gaussian since it allows for a general function B B in the bound. For a distribution D D that is certifiably bounded distribution up to power O ​ ( t ) O(t) and has sub-exponential tails, there is a SoS algorithm that runs in roughly d O ​ ( t ) d^{O(t)} time and performs robust mean estimation, i.e., uses an α \\alpha -corrupted sample from D D and computes a mean that is B ​ α 1 − 1 / 2 ​ t B\\alpha^{1-1/2t} -close to the mean of D D , given that the corruption rate α ≤ 1 / 4 \\alpha\\leq 1/4 . More formally, Let x 1 , … , x n ∈ d x_{1},\\dots,x_{n}\\in{}^{d} be such that there exists a subset I ⊆ [ n ] I\\subseteq[n] of size ( 1 − α ) ​ n (1-\\alpha)n that { x i } i ∈ I \\{x_{i}\\}_{i\\in I} are i.i.d. samples from a ( 2 ​ t , B ) (2t,B) -certifiably bounded and sub-exponential distribution with mean μ ∈ d \\mu\\in{}^{d} . Then, if α ≤ 1 / 4 \\alpha\\leq 1/4 and n ​ ( 2 ​ d"
+}

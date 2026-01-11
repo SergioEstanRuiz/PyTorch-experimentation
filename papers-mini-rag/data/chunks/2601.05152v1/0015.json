@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0015",
+  "word_start": 3000,
+  "word_end": 3250,
+  "text": "(DP-MDP) that corrects this shortcoming. The proposed model allows reinforcement learning agents not only to learn the latent variables but also to predict their dynamics and proactively adjust to the upcoming changes. In this section, we introduce problem formulation for continual online safe reinforcement learning (COSRL) under nonstationarity and introduce the notations that we will use in this paper. Continual online reinforcement learning (COSRL) in nonstationary environments research is at the intersection of three research areas: online learning, adaptation to nonstationarity, and safe reinforcement learning. We are going to consider the existing research based on these three dimensions. In this work, we consider episodic MDP settings where each task represents a separate episode, an MDP process M i M_{i} , i ∈ [ 1 , n ] i\\in[1,n] where i i denotes an episode index, and n ∈ N n\\in N is the number of episodes. Change of episodes occurs at some changepoints T c ​ h T_{ch} . The length, the number, and the sequence of episodes are unknown a priori. So, we have a series of episodes M 1 , M 2 … . . M n M_{1},M_{2}.....M_{n} , where each episode can be represented as a stationary MDP M i ​ ( S i , A i , R i , P i , Ψ i ) M_{i}(S_{i},A_{i},R_{i},P_{i},\\Psi_{i}) . MDP parameters can change between episodes. Nonstationarity can be seen as the difference between distributions of separate parameters of different MDPs, e.g. transition probability function or the reward."
+}

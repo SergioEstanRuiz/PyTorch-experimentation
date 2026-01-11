@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "is susceptible to poor local minima. The authors of [ 2 ] suggest initializing a GNN with weights 𝑾 \\boldsymbol{W} and forward pass F 𝑾 : ℝ n × d → ℝ n × k F_{\\boldsymbol{W}}:\\mathbb{R}^{n\\times d}\\rightarrow\\mathbb{R}^{n\\times k} , then finding a local minimum of ℒ ​ ( softmax ​ ( F 𝑾 ​ ( 𝑿 ) ) ) \\mathcal{L}(\\text{softmax}(F_{\\boldsymbol{W}}(\\boldsymbol{X}))) over both 𝑿 ∈ ℝ n × d \\boldsymbol{X}\\in\\mathbb{R}^{n\\times d} and 𝑾 \\boldsymbol{W} . This leads to substantially better results than just finding a local minimum of ℒ ​ ( softmax ​ ( 𝑸 ) ) \\mathcal{L}(\\text{softmax}(\\boldsymbol{Q})) over 𝑸 ∈ ℝ n × k \\boldsymbol{Q}\\in\\mathbb{R}^{n\\times k} . The authors of [ 2 ] implement this method using two GNN architectures, GCN [ 5 ] and GraphSAGE [ 6 ] , leading to two algorithms, PI-GCN and PI-SAGE . We conduct a computational study of various modifications to PI-GCN , showing how each modification either improves or hinders performance. Our goals are twofold: first, we want to optimize the design choices of the baseline GNN. Second, in contrast to [ 2 ] , which tuned hyperparameters separately for each test graph, we aim to design a GNN model that generalizes well, so that our method may be used out of the box. Three of our strongest improvements are as follows. First, we show that it is beneficial to initialize 𝑿 \\boldsymbol{X} to have orthogonal row vectors. Second, we present a new loss function that improves performance by penalizing monochromatic edges more"
+}

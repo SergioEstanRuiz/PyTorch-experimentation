@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "spatial convolution for large-scale networks; RPMixer (Yeh et al. , 2024 ) : leverages random projections and a mixer architecture to build a lightweight model; STPGNN (Kong et al. , 2024 ) : selects pivotal nodes and uses parallel convolutions to capture spatiotemporal dependencies in traffic data; and PatchSTG (Fang et al. , 2025 ) : adopts KDTree-based irregular patching to reduce Transformer cost while preserving fidelity and interpretability. The task is to forecast the next {48, 96, 192, 672} horizons based on observations from the 96 historical time steps (i.e., 1 day). To ensure fairness and reproducibility, all experiments are implemented on the BasicTS (Shao et al. , 2024 ) benchmark framework. All models share the same hidden dimension (#dim=64), are trained for at most 50 epochs with early stopping, and other baseline hyperparameters follow their official BasicTS configurations. FaST uses a single fixed configuration across all datasets (#experts=8, #layers=3, #agents=32, #dim=64), selected for efficiency rather than per-dataset tuning. We train FaST with Adam using an initial learning rate of 0.002, decayed by a factor of 0.5 every 10 epochs. All experiments are conducted on an AMD EPYC 7532 @2.40GHz CPU, an NVIDIA RTX A6000 GPU (48GB), and 128GB RAM. Figure 3 and Table 6 (See Appendix) present the long-horizon forecasting results for MAE, RMSE, MAPE, and R 2 R^{2} across specific horizons of 48, 96, 192, and 672. On the SD dataset, DLinear demonstrates the poorest performance due to its limited capacity for nonlinear modeling. Compared to purely"
+}

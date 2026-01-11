@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0034",
+  "word_start": 6800,
+  "word_end": 7050,
+  "text": "part (e.g., Laplace distributions), the only assumption that we need is that the FFD components (e.g., Gaussian distributions) have a faster Fourier decay. Other than that, we place no minimum separation assumptions for the means μ 1 , … , μ k \\mu_{1},...,\\mu_{k} . The algorithm that recovers the SFD means is using our robust sparse Fourier transform ( Theorem 1.4 ). Let us assume that the SFD part consists of translations of a distribution D D which is SFD with parameters c 1 , c 2 c_{1},c_{2} and assume that the FFD components (with parameters c 1 ′ , c 2 ′ ) c_{1}^{\\prime},c_{2}^{\\prime}) decay faster than that, i.e., c 2 ′ > c 2 c_{2}^{\\prime}>c_{2} . Then our algorithm works as follows. For a sample Y ∼ ℳ Y\\sim\\mathcal{M} , we can write The first observation is that for a fixed t t , the left-hand side can be estimate with sample from ℳ \\mathcal{M} using standard concentration tools. Now, in the right-hand side, the first term is corresponds to a k k -sparse signal, whose tones we want to estimate (this is the SFD part). The second term consists of the FFD components and the key observation is that this term vanished as t t increases, thanks to the behavior of the characteristic functions. Hence, in short, our idea is to employ the sparse Fourier algorithm of Theorem 1.4 with true signal x ⋆ ​ ( t ) x^{\\star}(t) corresponding to the SFD components and noise g"
+}

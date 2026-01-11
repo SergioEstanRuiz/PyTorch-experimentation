@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": ") (k-1) -coloring to use as a warm start. Furthermore, we show that applying the same trick to the GNN-based approach leads to further improvement. In Section 5 , we test our approach on various graphs and families of graphs for which the true chromatic number or an upper bound is known. While our method performs competitively among machine learning based approaches, a gap between the learned and the theoretically known bound remains. We also show in that section that for very dense input graphs, the method can suffer from an issue known as oversmoothing [ 18 ] , and we present some potential remedies to this issue. We conclude with a discussion of our results in Section 6 . Our two best algorithms are called Full-GCN , a GNN-based differentiable algorithm, and Triple-Color , a greedy algorithm; both leverage recursive warm starts. Triple-Color performs best overall on the test cases in our study. Full-GCN performs best among the GNN-based methods and outperforms Triple-Color when the order of the input graph is scaled up to about 1000 1000 , making it the best algorithm for large input graphs. Code for both methods, as well as the other algorithms presented in this paper, is publicly available at https://github.com/Weber-GeoML/ColoringGNNs . Throughout the paper, we use the notation that a matrix 𝑴 ∈ ℝ n × d \\boldsymbol{M}\\in\\mathbb{R}^{n\\times d} has row vectors 𝒎 i \\boldsymbol{m}_{i} for i ∈ { 1 , … , n } i\\in\\{1,\\dots,n\\} and entries m i ​ j m_{ij}"
+}

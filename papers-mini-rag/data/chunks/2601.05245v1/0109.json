@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0109",
+  "word_start": 21800,
+  "word_end": 22050,
+  "text": "that for every horizon T ≥ 0 T\\geq 0 and every sequence ( x t , y t ) t = 1 T (x^{t},y^{t})_{t=1}^{T} , the following holds. Partition the rounds by membership patterns: for x ∈ X x\\in X , let z ​ ( x ) ∈ { 0 , 1 } k z(x)\\in\\{0,1\\}^{k} with z j ​ ( x ) = g j ​ ( x ) z_{j}(x)=g_{j}(x) . For each realized pattern z z , define the cell C z := { t : z ​ ( x t ) = z } C_{z}:=\\{t:z(x^{t})=z\\} and its size T z := | C z | T_{z}:=|C_{z}| . For each j ∈ { 1 , … , k } j\\in\\{1,\\dots,k\\} set with the convention that K j = 0 K_{j}=0 implies both sides are 0 (since T j = 0 T_{j}=0 and R ​ ( 0 ) = 0 R(0)=0 ). In addition, the multicalibration error satisfies the following valid bounds: For each pattern z ∈ { 0 , 1 } k z\\in\\{0,1\\}^{k} , create an independent copy A z A^{z} of A marg A^{\\mathrm{marg}} . On each round t t , compute z t := z ​ ( x t ) z_{t}:=z(x^{t}) , query A z t A^{z_{t}} for a prediction p t p^{t} , then reveal y t y^{t} and feed ( x t , y t , p t ) (x^{t},y^{t},p^{t}) only to the copy A z t A^{z_{t}} . This defines the algorithm A multi"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0095",
+  "word_start": 19000,
+  "word_end": 19250,
+  "text": "t Z_{t} ’s are independent across t t , it follows by induction that X 1 := Z t v , κ j v , X 2 := Z t v , κ j v + 1 , … X_{1}:=Z_{t_{v,\\kappa_{j}^{v}}},X_{2}:=Z_{t_{v,\\kappa_{j}^{v}+1}},\\ldots are i.i.d. given ℱ t v , κ j v − 1 \\mathcal{F}_{t_{v,\\kappa_{j}^{v}}-1} , with ℙ ​ ( X n = h ) = ℙ ​ ( X n = − h ) = 1 / 2 \\mathbb{P}(X_{n}=h)=\\mathbb{P}(X_{n}=-h)=1/2 . Define the local random walk by T 0 := 0 T_{0}:=0 and T n := ∑ r = 1 n X r T_{n}:=\\sum_{r=1}^{n}X_{r} , and let the first return time be τ v , j 0 := inf { n ≥ 1 : T n = 0 } \\tau_{v,j}^{0}:=\\inf\\{n\\geq 1:T_{n}=0\\} . For j < R v j<R_{v} we have ℓ j v = τ v , j 0 \\ell^{v}_{j}=\\tau_{v,j}^{0} , while for the final excursion j = R v j=R_{v} we have ℓ j v ≤ min ⁡ ( τ v , j 0 , L ) \\ell^{v}_{j}\\leq\\min(\\tau_{v,j}^{0},L) . Hence ℓ j v ≤ min ⁡ ( τ v , j 0 , L ) \\sqrt{\\ell^{v}_{j}}\\leq\\sqrt{\\min(\\tau_{v,j}^{0},L)} . Conditional on ℱ t v , κ j v − 1 \\mathcal{F}_{t_{v,\\kappa_{j}^{v}}-1} , the process ( T n ) n ≥ 0 (T_{n})_{n\\geq 0} satisfies the assumptions of Proposition 3 . Hence, by Proposition 3 , for a universal constant C ret C_{\\mathrm{ret}} we have: and our intermediate claim ( 22 ) follows. To"
+}

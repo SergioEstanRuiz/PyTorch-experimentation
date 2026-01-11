@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0022",
+  "word_start": 4400,
+  "word_end": 4650,
+  "text": "accuracy to a fixed 100-token delegation strategy while consuming significantly fewer tokens. Table 6 presents the granular performance breakdown across all six mathematical benchmarks. We observe distinct trends across datasets of varying difficulty: On standard reasoning datasets such as MATH500 and GSM8K, RelayLLM matches the performance of the Fixed-100 strategy almost exactly (e.g., 81.40% on MATH500 for both methods). However, it achieves this parity with a drastically lower call ratio (1.07% vs. 2.87%). This indicates that for the majority of queries in these datasets, the student model only requires short, precise interventions rather than long-context guidance. The advantage of dynamic prediction becomes more evident on the challenging Minerva benchmark. RelayLLM outperforms the Fixed-20 significantly (43.75% vs. 39.71%), suggesting that our model correctly identifies the need for longer generation lengths when facing harder problems. While the Fixed-500 strategy yields the highest accuracy on Minerva (44.49%) and AIME, this marginal gain comes at a prohibitive cost: it incurs a 5.37% call ratio, which is over 5 × 5\\times the computational overhead of RelayLLM. This section presents the exact prompt templates used for the models. To programmatically evaluate the correctness of answers on mathematical benchmarks where the final answer can be complex (e.g., simplified expressions), we use GPT-4o-mini as a judge. The exact prompt and configuration used for this evaluation are detailed below. RelayLLM also align with efficient reasoning, include efficient chain-of-thought methods (Wang et al. , 2025c ; Huang et al. , 2025a ) , speculative best-of-N decoding (Sun et al. ,"
+}

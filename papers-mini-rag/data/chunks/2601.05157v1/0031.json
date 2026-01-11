@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0031",
+  "word_start": 6200,
+  "word_end": 6450,
+  "text": "first obstacle that we have to avoid is the exponential dependence on the dimension. Our approach is inspired by works in mixture models (e.g., [ moitra2010settling ] ) that deal with the high-dimensionality of the data by studying low-dimensional projections. Such a connection between Fourier transforms and low-dimensional projections appears in the work of [ chen2021algorithmic ] in the study of two-dimensional Airy disks. At a conceptual level, we follow a similar approach: given query access to the signal x ​ ( t ) x(t) for t ∈ d t\\in{}^{d} with \\| ​ t ​ \\| 2 ≤ T \\|t\\|_{2}\\leq T , we first project the time variable t t in various directions v 1 , … , v m v_{1},...,v_{m} , and then study the one-dimensional signals Observe that the weights of the projected signal x v ℓ x^{v_{\\ell}} are preserved for all ℓ \\ell and the means are projected in direction v ℓ v_{\\ell} . Our goal is to apply the one-dimensional algorithm of [ PS15-SFT ] in each one of these signals x v ℓ ​ ( t ) x^{v_{\\ell}}(t) , which will allow us to recover the frequencies parameters of the projections of the true signal Unfortunately, the analysis of [ PS15-SFT ] has error that relies on the L 2 L_{2} norm of g g which is not suitable for statistics applications. For this reason we have to analyze the algorithm of [ PS15-SFT ] in a different way to make sure that our error"
+}

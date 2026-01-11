@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0012",
+  "word_start": 2400,
+  "word_end": 2650,
+  "text": "is the diffusion matrix. This partial differential equation highlights how both deterministic drift and stochastic diffusion shape the evolution of uncertainty in latent space. In practice, I do not solve Eq. 2 directly, but it offers a theoretical lens through which the latent SDE’s behavior can be understood, especially in the study of stationary distributions and entropy production ( [ 34 ] ). To numerically simulate sample paths of the latent process, I adopt the Euler–Maruyama discretization ( [ 24 ] ). Letting Δ ​ t \\Delta t be a small time step, the discretized update reads: where ϵ t \\epsilon_{t} is a standard Gaussian noise vector in ℝ m \\mathbb{R}^{m} . This stochastic update rule is used both in forward simulations during generation and in approximating the variational posterior for inference. While Euler–Maruyama is only a first-order method (with strong convergence rate 𝒪 ​ ( Δ ​ t ) \\mathcal{O}(\\sqrt{\\Delta t}) ), it is efficient and sufficient for many learning applications where exact simulation is infeasible. The first and second moments of the process z t z_{t} satisfy their own deterministic equations. Taking expectations in Eq. 1 , we obtain: as described in [ särkkä2019applied ] . These equations clarify that even when the drift term is zero in expectation, diffusion can cause the covariance to grow linearly or nonlinearly in time. This temporal evolution of uncertainty is essential to distinguish systems with similar means but different noise characteristics — a feature that deterministic latent models like neural ODEs"
+}

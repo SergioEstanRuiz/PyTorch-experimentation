@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0006",
+  "word_start": 1200,
+  "word_end": 1450,
+  "text": "Framework, which aims to address the challenges of personalized consistency and contextual forgetting in long-term dialogues through a structured memory evolution mechanism. As shown in Figure 1 , the framework consists of three key modules: Dynamic PersonaTree Evolution (Section 3.2 ), MemListener Training (Section 3.3 ), and Adaptive Response Generation (Section 3.4 ). First, PersonaTree and dataset construction initializes a persona tree based on the Biopsychosocial Model, segments the user’s dialogue history into consecutive dialogue chunks, and generates operations on the PersonaTree, thereby constructing a memory evolution dataset. Second, MemListener training leverages the resulting high-quality dataset to update the parameters of MemListener via supervised fine-tuning (SFT) and RL with a dynamic reward mechanism, enabling it to extract structured memory from unstructured dialogues. Finally, PersonaTree inference freezes the MemListener parameters at application time, reconstructs the attribute tree from the dialogue history, uses this structured memory to enhance user queries, and ultimately generates personalized responses through an LLM. We define the task of a personalized dialogue system as a process of maximizing response utility over an infinitely long dialogue stream. Given a user U U with a historical dialogue sequence H = { x 1 , y 1 , … , x t , y t } H=\\{x_{1},y_{1},...,x_{t},y_{t}\\} , where x x denotes user inputs and y y denotes system responses, conventional context-window approaches attempt to directly model P ​ ( y t ∣ H t − k : t ) P(y_{t}\\mid H_{t-k:t}) , but are constrained by the window length k"
+}

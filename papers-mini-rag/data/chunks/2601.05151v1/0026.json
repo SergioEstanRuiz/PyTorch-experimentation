@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0026",
+  "word_start": 5200,
+  "word_end": 5450,
+  "text": "for LASSO. Although the signature selected by the p.adjust on the full dataset comprised 22 features, bootstrap-derived subsets included up to 72 features (Figure 5 C). We investigated this by repeating the experiment using subsampling without replacement at 80% of the original sample size. Under subsampling, the inflation of selected subset size disappeared, while stability further increased and predictive performance was preserved. This suggests that the larger subset sizes observed with bootstrapping may result from over-representation of specific patient subclusters, increasing sample-specific signals that are weak in the full dataset. Therefore the sparsity instability of p.adjust appears to result from the bootstrapping procedure rather than the method itself. In conclusion, conducting the FS benchmark using roofs and comparing the results obtained by multiple FS methods allowed us to improve performance and reliability from the baseline FS approach by identifying p.adjust as a method with optimal stability and AUC on the data with the real outcome and the best balance between TPR and FPR on the data with the simulated outcome. This paper introduced roofs , a Python framework designed to help researchers identify an FS method adapted to their predictive task. FS is known to be data-dependent, with method performance varying across datasets and no single approach being universally optimal [ 42 , 25 , 14 ] . However, FS methods are often adopted from the literature or research teams established practices, with little consideration of their suitability for the specific dataset at hand. roofs addresses this gap by integrating"
+}

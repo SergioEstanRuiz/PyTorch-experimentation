@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0028",
+  "word_start": 5600,
+  "word_end": 5850,
+  "text": "graph nodes and the length of the horizon, as demonstrated in Figure 6 . This section will demonstrate the correlation between traffic patterns and expert weight distribution through case studies. Using Node 6, Node 7, and Node 710 from the SD dataset as examples, Figure 7 a illustrates the cyclical patterns in their time series, while Figure 7 b displays the distribution of expert weights in the MoE module without HA-Router for these nodes, and Figure 7 c displays the weight distribution in the MoE module for these nodes. The vanilla MoE module without the HA-Router mechanism suffers from polarization phenomena : the majority of weights become randomly concentrated on a single expert. This incurs significant load imbalance and renders routing ineffective. In contrast, the module equipped with the HA-Router mechanism successfully mitigates these adverse effects, avoiding polarization. Concretely speaking, starting with a horizontal analysis, Node 6 and Node 7, being neighbors, exhibit similar time-series trends, while Node 710 shows a significantly different distribution. Consequently, the expert weights learned for Node 6 and Node 7 are highly consistent: Expert 0 has the largest weight, while Experts 1 and 7 have the smallest and second-smallest weights, respectively. In contrast, the weights for Node 710 are distinctly different. Moving to a longitudinal analysis, slight differences exist between the time-series distributions of Node 6 and Node 7, which are also reflected in the expert weights learned by our model. This shows that the MoE module adapts to the data schema, capturing long-term temporal"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0110",
+  "word_start": 22000,
+  "word_end": 22250,
+  "text": "x t ) z_{t}:=z(x^{t}) , query A z t A^{z_{t}} for a prediction p t p^{t} , then reveal y t y^{t} and feed ( x t , y t , p t ) (x^{t},y^{t},p^{t}) only to the copy A z t A^{z_{t}} . This defines the algorithm A multi A^{\\mathrm{multi}} . For each z z and v ∈ [ 0 , 1 ] v\\in[0,1] , define the cell-wise bias Write V ​ ( C z ) V(C_{z}) for the set of prediction values output by A z A^{z} on its own rounds C z C_{z} . By construction, on the rounds C z C_{z} the copy A z A^{z} runs exactly as A marg A^{\\mathrm{marg}} would on the length- T z T_{z} sequence ( ( x t , y t ) ) t ∈ C z ((x^{t},y^{t}))_{t\\in C_{z}} . Therefore, conditioning on the value T z = n T_{z}=n and on the realized subsequence ( ( x t , y t ) ) t ∈ C z ((x^{t},y^{t}))_{t\\in C_{z}} , the marginal guarantee gives Taking expectations and using the law of total expectation yields Fix j ∈ { 1 , … , k } j\\in\\{1,\\dots,k\\} . Since g j ​ ( x ) = 1 g_{j}(x)=1 if and only if z j ​ ( x ) = 1 z_{j}(x)=1 , we have for each v v , By the triangle inequality and summing over v v , we obtain Taking expectations and applying ( 32 ), which proves the"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0016",
+  "word_start": 3200,
+  "word_end": 3450,
+  "text": "the one-shot setting considered here, there is at least no training involved. However, the computational efficiency of split conformal comes at the cost of statistical efficiency: while full conformal (and CAOS ) use all of the labeled examples for calibration, split conformal can only use a fraction, e.g. n / 2 n/2 . In this section, we describe a full conformal version of CAOS . This algorithm will never be run in practice due to the large computational cost. It is only needed for the theory to establish a rigorous coverage guarantee for CAOS as presented in Sec. 4 . For a test example X n + 1 X_{n+1} and every potential label y y , we define the augmented dataset 𝒟 n + 1 y = 𝒟 n ∪ { ( X n + 1 , y ) } \\mathcal{D}_{n+1}^{y}=\\mathcal{D}_{n}\\cup\\{(X_{n+1},y)\\} and the augmented set of one-shot scores 𝒜 𝒟 n + 1 y ​ ( X i , Y i ) = { s π j ​ ( X i , Y i ) : ( X j , Y j ) ∈ 𝒟 n + 1 y } \\mathcal{A}_{\\mathcal{D}_{n+1}^{y}}\\!\\left(X_{i},Y_{i}\\right)=\\{s_{\\pi_{j}}(X_{i},Y_{i}):(X_{j},Y_{j})\\in\\mathcal{D}^{y}_{n+1}\\} . Note that 𝒜 𝒟 n + 1 y ​ ( X i , Y i ) \\mathcal{A}_{\\mathcal{D}_{n+1}^{y}}\\!\\left(X_{i},Y_{i}\\right) augments the leave-one-out pool 𝒜 𝒟 n − i ​ ( X i , Y i ) \\mathcal{A}_{\\mathcal{D}_{n}^{-i}}\\!\\left(X_{i},Y_{i}\\right) with both the self-score s π i ​ ( X i , Y i ) s_{\\pi_{i}}(X_{i},Y_{i}) and the score induced by the hypothetical"
+}

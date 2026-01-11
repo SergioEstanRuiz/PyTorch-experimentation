@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0020",
+  "word_start": 4000,
+  "word_end": 4250,
+  "text": "​ ( N digit ∣ N digit ) P(N_{\\text{digit}}\\mid N_{\\text{digit}}) significantly decreases when ablating PIH-Heads, which indicates a reduction in format-copying in the counting task. This is supported by the finding that PIH ablation in Janus-Pro reduces format copying by nearly 30 % 30\\% , a shift that is consistently accompanied by an increase in correct, free-form responses. While P ​ ( N digit ∣ N digit ) P(N_{\\text{digit}}\\mid N_{\\text{digit}}) decreases, PIH ablation increases P ​ ( N word ∣ N digit ) P(N_{\\text{word}}\\mid N_{\\text{digit}}) , indicating that when correcting misaligned prompts, Janus-Pro more frequently produces the ground-truth response in a word-based, free-form format rather than copying the digit form used in the prompt. Additionally, our findings show that PIH ablation produces only a modest shift in attention mass toward the image, consistent with almost no change in baseline counting performance. Together, these results suggest that PIH ablation in Janus-Pro does not increase visual reliance but primarily inhibits prompt-based format copying when correcting misaligned prompts. In contrast to Janus-Pro, we find that PIH-ablation causes Qwen-VL to more heavily rely on the prompt format . Figure 5 shows a 32.6 % 32.6\\% decrease in probability of P ​ ( N word ∣ N digit ) P(N_{\\text{word}}\\mid N_{\\text{digit}}) with a corresponding increase in corrected responses that follow the digit format of the prompt. Namely, P ​ ( N digit ∣ N digit ) P(N_{\\text{digit}}\\mid N_{\\text{digit}}) increases by 13.6 % 13.6\\% . This is consistent with Table 2 , which shows that Qwen-VL"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0020",
+  "word_start": 4000,
+  "word_end": 4250,
+  "text": "the learned generative model can be used as a proxy for representation quality ( [ 1 ] ), and its maximization is implicitly encouraged through the ELBO. Moreover, recent advances suggest replacing the pointwise decoder with amortized conditional normalizing flows, which allow for more expressive conditional densities without assuming a simple parametric form ( [ 28 ] ). These can capture complex, multimodal output distributions conditioned on latent states, and have been shown to improve sample quality and calibration in generative models. Lastly, learnable noise models can be employed where σ 2 \\sigma^{2} is itself a parameter or even a neural network input. This aligns with empirical Bayes methods and heteroscedastic regression frameworks, where the model allocates more uncertainty to poorly reconstructed regions of the data space ( [ 32 ] ). These enhancements render the emission model more robust, especially in the presence of outliers or missing data. The model is trained by maximizing the evidence lower bound (ELBO) on the marginal log-likelihood of the data. The ELBO is given by: Here, p ​ ( z 0 ) p(z_{0}) is the prior over the initial latent state, often taken as a standard Gaussian, and p ​ ( z t | z t − 1 ) p(z_{t}|z_{t-1}) is the transition density induced by the SDE dynamics. The second KL term captures the divergence between the inferred dynamics and the true prior diffusion process. This objective forms the core of amortized variational inference in my model, extending standard VAE frameworks to"
+}

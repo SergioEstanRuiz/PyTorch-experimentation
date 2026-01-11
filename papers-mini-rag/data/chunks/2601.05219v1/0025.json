@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": "rarely realistic. As a result, approaches that rely on extensive fine-tuning are typically out of reach. Instead, each annotated image can be viewed as an exemplar that induces a one-shot predictor, for example by transferring landmarks via patch similarity in a pretrained embedding space. Aggregating such predictors provides a natural way to leverage limited labeled data without additional training. However, exemplar relevance varies substantially across target images, making uncertainty-aware adaptive aggregation essential for reliable deployment. We evaluate CAOS in this regime using publicly available face data, enabling controlled evaluation while supporting reproducibility and dissemination of results. Facial Landmarking Dataset. We evaluate exemplar-based facial landmarking using aligned face images from the CelebA dataset. For reproducibility, the exact hash of the dataset version we used along with other relevant implementation details is provided in Appendix D.1 . Each image is divided into K = 168 K=168 patches of 16 × 16 16\\times 16 pixels. The label Y Y for image X X indicates in which of the K K patches a landmark is located in, i.e. we treat facial landmarking as a classification problem with 168 168 classes. Other than padding images on the lower right to the next multiple of the patch size, we employ no further preprocessing. Ground truth landmark locations are obtained via the MediaPipe Face Landmarker with default settings 3 3 3 num_faces=1 , min_face_detection_confidence=0.5 , min_face_detection_confidence=0.5 , which places 478 landmarks in each image. This auto-annotation scheme provides a scalable way to generate labeled data for 478"
+}

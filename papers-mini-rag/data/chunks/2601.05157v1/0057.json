@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0057",
+  "word_start": 11400,
+  "word_end": 11650,
+  "text": "( t ) | 2 ​ d ​ t . \\intslop\\ilimits@_{0}^{T}|g(t)|^{2}\\mathrm{d}t. We need the former, because in our application we only have control of g g on the queried points. In each part of the analysis, we will explain how the original algorithm of [ PS15-SFT ] works and further discuss our modification. The algorithm of [ PS15-SFT ] proceeds in stages, each of which hashes the frequencies to ℬ \\mathcal{B} bins. The hash function depends on two parameters σ \\sigma and b b , and so we define it as h σ , b : [ − F , F ] → [ ℬ ] h_{\\sigma,b}:[-F,F]\\to[\\mathcal{B}] . A tone with a given frequency f f can have two “bad events” : (1) colliding with another frequency of x ⋆ x^{\\star} or (2) landing near the boundary of the bin; they each will occur with small constant probability. The algorithm 𝖧𝖺𝗌𝗁𝖳𝗈𝖡𝗂𝗇𝗌 \\mathsf{HashToBins} hashes frequencies into different bins in order to reduce the k k -sparse recovery to 1 1 -sparse recovery. More precisely, define P σ , a , b P_{\\sigma,a,b} as an operator on the signal such that ( P σ , a , b ​ x ) ​ ( t ) = x ​ ( σ ​ ( t − a ) ) ​ e − 2 ​ π ​ i ​ σ ​ b ​ t (P_{\\sigma,a,b}x)(t)=x(\\sigma(t-a))e^{-2\\pi i\\sigma bt} . The algorithm gets as input x , P σ , a , b x,P_{\\sigma,a,b} and ℬ \\mathcal{B}"
+}

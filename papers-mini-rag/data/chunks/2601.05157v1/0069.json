@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0069",
+  "word_start": 13800,
+  "word_end": 14050,
+  "text": "is 15 ​ s 15s [ PS15-SFT , second to last paragraph on page 27] . ∎ Since we have changed the condition in [ PS15-SFT , Lemma C.1] , we need to check how the rest of the proof adapts to this new condition. Based on [ PS15-SFT , Lemmas 3.6, 3.7] , one can define which is roughly the amount of noise in the bin that contains f f , and set ρ = | x ^ ⋆ ​ ( f ) | / μ ​ ( f ) \\rho=|\\mathaccent 866{x}^{\\star}(f)|/\\mu(f) . We will change it to where u ^ = 𝖧𝖺𝗌𝗁𝖳𝗈𝖡𝗂𝗇𝗌 ​ ( x , P σ , ξ , b , ℬ ) \\mathaccent 866{u}=\\mathsf{HashToBins}(x,P_{\\sigma,\\xi,b},\\mathcal{B}) , and the max \\max is taken over all the values of ξ = { a , γ , γ + β } \\xi=\\{a,\\gamma,\\gamma+\\beta\\} used by the algorithm running with any fixed randomness. This modification matches our new condition in Lemma 2.4 . From [ PS15-SFT , Lemma 3.7] , the subroutine 𝖫𝗈𝖼𝖺𝗍𝖾𝖪𝖲𝗂𝗀𝗇𝖺𝗅 \\mathsf{LocateKSignal} outputs a list L L that, if | x ^ ⋆ ​ ( f ) | ​ μ ​ ( f ) |\\mathaccent 866{x}^{\\star}(f)|\\gtrsim\\mu(f) , then there is a frequency f ^ ∈ L \\mathaccent 866{f}\\in L such that | f − f ^ | ​ μ ​ ( f ) T ​ | x ^ ⋆ ​ ( f ) | |f-\\mathaccent 866{f}|\\lesssim\\frac{\\mu(f)}{T|\\mathaccent 866{x}^{\\star}(f)|} . Then [ PS15-SFT , Lemma 3.8] relates the partial noise μ"
+}

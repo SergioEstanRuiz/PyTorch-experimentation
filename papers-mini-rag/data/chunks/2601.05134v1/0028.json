@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0028",
+  "word_start": 5600,
+  "word_end": 5850,
+  "text": "influence of the forget set without formal certificates and are therefore evaluated using strong auditing attacks alongside simple utility/efficiency metrics. Representative methods include sparsity-driven approaches (Fan et al. , 2024 ; Jia et al. , 2023 ) , fine-tuning on the retain set (Warnecke et al. , 2023b ) , gradient ascent on the forget set (Thudi et al. , 2022 ) , and adversarial-example-based unlearning (Ebrahimpour-Boroojeny et al. , 2025 ) , among others. Efficacy is typically assessed with unlearning-specific membership-inference attacks (MIAs) (Kurmanji et al. , 2023 ; Jia et al. , 2023 ; Ebrahimpour-Boroojeny et al. , 2025 ) , together with standard model-performance metrics. Although these methods provide no formal guarantees, they constitute strong practical baselines and useful evaluation tools for auditing certified approaches. We release our implementation at https://github.com/mlolab/blockwise-noisy-fine-tuning . The repository includes the code needed to reproduce our experiments. In the worst-case, initialization-agnostic certification, for any measurable set O ⊆ ℝ d O\\subseteq\\mathbb{R}^{d} and any two initializations (in particular, 𝐱 ^ \\hat{\\mathbf{x}} and 𝐱 init \\mathbf{x}_{\\mathrm{init}} ), we have Applying the second inequality in equation 9 to O = ℰ fail O=\\mathcal{E}_{\\mathrm{fail}} yields Let ℰ full \\mathcal{E}_{\\mathrm{full}} denote the set of possible outcomes of 𝒰 ​ ( x ^ ) \\mathcal{U}(\\hat{\\textbf{x}}) . Applying the second inequality in equation 9 to O = ℝ d ∖ ℰ full O=\\mathbb{R}^{d}\\setminus\\mathcal{E}_{\\mathrm{full}} yields Therefore, the probability of obtaining bad performance (below the guarantee α \\alpha ) can be bounded by which is almost Pr ⁡ [ 𝒰 ​"
+}

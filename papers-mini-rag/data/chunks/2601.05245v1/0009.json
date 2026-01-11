@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "the same rates as they support the special case of binary prediction-independent group functions. As foreshadowed by the above discussion, our lower bounds identify a distinction between the general case and prediction independent groupings. In Section 3 we show an optimal Ω ​ ( T 2 / 3 ) \\Omega(T^{2/3}) lower bound for multicalibration in the general case, when groups can be defined in terms of predictions. This matches (up to logarithmic factors) the rate obtained by existing efficient algorithms (Noarov et al. , 2025 ; Ghuge et al. , 2025 ; Hu et al. , 2025 ) , and so establishes the optimal statistical rate for multicalibration in the general case. Because of the O ​ ( T 2 / 3 − ε ) O(T^{2/3-\\varepsilon}) upper bound for marginal calibration established by Dagan et al. ( 2025 ) it also formally separates the statistical complexity of multicalibration from marginal calibration. Our lower bound instance is realized by just 3 binary valued groups that are also disjoint (such that exactly one is active on any given round). Therefore, this lower bound is driven neither by the complexity nor by the intersectionality of the group family, but rather only by their prediction-dependent nature. We observe in Appendix A that no similar separation is possible for constant-sized families of binary groups if one further restricts them to be prediction independent. Indeed, there is an extremely simple reduction from multicalibration to marginal calibration for prediction independent groups that, given binary groups G G"
+}

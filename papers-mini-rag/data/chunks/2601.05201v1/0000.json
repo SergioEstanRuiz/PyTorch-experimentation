@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0000",
+  "word_start": 0,
+  "word_end": 250,
+  "text": "Large vision–language models (VLMs) are highly capable, yet often hallucinate by favoring textual prompts over visual evidence. We study this failure mode in a controlled object-counting setting, where the prompt overstates the number of objects in the image (e.g., asking a model to describe four waterlilies when only three are present). At low object counts, models often correct the overestimation, but as the number of objects increases, they increasingly conform to the prompt regardless of the discrepancy. Through mechanistic analysis of three VLMs, we identify a small set of attention heads whose ablation substantially reduces prompt-induced hallucinations (PIH) by at least 40% without additional training. Across models, PIH-heads mediate prompt copying in model-specific ways. We characterize these differences and show that PIH ablation increases correction toward visual evidence. Our findings offer insights into the internal mechanisms driving prompt-induced hallucinations, revealing model-specific differences in how these behaviors are implemented. * * * Code available at: https://github.com/michalg04/prompt-induced_hallucinations.git Mechanisms of Prompt-Induced Hallucination in Vision–Language Models William Rudman † † thanks: Equal contribution. Order determined by coin flip. 1 , Michal Golovanevsky ∗2 , Dana Arad 3 , Yonatan Belinkov 3,5 , Ritambhara Singh 2 , Carsten Eickhoff 4 , Kyle Mahowald 1 1 The University of Texas at Austin, 2 Brown University, 3 Technion, 4 University of Tübingen, 5 Harvard University {michal_golovanevsky, william_rudman}@brown.edu Vision–language models (VLMs) often follow textual prompts even when they contradict visual evidence Deng et al. ( 2025 ); Zhang et al. ( 2025 ); Hua et al. ( 2025"
+}

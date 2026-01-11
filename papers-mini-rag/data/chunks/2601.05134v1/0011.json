@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "initialized model 𝐱 init \\mathbf{x}_{\\mathrm{init}} . Moreover, by the ( ε , δ ) (\\varepsilon,\\delta) guarantee, the probabilities of unfavorable performance events under these two initializations are comparable: Fix a performance threshold α \\alpha . Let Perf : ℝ d → ℝ \\mathrm{Perf}:\\mathbb{R}^{d}\\to\\mathbb{R} denote the performance of a model (as a function of its parameters), and define the unfavorable event If 𝒰 \\mathcal{U} satisfies the worst-case, initialization-agnostic certification equation 9 , then We provide proof in App. C . Thus, after the same T T steps, this procedure must produce a model whose performance is close to that of NFT started from x ^ \\hat{\\textbf{x}} . This, in turn, suggests that retraining from scratch can reach accuracy close to α \\alpha in only T T steps. This directly contradicts the definition of T retrain T_{\\mathrm{retrain}} as the minimal number of steps required for retraining from scratch to the same certified performance level. Hence, NFT cannot at the same time (i) guarantee good performance and (ii) be strictly faster than full retraining under the worst-case clipping analysis. Although we present this argument for NFT, the same limitation applies to any training-agnostic unlearning algorithm whose number of update steps T T does not depend on the model’s initialization. The argument further relies on the retraining time required to match slightly weakened performance guarantees being comparable to that for the original guarantee; we formalize this general statement and discuss its limitations in Appendix C . The contradiction highlights that the model clipping-based guarantee"
+}

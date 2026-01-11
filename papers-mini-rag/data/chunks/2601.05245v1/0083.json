@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0083",
+  "word_start": 16600,
+  "word_end": 16850,
+  "text": "and bucket value v v , the quantity D v ( a , j ) D_{v}^{(a,j)} is the Hadamard coefficient of the bias sequence ( δ t ) t ∈ J a (\\delta_{t})_{t\\in J_{a}} restricted to those rounds with p t = v p^{t}=v . The next lemma records two basic consequences of this viewpoint. The first one is a direct consequence of Parseval’s identity: on average over Hadamard functions j j , the squared bias coefficients ( D v ( a , j ) ) 2 \\bigl(D_{v}^{(a,j)}\\bigr)^{2} recover the total bias energy E a E_{a} on block J a J_{a} . The second inequality bounds the average ℓ 1 \\ell_{1} mass ∑ v | D v ( a , j ) | \\sum_{v}|D_{v}^{(a,j)}| in terms of q a ​ E a \\sqrt{q_{a}E_{a}} (and hence N a ​ E a \\sqrt{N_{a}E_{a}} ), which will let us convert bias energy E a E_{a} into large calibration error for some Hadamard group. For each v v , define A v ∈ ℝ L A_{v}\\in\\mathbb{R}^{L} by A v ​ [ s ] := δ ( a − 1 ) ​ L + 1 + s A_{v}[s]:=\\delta_{(a-1)L+1+s} if p ( a − 1 ) ​ L + 1 + s = v p^{(a-1)L+1+s}=v , and 0 otherwise. Then D v ( a , j ) = ⟨ ψ a , j , A v ⟩ D_{v}^{(a,j)}=\\langle\\psi_{a,j},A_{v}\\rangle . By Proposition 2 (Parseval), we obtain ∑ j ⟨ ψ a , j , A v ⟩"
+}

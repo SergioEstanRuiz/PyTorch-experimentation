@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0010",
+  "word_start": 2000,
+  "word_end": 2250,
+  "text": ") \\Delta(\\rho) . Let T retrain T_{\\mathrm{retrain}} denote the minimal number of training steps required to retrain a model from scratch on the retain set D r D_{r} so as to achieve the same performance guarantee as that certified for NFT after T T unlearning steps. By construction, any procedure that attains this guarantee in fewer than T retrain T_{\\mathrm{retrain}} steps would constitute a faster retraining algorithm, contradicting the definition of T retrain T_{\\mathrm{retrain}} . In the standard NFT analysis, the number of unlearning steps T T is fixed in advance as a function of the privacy budget ( ε , δ ) (\\varepsilon,\\delta) , the learning rate, and the clipping parameters. Crucially, T T does not depend on the initialization of the model parameters. Moreover, the certified guarantee is formulated in the worst case: it requires NFT to produce indistinguishable outcomes for any two initializations. Suppose that NFT, when initialized at the fully trained model x ^ \\hat{\\textbf{x}} , reaches performance at least α \\alpha with probability p p after T T steps, where T ≪ T retrain T\\ll T_{\\mathrm{retrain}} . Since the guarantee is initialization-agnostic and holds for any model, we may instead initialize NFT from a randomly initialized model 𝐱 init \\mathbf{x}_{\\mathrm{init}} . Moreover, by the ( ε , δ ) (\\varepsilon,\\delta) guarantee, the probabilities of unfavorable performance events under these two initializations are comparable: Fix a performance threshold α \\alpha . Let Perf : ℝ d → ℝ \\mathrm{Perf}:\\mathbb{R}^{d}\\to\\mathbb{R} denote the performance of a model (as"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0045",
+  "word_start": 9000,
+  "word_end": 9250,
+  "text": "trained on (a) a balanced subset of the retained dataset and (b) a separate test dataset (disjoint from the forget set). The trained MIA predictor is then evaluated on the forget set D f D_{f} of the unlearned model θ u \\theta_{u} . Let TN \\mathrm{TN} be the number of forgotten samples that the MIA predictor classifies as non-members . The reported metric is MIA-Efficacy measures the fraction of forgotten samples that the attacker fails to recognize as training points. Thus, in this convention: higher values indicate better unlearning quality; MIA-Efficacy = 100 % \\text{MIA-Efficacy}=100\\% means that all forgotten samples are predicted as non-members. We further compare three constructions of the block mixing matrix A A (see Section 4.3 ): a permutation-matrix A A with equal-sized blocks; a cyclic layer-wise grouping into k k blocks, assigning layer ℓ \\ell to block ℓ mod k \\ell\\bmod k a two-block partition on head and the rest of the model (only for ResNet-18). We provide results of experiments for both datasets ( MNIST and CIFAR-10 ). For forget set 𝒟 f \\mathcal{D}_{f} , we use random 10% deletion task. Figure 4 shows MNIST trajectories at privacy budgets ε ∈ { 0.5 , 1.0 } \\varepsilon\\in\\{0.5,1.0\\} , δ = 10 − 5 \\delta=10^{-5} and number of blocks k = 2 k=2 . The three schemes demonstrate comparable stability during unlearning and recovery under fine-tuning. Figure 5 shows CIFAR-10 trajectories for privacy budget ε = 5.0 \\varepsilon=5.0 and δ = 10 − 5 \\delta=10^{-5} ,"
+}

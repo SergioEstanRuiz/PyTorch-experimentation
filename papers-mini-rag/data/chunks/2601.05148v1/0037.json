@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0037",
+  "word_start": 7400,
+  "word_end": 7650,
+  "text": "- *Results for Pluto-4G taken from [ 60 ] . Results for H-Optimus-1 taken from [ 9 ] . ViT-B ViT-S Atlas 2 Atlas 2-B ViT-B/8 [ 1 ] Hibou-B Phikon H0-mini* Atlas 2-S Pluto-4S-8* Pluto-4S-16* ViT-S/8 [ 37 ] ViT-S/8 [ 1 ] HEST-ccRCC 26.0 24.9 23.1 20.6 24.2 26.7 24.0 - - 25.5 23.5 HEST-COAD 32.3 31.8 26.8 25.9 26.2 24.9 27.0 - - 27.6 22.8 HEST-IDC 62.1 60.1 56.0 54.8 53.3 58.6 58.4 - - 54.8 53.0 HEST-LUNG 57.2 56.1 51.8 54.1 54.7 54.8 55.4 - - 54.1 50.5 HEST-LYMPH-IDC 28.2 26.3 22.7 23.7 23.7 26.3 24.8 - - 25.4 24.6 HEST-PAAD 52.3 50.1 46.0 46.1 44.2 49.2 45.8 - - 42.2 41.8 HEST-PRAD 38.5 37.3 36.1 29.7 34.2 36.8 38.3 - - 25.0 33.4 HEST-RECTUM 24.0 22.1 16.2 16.4 15.3 18.6 15.4 - - 14.9 14.7 HEST-SKCM 67.8 63.0 57.3 54.4 53.6 60.1 60.1 - - 58.1 51.8 MSI CRC (patch) 78.2 74.4 68.6 68.0 67.4 - 70.8 - - 71.0 68.4 MSI STAD (patch) 75.8 75.5 68.7 70.2 67.3 - 76.6 - - 72.4 70.4 HEST-Average 43.2 41.3 37.3 36.2 36.6 39.6 38.8 36.5 36.2 36.4 35.1 Molecular-Average 49.3 47.4 43.0 42.2 42.2 - 45.1 - - 42.8 41.4 BACH 91.1 89.4 86.6 82.5 73.0 77.4 90.6 82.7 79.6 76.3 81.7 BreakHis 85.6 84.8 83.2 74.1 70.8 - 87.1 81.3 79.2 68.8 71.7 CoNSeP 66.1 66.2 64.5 63.3 62.8 62.9 65.2 64.9 62.1 63.4 63.9 CRC-100k 97.1 96.9 95.6 95.1 94.0 96.1 96.7 95.2 95.0"
+}

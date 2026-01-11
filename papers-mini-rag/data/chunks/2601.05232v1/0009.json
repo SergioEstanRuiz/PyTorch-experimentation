@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05232v1",
+  "title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence",
+  "abs_url": "https://arxiv.org/abs/2601.05232v1",
+  "html_url": "https://arxiv.org/html/2601.05232v1",
+  "chunk_id": "2601.05232v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "a transfer failure from written to spoken media. The linguistic characteristics of video journalism differ substantially from print media—not only in syntax and register but also in the use of immediacy, narrative framing, and emotional activation. Video transcripts often include conversational fillers, hesitations, and speaker attributions that are absent from formal writing. These stylistic and pragmatic differences likely disrupted the networks’ ability to apply the same semantic cues used to identify peace-related language in articles. This finding motivated our subsequent use of emotion-based and large language model (LLM) techniques to better capture nuanced indicators of peace in multimodal and social media contexts. The news data models were trained by tagging news data with the levels of peace from external traditional peace indices. There is no similar external peace measures to tag YouTube videos. Therefore, we based our YouTube models both on 1) feedback that we received from peace experts and journalists reviewing our previous machine learning results and 2) on social dimensions identified by 59 studies over the last 40 years as important measures of the level of peace, including studies on: integrative complexity, political framing meta-analysis, tightness/looseness, and many others [ 12 ] [ 13 ] [ 14 ] [ 15 ] . These dimensions are: The failure of the news-trained networks demonstrated that peace in video content is not defined by specific keywords (topics) but by the manner in which those topics are discussed (tone and framing). While Neural Networks excelled at detecting topic-based patterns in news, they"
+}

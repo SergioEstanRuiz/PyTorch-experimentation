@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0002",
+  "word_start": 400,
+  "word_end": 650,
+  "text": "the learning agent. Distribution shift is one of the most common forms of non-stationarity faced by RL. It appears when training and testing distributions are different. Most existing safe RL (SRL) methods are based on the assumption of stationarity of the environment and underlying Markov process, where the state, reward, action space distribution, and transition dynamics of the environment remain stationary and don’t change over time. In practice, all these parameters can show some time dependence. Nonstationarity makes it difficult to directly apply traditional stationary reinforcement learning methods in potentially nonstationary environments without some adjustment to nonstationarity conditions. While existing safe online reinforcement methods based on the assumption of stationarity Berkenkamp and Schoellig ( 2015 ) , Daulton et al. ( 2022 ) can guarantee some robustness to non-stationarity, it is not always clear to what extent initial safety constraints can be respected during and after the distribution shift. Successful adjustment of safe reinforcement learning to nonstationary environments requires adaptation of both: the performance of the agent, i.e, adaptation of the reinforcement learning mechanism, and adaptation of the safety constraints, as initial constraints can become inefficient or unsafe in a new, changed environment. Adaptation of unconstrained RL methods to nonstationarity has been a subject of intensive research over the last few years, including continual learning Brunskill and Li ( 2014 ); Chandak et al. ( 2020b ); Parisi et al. ( 2019 ); Abel et al. ( 2018 ) and meta-learning Al-Shedivat et al. ( 2017 ); Xie et al."
+}

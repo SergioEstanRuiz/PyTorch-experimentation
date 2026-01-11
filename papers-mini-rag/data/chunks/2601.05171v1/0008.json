@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "compressed summary of the user’s core personalized attributes. This design ensures that memory capacity remains controllable and prevents unbounded growth as the dialogue progresses. The schema is informed by interdisciplinary human-factors and psychological theory frameworks, with its theoretical grounding illustrated in Figure 1 . Subsequently, under the schema constraints, we initialize the leaf nodes (allowing empty strings or default placeholder text), thereby obtaining the initial persona tree 𝒯 0 \\mathcal{T}_{0} . The specific initial PersonaTree instance adopted in this paper is provided in Appendix D . To enable scalable maintenance of long-term personalized memory over an infinitely long dialogue stream, we adopt an iterative updating mechanism: any input modality (historical file import, short-snippet input, or real-time cache triggering) is normalized into a dialogue-chunk sequence ( D 1 , … , D N ) (D_{1},\\dots,D_{N}) , and for each D t D_{t} we execute a closed-loop update of operation-list generation, safe parsing and execution, versioned persistence. Step 0: System Loading. The system loads the text fields of all leaf nodes, yielding the initial state 𝒯 0 \\mathcal{T}_{0} . Meanwhile, the task specification and system constraints are abstracted into a rule set ℛ \\mathcal{R} , including update rules, writable scope, leaf constraints, and output format. Step t = 1 , … , N t=1,\\dots,N . For any dialogue chunk D t D_{t} , the system executes the following three stages: (a) State Construction. Given a dialogue chunk D t D_{t} , set Input t ← D t , 𝒯 t − 1"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0057",
+  "word_start": 11400,
+  "word_end": 11650,
+  "text": "= d / ( n − 1 ) p=d/(n-1) , then ℙ ​ ( χ ​ ( G ​ ( n , p ) ) ∈ { k d , k d + 1 } ) → 1 \\mathbb{P}(\\chi(G(n,p))\\in\\{k_{d},k_{d}+1\\})\\rightarrow 1 as n → ∞ n\\rightarrow\\infty . No matter how p p varies with n n , the statement that ℙ ​ ( χ ​ ( G ​ ( n , p ) ) ∈ { k d , k d + 1 } ) → 1 \\mathbb{P}(\\chi(G(n,p))\\in\\{k_{d},k_{d}+1\\})\\rightarrow 1 as n → ∞ n\\rightarrow\\infty is equivalent to the statement that ℙ ​ ( χ ​ ( G ​ ( n , p ) ) < k d ) → 0 \\mathbb{P}(\\chi(G(n,p))<k_{d})\\rightarrow 0 and ℙ ​ ( χ ​ ( G ​ ( n , p ) ) > k d + 1 ) → 0 \\mathbb{P}(\\chi(G(n,p))>k_{d}+1)\\rightarrow 0 as n → ∞ n\\rightarrow\\infty . Recall that if p 1 ≤ p 2 p_{1}\\leq p_{2} , then we can couple G ​ ( n , p 1 ) G(n,p_{1}) and G ​ ( n , p 2 ) G(n,p_{2}) such that G ​ ( n , p 1 ) ⊆ G ​ ( n , p 2 ) G(n,p_{1})\\subseteq G(n,p_{2}) always. Since the chromatic number is monotone increasing under edge addition, it follows that increasing p p from d / n d/n to d / ( n − 1 ) d/(n-1) decreases the probability ℙ ​ ( χ ​ ( G ​ ("
+}

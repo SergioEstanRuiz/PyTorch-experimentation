@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0030",
+  "word_start": 6000,
+  "word_end": 6250,
+  "text": "coloring returned by Triple-Color is the best of 3 k − 1 3^{k-1} random k k -colorings, each of which has the same marginal distribution as an output of Full-Color , with various levels of conditional independence between them. By sacrificing full independence, we obtain a slight speedup compared to simply calling Full-Color 3 k − 1 3^{k-1} times, in that Triple-Color only calls Discrete-Color ( 1 / 2 ) ​ ( 3 k − 3 ) (1/2)(3^{k}-3) times, while the latter would require calling Discrete-Color a whole ( k − 1 ) ​ 3 k − 1 (k-1)3^{k-1} times. The experiment of Figure 3 on Mod-GCN and Full-GCN was again repeated for Triple-Color , and the results are shown in red in Figure 3 . We see that Triple-Color actually outperforms both of our GCN algorithms by a sizable amount. We also see that the pattern of average loss being linear in n n for sufficiently large n n continues for Triple-Color . Again, it would be interesting to know whether this linear trend continues for larger n n . In Figure 4 , we see that the trend consistently underestimates the true mean for n = 500 n=500 and especially n = 1000 n=1000 , though it is usually not too far off unless the slope for n ∈ { 110 , 120 , … , 200 } n\\in\\{110,120,\\dots,200\\} was close to zero to begin with. We then see that the trend becomes even less accurate for n"
+}

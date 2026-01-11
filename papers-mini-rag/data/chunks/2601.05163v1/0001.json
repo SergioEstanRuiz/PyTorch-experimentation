@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05163v1",
+  "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+  "abs_url": "https://arxiv.org/abs/2601.05163v1",
+  "html_url": "https://arxiv.org/html/2601.05163v1",
+  "chunk_id": "2601.05163v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": "AI Lab, ♣ \\clubsuit Tencent AI Lab wujialongml@gmail.com , wentao.zhang@pku.edu.cn Understanding and answering questions over long, multi-modal documents is a critical capability for real-world intelligent systems Tkaczyk et al. ( 2015 ); Liu et al. ( 2025b ) . Document Question Answering (DocQA) lies at the core of document-centric intelligence, enabling models to access, reason over, and synthesize information from complex and heterogeneous document sources. Existing DocQA methods can be broadly categorized into three paradigms. The first paradigm relies on optical character recognition (OCR) to convert documents into plain text, which is then processed by downstream language models Xu et al. ( 2020 ) . The second paradigm adopts embedding-based retrieval mechanisms, most commonly instantiated through retrieval-augmented generation (RAG), to identify and incorporate relevant document segments during inference Saad-Falcon et al. ( 2024 ) . More recently, agent-based paradigms have gained increasing attention, as they better support complex scenarios that require iterative exploration, tool invocation, and multi-step reasoning over long and structured documents Sun et al. ( 2025a ); Zhu et al. ( 2025 ) . Recent advances in large language models (LLMs) Team ( 2025 ); Liu et al. ( 2025a ) enable such agents to dynamically decompose queries, interact with documents, and adapt to intermediate observations, alleviating the limitations of OCR- and RAG-based approaches. Despite their promise, existing DocQA agents are typically implemented as prompt-based pipelines, with limited learning of autonomous agentic behaviors. In contrast, we aim to train the first end-to-end DocQA agent model that is explicitly"
+}

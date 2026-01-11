@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0128",
+  "word_start": 25600,
+  "word_end": 25850,
+  "text": ", … , μ k } ∈ ℱ \\{\\mu_{1},\\dots,\\mu_{k}\\}\\in\\mathcal{F} , there is another { μ ~ 1 , … , μ ~ k } ∈ ℱ \\{\\mathaccent 869{\\mu}_{1},\\dots,\\mathaccent 869{\\mu}_{k}\\}\\in\\mathcal{F} satisfying that for r = 1 , 2 , … , R r=1,2,\\dots,R , The original proof in [ regev_learning_2017 ] showed the tensor powers match in the symmetric injective tensor norm. But the same proof works for the Frobenius norm as well. We will apply the above lemma which holds for arbitrary collections of vectors to the special case where these vectors are the means of a mixture of Laplaces. Under the same notation of Lemma 3.14 , let { μ 1 , … , μ k } \\{\\mu_{1},...,\\mu_{k}\\} and { μ ~ 1 , … , μ ~ k } \\{\\mathaccent 869{\\mu}_{1},...,\\mathaccent 869{\\mu}_{k}\\} be as in Lemma 3.14 , i.e., for r = 1 , 2 , … , R r=1,2,\\dots,R , Let Y Y be the uniform mixture of k k Laplaces Lap ⁡ ( μ j , I d ) \\operatorname{\\mathrm{Lap}}(\\mu_{j},I_{d}) , j ∈ [ k ] j\\in[k] , and Y ~ \\mathaccent 869{Y} be the uniform mixture of k k Laplaces Lap ⁡ ( μ ~ j , I d ) \\operatorname{\\mathrm{Lap}}(\\mathaccent 869{\\mu}_{j},I_{d}) , j ∈ [ k ] j\\in[k] , then for r = 1 , 2 , … , R r=1,2,\\dots,R , \\| ​ ⁡ Y ⊗ r − ⁡ Y ~ ⊗ r ​ \\| F ≤ R ​ ( R 2 ​"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05143v1",
+  "title": "A Lightweight and Explainable Vision-Language Framework for Crop Disease Visual Question Answering",
+  "abs_url": "https://arxiv.org/abs/2601.05143v1",
+  "html_url": "https://arxiv.org/html/2601.05143v1",
+  "chunk_id": "2601.05143v1:0023",
+  "word_start": 4600,
+  "word_end": 4802,
+  "text": "models, such as Qwen-VL-Chat-7B and LLaVA-v1.5-7B. As a result, it may struggle with complex reasoning questions that extend beyond visual evidence. This includes queries requiring external context or expert-level explanations. Generalization to unseen plant species remains a challenge. The model performance may degrade when evaluated on crops not present in the training data. This issue is common in supervised learning settings with limited botanical diversity. This work presents a unified vision–language framework for plant and disease understanding. The model effectively integrates visual perception with natural language reasoning. Comprehensive evaluations demonstrate robustness to diverse question formulations. Explainability results provide transparency in visual and linguistic decision-making. Ablation studies confirm the importance of pretrained visual representations. Overall, the proposed approach achieves reliable and interpretable performance. Future work will explore larger and more diverse agricultural datasets. Cross-domain generalization to unseen crops will be investigated. Multilingual question answering will be incorporated for broader accessibility. Advanced reasoning modules will be integrated to handle complex agronomic queries. Conflict of interest The authors have no conflict of interest to declare relevant to this article’s content. Additionally, the authors have no relevant financial or non-financial interests to disclose. Data availability Not applicable. Funding No specific funding was received for this study."
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": "measures of scientific impact, failing to capture the nuanced ways in which works are cited, interpreted, or contested. To address this gap, citation classification has emerged as a critical task in computational bibliometrics and information science. It moves beyond simple quantitative counts to unlock the meaning within scholarly dialogue by analyzing the textual context to understand why a work was cited. The aim is to distinguish whether a prior work is being used as a foundational method, critiqued for its findings, or merely mentioned as background. This functional understanding provides the technological backbone for a new generation of digital libraries and intelligent research assistants, enabling advanced services such as automated literature reviews [ 15 , 27 , 28 , 3 ] , the detection of scientific controversies [ 41 ] , and impact-aware scientific search [ 63 , 35 ] . Recent advances in Natural Language Processing (NLP) have enabled large-scale citation classification to be deployed in digital library infrastructures. Platforms such as Web of Science [ 13 ] , Scite [ 41 ] , and Semantic Scholar [ 2 ] incorporate functionalities aimed at detecting aspects of citation intent to improve retrieval, mapping, and assessment. By automatically labeling background, method, result, or support, these platforms enhance transparency, accelerate literature review, and surface influential or controversial contributions [ 17 ] . Despite growing adoption, current citation classification practices face persistent limitations. Existing annotation frameworks often conflate distinct citation intents and content types and lack consistent semantic definitions. These ambiguities hinder"
+}

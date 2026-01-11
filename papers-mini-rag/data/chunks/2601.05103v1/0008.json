@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "[ 4 ] . This lack of robustness is particularly evident even when datasets ostensibly share the same annotation framework. For example, ACT2 adopted the ACL-ARC label set for annotations across multiple disciplines. Despite this shared taxonomy, prior work demonstrated a dramatic drop in performance when models effective on ACL-ARC were applied to ACT2 [ 30 ] . This highlights that surface-level label consistency does not guarantee semantic equivalence across domains or robust model transfer. We interpret these findings as indicative of deeper structural limitations in existing citation classification frameworks. In particular, many current frameworks conflate citation’s function with its semantic arguments (the type of cited content), leading to annotation ambiguities that are further amplified in heterogeneous, multi-domain settings. In our experiments, we evaluate this by training models on our re-annotated ACL-ARC dataset and testing their performance on the ACT2 dataset using our revised framework annotations. The performance of supervised machine learning models is fundamentally tied to the quality of their training data [ 65 ] . However, real-world annotations are often noisy, with errors arising from ambiguous guidelines, subjective interpretations, limitations in annotator expertise, or simple human mistakes [ 43 , 25 ] . Such errors can undermine model training, compromise evaluation reliability, and reduce the robustness of downstream applications. Recognizing these limitations, recent work has emphasized systematic identification and correction of label errors in widely used benchmarks. For example, studies of the COCO dataset [ 34 ] have revealed deficiencies in object mask annotations, prompting initiatives such as"
+}

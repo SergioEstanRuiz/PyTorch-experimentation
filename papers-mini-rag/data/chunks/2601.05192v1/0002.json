@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0002",
+  "word_start": 400,
+  "word_end": 650,
+  "text": "a company wants to disambiguate chemical products), one would first have to label hundreds of mentions. This task cannot be outsourced easily, as it requires navigating specialized knowledge bases and involves privacy restrictions. Hence, the quest that we tackle in this paper is true zero-shot entity linking , i.e., entity linking that works out of the box for any domain without the need for fine-tuning. Several approaches target such true zero-shot scenarios Ding et al. ( 2024 ); Liu et al. ( 2024c ); Zhou et al. ( 2024 ); Ye and Mitchell ( 2025 ) . However, even these require hand-chosen Chain-of-Thought examples and/or strongly domain-specific candidate generator approaches, limiting their generalizability. Furthermore, their performance lags behind the specialized approaches. In this paper, we propose LELA, a coarse-to-fine fine-tuning-free method for entity linking. LELA (1) generates an initial entity-candidate set, (2) selects top-k candidates through pointwise re-ranking, and (3) passes them to the LLM for final candidate selection through reasoning over the context and entity descriptions. This approach is modular, LLM-, reranker-, and retriever-agnostic, and can hence be used with both open-source and proprietary models. As LLMs become ever more of a commodity, the performance of LELA thus only stands to gain. Through extensive experiments, we show that LELA systematically outperforms the true zero-shot methods, and even beats state-of-the-art classical and zero-shot approaches on multiple datasets. We attach our code for reviewing, which will be made available as an open-source library. Before the blossoming of machine learning and deep"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": ", which means that y ≤ q ^ caos y\\leq\\hat{q}_{\\mathrm{caos}} . Therefore, by Eqn. 16 , y ∈ C ^ caos ​ ( X n + 1 ) y\\in\\hat{C}_{\\mathrm{caos}}(X_{n+1}) . ∎ By the symmetry of s ~ caos ​ ( ( x , y ) ; 𝒟 n + 1 y ) \\tilde{s}_{\\mathrm{caos}}\\bigl((x,y)\\,;\\,\\mathcal{D}_{n+1}^{y}\\bigr) (Lemma 5.1 ) and the assumed exchangeability of samples from the augmented dataset 𝒟 n + 1 y \\mathcal{D}_{n+1}^{y} , standard full conformal arguments (Angelopoulos et al. , 2024 ) imply finite-sample marginal coverage: Next, by the set inclusion argument (Corr. 5.4 ), the event { Y n + 1 ∈ 𝒞 ^ full ​ ( X n + 1 ) } \\{Y_{n+1}\\in\\hat{\\mathcal{C}}_{\\mathrm{full}}(X_{n+1})\\} implies the event { Y n + 1 ∈ C ^ caos ​ ( X n + 1 ) } \\{Y_{n+1}\\in\\hat{C}_{\\mathrm{caos}}(X_{n+1})\\} , and hence Together with Eqn. 26 , this establishes Thrm. 4.2 . ∎ Remarks. The CAOS coverage guarantee applies to nonconformity scores that satisfy two structural properties: (i) symmetry with respect to permutations of the reference data, and (ii) monotonicity with respect to the inclusion of additional examples. Score functions that violate these conditions, such as scores involving parameters retrained on the augmented dataset, fall outside the scope of our theory. Although CAOS deliberately breaks score exchangeability by excluding the test point from the reference data, this does not compromise coverage. The monotonicity property implies that CAOS prediction sets contain those produced by full conformal prediction, rendering score exchangeability unnecessary for marginal"
+}

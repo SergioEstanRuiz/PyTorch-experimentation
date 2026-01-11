@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0008",
+  "word_start": 1600,
+  "word_end": 1850,
+  "text": "what we will call binary prediction-independent groups, that depend on the context but not the prediction, and map to a binary range: g : X × ℝ → { 0 , 1 } g:X\\times\\mathbb{R}\\rightarrow\\{0,1\\} such that for all v , v ′ ∈ ℝ v,v^{\\prime}\\in\\mathbb{R} and for all x ∈ X x\\in X , g ​ ( x , v ) = g ​ ( x , v ′ ) g(x,v)=g(x,v^{\\prime}) . Subsequent work generalized the notion of groups to allow them to be weighting functions with range [ 0 , 1 ] [0,1] rather than binary valued, and to explicitly depend on predictions p t p^{t} (Gopalan et al. , 2022b ; Kim et al. , 2022 ; Deng et al. , 2023 ) — see also Kakade and Foster ( 2008 ) and Sandroni et al. ( 2003 ) for earlier work using similar grouping functions. Sandroni et al. ( 2003 ) called prediction-dependent binary groups “forecast based checking rules”. The algorithms that were developed for online multicalibration (Gupta et al. , 2022 ; Noarov et al. , 2025 ; Haghtalab et al. , 2023 ) are all able to support this general notion of group functions at the same rates as they support the special case of binary prediction-independent group functions. As foreshadowed by the above discussion, our lower bounds identify a distinction between the general case and prediction independent groupings. In Section 3 we show an optimal Ω ​ ( T 2 / 3 ) \\Omega(T^{2/3})"
+}

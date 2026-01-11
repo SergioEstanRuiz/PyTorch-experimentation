@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "a stack of L L residual blocks, shown as follows: where RMSNorm ​ ( ⋅ ) \\text{RMSNorm}(\\cdot) is a root mean square layer normalization operation (Zhang and Sennrich, 2019 ) . The input to the first layer ( ℓ = 1 \\ell=1 ) of the network is initialized with the features in Eq. ( 4 ). Long-horizon forecasting requires capturing fine-grained historical dependencies while remaining computationally scalable. To reconcile accuracy and efficiency, we introduce an MoE-based temporal compression module that projects the T T -step raw sequence into a compact dense embedding using multiple learnable projection experts. Unlike one-size-fits-all compression, a heterogeneity-aware router dynamically selects expert-specific compression pathways across nodes and time periods, mitigating representation homogenization and alleviating information loss under compression. Specifically, given an input 𝐗 t ∈ ℝ N × T {\\bf X}_{t}\\in\\mathbb{R}^{N\\times T} , use a HA-MoE module to reduce the information from T T time steps to a d d -dimensional dense embedding as follows: where 𝐙 t 0 = 𝐗 t {\\bf Z}^{0}_{t}={\\bf X}_{t} . In addition, trainable spatial and temporal embeddings are added to the feature to identify the spatial and temporal positions, shown as follows: where ⊕ \\oplus is a broadcast addition operation, 𝐄 S ∈ ℝ N × d {\\bf E}^{\\mathrm{S}}\\in\\mathbb{R}^{N\\times d} encodes the structural/positional priors of nodes, and 𝐄 t D ∈ ℝ 1 × d {\\bf E}_{t}^{\\mathrm{D}}\\in\\mathbb{R}^{1\\times d} and 𝐄 t W ∈ ℝ 1 × d {\\bf E}_{t}^{\\mathrm{W}}\\in\\mathbb{R}^{1\\times d} encode the position of the time step t t within"
+}

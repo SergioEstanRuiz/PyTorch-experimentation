@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0022",
+  "word_start": 4400,
+  "word_end": 4650,
+  "text": "encourages smooth latent dynamics while preserving expressiveness. This is analogous to action minimization in classical mechanics and serves to regularize overfitting in high-variance regions of the latent space ( [ 4 ] ). The total objective becomes ℒ − ℛ path \\mathcal{L}-\\mathcal{R}_{\\text{path}} , balancing reconstruction quality and path complexity. Furthermore, the entropy of the variational posterior q ϕ ​ ( z 0 : T ) q_{\\phi}(z_{0:T}) plays a key role in governing the strength of regularization. Low-entropy posteriors lead to sharper reconstructions but may ignore uncertainty, while high-entropy paths preserve variability but risk collapse in the latent structure. I exploit this duality by adaptively modulating the pathwise KL term based on trajectory complexity, using entropy-aware annealing schedules similar to those proposed in [ 10 ] . To improve numerical stability and convergence speed, it is possible to apply variance reduction techniques such as the Rao–Blackwellized gradient estimator ( [ 41 ] ) and antithetic sampling. These tools help mitigate the high variance typical of Monte Carlo estimates in stochastic models, particularly when the latent diffusion is deep or multi-modal. Finally, my approach offers a general framework that unifies latent diffusion models with neural SDEs, providing a principled bridge between amortized variational inference and continuous-time generative modeling. The explicit use of drift and diffusion in both prior and posterior allows for tighter variational bounds, more stable training, and interpretable latent representations—a significant step forward in combining stochastic calculus with deep learning architectures. Training stochastic processes with continuous-time dynamics poses a major"
+}

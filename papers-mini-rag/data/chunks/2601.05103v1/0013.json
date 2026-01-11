@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "each dimension is orthogonal and semantically bounded, greatly reducing ambiguity and cognitive load. Second, SOFT maintains a unified authorial perspective by consistently modeling the action of the citing work. This approach is grounded in semantic role theory [ 20 , 6 , 21 , 44 ] , which decomposes events into predicates (actions) and arguments (participants or entities involved). In SOFT, citation intent always corresponds to the action or communicative function performed by the citing work, such as “use X from [cited work]”, “modify X from [cited work]”, or “evaluate against X from [cited work]”, where X is the specific cited content. These intents, like “use” or “modify”, align with classic event predicates in semantic role theory. Other intents in SOFT, such as “contextualize using X from [cited work]”, “signal a gap using X from [cited work]”, “highlight a limitation in X from [cited work]”, or “justify a design choice based on X from [cited work]”, capture broader discourse actions in scientific writing. While these latter cases extend beyond simple event predicates, all SOFT intent types are defined to specify what the citing work is doing, ensuring each annotation remains grounded in a clear and consistent authorial perspective. Third, SOFT provides explicit, semantically precise definitions for all citation intent types, ensuring the underlying authorial purpose is clearly specified in every case. For instance, we rephrase Background (used in ACL-ARC, SciCite, and ACT/ACT2) as Contextualize to mark deliberate authorial moves, and rephrase Extension as Modify to capture not only extension but"
+}

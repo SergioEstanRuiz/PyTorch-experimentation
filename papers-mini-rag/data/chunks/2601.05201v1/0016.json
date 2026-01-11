@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0016",
+  "word_start": 3200,
+  "word_end": 3450,
+  "text": "with several studies showing that influential attention heads may not exhibit human-interpretable patterns Jain and Wallace ( 2019 ); Serrano and Smith ( 2019 ); Brunner et al. ( 2019 ); Grimsley et al. ( 2020 ) . Therefore, we study the function of PIH-heads by examining the generated texts before and after knockouts, shifts in attention mass after PIH-ablation, and the impact of PIH-ablation on model confidence. Through these analyses, we show that PIH ablation reduces hallucinations by both inhibiting copying of information from the prompt and increasing attention to the image. To characterize how models incorporate misaligned prompt information, we categorize several forms of copying behavior, summarized in Table 3 . Soft-copying occurs when the response contains the misaligned prompt information but deviates in structure from the prompt’s structure. Format copying occurs when the response contains the correct (visually grounded) information, while maintaining the same prompt format. Exact copying occurs when both the prompt information and the format are present. Using these definitions, we analyze copying behavior first in the counting task and then in the color recognition task. Table 4 shows copying patterns in the counting task, where the input prompts always include the number as a digit (i.e., “Describe the N digit N_{\\text{digit}} [objects]”). Prior to ablation, responses that include the number as a digit are more likely to be incorrect. For example, Janus-Pro outputs a digit in 43.95 43.95 % of the cases, consisting of 43.45 43.45 % of the incorrect cases, and 0.05 0.05"
+}

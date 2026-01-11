@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05232v1",
+  "title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence",
+  "abs_url": "https://arxiv.org/abs/2601.05232v1",
+  "html_url": "https://arxiv.org/html/2601.05232v1",
+  "chunk_id": "2601.05232v1:0004",
+  "word_start": 800,
+  "word_end": 1050,
+  "text": "upon acceptance on our GitHub repository. There are many surveys that measure levels of peace in a country conducted by international organizations, national governmental agencies, non-profit groups, and for-profit consulting companies [ 1 ] . Thus, we can use that data to tag samples of text from different countries with their level of peace to form training and testing sets for supervised learning. We also tested the accuracy of models trained on one dataset analyzing another dataset of different countries. A large-scale training dataset was constructed from the News on the Web (NOW) corpus, comprising approximately 700,000 news articles from 18 countries. Each article included metadata specifying its country of origin and the associated peace level. High- and low-peace labels were assigned following the method described by Liebovitch et al. [1], which maps linguistic features of national media to established peace indices. To prepare the data, n-gram preprocessing was applied to capture multi-word contextual patterns and reduce sparsity. The processed text was then embedded using the OpenAI text-embedding-3-small model, which converts each article into a 1,536-dimensional vector representation encoding its semantic meaning. Of the 18 countries represented, 10 were identified as high-peace, resulting in a balanced distribution for unbiased model training and evaluation. Three neural architectures were developed to perform binary classification of articles as high-peace or low-peace: CNN Model: Two convolutional layers (64 and 32 filters; kernel size = 3, ReLU activation) were followed by a flattening layer and two dense layers (128 and 64 units) with a 0.3"
+}

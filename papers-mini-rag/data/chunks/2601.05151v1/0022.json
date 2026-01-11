@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0022",
+  "word_start": 4400,
+  "word_end": 4650,
+  "text": "performances. The second part of the benchmark was conducted on a semi-synthetic dataset to assess the ability of FS methods to discover true predictors. As detailed in Methods, a synthetic outcome variable was simulated with a simple linear model from 19 pre-selected features from the real PIONeeR dataset, and FS methods were applied to the original dataset combined with this simulated outcome. Their performance was measured using true positive rate (TPR), false positive rate (FPR), false discovery rate (FDR) and false omission rate (FOR). Even though the outcome was generated with a simple linear model, no method achieved both high TPR and low FPR (Table 2 , fig. 4 B). By construction, fixed-size methods exhibited an inverse relationship between TPR and FPR, as true discoveries constrained the number of false positives (fig. 4 ). In contrast, threshold-based methods displayed the opposite behavior: methods with higher TPR also had higher FPR. More relaxed methods (e.g., LASSO) showed higher TP and FP rates, whereas more stringent methods (e.g., Stable LASSO) produced smaller TP and FP rates. The same behavior was observed when FPs were represented as the false discovery rate (FDR), i.e., the proportion of FPs relative to the signature size (supplementary fig. S1 ). As expected, embedded ensemble methods that control for false discoveries (stability selection, Stabl LASSO, RENT) achieved the lowest FPR but at the cost of lower TPR. These methods are characterized by consistent strict selection of features with the strongest signal. However, they omit a high proportion of"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0007",
+  "word_start": 1400,
+  "word_end": 1650,
+  "text": "and evaluation. To assess cross-domain generalizability, we additionally re-annotated a sample from the ACT2 dataset. Results from these evaluations are presented in Section 5 , where we compare the performance of CitePrompt and CitationIntentOpenLLM under our framework. A persistent challenge in CIC is the limited ability of models to generalize across different scientific domains or datasets [ 53 , 64 , 33 ] . To rigorously assess true generalization capabilities, models must be subjected to cross-domain testing: training on a source dataset (e.g., ACL-ARC) and evaluating on a distinct target (e.g., ACT2) [ 12 ] . Cross-domain or cross-dataset evaluation offers a principled framework for testing generalization capacity. In this setting, models are trained on one source dataset and evaluated on an independent target dataset [ 12 ] . This setup is widely used across NLP tasks to assess whether models learn domain-agnostic features or overfit to dataset-specific patterns. For instance, prior work has investigated transfer performance in question answering across biomedical, Wikipedia, and web dataset [ 24 ] , and in relation extraction across distinct subdomains such as news and politics [ 8 ] . Another example is the divide in machine translation Generalizability between resource-rich and low-resource languages [ 4 ] . This lack of robustness is particularly evident even when datasets ostensibly share the same annotation framework. For example, ACT2 adopted the ACL-ARC label set for annotations across multiple disciplines. Despite this shared taxonomy, prior work demonstrated a dramatic drop in performance when models effective on ACL-ARC"
+}

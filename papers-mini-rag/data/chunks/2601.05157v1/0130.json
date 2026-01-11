@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0130",
+  "word_start": 26000,
+  "word_end": 26250,
+  "text": "sets of k k distinct points, so | ℱ | = ( N k ) |\\mathcal{F}|=\\binom{N}{k} . There exists constants c 1 , c 2 < c 3 , γ < 1 c_{1},c_{2}<c_{3},\\gamma<1 , such that when N = c 1 ​ k N=c_{1}k , d = c 2 ​ log ⁡ k d=c_{2}\\log k , and R = c 3 ​ log ⁡ k R=c_{3}\\log k , it holds that ( N k ) ≥ ( N k ) k ≥ 1 2 ​ exp ⁡ ( 5 2 ​ ( 2 ​ e ​ R / d ) d ​ R ​ log ⁡ ( 5 ​ d ) ) \\binom{N}{k}\\geq(\\frac{N}{k})^{k}\\geq\\frac{1}{2}\\exp(\\frac{5}{2}(2eR/d)^{d}R\\log(5d)) and N 2 ​ γ d < 1 N^{2}\\gamma^{d}<1 . Thus, by Lemma 3.15 , there exists two uniform mixtures of Laplaces Y Y and Y ~ \\mathaccent 869{Y} such that for r = 1 , 2 , … , R r=1,2,\\dots,R , Meanwhile, since Y Y and Y ~ \\mathaccent 869{Y} are different, there exists a component μ j \\mu_{j} in Y Y that is not in Y ~ \\mathaccent 869{Y} . By Lemma 3.16 , for all j ~ ∈ [ k ] \\mathaccent 869{j}\\in[k] , \\| ​ μ j − μ ~ j ~ ​ \\| 2 ≥ γ ​ r = ( d ) = ( log ⁡ k ) \\|\\mu_{j}-\\mathaccent 869{\\mu}_{\\mathaccent 869{j}}\\|_{2}\\geq\\gamma r=\\Omega(\\sqrt{d})=\\Omega(\\sqrt{\\log k}) . ∎ In this section, we provide our consistent estimator for high-dimensional mean estimation for general distributions D"
+}

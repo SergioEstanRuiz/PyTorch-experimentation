@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0123",
+  "word_start": 24600,
+  "word_end": 24850,
+  "text": "terms of the bit groups. Because N = 2 k N=2^{k} and val ​ ( x t ) = ∑ r = 1 k x r t ​ 2 k − r \\mathrm{val}(x^{t})=\\sum_{r=1}^{k}x_{r}^{t}\\,2^{k-r} , we have and applying the triangle inequality gives Now relate these terms to calibration error. By definition, for a group g g and a value v ∈ V T v\\in V_{T} , and Err T ​ ( g ) = ∑ v ∈ V T | B T ​ ( v , g ) | \\mathrm{Err}_{T}(g)=\\sum_{v\\in V_{T}}|B_{T}(v,g)| . Thus Plugging these into ( 33 )–( 34 ) yields Finally, since ∑ r = 1 k 2 − r = 1 − 2 − k = 1 − 1 N \\sum_{r=1}^{k}2^{-r}=1-2^{-k}=1-\\frac{1}{N} and each Err T ​ ( g r ) ≤ MCerr T ​ ( G bits ) \\mathrm{Err}_{T}(g_{r})\\leq\\mathrm{MCerr}_{T}(G_{\\mathrm{bits}}) , we obtain Combine Lemma 21 and Lemma 22 . Lemma 22 implies pathwise since 2 − 1 2 ​ N < 2 2-\\frac{1}{2N}<2 . Taking expectations and applying Lemma 21 gives If m ≤ N / 2 m\\leq N/2 then ( 1 − m / N ) ≥ 1 / 2 (1-m/N)\\geq 1/2 , yielding For the parametric statement in the theorem, fix any constant γ ∈ ( 0 , 1 2 ) \\gamma\\in(0,\\tfrac{1}{2}) and set Then | G bits | = k + 1 = Θ ​ ( log ⁡ T ) |G_{\\mathrm{bits}}|=k+1=\\Theta(\\log T) , and If in addition m = poly ​ ( | G"
+}

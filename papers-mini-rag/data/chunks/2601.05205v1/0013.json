@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05205v1",
+  "title": "EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI",
+  "abs_url": "https://arxiv.org/abs/2601.05205v1",
+  "html_url": "https://arxiv.org/html/2601.05205v1",
+  "chunk_id": "2601.05205v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "than at every step. Every F F iterations ( t mod F = 0 t\\bmod F=0 ), a mini-batch of transitions is sampled from the replay buffer, and the network is refined via one-step temporal-difference (TD) learning. The update rule is where η \\eta is the learning rate and γ \\gamma the discount factor. The term serves as the TD target, and its difference from the current estimate, defines the TD error that drives parameter updates. A separate target network Q ¯ \\bar{Q} provides the bootstrap values in the TD target and is synchronized with the main network every F F steps. This decoupling stabilizes training by reducing feedback loops between evolving predictions and targets. To avoid unnecessary evaluations during stagnation, the framework employs an adaptive early termination criterion. Let r ∗ r^{\\ast} and f 2 ∗ f_{2}^{\\ast} denote the best reward and lowest energy observed so far: Relative improvements at iteration t t are defined as The framework monitors these values over a sliding window of T s T_{s} recent evaluations. If neither objective exhibits progress beyond tolerance thresholds ( ϵ r , ϵ e ) (\\epsilon_{r},\\epsilon_{e}) for T s T_{s} consecutive steps, the optimization loop is terminated. This stopping rule detects convergence to regions of marginal improvement and prevents excessive computation in performance plateaus, enhancing the overall efficiency of the EARL search process. We evaluate the proposed EARL framework on three public benchmark datasets covering audio, environmental sensing, and human activity recognition: the Free Spoken Digit Dataset (FSDD),"
+}

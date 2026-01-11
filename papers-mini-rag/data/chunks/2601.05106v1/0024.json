@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0024",
+  "word_start": 4800,
+  "word_end": 5050,
+  "text": "models are not perfectly aligned, the resulting approximation error becomes uncontrollable. To solve this issue, we consider adding a trainable part to our decoding process. We also train the π r ​ o ​ u ​ t ​ e ​ r \\pi_{router} to align the optimal model, and add the logits of π router \\pi_{\\text{router}} as a complementary part ( Eq. ( 2 )). Now, instead of assuming that some models can achieve approximately maximum optimal Q value, we can assume that the TV distance of the policy is bounded. In fact, assuming π a ′ ∝ π a ⋅ π r ​ o ​ u ​ t ​ e ​ r \\pi_{a}^{\\prime}\\propto\\pi_{a}\\cdot\\pi_{router} is the combination of the router base model and the candidate model, we can assume Then, we can easily get the value difference bound by PDL Hence, the discussion above shows that adding a router as a complementary part is a good way for overcoming the intrinsic difficulty for Theorem 4.3 . This result highlights an important conceptual shift. Instead of requiring that one of the fixed expert models be capable of achieving near-optimal performance on its own, we allow a router that serves both selection and complementation roles to compensate for the mismatch by contributing additional, adaptive logits. In this way, the combined policy effectively expands the expressivity of the action space, enabling it to approximate the optimal policy π ∗ \\pi^{*} even when none of the individual candidate models is sufficient. This demonstrates that making"
+}

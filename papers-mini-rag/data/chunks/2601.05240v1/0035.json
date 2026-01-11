@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0035",
+  "word_start": 7000,
+  "word_end": 7250,
+  "text": "function Z ​ [ 𝒜 ] Z[\\mathcal{A}] of the fluctuations. Working in the semiclassical approximation, we integrate out the matter fields (hidden states ψ \\psi ) in the presence of the background gauge field 𝒜 \\mathcal{A} : The effective action for the weights is given by Γ ​ [ 𝒜 ] = − ln ⁡ Z ​ [ 𝒜 ] \\Gamma[\\mathcal{A}]=-\\ln Z[\\mathcal{A}] . 3. The Chiral Anomaly and the Wess-Zumino Term. A fundamental symmetry breaking occurs here. The causal structure of inference ( t → t + 1 t\\to t+1 ) explicitly breaks Time-Reversal ( 𝒯 \\mathcal{T} ) symmetry. In ( 1 + 1 ) (1+1) dimensions, this renders the Dirac operator chiral, leading to a chiral anomaly in the functional determinant. This implies that gauge invariance is lost on the boundary Σ \\Sigma . To restore gauge invariance, the effective action must include a topological Wess-Zumino (WZ) term [ 35 , 36 ] . Mathematically, this term cannot be written solely as an integral over the ( 1 + 1 ) (1+1) -dimensional inference path Σ \\Sigma ; it requires extending the field configuration into a virtual ( 2 + 1 ) (2+1) -dimensional bulk ℳ \\mathcal{M} such that ∂ ℳ = Σ \\partial\\mathcal{M}=\\Sigma . Physically, this extension implies that the local transition h t → h t + 1 h_{t}\\to h_{t+1} is not arbitrary, but is constrained by the global topology of the group manifold (encoded in the network’s weight space). This mechanism ensures that the inference path"
+}

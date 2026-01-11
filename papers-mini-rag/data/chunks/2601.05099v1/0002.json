@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0002",
+  "word_start": 400,
+  "word_end": 650,
+  "text": "it was used, and what research questions it helped answer. We address this gap with a literature-driven dataset discovery framework. Our key insight is that scientific papers already contain rich contextual information about dataset usage. Citation contexts describe not only which dataset was used, but also how it supported the research design and why it was chosen. By treating these contexts as semantic bridges between research questions and datasets (see Figure 1 ), we can move beyond static metadata and ground dataset discovery in real-world research practice. This perspective naturally aligns with how researchers themselves work: when seeking data, they first look for papers similar to their goals, and then examine which datasets those papers employed. Methodologically, we adapt techniques from scientific information extraction, originally developed for fine-grained entity recognition in scientific literature [ 5 , 6 ] , and re-purpose them for multi-domain dataset discovery. This transfer allows us to circumvent the limitations of metadata dependency while anchoring recommendations in real-world usage patterns documented in scientific literature. We introduce a literature-driven dataset discovery framework that bypasses metadata dependency by leveraging usage contexts documented in scientific papers. We develop a three-stage computational pipeline that integrates neural language models with citation graph analysis for scalable multi-domain dataset extraction. We establish a rigorous and scalable evaluation protocol covering all six top-level Fields of Science and Technology (FOS) 1 1 1 FOS: Natural Sciences, Engineering and Technology, Medical and Health Sciences, Agricultural Sciences, Social Sciences, and Humanities. . For Computer Science, we perform"
+}

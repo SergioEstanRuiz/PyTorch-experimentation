@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05167v1",
+  "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+  "abs_url": "https://arxiv.org/abs/2601.05167v1",
+  "html_url": "https://arxiv.org/html/2601.05167v1",
+  "chunk_id": "2601.05167v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "as a semantic judge to verify the model’s output against the ground truth (Zhao et al. , 2025 ) . For the high-difficulty AIME datasets, we report the avg@32 metric to ensure a robust evaluation. For other benchmarks, we report standard accuracy (pass@1) using greedy decoding. We conduct our experiments using the DAPO dataset (Yu et al. , 2025a ) . Our implementation is built upon the EasyR1 framework (Zheng et al. , 2025c ) using its default hyperparameter configurations (shown in App. E ). All models are trained for a single epoch to ensure a fair comparison. Regarding data usage, the GRPO baseline is trained on the full dataset, whereas our method utilizes the filtered subset as described in Section 3.2.2 . To enable efficient interaction with the large model, we serve the teacher model via the vLLM inference engine (Kwon et al. , 2023 ) . We implement the switching mechanism as a stop sequence in the sampling parameters: when the model generates the calling command token, generation halts, and the system invokes the teacher model via the API. As presented in Table 1 , RelayLLM demonstrates a superior trade-off between reasoning capability and inference efficiency. First, our method achieves substantial performance improvements across all benchmarks while maintaining a negligible collaborative cost (less than 1% token overhead). For instance, on the challenging Minerva benchmark, the Qwen3-0.6B model with Difficulty-Aware-Reward improves from a base score of 15.81% to 23.53%, representing a relative improvement of approximately 48.8% while invoking the"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "long-horizon inference. Topological Invariance (Holonomic Network): In contrast, the Holonomic Network ( N = 32 N=32 , ≈ 46 , 000 \\approx 46,000 parameters) achieved perfect generalization ( 100 % 100\\% accuracy) up to L = 5000 L=5000 , representing a 100 × 100\\times extrapolation factor. We emphasize that L = 5000 L=5000 represents an arbitrary computational limit for this experiment, not an architectural one. This capability stems from the architecture’s bilinear nature: unlike standard additive RNNs, the input acts as a multiplicative operator ( h t = U ​ ( x t ) ​ h t − 1 h_{t}=U(x_{t})h_{t-1} ). Because the network encodes the logical operation as a path-independent gauge transformation, the validity of the inference is independent of t t . Consequently, the generalization capability is theoretically indefinite, limited in practice only by the numerical precision of the floating-point format. This generalization capability is not limited by sequence length, but is governed strictly by the rank of the gauge group. From the perspective of representation theory, the network learns the group homomorphism ρ : S V → S ​ O ​ ( N ) \\rho:S_{V}\\to SO(N) mapping the permutation of V V variables to the orthogonal gauge group. Therefore, the generalization is theoretically indefinite and extends to any number of variables V V , provided the gauge dimension is sufficient to support a faithful representation of the permutation group (e.g., N ≥ V N\\geq V ). As long as the hidden state manifold is sufficiently high-dimensional to"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": "the noise, the total signed noise magnitude at block ( a , j ) (a,j) must be large whenever the bucket counts on that block are large. Hadamard groups upper bound the bias. The bias sequence ( δ t ) (\\delta_{t}) is arbitrary, but we can view it blockwise in a Hadamard basis. Orthogonality of the block Hadamard system implies a Parseval identity: when we average the squared bias coefficients ( D v ( a , j ) ) 2 (D_{v}^{(a,j)})^{2} over all Hadamard functions on a block, we recover exactly the block’s total squared bias E a = ∑ t ∈ J a δ t 2 E_{a}=\\sum_{t\\in J_{a}}\\delta_{t}^{2} , which is exactly the (blockwise) squared error of the predictions to the honest predictions. From this we derive that, on average over j j , the ℓ 1 \\ell_{1} -mass ∑ v | D v ( a , j ) | \\sum_{v}|D_{v}^{(a,j)}| is at most O ~ ​ ( N a ​ E a ) \\tilde{O}(\\sqrt{N_{a}E_{a}}) , where N a = ∑ v n v , a N_{a}=\\sum_{v}\\sqrt{n_{v,a}} . Combining this with the global lower bound on N N that we derive under low ℓ 1 \\ell_{1} -distance to honesty there must be at least one Hadamard functional h a , j h_{a,j} for which: the noise term ∑ v | N v ( a , j ) | \\sum_{v}|N_{v}^{(a,j)}| is large (by the martingale bucketing theorem and large N a N_{a} ), while the bias term ∑ v |"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0028",
+  "word_start": 5600,
+  "word_end": 5850,
+  "text": "experiences a significantly steeper drop in performance as the context length increases, eventually achieving worse performance than Qwen3-4B on the longer inputs, despite both models having the same native context window. Figure 7(a) reports the selection accuracy as a function of the number of output tokens on ZESHEL. The three curves show a range, around 500 tokens, where the accuracy is the highest. For Qwen3-4B and Qwen3-30B-A3B models, shorter outputs are less accurate, which is not the case for Magistral-Small-2509 which does not generate these short outputs. For all three models, the accuracy drops past this range. This is an instance of the typical reasoning LLMs underthinking and overthinking issue Su et al. ( 2025 ) . Figure 7(b) shows a similar ideal range below 500 tokens on another dataset, where all three models achieve the highest, and highly similar, performance, but no underthinking phenomena. Table 9 reports the average runtime per mention across datasets using our main experiments configuration. It shows that Magistral-Small-2509 consistently results in the longest runtime, with the MoE Qwen3-30B-A3B representing a particularly interesting middle-ground, generally achieving performance on par with Magistral-Small-2509 , which is still needed for achieving the best results on ZESHEL or specialized domains, while also running faster than Qwen3-4B . In fact, based on our results, the smaller dense Qwen3-4B should only be preferred to Qwen3-30B-A3B in cases of VRAM limitations. Similarly, in terms of tokens usage, which directly impact the runtime of the approach, Magistral-Small-2509 generated the longest thoughts on average,"
+}

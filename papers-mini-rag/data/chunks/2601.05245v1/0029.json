@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0029",
+  "word_start": 5800,
+  "word_end": 6050,
+  "text": "groups. All of the lower bounds we prove in this paper use only binary groups. Given a sequence ( x t , p t , y t ) t = 1 T (x^{t},p^{t},y^{t})_{t=1}^{T} and a group g g , the empirical bias at prediction value v ∈ [ 0 , 1 ] v\\in[0,1] is Let V T := { p t : t = 1 , … , T } V_{T}:=\\{p^{t}:t=1,\\dots,T\\} be the (finite) set of prediction values actually used. The expected calibration error for group g g is Given a finite family G G of groups, the expected multicalibration error at time T T is When the group family is clear from context we abbreviate the multicalibration error as MCerr T \\mathrm{MCerr}_{T} . Randomness arises both from the algorithm (if it randomizes) and from the environment. All expectations 𝔼 ​ [ ⋅ ] \\mathbb{E}[\\cdot] are taken with respect to this joint randomness. In this section, we give a lower bound instance consisting of three binary prediction-dependent groups, showing that any algorithm must obtain multicalibration error over these groups scaling as Ω ​ ( T 2 / 3 ) \\Omega(T^{2/3}) . This matches the upper bound of Noarov et al. ( 2025 ) up to log factors. The hard instance reveals contexts x t x^{t} that cycle through a grid of m = Θ ​ ( T 1 / 3 ) m=\\Theta(T^{1/3}) values, with labels drawn as y t ∼ Bernoulli ​ ( x t ) y^{t}\\sim\\mathrm{Bernoulli}(x^{t}) . The key"
+}

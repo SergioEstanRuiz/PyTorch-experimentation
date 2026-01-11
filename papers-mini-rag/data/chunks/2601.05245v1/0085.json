@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0085",
+  "word_start": 17000,
+  "word_end": 17250,
+  "text": "terms. The core difficulty is that the forecaster may perform adaptive noise bucketing : it observes past noise realizations Z 1 , … , Z t − 1 Z_{1},\\ldots,Z_{t-1} before choosing which “bucket” (prediction value) to place the next noise increment Z t Z_{t} in. In principle, this adaptivity could allow the forecaster to create cancellations—for example, by attempting to arrange for cancellations of positive noise increments with negative cumulative sums, and vice versa. The main technical result of this section (Theorem 3 ) shows that no such strategy can substantially reduce the total bucketed noise magnitude. Up to a logarithmic factor, the noise contribution ∑ v | B v | \\sum_{v}|B_{v}| must be at least as large as ∑ v n v \\sum_{v}\\sqrt{n_{v}} , where n v n_{v} is the number of noise increments routed to bucket v v . This matches (up to logs) what would happen under non-adaptive routing. The proof proceeds by analyzing the “returns to zero” of each bucket’s random walk: each time a bucket’s cumulative sum returns to zero, it starts a fresh excursion. Using classical random walk estimates, we show that the expected square-root length of each excursion is O ​ ( log ⁡ L ) O(\\log L) , which limits how much the forecaster can save by adaptive routing. We now isolate the probabilistic statement we need as an abstract “noise routing” problem on a block. Let ( Z t ) t = 1 L (Z_{t})_{t=1}^{L} be i.i.d. with 𝔼 ​ ["
+}

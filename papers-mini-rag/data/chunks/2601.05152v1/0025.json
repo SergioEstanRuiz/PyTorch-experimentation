@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05152v1",
+  "title": "Safe Continual Reinforcement Learning Methods for Nonstationary Environments. Towards a Survey of the State of the Art",
+  "abs_url": "https://arxiv.org/abs/2601.05152v1",
+  "html_url": "https://arxiv.org/html/2601.05152v1",
+  "chunk_id": "2601.05152v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": "set, and there are some regions of the data with the familiar distribution. The only thing that the algorithm should do is either to stay within the region with the familiar distribution Danesh et al. ; Yang et al. ( 2019 ); Ohnishi et al. ( 2019 ); Berkenkamp et al. ( 2017 ) or to stay within some safe set region that can be determined during the offline training Berkenkamp et al. ( 2017 ); Prajna and Jadbabaie ( 2004 ) . Safe RL methods for regions for the familiar stationary data distributions on which the agent was already trained are well known, and we refer our readers for more information to Gu et al. ( 2024 ); Kim et al. ( 2020 ); Brunke et al. ( 2022 ) , and the comprehensive work of Garcia and Fernandez Garcıa and Fernández ( 2015 ) . This approach eliminates the necessity for performance and safety adaptation because it keeps the agent in the distribution. The most important part of the algorithm is the ability to recognize distribution shift and stay away from unfamiliar data. Operating in the familiar region can narrow the applicability of the algorithm, but guarantees the minimal performance and hard safety constraints satisfaction in case the distribution shift(DS) does not affect all the data. However, if DS changes the whole data, the proposed algorithm can not be applied. Even a slow but gradual change can affect all the data over time. The open question is whether"
+}

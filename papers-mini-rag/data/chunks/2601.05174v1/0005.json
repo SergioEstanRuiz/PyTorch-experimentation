@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0005",
+  "word_start": 1000,
+  "word_end": 1250,
+  "text": "tasks. To address the above limitations, we propose FaST , a Fa st long-horizon forecasting framework for large-scale S patial- T emporal graphs. FaST is a heterogeneity-aware parallelized Mixture-of-Experts (MoE) networks. Firstly, an MoE-based temporal compression input module projects historical sequences into a low-dimensional dense embedding, improving computational efficiency and preventing memory explosion concerning the historical input length. To mitigate the information loss and representation homogenization induced by compression, we introduce a heterogeneity-aware router that dynamically selects expert-specific compression pathways across nodes and time periods, thereby extracting diversified temporal features. Furthermore, an expert-concurrent mechanism based on Gated Linear Units (GLUs) is proposed to achieve efficient feature extraction. Secondly, an adaptive graph agent attention module is introduced, where a a agent tokens ( a ≪ N a\\ll N ) are learned to reduce the long-range spatial interaction complexity from O ​ ( N 2 ) O(N^{2}) to O ​ ( N ​ a ) O(Na) . Finally, a multi-layer MoE network is built to extract diverse spatial features. The main contributions are summarized as follows: Framework: We propose FaST, the first framework for long-horizon and large-scale STG forecasting that unlocks the prediction span to one week and node size to tens of thousands within a tolerable time. Parallelized Mixture-of-Experts: A novel heterogeneity-aware router and a parallel GLU-MoE module are proposed, which can efficiently and effectively extract diverse spatial and temporal features based on node heterogeneity. Linear Complexity: With the Temporal Compression Input with MoE module and the adaptive graph agent attention"
+}

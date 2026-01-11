@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0022",
+  "word_start": 4400,
+  "word_end": 4650,
+  "text": "in the hypothesis, motivated by prior work in framework comparison [ 26 , 49 ] , that if a framework defines types with more precise and less ambiguous boundaries, then machine learning models trained on such data should achieve higher classification performance. We employed two open-source, state-of-the-art CIC models with distinct architectures: CitePrompt [ 32 ] : A prompt-based fine-tuning framework built on SciBERT [ 10 ] , implemented via the OpenPrompt toolkit [ 19 ] . CitationIntentOpenLLM [ 29 ] : A LLM classifier based on Qwen-2.5-14B-Instruct (Qwen-Small), fine-tuned using LLaMA-Factory toolkit [ 66 ] . In addition to these fine-tuned models, we also evaluated the performance of several zero-shot classifiers using the LLMs introduced in Section 4.1.2 . The selection of classifiers in this study was guided by a deliberate and strong preference for open-source models over closed-source alternatives. This commitment is crucial for several reasons fundamental to rigorous scientific inquiry. Firstly, utilizing publicly available models like SciBERT and various instruction-tuned LLMs ensures the transparency and reproducibility of our research. This allows other researchers to independently verify our findings and build upon our work without the “black box” nature or access restrictions often associated with proprietary systems. Secondly, open-source models grant the critical flexibility required for in-depth analysis and custom fine-tuning, as demonstrated by our use of LLaMA-Factory for adapting Qwen-Small. Such granular control over model architecture and training processes, often unavailable with closed-source APIs, is paramount for rigorously evaluating new annotation frameworks like SOFT and understanding nuanced"
+}

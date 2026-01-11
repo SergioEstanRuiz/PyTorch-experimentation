@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0075",
+  "word_start": 15000,
+  "word_end": 15250,
+  "text": "i ≤ T ′ (z_{i})_{i\\leq T^{\\prime}} be defined above. Then More concretely, the empirical CDF of the multiset { x t } t ≤ T ′ \\{x^{t}\\}_{t\\leq T^{\\prime}} places mass only on the m m grid points x 1 , … , x m x_{1},\\dots,x_{m} , each of which appears either ⌊ T ′ / m ⌋ \\lfloor T^{\\prime}/m\\rfloor or ⌈ T ′ / m ⌉ \\lceil T^{\\prime}/m\\rceil times; thus the sorted sequence ( x ​ ( i ) ) i ≤ T ′ (x(i))_{i\\leq T^{\\prime}} consists of m m contiguous flat blocks. Over any such block, the proxy values ( z i ) (z_{i}) vary by at most while adjacent grid points satisfy x j + 1 − x j = 1 2 ​ ( m − 1 ) ≤ 1 m x_{j+1}-x_{j}=\\frac{1}{2(m-1)}\\leq\\frac{1}{m} . It follows that every x ​ ( i ) x(i) in the block lies within at most 1 / m 1/m of the corresponding z i z_{i} , as claimed. ∎ Using | a − b | ≥ | a − c | − | c − b | |a-b|\\geq|a-c|-|c-b| with ( a , b , c ) = ( p ​ ( i ) , x ​ ( i ) , z i ) (a,b,c)=(p(i),x(i),z_{i}) , Now partition indices by prediction value: for each v ∈ 𝒱 T ′ v\\in\\mathcal{V}_{T^{\\prime}} , let S v := { i : p ​ ( i ) = v } S_{v}:=\\{i:p(i)=v\\} so that | S v | ="
+}

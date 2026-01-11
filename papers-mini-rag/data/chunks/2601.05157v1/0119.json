@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0119",
+  "word_start": 23800,
+  "word_end": 24050,
+  "text": "∈ [ k ] , j ′ ∈ [ k ′ ] ⁡ \\| ​ μ j − μ j ′ ′ ​ \\| 2 \\gamma_{\\text{SF}}=\\min_{j\\in[k],j^{\\prime}\\in[k^{\\prime}]}\\|\\mu_{j}-\\mu_{j^{\\prime}}^{\\prime}\\|_{2} , w min = min ⁡ { min j ∈ [ k ] ⁡ w j , min j ∈ [ k ′ ] ⁡ w j ′ } w_{\\min}=\\min\\{\\min_{j\\in[k]}w_{j},\\min_{j\\in[k^{\\prime}]}w_{j}^{\\prime}\\} , B = max j ∈ [ k ] ⁡ \\| ​ μ j ​ \\| 2 B=\\max_{j\\in[k]}\\|\\mu_{j}\\|_{2} , and c 0 , C 0 c_{0},C_{0} be some absolute constant. If for some C sep ≥ C 0 C_{\\text{sep}}\\geq C_{0} , γ F ≥ C sep ​ B t / w min 1 / t \\gamma_{\\text{F}}\\geq C_{\\text{sep}}B_{t}/w_{\\min}^{1/t} and γ SF ​ C sep ​ B t / w min 1 / t + ( c 0 ​ C sep − 2 ​ t ​ w min ) \\gamma_{\\text{SF}}\\gtrsim C_{\\text{sep}}B_{t}/w_{\\min}^{1/t}+\\Delta(c_{0}C_{\\text{sep}}^{-2t}w_{\\min}) , then there is an algorithm that given ε , δ ∈ ( 0 , 1 ) \\varepsilon,\\delta\\in(0,1) and n n i.i.d. samples from ℳ \\mathcal{M} , outputs two lists { μ ^ j } j ∈ [ k ] \\{\\mathaccent 866{\\mu}_{j}\\}_{j\\in[k]} and { μ ^ j ′ } j ∈ [ k ′ ] \\{\\mathaccent 866{\\mu}_{j}^{\\prime}\\}_{j\\in[k^{\\prime}]} such that there is a permutation π \\pi on [ k ] [k] and a permutation π ′ \\pi^{\\prime} on [ k ′ ] [k^{\\prime}] with with probability at least 1 − δ 1-\\delta , as long as and the running time is n O ​ ( t"
+}

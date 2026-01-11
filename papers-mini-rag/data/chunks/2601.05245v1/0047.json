@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0047",
+  "word_start": 9400,
+  "word_end": 9650,
+  "text": "​ m ) \\eta\\leq 1/(2m) then for each prediction value v v there is at most one context x ∈ X 0 x\\in X_{0} such that | v − x | < η |v-x|<\\eta . Hence, for each v v , at most one of the sets H x , v H_{x,v} is nonempty, and therefore at most one S x , v S_{x,v} is nonzero. Thus B T ​ ( v , g 3 ) = S x , v B_{T}(v,g_{3})=S_{x,v} for that x x , and we obtain For each fixed x x , by the triangle inequality, Summing over x ∈ X 0 x\\in X_{0} yields the claimed bound. ∎ Since | R x | ≤ η ​ n x |R_{x}|\\leq\\eta n_{x} and ∑ x n x = H ≤ T \\sum_{x}n_{x}=H\\leq T , we have Taking expectations in Lemma 4 and using this inequality gives As such, it remains to obtain a lower bound on 𝔼 ​ ∑ x | N x | \\mathbb{E}\\sum_{x}|N_{x}| . We now establish the key tradeoff: for each context x x , either the algorithm makes many big deviations (contributing to g 1 / g 2 g_{1}/g_{2} error) or it makes mostly η \\eta -honest predictions (contributing noise to g 3 g_{3} error). By aggregating over contexts, we will show that at least one of these error sources must be large. For each x ∈ X 0 x\\in X_{0} , the sequence of labels { y t : x t ="
+}

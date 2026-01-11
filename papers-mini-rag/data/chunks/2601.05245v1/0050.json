@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0050",
+  "word_start": 10000,
+  "word_end": 10250,
+  "text": "\\mathcal{F}^{(x)}_{i-1} -measurable. Thus the sequence ( Z i ( x ) , ℱ i ( x ) ) (Z^{(x)}_{i},\\mathcal{F}^{(x)}_{i}) together with the predictable indicators I i ( x ) I^{(x)}_{i} satisfies the assumptions ( 1 ) of Proposition 1 with σ 2 = 3 / 16 \\sigma^{2}=3/16 and L = T x L=T_{x} . Moreover, We know that ∑ x b x = B T \\sum_{x}b_{x}=B_{T} pathwise, hence ∑ x B ¯ x = 𝔼 ​ [ B T ] \\sum_{x}\\overline{B}_{x}=\\mathbb{E}[B_{T}] . Intuitively, if the total expected number of big-deviation rounds 𝔼 ​ [ B T ] \\mathbb{E}[B_{T}] is small, then big deviations cannot be spread across too many contexts—they must concentrate on a small subset. The remaining “dense” contexts have mostly η \\eta -honest predictions, which means the noise terms N x N_{x} on these contexts are sums over a dense (constant-fraction) subset of the T x T_{x} rounds. This is precisely the setting where Proposition 1 applies, giving 𝔼 ​ | N x | = Ω ​ ( T x ) \\mathbb{E}|N_{x}|=\\Omega(\\sqrt{T_{x}}) for each dense context. Suppose 𝔼 ​ [ B T ] ≤ T 4 \\mathbb{E}[B_{T}]\\leq\\frac{T}{4} . Then there exists a subset D ⊆ X 0 D\\subseteq X_{0} of contexts with such that for every x ∈ D x\\in D we have On the other hand, ∑ x B ¯ x = 𝔼 ​ [ B T ] ≤ T 4 = 1 4 ​ ∑ x T x \\sum_{x}\\overline{B}_{x}=\\mathbb{E}[B_{T}]\\leq\\frac{T}{4}=\\frac{1}{4}\\sum_{x}T_{x} , so and therefore ( 8 )"
+}

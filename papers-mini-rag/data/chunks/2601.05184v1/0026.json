@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0026",
+  "word_start": 5200,
+  "word_end": 5450,
+  "text": ") provides a framework for studying social predictive systems in which the data distribution changes in response to the deployment of a model (Chen et al. , 2023 ) . A growing body of work has investigated the stability and optimality of such performative systems (Hardt and Mendler-Dünner, 2023 ; Piliouras and Yu, 2023 ; Jin et al. , 2024 ) . Echo Chambers and User–Technology Feedback. Echo chambers Terren and Borge ( 2021 ) describe self-reinforcing dynamics in online platforms, where interactions between users and platform mechanisms amplify specific viewpoints or behaviors over time. Prior work shows that moderation policies, recommendation systems, and user migration jointly shape platform-specific ideological patterns, as observed across communities on Reddit and between platforms such as Reddit and X Chandrasekharan et al. ( 2017 ); Horta Ribeiro et al. ( 2021 ); Hickey et al. ( 2025 ) . These studies highlight how feedback-driven user–technology–userbase cycles can induce systematic distributional shifts in content and behavior. Bias in Self-consuming World Recent work Wyllie et al. ( 2024 ); Wang et al. ( 2024c ); Chen et al. ( 2024 ) investigates the emergence and amplification of biases in self-consuming training loops. LLMs may internalize inherent biases present in human-generated text Wang et al. ( 2024b ) , or adopt specific political viewpoints reflected in their training data Haller et al. ( 2023 ); Rettenberger et al. ( 2025 ); Wang et al. ( 2024c ) . To address this issue, Wang et al. ( 2024c"
+}

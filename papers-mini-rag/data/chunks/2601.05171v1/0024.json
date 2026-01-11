@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0024",
+  "word_start": 4800,
+  "word_end": 5050,
+  "text": "and the ground truth. The judge is prompted using the template in Table 10 , and its assessment signal is used to guide optimization during RL. For transparency and reproducibility, we release the complete training scripts in our public repository. A learning rate of 1 × 10 − 6 1\\times 10^{-6} is adopted, together with a warmup ratio of 0.01. Due to memory constraints, the per-device training batch size is set to 1, while the effective batch size is increased using gradient accumulation over 8 steps. Gradient norms are clipped to 1.0 to ensure stable optimization. Training is performed for a single epoch. For each input prompt, 8 candidate responses are sampled with a maximum generation length of 512 tokens and a maximum context length of 11,264 tokens. Stochastic decoding is controlled using temperature = 1.0, top- p p = 0.9, and top- k k = 50. Policy updates use asymmetric clipping with ϵ = 0.2 \\epsilon=0.2 and ϵ high = 0.28 \\epsilon_{\\text{high}}=0.28 . A KL-control coefficient β \\beta is introduced to regulate the divergence between the optimized policy and the reference model. Larger β \\beta values enforce stronger regularization toward the reference policy. In our GRPO-based setting, β \\beta is set to 0.001. Dynamic sampling is enabled to enhance response diversity, with the maximum number of resampling attempts limited to 3. During training data construction, we select subsets from HaluMem and PersonaMem that are relevant to implicitly characterizing user-specific attributes as the raw corpus sources. Using the dynamic PersonaTree"
+}

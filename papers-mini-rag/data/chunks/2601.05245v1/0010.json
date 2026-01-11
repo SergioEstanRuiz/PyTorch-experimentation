@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0010",
+  "word_start": 2000,
+  "word_end": 2250,
+  "text": "prediction-dependent nature. We observe in Appendix A that no similar separation is possible for constant-sized families of binary groups if one further restricts them to be prediction independent. Indeed, there is an extremely simple reduction from multicalibration to marginal calibration for prediction independent groups that, given binary groups G G , instantiates a marginal calibration algorithm for each of the 2 | G | 2^{|G|} possible intersection patterns of groups. At each round t t exactly one group intersection pattern is realized and (since the groups are prediction independent) we can route the round to the appropriate marginal calibration algorithm. This gives multicalibration at the best rate obtainable for marginal calibration, up to a 2 | G | 2^{|G|} factor (slightly more nuanced bounds are possible, and we give these in Appendix A ). If | G | |G| is constant valued (independent of T T ), then this exponential-in- | G | |G| blowup is also only constant valued, and does not affect the asymptotic rate. Hence any separation between marginal calibration and multicalibration for the special case of prediction independent groups must depend on group families with cardinality | G | |G| growing as a function of T T . We note that upper bounds (Gupta et al. , 2022 ; Noarov et al. , 2025 ; Ghuge et al. , 2025 ; Hu et al. , 2025 ) depend only logarithmically on | G | |G| , so even families of size | G | = poly"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05163v1",
+  "title": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+  "abs_url": "https://arxiv.org/abs/2601.05163v1",
+  "html_url": "https://arxiv.org/html/2601.05163v1",
+  "chunk_id": "2601.05163v1:0010",
+  "word_start": 2000,
+  "word_end": 2250,
+  "text": "document 𝒟 \\mathcal{D} , we employ model M s M_{s} jointly generates an intent-action pair ( i t , a t ) (i_{t},a_{t}) : where i t i_{t} denotes the exploration intent and u t ∈ 𝒜 u_{t}\\in\\mathcal{A} corresponds to invoking a document-grounded tool such as Search or Read , which is the same as the agent’s tool action. The construction of a question implicitly induces the strategy required to resolve it. The explicit modeling of intent helps prevent uninformative exploration, guiding the agent toward more concrete, goal-directed trajectories Pahuja et al. ( 2025 ) . Executing action a t a_{t} yields an observation: where 𝒯 \\mathcal{T} denotes the document interaction interface. The interaction history is then updated as: and the intent i t + 1 i_{t+1} may be revised based on the newly acquired information. This process is repeated for multiple steps, enabling the agent to progressively refine its understanding of the document and uncover diverse and informative content. The explicit modeling of intent allows for flexible and open-ended exploration, permitting additional interactions when necessary. The output of the exploration stage is a trajectory which serves as structured evidence for downstream QA generation. In the exploration stage, each exploration step can be viewed as a random walk over the knowledge graph implicitly embedded in the entire document. When the number of such walks is sufficiently large, this process can, in principle, reconstruct the underlying document-level knowledge graph in a reverse manner. This idea is conceptually aligned with prior work"
+}

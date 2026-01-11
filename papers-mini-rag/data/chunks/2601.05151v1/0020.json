@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0020",
+  "word_start": 4000,
+  "word_end": 4250,
+  "text": "2 ). In contrast, CIFE and DISR, filters based on information theory scores, achieved top stability values (S = 0.73 and 0.54, respectively) but lower predictive performance (optimism-corrected AUC = 0.67 and 0.61, respectively). All information theory filters (CIFE, CMIM, DISR, JMI) often omitted known biomarkers (e.g. lactate dehydrogenase and C-reactive protein), showing that selection can be consistent but wrong. CMIM and JMI were both unstable and not predictive, although still outperforming random FS. Embedded methods exhibited the lowest stability among other groups at comparable predictive performance. Surprisingly, embedded resampling-based ensembles designed to improve the consistency of FS (stability selection, Stabl LASSO, and RENT) did not outperform standard LASSO neither in stability nor in AUC. Their stringent selection may account for their lower predictive performance, but it does not explain the lack of improvement in stability (S = 0.3, 0.25, and 0.29, respectively, vs LASSO S = 0.34). The instability of these methods could be attributed to the variability behind the resampling procedures on which they rely, although this requires further investigation. The performance of the wrapper methods was intermediate, with AUC (0.69-0.70) and stability (0.32-0.38) falling between filter methods (the best) and embedded methods (the worst). Among all methods, the p.adjust, a statistical filter that combined t-test and logistic regression adjusted p-values at a 0.05 threshold, achieved the best balance between stability (S = 0.39) and performance (AUC = 0.72) (Figure 4 A). The gradient boosting (GB) model trained on the 22-feature signature selected using the p.adjust achieved predictive"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "are grouped; we retain all provenance, select a human-readable display name by frequency, and keep all surface variants as aliases. References are rendered with persistent identifiers preferred over URLs. The procedure is summarized in Algorithm 2 . Putting the stages together yields an end-to-end flow from query to ranked datasets. This architecture scales by design (preindexed contexts and light query-time filtering), preserves accuracy (LLM-based extraction and citation-aware signals), and delivers reliable outputs, resolution, and provenance. We evaluate along extraction quality , evidence quality , and practical accessibility , following FAIR [ 1 ] , Information Retrieval evaluation [ 22 ] , and data quality standards [ 23 ] . Automated metrics are computed against survey-derived gold standards in computer science, while expert assessments are used to judge the utility and novelty of additional datasets that fall outside these gold-standard sets in other FOS domains. Our evaluation employs a multi-perspective approach with three matching granularities, inspired by entity resolution evaluation practices [ 24 ] . It measures both extraction effectiveness and evidence quality, following scientific data evaluation standards [ 25 ] . Exact Recall : exact string match after whitespace normalization. Norm Recall : canonical normalization (lowercase, punctuation removal, whitespace consolidation). Fuzzy Recall : sequence-similarity clustering with threshold τ = 0.9 \\tau=0.9 [ 26 ] . The primary evaluation metric is Norm Recall , which provides the optimal balance between precision and robustness for practical applications, following best practices in scientific dataset evaluation [ 25 ] . We also report to"
+}

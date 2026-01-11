@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0013",
+  "word_start": 2600,
+  "word_end": 2850,
+  "text": "an extra token-level bias. Optimizing this loss naturally encourages the router to provide a complementary logit contribution that compensates for the weaknesses in the expert models. For example, if the expert π expert \\pi_{\\text{expert}} already provides a strong policy for a given prompt x x , the log-ratio gap contributed by the expert term (term (B)) is already large, resulting in a small gradient with respect to θ LM \\theta_{\\text{LM}} . Conversely, when π expert \\pi_{\\text{expert}} is weak for prompt x x , the log-ratio gap shrinks, producing a larger gradient on θ LM \\theta_{\\text{LM}} that encourages the router to provide stronger corrective logits. As a result, the router refines expert predictions precisely when needed, improving robustness while aligning training with the collaborative decoding behavior used at inference time. Since preference optimization updates the router’s base model parameters θ LM \\theta_{\\text{LM}} , it can indirectly influence the routing behavior through shared representations. It is therefore necessary to preserve both reliable expert selection and effective complementary logit refinement during training. A naive approach would be to apply the DPO objective directly to the entire router, including its final linear routing layer. However, doing so often leads to unstable or degenerate routing behavior, where the linear routing layer overfits to preference-alignment signals and loses its ability to correctly select among experts. To address this issue, we adopt a decoupled optimization strategy. Specifically, for SFT samples, all parameters, including the routing layer, are updated using the routing loss ℒ LM \\mathcal{L}_{\\mathrm{LM}} . On"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05171v1",
+  "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+  "abs_url": "https://arxiv.org/abs/2601.05171v1",
+  "html_url": "https://arxiv.org/html/2601.05171v1",
+  "chunk_id": "2601.05171v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "mapping it into tree operations). As shown in Table 3 , direct generation achieves consistent advantages in all combinations, with improvements ranging from approximately + 0.34 +0.34 to + 3.06 +3.06 . The two-stage strategy accumulates errors in the intermediate representation, often losing fine-grained semantic and temporal cues needed for accurate tree operations. Based on this finding, we adopt direct generation as the default PersonaTree operation-generation approach in the remainder of this paper. We analyze the impact of the dialogue chunking window on the quality of tree-operation generation, where each dialogue chunk consists of w w consecutive dialogue turns. As shown in Table 4 , regardless of whether DeepSeek-R1-0528 or Qwen2.5-7B-RL is used as the tree-operation generation model, w = 3 w=3 yields the most stable and overall best performance across all three evaluation models. When the window is too small ( w = 1 w=1 ), chunking becomes overly fragmented and tends to introduce noisy writes; when the window is too large ( w ≥ 10 w\\geq 10 ), the within-chunk information density increases substantially, with more frequent cross-topic mixing and timeline collapsing, making critical cues more likely to be diluted or missed. Accordingly, we adopt w = 3 w=3 for dialogue chunking and tree-operation generation in our experiments. This paper studies memory evolution for long-term personalized dialogue in memory systems and proposes the Inside Out framework, which uses an explicit, structured PersonaTree as long-term memory to maintain personalized states under unbounded interactions. Concretely, we build a hierarchical schema"
+}

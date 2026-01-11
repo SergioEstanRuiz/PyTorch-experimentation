@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0044",
+  "word_start": 8800,
+  "word_end": 9050,
+  "text": "any graph of order n n is a local minimum, since any such coloring has an unused color. Therefore, the algorithm should easily find a proper n n -coloring of K n K_{n} . However, this is not the case. Message-passing GNNs with large depth or where the graph is very dense are known to suffer from an issue called oversmoothing [ 18 ] , in which the overwhelming amount of message passing causes each vertex to learn the same final embedding. When producing an n n -coloring of K n K_{n} for large n n , the algorithm tends to exhibit oversmoothing in that every vertex learns to have a uniform distribution over the n n colors, resulting in a soft loss of ( n 2 ) / n = ( n − 1 ) / 2 \\binom{n}{2}/n=(n-1)/2 . The same issue occurs for graphs with density very close to 1 1 , though it disappears quickly when the density is less than around 0.99 0.99 . When the GNN depth is increased to 2 2 , as in [ 2 ] , the same issue occurs even for graphs with much smaller density than K n K_{n} . When the depth is increased to 2 2 and a nonzero dropout layer is included, as in [ 2 ] , the issue occurs for even less dense graphs. To diagnose the effect of oversmoothing on the algorithm, we performed the following experiment. For each depth 1 1 and 2"
+}

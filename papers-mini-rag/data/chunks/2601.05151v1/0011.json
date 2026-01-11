@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05151v1",
+  "title": "ROOFS: RObust biOmarker Feature Selection",
+  "abs_url": "https://arxiv.org/abs/2601.05151v1",
+  "html_url": "https://arxiv.org/html/2601.05151v1",
+  "chunk_id": "2601.05151v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "feature selection was included as a control. A complete description of all benchmarked methods is provided in Supplementary Table LABEL:sup_tab1 . roofs evaluates the predictive performance of signatures resulting from the FS step by training downstream classifiers on the corresponding post-selection datasets. roofs allows using any scikit-learn-compatible classifier. Since predictive performances can depend on the interactions between the FS method and the classifier, it is recommended to test a wide range of modelling approaches, such as linear models, tree-based methods, and ensembles. The classifiers used in the present benchmark study are listed in Supplementary Table S2 . roofs uses optimism correction (OC) for evaluation of the predictive performances, which allows not to lose part of the data due to train/test splitting [ 12 ] . Three OC methods were implemented: Harrell [ 19 ] , .632 [ 16 ] , and .632+ [ 15 ] . The following set of metrics are calculated: AUC, accuracy, sensitivity, specificity, positive predictive value, negative predictive value. In Harrell’s classical method, optimism is defined as the average difference between model performance on bootstrap samples (in training) and on the original dataset (in testing): where θ boot ( b ) \\theta_{\\text{boot}}^{(b)} is the training performance of the b b -th bootstrap model, θ orig ( b ) \\theta_{\\text{orig}}^{(b)} is the test performance of the same model on the original dataset, and B B is the number of bootstrap replicates. The final optimism-corrected performance is obtained by subtracting the average optimism from the apparent performance (i.e.,"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05232v1",
+  "title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence",
+  "abs_url": "https://arxiv.org/abs/2601.05232v1",
+  "html_url": "https://arxiv.org/html/2601.05232v1",
+  "chunk_id": "2601.05232v1:0002",
+  "word_start": 400,
+  "word_end": 650,
+  "text": "known as causal loop diagrams and concept maps) into sets of ordinary differential equations analyzed as dynamical systems to identify attractors of peace and conflict [ 3 ] supervised learning using logistic regression, random forest, support vector machines, decision trees, and embeddings to find the words of highest feature importance that classify lower vs. higher peace countries [ 1 ] [ 4 ] [ 5 ] those words of highest feature importance were clustered into topics using k-means, principal component analysis, large language models, and feedback from workshops with journalists, anthropologists, social psychologists, and poets [ 6 ] large language models with retrieval augmented prompt generation (RAG) were used to measure levels of the social processes, positive and negative intergroup reciprocity, in lower and higher peace countries [ 7 ] In this paper, we now report how we extended that previous work to analyze quantitative levels of peace and social dimensions important in peace from on-line news sources and social media such as text transcripts of YouTube videos, using more sophisticated machine learning and AI methods: Google’s GoEmotions (with the RoBERTa transformer) [ 8 ] to measure the emotional tone at the word level large language models (LLMs) such as ChatGPT-3, GPT-4mini [ 9 ] and latest others from Google Gemini to measure meanings at the context level We also report that we developed a real-time tool to foster peace. “We become what we behold” [ 10 ] . 71% of people ages 16 to 40 get their news daily"
+}

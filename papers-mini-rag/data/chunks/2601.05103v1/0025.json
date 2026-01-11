@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0025",
+  "word_start": 5000,
+  "word_end": 5250,
+  "text": "on the ACL-ARC test set using three annotation frameworks: ACL-ARC, SciCite, and SOFT. In the SOFT framework, Cited Content Type and Citation Intent are treated as two independent classification tasks. Table 2 and Figure 3 in Appendix 0.B report accuracy and macro F 1 F_{1} scores across all models. Despite its conceptual specificity, Cited Content Type classification yields strong in-domain performance. Fine-tuned Qwen-Small achieves 0.78 macro F 1 F_{1} , while zero-shot models average 0.66. Although no existing framework provides a comparable baseline, these results demonstrate that content type distinctions are not only human-interpretable but also model-learnable across architectures. SOFT also outperforms prior frameworks on Citation Intent classification. For example, fine-tuned Qwen-Small achieves 0.65 macro F 1 F_{1} under SOFT, compared to 0.51 on ACL-ARC and 0.62 on SciCite. Notably, this gain occurs even though SOFT-Intent has more types (7) than ACL-ARC (6), refuting the assumption that performance is merely a function of label count. This suggests the framework’s semantic clarity and well-defined boundaries are more critical to model performance than raw granularity. The average zero-shot F 1 F_{1} under SOFT reinforces this point, reaching 0.69, substantially above ACL-ARC (0.49) and SciCite (0.61), demonstrating that SOFT’s functional types align more closely with both pre-trained and fine-tuned model representations. We note that our reported scores are lower than those in prior work, including CitePrompt [ 32 ] , which may be attributed to differences in dataset partitioning, as discussed in Section 4.1 . To assess the robustness of different frameworks under"
+}

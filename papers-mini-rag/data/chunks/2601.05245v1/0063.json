@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0063",
+  "word_start": 12600,
+  "word_end": 12850,
+  "text": "are the same across the two halves of a superblock. Since j tz ​ ( j ) = 1 j_{\\mathrm{tz}(j)}=1 , this implies Therefore the sum of ψ j Wal ​ ( s ) \\psi^{\\mathrm{Wal}}_{j}(s) over a full superblock cancels: Every prefix sum can be decomposed into a disjoint union of complete superblocks (each contributing 0 ) plus a remainder that contributes at most 2 tz ​ ( j ) 2^{\\mathrm{tz}(j)} . Hence We now define the prediction-independent group family used in our lower bound. The family consists of three types of groups: A constant group g all g_{\\mathrm{all}} that enforces marginal calibration. Global Walsh groups defined on the mean grid, which together enforce that the forecaster’s predictions stay close to the honest predictions in an ℓ 1 \\ell_{1} sense. Block Hadamard groups that partition time into blocks and test the forecaster’s behavior within each block. These groups will extract the unavoidable noise contribution to calibration error. and let L L be the largest power of two such that K ​ L ≤ T KL\\leq T (so L ≥ T / ( 2 ​ K ) L\\geq T/(2K) ). Write T ′ := K ​ L T^{\\prime}:=KL and partition the first T ′ T^{\\prime} times into K K contiguous blocks From here on out we will prove lower bounds as a function of T ′ T^{\\prime} for convenience. Note that T ′ ∈ [ T / 2 , T ] T^{\\prime}\\in[T/2,T] , so this will not affect the asymptotic rate."
+}

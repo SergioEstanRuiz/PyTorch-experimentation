@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0143",
+  "word_start": 28600,
+  "word_end": 28850,
+  "text": "of A A . Let S = \\slimits@ ℓ = 1 R ​ 𝟏 ​ [ ℓ ​ is good ] S=\\sumop\\slimits@_{\\ell=1}^{R}\\mathbf{1}[\\ell\\text{ is good}] . Since we are running independent copies of A A , by Hoeffding’s inequality, Pr ⁡ [ S ≤ 3 5 ​ R ] ≤ exp ⁡ ( − 2 ​ ( 2 3 ​ R − 3 5 ​ R ) 2 / R ) = exp ⁡ ( − 2 225 ​ R ) \\Pr[S\\leq\\frac{3}{5}R]\\leq\\exp(-2(\\frac{2}{3}R-\\frac{3}{5}R)^{2}/R)=\\exp(-\\frac{2}{225}R) . Thus, choosing R = 225 2 ​ log ⁡ ( 1 / δ ) R=\\frac{225}{2}\\log(1/\\delta) , we have Pr ⁡ [ S ≥ 3 5 ​ R ] ≥ 1 − δ \\Pr[S\\geq\\frac{3}{5}R]\\geq 1-\\delta . Suppose this happens. We will use the following two lemmas. Suppose S ≥ 3 5 ​ R S\\geq\\frac{3}{5}R . If μ ^ ∈ M μ \\mathaccent 866{\\mu}\\in M_{\\mu} satisfies \\| ​ μ ^ − μ j ​ \\| 2 ≤ ε ′ \\|\\mathaccent 866{\\mu}-\\mu_{j}\\|_{2}\\leq\\varepsilon^{\\prime} for some j ∈ [ k ] j\\in[k] , then | M μ ∩ B 2 ​ ε ′ d ​ ( μ ^ ) | ≥ 3 5 ​ R |M_{\\mu}\\cap B_{2\\varepsilon^{\\prime}}^{d}(\\mathaccent 866{\\mu})|\\geq\\frac{3}{5}R . For each good ℓ \\ell , we have max j ∈ [ k ] ⁡ \\| ​ μ j − μ ^ π ​ ( j ) ( ℓ ) ​ \\| 2 ≤ ε ′ \\max_{j\\in[k]}\\|\\mu_{j}-\\mathaccent 866{\\mu}_{\\pi(j)}^{(\\ell)}\\|_{2}\\leq\\varepsilon^{\\prime} for some permutation π \\pi , and thus for i ​ j ∈ [ k ]"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05245v1",
+  "title": "Optimal Lower Bounds for Online Multicalibration",
+  "abs_url": "https://arxiv.org/abs/2601.05245v1",
+  "html_url": "https://arxiv.org/html/2601.05245v1",
+  "chunk_id": "2601.05245v1:0036",
+  "word_start": 7200,
+  "word_end": 7450,
+  "text": "algorithm itself, which in turn can depend on the history of the sequence in arbitrary ways. To reason about this we will use the following deviation bound for a martingale transform N = ∑ t = 1 L I t ​ Z t N=\\sum_{t=1}^{L}I_{t}Z_{t} , where ( Z t ) (Z_{t}) is a martingale difference sequence and the predictable indicators ( I t ) (I_{t}) select a dense subset of times (in expectation at least α ​ L \\alpha L ). Fix constants 0 < σ ≤ 1 0<\\sigma\\leq 1 and α ∈ ( 0 , 1 ] \\alpha\\in(0,1] . Let ( Z t ) t = 1 L (Z_{t})_{t=1}^{L} be a sequence of real-valued random variables adapted to a filtration ( ℱ t ) t = 0 L (\\mathcal{F}_{t})_{t=0}^{L} such that Let ( I t ) t = 1 L (I_{t})_{t=1}^{L} be any predictable { 0 , 1 } \\{0,1\\} -valued sequence, i.e. I t I_{t} is ℱ t − 1 \\mathcal{F}_{t-1} -measurable for each t t , and define If 𝔼 ​ [ n ] ≥ α ​ L \\mathbb{E}[n]\\geq\\alpha L , then there exists a constant c σ , α > 0 c_{\\sigma,\\alpha}>0 (depending only on σ \\sigma and α \\alpha ) such that Define the martingale ( M t ) t = 0 L (M_{t})_{t=0}^{L} by M 0 = 0 M_{0}=0 and M t := ∑ s = 1 t I s ​ Z s , t = 1 , … , L . M_{t}:=\\sum_{s=1}^{t}I_{s}Z_{s},\\,t=1,\\dots,L. Since"
+}

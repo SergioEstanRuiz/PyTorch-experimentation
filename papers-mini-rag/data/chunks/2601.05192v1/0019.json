@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0019",
+  "word_start": 3800,
+  "word_end": 4050,
+  "text": "entity linking can be approached in resource-constrained environments. While traditional methods optimize for inference efficiency, front-loading costs onto human annotation, LELA demonstrates that allocating computational budget to test-time reasoning can effectively substitute for domain-specific supervision. This suggests that the ability for disambiguation is a general capability of reasoning models that transfers across settings, unlike the distributional patterns learned during fine-tuning. Consequently, the usual barrier to entry for entity linking in specialized domains (viz. the availability of labeled data) could be mitigated with additional inference compute. We have proposed LELA, a simple and modular coarse-to-fine approach to entity linking that leverages the capabilities of LLMs. LELA is true zero-shot , in the sense that it can be applied to a given knowledge base and domain without requiring annotated data or fine-tuning. Our experiments show that LELA outperforms other true zero-shot approaches by a large margin. It performs on par, and often beats, fine-tuned and classical approaches, even though these require training data. Our results suggest a blind spot in entity linking, where inference compute can make up for training data. We thus hope that LELA opens the door for a wider use of LLMs in entity linking, and for new approaches that perform the task without any need for fine-tuning. In particular, we encourage LLMs to be included as baselines in entity linking studies. Future work could extend LELA to end-to-end entity linking, where mentions have to be detected as well. Being LLM-based and model-agnostic, LELA directly benefits from evolving model"
+}

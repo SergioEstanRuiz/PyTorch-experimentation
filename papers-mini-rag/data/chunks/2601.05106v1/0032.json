@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05106v1",
+  "title": "Token-Level LLM Collaboration via FusionRoute",
+  "abs_url": "https://arxiv.org/abs/2601.05106v1",
+  "html_url": "https://arxiv.org/html/2601.05106v1",
+  "chunk_id": "2601.05106v1:0032",
+  "word_start": 6400,
+  "word_end": 6650,
+  "text": "expert predictions. In contrast, in the 2B Gemma-2 family, the gap between FusionRoute and pure token-level collaboration is smaller. While expert-only token-level collaboration still under-performs FusionRoute , it remains competitive and even outperforms the directly fine-tuned baseline. This indicates that at smaller scales, expert models alone can already capture a reasonable portion of the desired behavior, leaving less room for complementary correction. Overall, these results suggest that router-based complementary generation becomes increasingly important as model scale grows, whereas expert-only token-level collaboration may suffice in more capacity-constrained settings. We first examine the role of the router’s complementary logit contribution in FusionRoute . In particular, we aim to isolate whether token-level expert selection alone is sufficient for effective collaboration, or whether the router’s ability to directly contribute corrective logits is necessary for strong performance. To this end, we construct a routing-only baseline that removes the complementary component: we use the router obtained after the SFT phase to select an expert at each token, and generate the next token solely from the selected expert’s logits, without adding the router’s logits. Table 2 reports the cross-domain performance of the routing-only variant compared with the full FusionRoute framework across both the LLaMA-3 and Gemma-2 families. We see that FusionRoute consistently outperforms FusionRoute w/o complementary logits across nearly all benchmarks and both model families. The performance gap is particularly pronounced on coding and instruction-following tasks, where even correctly selected experts can produce locally suboptimal or misaligned tokens that require correction. These results provide direct empirical evidence"
+}

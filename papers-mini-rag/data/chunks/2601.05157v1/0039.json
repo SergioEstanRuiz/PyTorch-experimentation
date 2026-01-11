@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0039",
+  "word_start": 7800,
+  "word_end": 8050,
+  "text": "we have to deal with the survival sets. Our algorithm merges all the sets whose empirical means are closer than γ F / 2 \\gamma_{F}/2 , where γ F \\gamma_{F} is the minimum separation between FFD components. Using the separation assumption, this merging will result in a collection of k ′ k^{\\prime} sets S 1 ′ , … , S k ′ ′ S_{1}^{\\prime},...,S^{\\prime}_{k^{\\prime}} and in each one of those sets we can prove that, apart from a constant fraction α = c − 2 ​ t \\alpha=c^{-2t} (for some c ) c) of the points, all the remaining observations are drawn from the same FFD distribution D j ′ D^{\\prime}_{j} for some j ∈ [ k ′ ] . j\\in[k^{\\prime}]. This implies that we can use a standard robust mean estimation algorithm to estimate the true FFD means up to accuracy B ​ α 1 − 1 / 2 ​ t B\\alpha^{1-1/2t} (see Theorem 3.5 ). For the specific case, where the FFD part is Gaussian, we can get arbitrarily close to the true means, by modifying the local convergence method of [ regev_learning_2017 ] (see Appendix C ). We mentioned in Section 1 that moment-matching of the first r r moments in Frobenius norm implies a d r d^{r} sample complexity lower bound for any moment-based algorithm. The reason is as follows. The empirical r r -th order moment tensor T ^ \\mathaccent 866{T} will have ⁡ [ \\| ​ T ^ − ⁡ [ T ^ ]"
+}

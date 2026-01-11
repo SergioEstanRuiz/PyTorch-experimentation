@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0047",
+  "word_start": 9400,
+  "word_end": 9650,
+  "text": "in Table 10 . The RTE values reported in Table 1 were obtained in a different runtime session than the experiments in the main paper, resulting in a slight systematic shift in wall-clock time. Since RTE is used only as a relative measure within each experiment, this does not affect any comparisons or conclusions. To demonstrate that our method applies beyond convolutional architectures, we evaluate SSNI on a transformer model, ViT-Tiny , trained on CIFAR-10. Following standard practice, we initialize all experiments from the pretrained ViT-Tiny checkpoint provided in the official implementation. The same pretrained model is used for retrain-from-scratch and fully-trained model to ensure fairness and comparability. In this experiment, the forget set consists of 10% of the CIFAR-10 training data , sampled uniformly at random across all classes. We report the test accuracy throughout unlearning and subsequent fine-tuning. Results are shown for two noise budgets, ε = 5 \\varepsilon=5 (left) and ε = 7 \\varepsilon=7 (right). We use the standard ViT-Tiny architecture with classification head for 10 classes. The block decomposition is computed once before unlearning and reused for all iterations. Parameter Pretrained ViT-Tiny Retrain baseline Model architecture ViT-Tiny (patch 16) same Pretrained initialization Yes Yes Optimizer AdamW AdamW Learning rate 3 × 10 − 4 3\\times 10^{-4} 3 × 10 − 4 3\\times 10^{-4} Weight decay 0.05 0.05 Batch size 64 64 Epochs 50 50 LR scheduler CosineAnnealingLR ( T max = 50 T_{\\max}=50 ) same Warmup none none Image resolution 224 (ViT input) 224 Data augmentation"
+}

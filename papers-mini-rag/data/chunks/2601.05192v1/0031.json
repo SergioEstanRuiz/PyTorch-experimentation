@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0031",
+  "word_start": 6200,
+  "word_end": 6450,
+  "text": "particularly in specialized domains where the density of similar long forms is high. On WikilinksNED Unseen Mentions (specifically with dense retrieval), the challenge lies primarily in the final selection, suggesting that the reasoning model struggles to disambiguate between the highly similar entities typical of Wikipedia. A key finding is the high retention rate of the reranking stage across most datasets. For example, on the ZESHEL/Forgotten Realms domain, the reranker preserves 98% of the recoverable recall (977 retained vs. 22 lost), while compressing the candidate list by a factor of 6.4 (from 64 to 10). These results demonstrate the robustness of our choice of k = 10 k=10 , validating that aggressive filtering does not compromise the upper bound of the system. However, the results also highlight domain-dependent variations. While the reranker achieves a 90.5% retention rate on the GLADIS/General domain, this drops to 63.2% on the GLADIS/Scientific domain. This significant drop indicates that scientific acronyms pose a harder challenge for the reranker, likely due to the fine-grained technical distinctions required to separate valid candidates. Crucially, the Selection LLM proves significantly more robust in this technical setting, successfully identifying the correct entity among the top-10 candidates in 74.1% of the cases passed to it (6593 out of 8894). Figures 11 , 12 , 13 , 14 , 15 , and 16 show examples of reasoning traces in the LLM candidate selection phase of LELA. Input sentence and mention: [Develop tools] for our internal teams ( sales support operations finance ) to"
+}

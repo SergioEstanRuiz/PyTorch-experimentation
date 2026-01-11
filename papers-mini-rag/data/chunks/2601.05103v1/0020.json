@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0020",
+  "word_start": 4000,
+  "word_end": 4250,
+  "text": "its types are defined [ 5 , 9 ] . However, IAA was not reported in the original ACL-ARC release [ 28 ] , leaving the interpretability of its framework unquantified. In this study, we also do not report human IAA due to the dynamic annotation process: some annotators departed and new ones joined partway through the task, so not all instances were annotated by the same set of individuals, and the number of annotations per instance varied. This evolving annotator pool is resembles the crowdsourcing approach used for the SciCite dataset [ 14 ] , where calculating a dataset-wide human IAA score also presents challenges. Instead, we evaluate framework interpretability and reliability through LLM-based agreement studies. To assess the clarity and reliability of our framework, we conducted an agreement experiment using open-source LLMs as proxies for human annotators, offering a scalable and replicable assessment of annotation feasibility. Specifically, we deployed four distinct LLMs: Qwen-2.5-72B-Instruct (Qwen) [ 48 ] , Mistral-Small-24B-Instruct-2501 (Mistral) [ 38 ] , Llama-3.3-70B-Instruct (Llama) [ 58 ] , and Gemma-3-27B-it (Gemma) [ 57 ] , to independently annotate the ACL-ARC citation contexts according to our framework and guidelines. For each context, every LLM generated a rationale and a classification decision, repeated three times, with the final type determined by majority vote. We then computed pairwise Cohen’s κ \\kappa scores [ 16 ] under two settings: (1) between model pairs (LLM-LLM IAA), and (2) between each model and the human consensus annotations described in Section 4.1.2 (Human-LLM"
+}

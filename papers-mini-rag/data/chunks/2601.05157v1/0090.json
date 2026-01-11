@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0090",
+  "word_start": 18000,
+  "word_end": 18250,
+  "text": "0 ) = ϕ D j ′ ​ ( 0 ) = 1 \\phi_{D}(0)=\\phi_{D^{\\prime}_{j}}(0)=1 . The trick here is to shift the ball B T d ​ ( 0 ) B_{T}^{d}(0) where we will query the signal. Note that for any v ∈ d v\\in{}^{d} , we have Let T > 0 T>0 be the large enough duration which will be determined later, and set v v to be an arbitrary vector with \\| ​ v ​ \\| 2 = 2 ​ T \\|v\\|_{2}=2T . Therefore, for t ∈ B T d ​ ( 0 ) t\\in B^{d}_{T}(0) , we have T ≤ \\| ​ t + v ​ \\| 2 ≤ 3 ​ T T\\leq\\|t+v\\|_{2}\\leq 3T , which implies | ϕ D ​ ( t + v ) | ​ d − c 1 ​ ( 3 ​ T ) − c 2 ​ d − c 1 ​ T − c 2 |\\phi_{D}(t+v)|\\gtrsim d^{-{c_{1}}}(3T)^{-c_{2}}\\gtrsim d^{-c_{1}}T^{-c_{2}} , and | ϕ D j ′ ​ ( t + v ) | ​ d − c 1 ′ ​ T − c 2 ′ |\\phi_{D^{\\prime}_{j}}(t+v)|\\lesssim d^{-c_{1}^{\\prime}}T^{-c_{2}^{\\prime}} , for all j ∈ [ k ′ ] j\\in[k^{\\prime}] . Here we applied the SFD property at time 3 ​ T 3T and the FFD property at time T T . Following the notation in Theorem 2.5 , let the true signal be x ⋆ ​ ( t ) = \\slimits@ j ∈ [ k ] ​ w j ​ e i ​ ⟨"
+}

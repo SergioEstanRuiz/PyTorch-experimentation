@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05205v1",
+  "title": "EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI",
+  "abs_url": "https://arxiv.org/abs/2601.05205v1",
+  "html_url": "https://arxiv.org/html/2601.05205v1",
+  "chunk_id": "2601.05205v1:0001",
+  "word_start": 200,
+  "word_end": 450,
+  "text": "continue to advance state-of-the-art accuracy, they demand substantial compute and memory resources [ 17 ] , restricting their deployment in latency- and power-limited environments. Beyond inference, emerging pervasive AI applications increasingly require on-device training, motivated by privacy requirements, sensitivity of personal data, limited communication bandwidth, and the need for continual learning from locally generated sensor streams. These constraints have renewed interest in brain-inspired and energy-efficient computing paradigms that inherently support adaptive, low-power computation. Reservoir Computing (RC) [ 11 ] has emerged as an attractive alternative due to its architectural simplicity, low training cost, and suitability for real time processing. Within RC, the Liquid State Machine (LSM) leverages sparse spiking neuron dynamics and event driven computation, making it particularly relevant for neuromorphic hardware [ 8 ] . Despite these advantages, LSM performance is highly sensitive to hyperparameters such as spectral radius, leak rate, reservoir size, and synaptic connectivity. Small deviations in these parameters can shift the reservoir between stable, edge of chaos, and chaotic regimes, causing significant variation in both accuracy and energy consumption [ 4 , 8 ] . As a result, principled hyperparameter optimization (HPO) is essential for reliable deployment. Conventional HPO methods—including grid search, random search [ 3 ] , and Bayesian optimization [ 15 ] —perform poorly for spiking reservoirs because they assume smooth, continuous objective landscapes and do not treat energy consumption as an explicit optimization target. These assumptions break down in the discrete, nonlinear, and sometimes chaotic dynamics of LSMs, where evaluating each configuration is"
+}

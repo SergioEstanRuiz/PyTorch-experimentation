@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05174v1",
+  "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+  "abs_url": "https://arxiv.org/abs/2601.05174v1",
+  "html_url": "https://arxiv.org/html/2601.05174v1",
+  "chunk_id": "2601.05174v1:0018",
+  "word_start": 3600,
+  "word_end": 3850,
+  "text": "\\hat{y} are the observed and predicted values, and δ \\delta is a threshold (1 by default). The objective function is shown below: The computational complexity of the FaST is primarily driven by MoE and attention modules. Since the time dimension is compressed, the space required to store the spatial-temporal hidden representation is O ​ ( N ​ d ) O(Nd) , and the time complexity of the compression process is O ​ ( T ​ d ) O(Td) . On this basis, the time and space complexity of calculating and storing e e expert representations is O ​ ( e ​ d 2 ) O(ed^{2}) and O ​ ( N ​ e ​ d ) O(Ned) , respectively. For agent attention, the time and space complexity of calculating and storing the attention distribution are O ​ ( N ​ a ​ d ) O(Nad) and O ​ ( N ​ a ) O(Na) , respectively. Overall, the temporal complexity of FaST is O ​ ( T ​ d + N ​ a ​ d ) O(Td+Nad) and the spatial complexity is O ​ ( N ​ e ​ d + N ​ a ) O(Ned+Na) , which are linearly related to the number of time steps and nodes, and thus have good scalability. In addition, since the spatial agent tokens avoid pairwise spatial interactions between nodes, FaST can achieve good parallelism across multiple computing units. In this section, we evaluate FaST on benchmark datasets. We first introduce the datasets, metrics,"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05205v1",
+  "title": "EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI",
+  "abs_url": "https://arxiv.org/abs/2601.05205v1",
+  "html_url": "https://arxiv.org/html/2601.05205v1",
+  "chunk_id": "2601.05205v1:0017",
+  "word_start": 3400,
+  "word_end": 3608,
+  "text": "and Ray’s 0.1624 ± \\pm 0.0030 pJ (Figs. 2b , 2c ). Energy trends remained consistently low throughout the search process. Overall, EARL reduced energy consumption by 60–80% across all benchmarks, demonstrating substantial improvements in computational efficiency. Pareto front analyses across all datasets show that EARL effectively balances accuracy and energy efficiency while identifying optimal configurations. EARL’s solutions consistently dominated the high-accuracy, low-energy region with minimal trial-to-trial variability (Fig. 3 ). In HAR, the Pareto front reflected a strong accuracy–efficiency trade-off, while in Occupancy Detection EARL clearly produced the most computationally efficient optimal solutions. EARL introduces an energy-aware hyperparameter optimization framework for Liquid State Machines that combines Bayesian optimization with reinforcement learning to prioritize high-accuracy, low-energy configurations. Its adaptive early-termination mechanism further reduces redundant evaluations, yielding substantial computational and energy savings. Across multiple benchmarks, EARL outperforms state-of-the-art baselines such as Optuna and Ray Tune, converging faster and delivering superior accuracy–energy trade-offs. Pareto-front analyses confirm that EARL consistently identifies dominant configurations suited for edge and deployment. Future work will explore hardware-in-the-loop evaluations on neuromorphic processors and extend the search space to additional architectural parameters to broaden applicability to sensory processing, autonomous systems, and low-power intelligent devices. Overall, EARL represents a scalable, energy-efficient approach to optimizing LSMs for resource-constrained environments."
+}

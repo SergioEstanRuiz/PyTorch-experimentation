@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05103v1",
+  "title": "Semantically Orthogonal Framework for Citation Classification: Disentangling Intent and Content",
+  "abs_url": "https://arxiv.org/abs/2601.05103v1",
+  "html_url": "https://arxiv.org/html/2601.05103v1",
+  "chunk_id": "2601.05103v1:0023",
+  "word_start": 4600,
+  "word_end": 4850,
+  "text": "open-source models grant the critical flexibility required for in-depth analysis and custom fine-tuning, as demonstrated by our use of LLaMA-Factory for adapting Qwen-Small. Such granular control over model architecture and training processes, often unavailable with closed-source APIs, is paramount for rigorously evaluating new annotation frameworks like SOFT and understanding nuanced model behavior. Finally, relying on open-source solutions promotes broader accessibility and fosters a collaborative research environment, which is essential for advancing the field of computational bibliometrics, unhindered by commercial licensing or opaque model mechanics. Following prior CIC evaluation protocols [ 32 , 29 ] , we report both Accuracy and Macro-averaged F 1 F_{1} score . While Accuracy provides an overall measure of correct predictions, Macro F 1 F_{1} computes the average F 1 F_{1} score across classes, mitigating the effects of label imbalance and better reflecting type-level learnability. To assess whether our revised framework supports generalizable citation intent classification across disciplinary contexts, we conducted a transfer evaluation using the test subset of ACT2 [ 40 ] , a multi-domain benchmark that spans biology, medicine, economics, and computer science. As discussed in Section 2.1 , ACT2 adopts a flat framework derived from ACL-ARC. To adapt it for our evaluation, we selected a representative subset of ACT2 as cross-domain test dataset and applied the same re-annotation protocol described in Section 4.1.2 using our two-dimensional framework. For a controlled comparison, we reused the same classification models (CitePrompt, CitationIntentOpenLLM, and zero-shot LLMs) and evaluation metrics (Accuracy and Macro F 1 F_{1} ) from"
+}

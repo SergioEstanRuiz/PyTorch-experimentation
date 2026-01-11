@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05227v1",
+  "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+  "abs_url": "https://arxiv.org/abs/2601.05227v1",
+  "html_url": "https://arxiv.org/html/2601.05227v1",
+  "chunk_id": "2601.05227v1:0034",
+  "word_start": 6800,
+  "word_end": 7050,
+  "text": "bounds on variance reduction efficacy as a function of time horizon, step size, and diffusion strength, providing guidelines for future theoretical and algorithmic work in this area. Together, these analyses offer a principled approach to characterizing and mitigating the instability endemic to learning with stochastic latent dynamics. Rather than relying on numerical heuristics, I ground this proposal in the qualitative behavior of the stochastic flow, providing both probabilistic guarantees and structural insights into the learning process. A major technical contribution lies in the application and extension of adjoint-based backpropagation for SDEs. Recognizing the challenges in computing unbiased gradients through stochastic paths, I introduced a regularized adjoint loss and demonstrated how symplectic solvers and pathwise control further stabilize learning. These methods not only reduce memory overhead but also enhance the precision of backpropagation in stochastic systems, advancing the practicality of deep SDE training ( [ 11 ] ; [ 44 ] ; [ 22 ] ). Theoretical grounding is another pillar of my framework. I explicitly derived the ELBO objective in terms of pathwise KL divergence and proposed a novel path energy penalty to regularize complexity in the learned latent flows. This approach draws connections to variational mechanics and information-theoretic representations, aligning stochastic learning with classical principles of physics and control ( [ 4 ] ; [ 34 ] ; [ 33 ] ). These ideas offer fertile ground for further theoretical exploration, particularly in understanding the geometry of learned diffusion manifolds and their information bottlenecks. The proposed model provides a"
+}

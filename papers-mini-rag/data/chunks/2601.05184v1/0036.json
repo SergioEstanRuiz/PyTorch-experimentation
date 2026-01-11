@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05184v1",
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "abs_url": "https://arxiv.org/abs/2601.05184v1",
+  "html_url": "https://arxiv.org/html/2601.05184v1",
+  "chunk_id": "2601.05184v1:0036",
+  "word_start": 7200,
+  "word_end": 7450,
+  "text": "et al. ( 2022 ) , especially in practical deployment pipelines where collecting high-quality preference labels for RL is costly or infeasible. One of our contributions lies in analyzing bias variation within a novel framework of self-consuming performative retraining and an incremental fine-tuning loop for the first time, which models how real-world LLMs may be continuously updated using their own outputs. Furthermore, several prior works Briesch et al. ( 2023 ); Seddik et al. ( 2024 ); Kazdan et al. ( 2024 ) have studied similar iterative retraining setups using SFT, but did not explore the bias behavior. Considering this line of research, we emphasize more on the performative feedback loop as a distinct and increasingly relevant phenomenon in real-world deployments. While we acknowledge the value of RL-based methods, they typically rely on curated high quality data or pairwise comparisons at each iteration, which introduces additional complexities such as label noise, instability, and selection bias. Moreover, methods like RLHF is often resource-intensive and less convenient for continuous training. To keep our scope focused and interpretable, we defer the exploration of RL-based or preference-based alignment strategies to future work. Most methods do not rely solely on RL but rather use SFT as a foundational step before applying RL or after, as seen in Guo et al. ( 2025 ); Team ( 2024 ) . Thus, understanding bias behavior under SFT is both fundamental and necessary for guiding future research from the community. We believe our current SFT-based formulation lays a solid"
+}

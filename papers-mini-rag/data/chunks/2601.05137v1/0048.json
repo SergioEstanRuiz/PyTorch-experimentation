@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05137v1",
+  "title": "Neural Algorithmic Reasoning for Approximate $k$-Coloring with Recursive Warm Starts",
+  "abs_url": "https://arxiv.org/abs/2601.05137v1",
+  "html_url": "https://arxiv.org/html/2601.05137v1",
+  "chunk_id": "2601.05137v1:0048",
+  "word_start": 9600,
+  "word_end": 9850,
+  "text": "to find intuitive proper colorings such as 2 2 -colorings of 2 2 -colorable graphs, and though they are usually able to produce an upper bound of 5 5 on the chromatic number of a maximally planar graph, they usually fail to produce the optimal upper bound of 4 4 . Our best algorithm, Triple-Color , though outperforming PI-SAGE , is still outperformed by classical methods, such as that of [ 13 ] . Additionally, though the performance of Full-GCN scales well as the order of the graph increases to about 1000 1000 , it is quite slow even to run Mod-GCN for graphs this large, much less Full-GCN . A natural future direction is to continue finding new modifications to the GNN method that further improve its performance. Another is to test other GNN architectures beyond message-passing, such as graph transformers. Finally, it may be interesting to continue studying how the performance of each method scales as the order of the graph increases, and to find a new method for which the expected loss grows linearly with a small slope for n n as large as possible. KV was supported by the Harvard College Research Program. MW acknowledges support from an Alfred P. Sloan Fellowship in Mathematics and DARPA under agreement no. HR0011-25-3-0205. In addition to GCNs, we test three state of the art GNN architectures known as GIN [ 7 ] , GAT [ 8 ] , and GraphSAGE [ 6 ] . GINs are designed to be"
+}

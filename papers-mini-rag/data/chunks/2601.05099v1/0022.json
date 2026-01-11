@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0022",
+  "word_start": 4400,
+  "word_end": 4650,
+  "text": "the Parquet columnar format and indexed using an embedded DuckDBinstance configured on a high-memory server (128 GB RAM, 32-thread parallelism, 1TB SSD Storage). We pre-materialize textual contexts for each citation link, allowing for near-instantaneous retrieval. This architecture reduced our median query latency from tens of seconds with a pure API approach to approximately 0.1 seconds, which is critical for interactive analysis. This phase uses an LLM in a multi-step process to identify dataset mentions and assess their relevance to the initial research question. each collected citation context is processed by our LLM (Qwen2.5-72B-Instruct) to identify mentions of datasets, benchmarks, or corpora. Using the SOFT classification framework, the prompt instructs the model to extract the dataset’s name and its specific usage as described in the context. a second LLM call is then made to filter the extracted datasets for relevance to the original research question. The model is provided with the RQ, the citation context, and the titles of both the citing and cited papers. It makes a binary decision (include/exclude) based on the semantic alignment between the dataset’s usage and the research goal. This step filters out datasets that, while valid, are not pertinent to the user’s query. all LLM tasks run on a vLLM-powered inference serverwith four NVIDIA A100-80GB GPUs. Our prompt engineering strategy casts the LLM as an expert annotator, providing strict inclusion/exclusion rules (e.g., extract MIMIC-III , ignore BERT ) and mandating that all outputs are grounded in the provided text to prevent hallucination. A structured JSON"
+}

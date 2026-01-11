@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0009",
+  "word_start": 1800,
+  "word_end": 2050,
+  "text": "the noise vector typically has ℓ 2 \\ell_{2} -norm about σ min ​ d \\sigma_{\\min}\\sqrt{d} . For networks with millions of parameters, this perturbation causes the additive noise to dominate the clipped update across many coordinates, explaining the sharp accuracy degradation observed in practice. The two regimes λ ​ C 0 C 1 < 1 \\tfrac{\\lambda C_{0}}{C_{1}}<1 versus λ ​ C 0 C 1 ≥ 1 \\tfrac{\\lambda C_{0}}{C_{1}}\\geq 1 reflect whether gradient clipping or weight decay dominates the dynamics. Taken together, the theorem highlights why NFT struggles in over-parameterized models: certification forces the injection of noise into all coordinates at each step. This motivates our adaptation based on sequential subspace injection , where the same noise budget is redistributed across orthogonal subspaces instead of being applied globally. Independent of how noise is injected, certified unlearning methods whose guarantees are formulated in a training-agnostic, worst-case manner must account for arbitrary model initializations, which can make it impossible to guarantee both good performance and faster-than-retraining unlearning. We illustrate this limitation through a simple thought experiment in the context of NFT, which motivates our later replacement of the model clipping radius C 0 C_{0} with a tighter closeness parameter Δ ​ ( ρ ) \\Delta(\\rho) . Let T retrain T_{\\mathrm{retrain}} denote the minimal number of training steps required to retrain a model from scratch on the retain set D r D_{r} so as to achieve the same performance guarantee as that certified for NFT after T T unlearning steps. By construction, any procedure"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05240v1",
+  "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+  "abs_url": "https://arxiv.org/abs/2601.05240v1",
+  "html_url": "https://arxiv.org/html/2601.05240v1",
+  "chunk_id": "2601.05240v1:0046",
+  "word_start": 9200,
+  "word_end": 9450,
+  "text": "5 , 50 ] L\\in[5,50] and evaluated on lengths up to L = 5000 L=5000 . To distinguish between architectural limitations and hardware rounding errors over these extended horizons, we utilized double-precision floating point arithmetic ( float64 ) for the inference phase. To probe the thermodynamic stability of the architectures in the phase transition experiment in Fig. 1 , we implemented an energy-normalized noise protocol to ensure a rigorous thermodynamic comparison across architectures with different norm dynamics. The noise vector η t \\eta_{t} injected at each timestep is scaled by the instantaneous energy (Euclidean norm) of the hidden state and the inverse square root of the hidden dimension N N : This normalization ensures that a constant signal-to-noise ratio (SNR) is maintained even for dissipative baselines (like the metric RNN) where the state vector norm decays over time. This ensures that the observed phase transition is driven by the topology of the state space, not by trivial differences in signal magnitude. To quantify the memory horizon in Fig. 4 , we computed the Jacobian norm of the recurrent evolution. We define the memory fidelity J ​ ( t ) J(t) as the sensitivity of the hidden state at time t t to the initial boundary condition h 0 h_{0} : This was computed via automatic differentiation by measuring the gradient norm of the final state with respect to a learnable initial state vector. Physically, this quantity relates to the maximal Lyapunov exponent λ m ​ a ​ x \\lambda_{max} of"
+}

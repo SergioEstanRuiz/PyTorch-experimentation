@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05219v1",
+  "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+  "abs_url": "https://arxiv.org/abs/2601.05219v1",
+  "html_url": "https://arxiv.org/html/2601.05219v1",
+  "chunk_id": "2601.05219v1:0034",
+  "word_start": 6800,
+  "word_end": 7050,
+  "text": "field of Machine Learning. There are many potential societal consequences of our work, none which we feel must be specifically highlighted here. This appendix summarizes the notation used throughout the paper. 𝒟 n = { ( X i , Y i ) } i = 1 n \\mathcal{D}_{n}=\\{(X_{i},Y_{i})\\}_{i=1}^{n} : labeled reference dataset. ( X n + 1 , Y n + 1 ) (X_{n+1},Y_{n+1}) : test example with ground truth label Y n + 1 Y_{n+1} . 𝒟 n − i = 𝒟 n ∖ { ( X i , Y i ) } \\mathcal{D}_{n}^{-i}=\\mathcal{D}_{n}\\setminus\\{(X_{i},Y_{i})\\} : leave-one-out dataset for index i i . 𝒟 n + 1 y = 𝒟 n ∪ { ( X n + 1 , y ) } \\mathcal{D}_{n+1}^{y}=\\mathcal{D}_{n}\\cup\\{(X_{n+1},y)\\} : dataset augmented with a hypothetical test label y y . i , j i,j : indices of reference examples. y ∈ 𝒴 y\\in\\mathcal{Y} : candidate output label. π i ( ⋅ ∣ x ) \\pi_{i}(\\cdot\\mid x) : one-shot predictor induced by reference example ( X i , Y i ) (X_{i},Y_{i}) . s π i ​ ( x , y ) = − π i ​ ( y ∣ x ) s_{\\pi_{i}}(x,y)=-\\pi_{i}(y\\mid x) : one-shot nonconformity score for target ( x , y ) (x,y) using predictor π i \\pi_{i} . 𝒜 𝒟 ​ ( x , y ) = { s π j ​ ( x , y ) : ( X j , Y j ) ∈ 𝒟 } \\mathcal{A}_{\\mathcal{D}}\\!\\left(x,y\\right)=\\{s_{\\pi_{j}}(x,y):(X_{j},Y_{j})\\in\\mathcal{D}\\} : pool of one-shot"
+}

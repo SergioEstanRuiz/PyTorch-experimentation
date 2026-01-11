@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05134v1",
+  "title": "Sequential Subspace Noise Injection Prevents Accuracy Collapse in Certified Unlearning",
+  "abs_url": "https://arxiv.org/abs/2601.05134v1",
+  "html_url": "https://arxiv.org/html/2601.05134v1",
+  "chunk_id": "2601.05134v1:0014",
+  "word_start": 2800,
+  "word_end": 3050,
+  "text": "procedure remains certified under the stated proximity condition. Empirically, we show that even under tight conditioning, our method remains competitive with existing empirical (uncertified) unlearning approaches. Moreover, auditing the resulting models using MIAs yields empirical evidence of effective unlearning. These results suggest that conditioning on proximity is not merely a theoretical relaxation, but a practically meaningful target that motivates the development of more stable training procedures and sharper estimators of Δ ​ ( ρ ) \\Delta(\\rho) . To make this conditioning concrete, Appendix D discusses how Δ ​ ( ρ ) \\Delta(\\rho) can be upper-bounded or calibrated in practice. We review theoretical bounds based on argument stability under standard assumptions, as well as empirical procedures for estimating Δ ​ ( ρ ) \\Delta(\\rho) for a given architecture. In our approach, we fix the number of subspaces (blocks) k ∈ ℕ k\\in\\mathbb{N} and partition the weight space ℝ d \\mathbb{R}^{d} into k k mutually orthogonal components. To construct this partition, choose integers r 1 , … , r k ≥ 0 r_{1},\\dots,r_{k}\\geq 0 with ∑ i = 1 k r i = d \\sum_{i=1}^{k}r_{i}=d and build matrices A i ∈ ℝ d × r i A_{i}\\in\\mathbb{R}^{d\\times r_{i}} whose columns are orthonormal. Define Then the subspaces are V i := span ​ ( A i ) V_{i}:=\\mathrm{span}(A_{i}) ; they are mutually orthogonal and ℝ d = ⨁ i = 1 k V i \\mathbb{R}^{d}=\\bigoplus_{i=1}^{k}V_{i} . Note that this construction is fully general: the subspaces V i V_{i} may be chosen arbitrarily subject"
+}

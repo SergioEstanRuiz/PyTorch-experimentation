@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0010",
+  "word_start": 2000,
+  "word_end": 2250,
+  "text": "Fuzzy Recall : sequence-similarity clustering with threshold τ = 0.9 \\tau=0.9 [ 26 ] . The primary evaluation metric is Norm Recall , which provides the optimal balance between precision and robustness for practical applications, following best practices in scientific dataset evaluation [ 25 ] . We also report to quantify robustness to name variation. Trusted Sources (%) : share of matched entities whose evidence resolves to authoritative provenance (PID landing pages or trusted hosts such as official catalogs/registries or maintainer repositories). With DOI (%) : share of entities with a persistent identifier (DOI/HANDLE/ARK); reported as “With DOI (%)” in our tables. We measure Redundancy to evaluate the effectiveness of entity consolidation, where a lower score indicates successful merging of duplicate mentions referring to the same dataset: Gold standards are expert-curated, domain-specific reference sets with standardized protocols for consistency across areas; we compare system recall directly against these ground truths. All code, configs, and evaluation workbooks are released (Section IV ); implementation particulars that affect replication are documented in Appendices -A – -C . Figure 2 illustrates the complete workflow of our three-stage dataset discovery pipeline. The system begins with a research query and field constraints as input, progresses through citation context extraction, neural dataset extraction with citation-enhanced quality assessment, and entity resolution, ultimately producing a ranked dataset table. The optional LLM pre-filtering stage enables domain-specific relevance assessment to reduce noise in large-scale retrieval scenarios. We evaluate our literature-driven dataset discovery framework under two complementary settings. The first is an"
+}

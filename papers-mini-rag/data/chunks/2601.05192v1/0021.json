@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05192v1",
+  "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+  "abs_url": "https://arxiv.org/abs/2601.05192v1",
+  "html_url": "https://arxiv.org/html/2601.05192v1",
+  "chunk_id": "2601.05192v1:0021",
+  "word_start": 4200,
+  "word_end": 4450,
+  "text": "the overall context and a list of entity candidates. You are provided with an input text that includes a full contextual narrative, a marked mention enclosed in square brackets, and a list of candidates, each preceded by an index number. Your task is to determine the most appropriate entity from the candidates based on the context and candidate entity descriptions. Please show your choice with only the index, e.g., “answer: 3”. In ZESHEL, mentions are split into four categories, based on token overlap with the entity name: the entity name is identical to the mention text the entity name is the mention text followed by a disambiguation phrase (e.g. mention string: “Batman”, title: “Batman (Lego)”) the mention text is a substring of the entity name These categories respectively make up 50%, 28%, 8% and 5% of the mentions in the dataset. The category-specific normalized accuracy in Table 6 shows that using Magistral-Small-2509 , LELA ranks first on the four categories, and shines in the AS and MC cases. We conjecture that performance on the AS case can be explained by the high exposure of LLMs to such cases during pre-training, which occur in all kinds of text corpora, while performance on the MC case can be attributed to the need for understanding fine-grained distinctions between particularly similar candidates, and which can benefit from reasoning. Regarding the LO case, with lower relative improvement, and where there is minimal lexical overlap, embedding-based approaches might also be well-suited since they are optimized for"
+}

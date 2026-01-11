@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05148v1",
+  "title": "Atlas 2 -- Foundation models for clinical deployment",
+  "abs_url": "https://arxiv.org/abs/2601.05148v1",
+  "html_url": "https://arxiv.org/html/2601.05148v1",
+  "chunk_id": "2601.05148v1:0018",
+  "word_start": 3600,
+  "word_end": 3850,
+  "text": "75.8 Morphology-Average 83.3 81.4 79.8 76.7 75.8 - 80.1 - - 75.2 75.8 Prediction-Average-Pluto-4G 63.8 61.9 59.3 57.4 56.6 - 60.2 57.8 56.7 56.4 56.2 Prediction-Average 67.7 65.5 62.9 60.7 60.1 - 63.6 - - 60.0 60.0 Robustness Index (Camelyon) 94.0 87.3 14.7 5.2 1.1 71.8 84.5 - - 4.3 26.5 Robustness Index (TCGA) 87.9 83.2 76.3 61.3 62.3 79.4 80.3 - - 66.1 74.0 Robustness Index (Tolkach) 96.4 95.5 89.6 79.5 79.5 93.2 95.8 - - 83.2 91.8 Plismbench (Leaderboard metric) 64.5 67.4 35.8 24.6 24.4 - 67.7 - - 32.1 37.4 Robustness-Average 85.7 83.4 54.1 42.6 41.8 - 82.1 - - 46.4 57.4 *Results for H0-mini taken from [ 22 ] (HEST, eva ) and [ 62 ] (PathoROB). Results for Pluto-4S-8 and Pluto-4S-16 taken from [ 60 ] . Table 1 shows that Atlas 2 achieves the best performance in 22/27 tasks and second best performance in 3 additional tasks with an average performance score of 44.8% on HEST, a 1.6 p.p. improvement compared to the second best performing model Pluto-4G [ 60 ] , 82.9% on eva 2 2 2 For comparability this considers the benchmark subset of eva evaluated in [ 60 ] . , a 1.2 p.p. improvement over the closest contender Pluto-4G [ 60 ] , and an average robustness score of 85.7%, a 9.7 p.p. improvement to the closest contender Virchow2 [ 82 ] . Only a limited comparison to the recent model H-Optimus-1 [ 9 ] is possible. The results in"
+}

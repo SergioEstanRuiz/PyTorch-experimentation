@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05099v1",
+  "title": "Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts",
+  "abs_url": "https://arxiv.org/abs/2601.05099v1",
+  "html_url": "https://arxiv.org/html/2601.05099v1",
+  "chunk_id": "2601.05099v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "citation context extraction, neural dataset extraction with citation-enhanced quality assessment, and entity resolution, ultimately producing a ranked dataset table. The optional LLM pre-filtering stage enables domain-specific relevance assessment to reduce noise in large-scale retrieval scenarios. We evaluate our literature-driven dataset discovery framework under two complementary settings. The first is an automated, large-scale benchmark in computer science, where survey papers provide natural entry points for dataset queries. The second is a cross-disciplinary expert study, designed to test the practical utility of our approach beyond computer science. Together, these settings answer three research questions: (1) How does our pipeline compare to existing approaches in coverage and quality? (2) What is the practical utility of retrieved datasets as judged by domain experts? (3) How do individual components contribute to performance? For large-scale automated evaluation, we focused on computer science domains where curated surveys reflect active research questions. We selected eight representative survey papers from top-tier venues in natural language processing (ACL, EMNLP, NAACL) and computer vision (CVPR, ICCV, TPAMI). Each survey title was used as a natural-language query, ensuring that our evaluation queries represent authentic, community-defined research problems rather than artificially constructed prompts. This process yielded the eight benchmark tasks detailed alongside their results in Table II . The gold standard for each task was manually extracted from the corresponding survey paper to serve as our ground truth for the automated evaluation. To validate cross-domain applicability, we further evaluate on research questions sourced directly from experts in diverse fields. Following FOS taxonomy ["
+}

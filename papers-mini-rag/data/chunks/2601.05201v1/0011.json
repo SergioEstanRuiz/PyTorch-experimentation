@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05201v1",
+  "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+  "abs_url": "https://arxiv.org/abs/2601.05201v1",
+  "html_url": "https://arxiv.org/html/2601.05201v1",
+  "chunk_id": "2601.05201v1:0011",
+  "word_start": 2200,
+  "word_end": 2450,
+  "text": "m heads per model. We then perform a second-stage grouped knockout in which all top- m m heads are ablated simultaneously for m ∈ { 1 , 3 , 5 , 10 } m\\in\\{1,3,5,10\\} , selecting m = 3 m=3 for Qwen-VL and m = 10 m=10 for LlaVA-OneVision and Janus-Pro as a per-model hyperparameter. We refer to the final set of per-model attention heads as PIH attention heads . See Appendix ˜ E for a full list of top- 10 10 heads per model and their success scores. Table ˜ 1 shows models’ outputs given the baseline and misaligned prompts, before and after knockouts on the model-specific sets of PIH-heads. First, our results show that ablating PIH-heads does not disrupt standard counting behavior, as demonstrated by the exact-match accuracies on the baseline prompt. Notably, LLaVA-OneVision exhibits an improvement after ablation ( + 4.35 +4.35 points), whereas Qwen-VL and Janus-Pro show minor changes of approximately 1 1 point. Additionally, we verify that the object mentioned in the response remains unchanged and correct. This confirms that ablating PIH-heads does not impact general counting capabilities. Under the misaligned prompts, ablating PIH-heads substantially reduces prompt-following behavior. Prompt match rates (previously corresponding to the blue curves in Figure ˜ 2 ) drop from 42 42 - 64 64 % before intervention to below 11 11 % for all models after ablation. Models also show a complementary increase in true count match rates, reaching 70 70 - 78 78 % after intervention. This shift indicates"
+}

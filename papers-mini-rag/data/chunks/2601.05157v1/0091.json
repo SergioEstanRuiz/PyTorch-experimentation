@@ -1,0 +1,10 @@
+{
+  "paper_id": "2601.05157v1",
+  "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+  "abs_url": "https://arxiv.org/abs/2601.05157v1",
+  "html_url": "https://arxiv.org/html/2601.05157v1",
+  "chunk_id": "2601.05157v1:0091",
+  "word_start": 18200,
+  "word_end": 18450,
+  "text": "SFD property at time 3 ​ T 3T and the FFD property at time T T . Following the notation in Theorem 2.5 , let the true signal be x ⋆ ​ ( t ) = \\slimits@ j ∈ [ k ] ​ w j ​ e i ​ ⟨ v , μ j ⟩ ​ e i ​ ⟨ t , μ j ⟩ x^{\\star}(t)=\\sumop\\slimits@_{j\\in[k]}w_{j}e^{i\\langle v,\\mu_{j}\\rangle}e^{i\\langle t,\\mu_{j}\\rangle} . Given i.i.d. samples Y 1 , Y 2 , … , Y n Y_{1},Y_{2},\\dots,Y_{n} from ℳ \\mathcal{M} , let the signal we observe be Also, let g ​ ( t ) = x ​ ( t ) − x ⋆ ​ ( t ) g(t)=x(t)-x^{\\star}(t) be the noise. Since | e i ​ ⟨ t + v , Y ⟩ | = 1 |e^{i\\langle t+v,Y\\rangle}|=1 is bounded, by Hoeffding’s inequality, for any fixed t ∈ B T d ​ ( 0 ) t\\in B^{d}_{T}(0) . Then, for any fixed t ∈ B T d ​ ( 0 ) t\\in B^{d}_{T}(0) , the noise with probability at least 1 − e − ( n ​ s 2 ) 1-e^{-\\Omega(ns^{2})} . Now, suppose that the algorithm in Theorem 2.5 queries the signal x ​ ( t ) x(t) at times t = t 1 , t 2 , … , t N t=t_{1},t_{2},\\dots,t_{N} . By the union bound, with probability at least 1 − N ⋅ e − ( n ​ s 2 ) 1-N\\cdot e^{-\\Omega(ns^{2})} , | g ​ ( t j"
+}
