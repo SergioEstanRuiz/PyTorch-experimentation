@@ -6,13 +6,12 @@ from contextlib import contextmanager
 from pathlib import Path
 
 import streamlit as st
+from retrieve import top_n 
 
 APP_DIR = Path(__file__).resolve().parent
 SRC_DIR = APP_DIR / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
-
-from retrieve import top_n  # noqa: E402
 
 VDB_DIR = APP_DIR / "data" / "vdb"
 
